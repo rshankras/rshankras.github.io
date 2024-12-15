@@ -325,8 +325,13 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-feed
+  jekyll-gist
   jekyll-include-cache
   jekyll-paginate
+  jekyll-redirect-from
+  jekyll-sitemap
+  jemoji
 
 BUNDLED WITH
    2.5.23
