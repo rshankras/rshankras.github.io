@@ -80,23 +80,23 @@ defaults:
         nav: "contact"
 
 author:
-  name: "Your Name"
+  name: "Ravi Shankar"
   avatar: "/assets/images/your-photo.jpg"
-  bio: "Your short bio" 
-  location: "Your Location"
+  bio: "App Developer" 
+  location: "Chennai, India"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:your.email@example.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yourusername"
+      url: "https://twitter.com/rshankra"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/rshankras"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://linkedin.com/in/sravis"
 
 
 # Sidebar Navigation
@@ -104,6 +104,4 @@ contact:
   - title: Contact Info
     children:
       - title: "Email Me"
-        url: /contact/
-      - title: "Schedule a Call"
-        url: /schedule/
+        url: mailto:ravi@rshankar.com

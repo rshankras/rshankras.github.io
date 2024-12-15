@@ -1,8 +1,5 @@
 ---
 title: "Building Modern iOS Apps with SwiftUI"
-header:
-    image: /assets/images/ios-dev.jpg
-    teaser: /assets/images/swiftui.jpg
 categories:
     - iOS Development
     - SwiftUI
