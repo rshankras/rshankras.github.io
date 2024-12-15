@@ -41,11 +41,16 @@ Now close the project in Xcode and launch terminal window.
 
 Run the following commands on your terminal window to install Stripe.
 
-\[code language="plain"\]sudo gem install cocoapods pod init\[/code\]
+```plain
+sudo gem install cocoapods
+pod init
+```
 
 Edit Podfile under project directory and add pod ‘Stripe’ then execute the below command in Terminal window.
 
-\[code language="plain"\]pod install\[/code\]
+```plain
+pod install
+```
 
 Navigate to the project folder and launch the file with extension as workspace. Now you should see the Stripe frameworks included under Pods directory along with your default project files.
 
@@ -55,11 +60,15 @@ Navigate to the project folder and launch the file with extension as workspace. 
 
 Edit ViewController.swift and add the following IBOutlet variable for the button.  
 
-\[code language="swift"\]@IBOutlet var saveButton: UIButton!\[/code\]
+```swift
+@IBOutlet var saveButton: UIButton!
+```
 
 Now add the following variable declaration to ViewController.swift file to hold the instance of STPView class.  
 
-\[code language="swift"\]var stripeView: STPView = STPView()\[/code\]
+```swift
+var stripeView: STPView = STPView()
+```
 
 Since the Stripe framework has been written in Objective-C, we need to make sure to add the implementation file as part of the **Objective-C bridging Headers** under Build Settings.
 
@@ -73,15 +82,35 @@ Then drag and drop the STPView.m file to Object-C Bridging Header section.
 
 Update the viewDidLoad function and add the following Stripe integration code. Make sure the ViewController class conforms to **STPViewDelegate** protocol  
 
-\[code language="swift"\]class ViewController: UIViewController, STPViewDelegate{ override func viewDidLoad() { super.viewDidLoad() stripeView = STPView(frame: CGRectMake(15, 20, 290, 55), andKey: ) stripeView.delegate = self view.addSubview(stripeView) saveButton.enabled = false } }\[/code\]
+```swift
+class ViewController: UIViewController, STPViewDelegate {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        stripeView = STPView(frame: CGRectMake(15, 20, 290, 55), andKey: )
+        stripeView.delegate = self
+        view.addSubview(stripeView)
+        saveButton.enabled = false
+    }
+}
 
-The above lines of code will add the Stripe control that accepts credit card number, expiry date and code. The save button is by default disabled and will be enabled only after entering valid credit card number. Implement the following function that will be triggered after entering the card details. The boolean parameter in the function will indicate whether the user has entered a valid card information. Based on this value, the save button is enabled or disabled.  
+func stripeView(view: STPView!, withCard card: PKCard!, isValid valid: Bool) {
+    if (valid) {
+        saveButton.enabled = true
+    } else {
+        saveButton.enabled = false
+    }
+}
 
-\[code language="swift"\]func stripeView(view: STPView!, withCard card: PKCard!, isValid valid: Bool) { if (valid) { saveButton.enabled = true } else { saveButton.enabled = false } }\[/code\]
-
-Add the following IBAction function which will be called on tap of the button. We are using STPView’s createToken function to generate token and a successful token will be written to the console window.  
-
-\[code language="swift"\]@IBAction func saveButton(sender: AnyObject) { stripeView.createToken { (stpToken, error) -&gt; Void in if (error != nil) { println(error) } else { println(stpToken) } }\[/code\]
+@IBAction func saveButton(sender: AnyObject) {
+    stripeView.createToken { (stpToken, error) -> Void in
+        if (error != nil) {
+            print(error)
+        } else {
+            print(stpToken)
+        }
+    }
+}
+```
 
 Navigate to Main.storyboard and add UIButton from object library to ViewController. Centre align the button both horizontally and vertically to the View Controller.  
 
@@ -95,8 +124,10 @@ Now build and run the project on simulator and you can use dummy card number 424
 
 ### Sample Output
 
-\[code language="plain"\]Successful token - tok\_14YBF42eZvKYlo2CoZtuO3Md (test mode)
+```plain
+Successful token - tok_14YBF42eZvKYlo2CoZtuO3Md (test mode)
 
-Error message - Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x7f9b7147b4a0 {NSUnderlyingError=0x7f9b71786ca0 "The Internet connection appears to be offline.", NSErrorFailingURLStringKey=https://pk\_test\_6pRNASCoBOKtIshFeQd4XMUh:@api.stripe.com/v1/tokens, NSErrorFailingURLKey=https://pk\_test\_6pRNASCoBOKtIshFeQd4XMUh:@api.stripe.com/v1/tokens, \_kCFStreamErrorDomainKey=12, \_kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}\[/code\]
+Error message - Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x7f9b7147b4a0 {NSUnderlyingError=0x7f9b71786ca0 "The Internet connection appears to be offline.", NSErrorFailingURLStringKey=https://pk_test_6pRNASCoBOKtIshFeQd4XMUh:@api.stripe.com/v1/tokens, NSErrorFailingURLKey=https://pk_test_6pRNASCoBOKtIshFeQd4XMUh:@api.stripe.com/v1/tokens, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=The Internet connection appears to be offline.}
+```
 
 [Download Demo Project from GitHub](https://github.com/rshankras/SwiftStripeDemo.git)

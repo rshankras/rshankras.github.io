@@ -23,7 +23,7 @@ In “Choose options for your new file” screen, enter the class name as TableV
 
 ### User Interface
 
-Navigate to Main.stotyboard then drag and drop a ViewController from Object Libray to Storyboard. Select the ViewController and click Show Identity Inspection and enter the class name as “TableViewDemoController"
+Navigate to Main.stotyboard then drag and drop a ViewController from Object Libray to Storyboard. Select the ViewController and click Show Identity Inspection and enter the class name as “TableViewDemoController”
 
 [![](/assets/images/1433848794_thumb.png)](https://rshankar.com/wp-content/uploads/2015/06/1433848794_full.png)
 
@@ -49,51 +49,79 @@ First create a Struct that would act as a place holder for holding the name and 
 
 Edit SocialMedia.swift and add the following code snippet. Apart name and imageName property, this also has computed property that returms UIImage based upon the image file name.
 
-\[code language="swift"\]import UIKit
+```swift
+import UIKit
 
 struct SocialMedia {
-
-var name:String var imageName:String var image: UIImage { get { return UIImage(named: imageName)! } } }\[/code\]
+    var name:String
+    var imageName:String
+    var image: UIImage {
+        get {
+            return UIImage(named: imageName)!
+        }
+    }
+}
+```
 
 Now Drag and drop social icon images from folder to Xcode project (download images from gitHub repoistory). Navigate TableViewDemoController.swift and add the following code snippet.
 
-\[code language="swift"\]var data:\[SocialMedia\] = \[SocialMedia\]()
+```swift
+var data:[SocialMedia] = [SocialMedia]()
 
 //MARK:- Populate data
-
-func loadData() -> \[SocialMedia\] {
-
-data.append(SocialMedia(name:"Evernote",imageName:"evernote")) data.append(SocialMedia(name:"Facebook",imageName:"facebook")) data.append(SocialMedia(name:"GitHub",imageName:"github")) data.append(SocialMedia(name:"Google",imageName:"google")) data.append(SocialMedia(name:"LinkedIn",imageName:"linkedin")) data.append(SocialMedia(name:"Paypal",imageName:"paypal")) data.append(SocialMedia(name:"Pinterest",imageName:"pinterest")) data.append(SocialMedia(name:"Twitter",imageName:"twitter")) data.append(SocialMedia(name:"Vimeo",imageName:"vimeo")) data.append(SocialMedia(name:"youtube",imageName:"YouTube"))
-
-return data } \[/code\]
+func loadData() -> [SocialMedia] {
+    data.append(SocialMedia(name:"Evernote",imageName:"evernote"))
+    data.append(SocialMedia(name:"Facebook",imageName:"facebook"))
+    data.append(SocialMedia(name:"GitHub",imageName:"github"))
+    data.append(SocialMedia(name:"Google",imageName:"google"))
+    data.append(SocialMedia(name:"LinkedIn",imageName:"linkedin"))
+    data.append(SocialMedia(name:"Paypal",imageName:"paypal"))
+    data.append(SocialMedia(name:"Pinterest",imageName:"pinterest"))
+    data.append(SocialMedia(name:"Twitter",imageName:"twitter"))
+    data.append(SocialMedia(name:"Vimeo",imageName:"vimeo"))
+    data.append(SocialMedia(name:"youtube",imageName:"YouTube"))
+    return data
+}
+```
 
 We have declared an array called data which will hold all the SocialMedia icon related information. The function loadData is used for adding all the social media images. Now call this function in the viewDidLoad method.
 
-\[code language="swift"\]override func viewDidLoad() { super.viewDidLoad() // call loaddata loadData() } \[/code\]
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // call loaddata
+    loadData()
+}
+```
 
 In order display data, ViewController needs to conform UITableViewDataSource protocol. Add UITableViewDataSource to the class declaration next to UIViewController.
 
-\[code language="swift"\]class TableViewDemoController: UIViewController, UITableViewDataSource { \[/code\]
+```swift
+class TableViewDemoController: UIViewController, UITableViewDataSource {
+```
 
 Then implement the following methods in TableViewDemoController class, these required methods when a class conforms to UITableViewDataSource protocol.
 
-\[code language="swift"\]//MARK:- UITableViewDataSource methods
-
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int { return data.count }
+```swift
+//MARK:- UITableViewDataSource methods
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return data.count
+}
 
 func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-
-var cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier") as! UITableViewCell
-
-let mediaIcon = data\[indexPath.row\] as SocialMedia
-
-cell.textLabel?.text = mediaIcon.name cell.imageView?.image = mediaIcon.image
-
-return cell } \[/code\]
+    var cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier") as! UITableViewCell
+    let mediaIcon = data[indexPath.row] as SocialMedia
+    cell.textLabel?.text = mediaIcon.name
+    cell.imageView?.image = mediaIcon.image
+    return cell
+}
+```
 
 Finally we need to create IBOutlet for tableView and connect with tableView control in Storyboard.
 
-\[code language="swift"\]@IBOutlet var tableView: UITableView! \[/code\]
+```swift
+@IBOutlet var tableView: UITableView!
+```
 
 [![](/assets/images/1433855020_thumb1.png)](https://rshankar.com/wp-content/uploads/2015/06/1433855020_full1.png)
 
@@ -105,7 +133,11 @@ Now you should be able to build and run the project. This should show list all S
 
 In order the customize the tableview, the TableViewDemoController class needs to conform to UITableViewDelegate protocol. Let us say you want to increase the height of tableview rows. Then implement the function heightForRowAtIndexPath to return the height for each row.
 
-\[code language="swift"\]func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat { return 60.0 } \[/code\]
+```swift
+func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+    return 60.0
+}
+```
 
 Build and run the project should show the difference in height.
 
@@ -129,23 +161,40 @@ Add a new Cocoa Touch Class file to the existing project with Sub class as UIVie
 
 Update the DetailViewController.swift and replace the existing code with the following lines of code.
 
-\[code language="swift"\]import UIKit
+```swift
+import UIKit
 
 class DetailViewController: UIViewController {
-
-var socialMedia: SocialMedia? var index:Int?
-
-@IBOutlet var textFeild:UITextField?
-
-override func viewDidLoad() { super.viewDidLoad()
-
-if let name = socialMedia?.name { textFeild?.text = name } }
-
-// MARK:- PrepareForSegue override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { let name = textFeild?.text if segue.identifier == "addAction" { if var socialMedia = socialMedia { self.socialMedia?.name = name! } else { socialMedia = SocialMedia(name:name!,imageName:"unknown") } } }
-
-override func didReceiveMemoryWarning() { super.didReceiveMemoryWarning() // Dispose of any resources that can be recreated. }
-
-}\[/code\]
+    var socialMedia: SocialMedia?
+    var index:Int?
+    
+    @IBOutlet var textFeild:UITextField?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        if let name = socialMedia?.name {
+            textFeild?.text = name
+        }
+    }
+    
+    // MARK:- PrepareForSegue
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let name = textFeild?.text
+        if segue.identifier == "addAction" {
+            if var socialMedia = socialMedia {
+                self.socialMedia?.name = name!
+            } else {
+                socialMedia = SocialMedia(name:name!,imageName:"unknown")
+            }
+        }
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+}
+```
 
  
 
@@ -155,13 +204,23 @@ In the viewDidLoad function, if the user is editing an existing row then the tex
 
 Navigate back to TableViewDemoController and implement the following function that will be called on cancel or done operation in DetailViewController.
 
-\[code language="swift"\]//MARK:- Cancel and Done
-
-@IBAction func cancel(segue:UIStoryboardSegue) { // do nothing }
+```swift
+//MARK:- Cancel and Done
+@IBAction func cancel(segue:UIStoryboardSegue) {
+    // do nothing
+}
 
 @IBAction func done(segue:UIStoryboardSegue) {
-
-let detailViewController = segue.sourceViewController as! DetailViewController let socialMedia = detailViewController.socialMedia if let selectedIndex = detailViewController.index { data\[selectedIndex\] = socialMedia! } else { data.append(socialMedia!) } tableView.reloadData() }\[/code\]
+    let detailViewController = segue.sourceViewController as! DetailViewController
+    let socialMedia = detailViewController.socialMedia
+    if let selectedIndex = detailViewController.index {
+        data[selectedIndex] = socialMedia!
+    } else {
+        data.append(socialMedia!)
+    }
+    tableView.reloadData()
+}
+```
 
  
 
@@ -169,21 +228,44 @@ let detailViewController = segue.sourceViewController as! DetailViewController l
 
 Delete operation can be added by implementing the following function in TableViewDemoController.
 
-\[code language="swift"\]func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) { switch editingStyle { case .Delete: // remove the deleted item from the model data.removeAtIndex(indexPath.row) // remove the deleted item from the \`UITableView\` self.tableView.deleteRowsAtIndexPaths(\[indexPath\], withRowAnimation: .Fade) default: return } }\[/code\]
+```swift
+func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+    switch editingStyle {
+    case .Delete:
+        // remove the deleted item from the model
+        data.removeAtIndex(indexPath.row)
+        // remove the deleted item from the `UITableView`
+        self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
+    default:
+        return
+    }
+}
+```
 
 This would allow users to swipe and delete a row in TableView. The function checks whether the editing style is Delete, then the row is removed from the array as well from the TableView display.
 
 In order to allow users to move the rows, the tableView editing property needs to be set to true. Add another Bar Button Item, this time to the right of TableViewDemoController and provide the caption as Edit. Then connect this button with the following IBAction function.
 
-\[code language="swift"\]//MARK:- Editing toggle
-
-@IBAction func startEditing(sender: UIBarButtonItem) { tableView.editing = !tableView.editing } \[/code\]
+```swift
+//MARK:- Editing toggle
+@IBAction func startEditing(sender: UIBarButtonItem) {
+    tableView.editing = !tableView.editing
+}
+```
 
 This button acts as a toggle switch to enable or disable tableview edit operation. Now add the following function required for Move operation.
 
-\[code language="swift"\]//MARK:- TableViewCell Move row methods func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool { return true }
+```swift
+//MARK:- TableViewCell Move row methods
+func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+    return true
+}
 
-func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) { let val = data.removeAtIndex(sourceIndexPath.row) data.insert(val, atIndex: destinationIndexPath.row) } \[/code\]
+func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+    let val = data.removeAtIndex(sourceIndexPath.row)
+    data.insert(val, atIndex: destinationIndexPath.row)
+}
+```
 
 Function canMoveRowAtIndexPath needs to return true and in moveRowAtIndexPath function, the tableView row data gets removed from the original index and inserted in to the new position.
 

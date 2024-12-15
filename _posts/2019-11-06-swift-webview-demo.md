@@ -22,23 +22,23 @@ Interface Design**
 
 **Step 1**: Create a Single View Application Project and make sure to select the programming language as Swift
 
-![Choose Swift Language in Xcode](images/201407081424.jpg)
+![Choose Swift Language in Xcode](/assets/images/201407081424.jpg)
 
 **Step 2**: Select Main.Storyboard under Project navigator. then drag and drop WebView and Toolbar from Object Library to the View Controller.  
 
 **Step 3**: Now place four bar button items on Toolbar to provide stop, refresh, go back and go forward functionality. You can also use flexible and fixed separators for aligning the bar button items.
 
-![Use Suggested Constraints in Xcode 6](images/201407081435.jpg)
+![Use Suggested Constraints in Xcode 6](/assets/images/201407081435.jpg)
 
 **Step 4**: Make sure to use the SuggestedConstraints for WebView and Toolbar. You can do this by selecting the controls and using the Reset to Suggested Constraints available as part of Resolve Auto Layout option. This would ensure that the controls gets adjusted automatically depending upon the device's screen width and height.
 
-![Reset to Suggested Constraints](images/201407081438.jpg)
+![Reset to Suggested Constraints](/assets/images/201407081438.jpg)
 
 **Updated - 28/08/2014**  
 
 Since some users are facing problems with Reset to Suggested Constraints in Xcode 6 Beta 6, you can use Pin option to define the four constraints using the default values. Then click Add 4 Constraints available at the bottom of the screen.
 
-![201408281213.jpg](images/201408281213.jpg)
+![201408281213.jpg](/assets/images/201408281213.jpg)
 
 **Write Code**  
 
