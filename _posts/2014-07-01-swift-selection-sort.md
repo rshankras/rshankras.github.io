@@ -92,4 +92,4 @@ import UIKit
     
 
   
-![Selection Sort algorithm in Swift ](images/201407012043.jpg)
+![Selection Sort algorithm in Swift ](/assets/images/201407012043.jpg)

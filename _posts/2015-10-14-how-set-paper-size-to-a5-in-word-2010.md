@@ -19,14 +19,14 @@ We had earlier covered about the steps required for [changing the paper size](ht
 
 Click File then Print menu and navigate to Settings section.
 
-[![image](images/image_thumb42.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image42.png)
+[![image](/assets/images/image_thumb42.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image42.png)
 
 Click the drop down with value displayed as Letter. Then select the More Paper Sizes from the list.
 
-[![image](images/image_thumb43.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image43.png)
+[![image](/assets/images/image_thumb43.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image43.png)
 
 In the Page Setup window, navigate to **Page Size** and set the value for the drop down to **Custom Size**. Then enter the Width and Height for A5 Paper Size as 5.8” and 8.3” respectively. Then click the OK button to confirm and save the changes.
 
 Note :- If you are not sure about the Height and Width of Paper Sizes (4A0 to A10) then refer [this](http://www.papersizes.org/a-paper-sizes.htm) website.
 
-[![image](images/image_thumb44.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image44.png)
+[![image](/assets/images/image_thumb44.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image44.png)

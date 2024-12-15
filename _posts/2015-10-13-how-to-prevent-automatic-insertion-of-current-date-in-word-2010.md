@@ -22,11 +22,11 @@ This is in reference to a query posted by one of the blog reader on “**how to 
 
 **Step 2**: Select the date field then click the Insert menu and navigate to Text section.
 
-[![image](images/image_thumb34.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image34.png)
+[![image](/assets/images/image_thumb34.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image34.png)
 
 **Step 3**: Click the **Date & Time** option available under **Text** section.
 
-[![image](images/image_thumb35.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image35.png)
+[![image](/assets/images/image_thumb35.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image35.png)
 
 **Step 4**: In the Date and Time window, un mark the check box with label as **Update automatically** then click OK button to confirm and save the changes.
 

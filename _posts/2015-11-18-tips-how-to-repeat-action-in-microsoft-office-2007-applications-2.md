@@ -24,11 +24,11 @@ Microsoft Office users can change the keyboard shortcut associated for Repeat ac
 
 **Step 1**: Click File menu then Options and navigate to Customize Ribbon
 
-[![Customize Keyboard Shortcuts in Microsoft Office](images/3_image_thumb40.png "Customize Keyboard Shortcuts in Microsoft Office")](http://blogmines.com/blog/wp-content/uploads/2014/07/image40.png)
+[![Customize Keyboard Shortcuts in Microsoft Office](/assets/images/3_image_thumb40.png "Customize Keyboard Shortcuts in Microsoft Office")](http://blogmines.com/blog/wp-content/uploads/2014/07/image40.png)
 
 **Step 2**: In the Customize Ribbon screen, click Customize button available next to Keyboard shortcuts.
 
-[![Change keyboard shortcut for Repeat Action](images/4_image_thumb41.png "Change keyboard shortcut for Repeat Action")](http://blogmines.com/blog/wp-content/uploads/2014/07/image41.png)
+[![Change keyboard shortcut for Repeat Action](/assets/images/4_image_thumb41.png "Change keyboard shortcut for Repeat Action")](http://blogmines.com/blog/wp-content/uploads/2014/07/image41.png)
 
 **Step 3**: In the Customize Keyboard window, select All Commands under Categories and pick **EditRedoOrRepeat** under Commands. You should be able to see the keys that are currently associated with Repeat action.
 

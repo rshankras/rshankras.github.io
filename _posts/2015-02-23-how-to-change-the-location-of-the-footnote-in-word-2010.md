@@ -20,10 +20,10 @@ Click **References** menu and then navigate to the Show section
 
 Click the Show Footnote and Endnote dialog box
 
-[![Footnote and Endnote dialog box](images/1_image_thumb79.png "Footnote and Endnote dialog box")](http://blogmines.com/blog/wp-content/uploads/2011/05/image77.png)
+[![Footnote and Endnote dialog box](/assets/images/1_image_thumb79.png "Footnote and Endnote dialog box")](http://blogmines.com/blog/wp-content/uploads/2011/05/image77.png)
 
 This would display the following dialog box.
 
-[![Footnote Location](images/1_image_thumb80.png "Footnote Location")](http://blogmines.com/blog/wp-content/uploads/2011/05/image78.png)
+[![Footnote Location](/assets/images/1_image_thumb80.png "Footnote Location")](http://blogmines.com/blog/wp-content/uploads/2011/05/image78.png)
 
 Under **Location** section, you can **set the position** of the Footnote using the Footnotes dropdown box. The available values includes **Bottom of page** and **Below text**. To save and confirm the changes, click Apply button.

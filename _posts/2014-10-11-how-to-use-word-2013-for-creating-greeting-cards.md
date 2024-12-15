@@ -22,7 +22,7 @@ Personalized Greeting cards can add to the joy of the person who receives it. Th
 
 You can see different templates which also includes some greeting templates. If you are not happy with the available templates, you can search for greeting templates online.
 
-[![image](images/image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image.png)
+[![image](/assets/images/image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image.png)
 
 If you are looking to create a greeting card for Christmas, type Christmas greeting card in search bar and you will get relevant results. You can use a generic search term such as greeting card in the search bar to find variety of greeting card templates.
 
@@ -30,13 +30,13 @@ If you are looking to create a greeting card for Christmas, type Christmas greet
 
 The selected template is loaded in an empty document
 
-[![image](images/image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image1.png)
+[![image](/assets/images/image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image1.png)
 
 6\. To view front side and inner side of the greeting card simultaneously, click on View-> Multiple Pages
 
 You can add or delete text or images in any section of the greeting card. For example, you can add Clip arts, images, change font size/font color/font type or change layout of the greeting card.
 
-[![image](images/image_thumb2.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image2.png)
+[![image](/assets/images/image_thumb2.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image2.png)
 
 7\. To add clip art or image in the greeting card, click on Insert
 
@@ -44,7 +44,7 @@ You can add or delete text or images in any section of the greeting card. For ex
 
 9\. Click on Pictures/Shapes or Text Box
 
-[![image](images/image_thumb3.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image3.png)
+[![image](/assets/images/image_thumb3.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image3.png)
 
 Once you have finished editing your greeting card, you can go ahead and print your greeting card.
 
@@ -54,7 +54,7 @@ Once you have finished editing your greeting card, you can go ahead and print yo
 
 2\. Scroll down and Click on Print
 
-[![image](images/image_thumb4.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image4.png)
+[![image](/assets/images/image_thumb4.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/02/image4.png)
 
 If the printer is installed you can find name of the attached printing device in the list
 

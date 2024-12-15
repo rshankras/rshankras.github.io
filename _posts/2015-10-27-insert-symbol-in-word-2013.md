@@ -20,17 +20,17 @@ This tutorial is about the steps required to [**insert symbols** in **Word 2016 
 
 **Step 2**: Click the Insert menu followed by Symbol drop down under Symbols section.
 
-[![image](images/image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image13.png)
+[![image](/assets/images/image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image13.png)
 
 **Step 3**: If the Rupee Symbol is not listed in the dropdown list then click the More Symbols option.
 
-[![image](images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image14.png)
+[![image](/assets/images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image14.png)
 
 **Step 4**: Select Currency Symbols in Subset dropdown and pick Rupee symbol from the list. Clicking the Insert button should add symbol to the document.
 
 If you are going to be use the symbol frequently then you can **assign a shortcut key for the Rupee Symbol**. Click the Shortcut Key button and enter a new shortcut key (e.g. Alt+Shift+S) in Customize Keyboard window.
 
-[![image](images/image_thumb16.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image15.png)
+[![image](/assets/images/image_thumb16.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image15.png)
 
 Click the Assign button after entering the Shortcut key. Now if you want to insert rupee symbol in the document then use the Keyboard shortcut (e.g. Alt+Shift+S).
 

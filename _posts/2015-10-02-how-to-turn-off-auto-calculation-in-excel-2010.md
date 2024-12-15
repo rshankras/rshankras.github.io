@@ -13,11 +13,11 @@ In this tutorial, we will see how to disable auto calculation in Excel 2016, 201
 
 **Step 1**: Launch Excel Application and click the Formulas menu.
 
-[![image](images/image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image13.png)
+[![image](/assets/images/image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image13.png)
 
 **Step 2**:  Navigate to the **Calculation section** and click on the **Calculation Options**.
 
-[![image](images/image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image14.png)
+[![image](/assets/images/image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image14.png)
 
 **Step 3**: Select **Manual** from the Calculation Options drop down list.
 
@@ -25,4 +25,4 @@ Now when ever user makes any changes to excel cell values and if any formula is 
 
 There is also an option available to do **manual recalculation**.  Navigate to the Calculation section and click the **Calculate Sheet** available next to Calculation options.
 
-[![image](images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image15.png)
+[![image](/assets/images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/09/image15.png)

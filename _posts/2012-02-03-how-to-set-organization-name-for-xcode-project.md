@@ -35,7 +35,7 @@ If you have not set the organization name then the default value substituted wil
 
 Select the Project in the Project Navigator, then navigate to Utilities section and click the File Inspector icon. Now navigate to Project Document section and enter the company name in field with caption as Organization.
 
-![201202031600.jpg](images/201202031600.jpg)
+![201202031600.jpg](/assets/images/201202031600.jpg)
 
 Now if you add any new file to this project then the auto generated comment will have the company name as "rshankar.com".
 
@@ -43,7 +43,7 @@ Now if you add any new file to this project then the auto generated comment will
 
 If you want to retain this organization name for all the future projects then update the company name for the user in Mac Address Book. Launch Address Book, then select the user and update the company name as shown below.
 
-![201202031613.jpg](images/201202031613.jpg)
+![201202031613.jpg](/assets/images/201202031613.jpg)
 
 Now when ever a new project or new file is added in Xcode, the Organization name will be set the value provided for company name in address book.
 

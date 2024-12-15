@@ -21,17 +21,17 @@ Users of Word 2016 and 2013 can create a link to another document within their d
 
 **Step 2**: Click the Insert menu then the Object option available under Text section.
 
-[![Insert Object Word 2013](images/image_thumb42.png "Insert Object Word 2013")](http://blogmines.com/blog/wp-content/uploads/2013/05/image41.png)
+[![Insert Object Word 2013](/assets/images/image_thumb42.png "Insert Object Word 2013")](http://blogmines.com/blog/wp-content/uploads/2013/05/image41.png)
 
 **Step 3**: In the Object window, click Create from File tab and choose the required file via browse button.
 
-[![image](images/image_thumb43.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image42.png)
+[![image](/assets/images/image_thumb43.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image42.png)
 
 Make sure to mark the check box with caption as “**Display as icon**”. If you want the changes to linked document to be reflected in your document then mark checkbox with label as Link to file.
 
 **Step 4**: Click the OK button to confirm and save the changes. Now your document will have a link to the other document as shown below
 
-[![image](images/1_image_thumb44.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image43.png)
+[![image](/assets/images/1_image_thumb44.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image43.png)
 
 ### Hyperlink
 
@@ -41,7 +41,7 @@ Another alternate way to link a word document is by [creating hyperlink](http://
 
 **Step 2**: In the Link to section choose **Existing File or Web Page** then select Current Folder option under Look in section.
 
-[![image](images/image_thumb45.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image44.png)
+[![image](/assets/images/image_thumb45.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image44.png)
 
 **Step 3**: Give a name to the Linked document by entering the name in Text to display and then pick the required document.
 
@@ -49,4 +49,4 @@ Another alternate way to link a word document is by [creating hyperlink](http://
 
 This should create a link to the document as shown below.
 
-[![image](images/image_thumb46.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image45.png)
+[![image](/assets/images/image_thumb46.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/05/image45.png)

@@ -18,15 +18,15 @@ Date Picker control allow developers to specify the mode such as Date, Time, Dat
 
 #### Date Picker (Mode - Time)
 
-[![Date Picker Mode set to time](images/Date-Picker-Mode-set-to-time_thumb.png "Date Picker Mode set to time")](https://rshankar.com/wp-content/uploads/2015/06/Date-Picker-Mode-set-to-time_full.png)
+[![Date Picker Mode set to time](/assets/images/Date-Picker-Mode-set-to-time_thumb.png "Date Picker Mode set to time")](https://rshankar.com/wp-content/uploads/2015/06/Date-Picker-Mode-set-to-time_full.png)
 
 #### Date Picker (Mode - Date)
 
-[![Date Picker Mode set to Date](images/Date-Picker-Mode-set-to-Date_thumb.png "Date Picker Mode set to Date")](https://rshankar.com/wp-content/uploads/2015/06/Date-Picker-Mode-set-to-Date_full.png)
+[![Date Picker Mode set to Date](/assets/images/Date-Picker-Mode-set-to-Date_thumb.png "Date Picker Mode set to Date")](https://rshankar.com/wp-content/uploads/2015/06/Date-Picker-Mode-set-to-Date_full.png)
 
 #### Date Picker (Mode - Date and Time)
 
-[![Date and Time mode set for Date Picker](images/Date-and-Time-mode-set-for-Date-Picker_thumb.png "Date and Time mode set for Date Picker")](https://rshankar.com/wp-content/uploads/2015/06/Date-and-Time-mode-set-for-Date-Picker_full.png)
+[![Date and Time mode set for Date Picker](/assets/images/Date-and-Time-mode-set-for-Date-Picker_thumb.png "Date and Time mode set for Date Picker")](https://rshankar.com/wp-content/uploads/2015/06/Date-and-Time-mode-set-for-Date-Picker_full.png)
 
 Using the Date and Time mode does not provide option to pick year. Hence in this demo we are going to use two date picker controls, one for date and another for time.  
 

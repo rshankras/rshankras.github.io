@@ -14,8 +14,8 @@ tags:
 
 Click the File menu and navigate to Help menu
 
-[![image](images/image_thumb47.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/09/image48.png)
+[![image](/assets/images/image_thumb47.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/09/image48.png)
 
 In the Tools for Working With Office section, click the **Check for Updates** link. This would get the **latest updates** available for **Microsoft Office**.
 
-[![image](images/image_thumb48.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/09/image49.png)
+[![image](/assets/images/image_thumb48.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/09/image49.png)

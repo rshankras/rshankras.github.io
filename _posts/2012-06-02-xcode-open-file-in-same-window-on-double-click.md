@@ -11,7 +11,7 @@ Xcode by default displays project file in a seperate window when the user double
 
 **Step 2**: In the General tab, navigate to Double Click Navigation option.
 
-![XCode double click](images/Xcode_doubleclick.png)
+![XCode double click](/assets/images/Xcode_doubleclick.png)
 
 Step 3: Select Same as Click value from the drop down list.
 

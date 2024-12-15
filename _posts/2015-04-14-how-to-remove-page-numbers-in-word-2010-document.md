@@ -16,10 +16,10 @@ We have already seen how to [format page numbers in word 2010](http://blogmines.
 
 From Home menu, click on Insert menu and then navigate to Header & Footer section
 
-[![Header & Footer Word 2010](images/image_thumb41.png "Header & Footer Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image41.png)
+[![Header & Footer Word 2010](/assets/images/image_thumb41.png "Header & Footer Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image41.png)
 
 Click the drop down arrow available below the Page Number menu option. This would display the following list of menus
 
-[![Remove Page Numbers](images/image_thumb42.png "Remove Page Numbers")](http://blogmines.com/blog/wp-content/uploads/2011/06/image42.png)
+[![Remove Page Numbers](/assets/images/image_thumb42.png "Remove Page Numbers")](http://blogmines.com/blog/wp-content/uploads/2011/06/image42.png)
 
 Select Remove Page numbers from available menu list. This would delete the inserted page numbers from the Word document.

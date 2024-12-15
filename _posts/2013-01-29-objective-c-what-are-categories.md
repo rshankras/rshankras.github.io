@@ -15,20 +15,20 @@ tags:
 
 Create a new **Command Line Tool** project for the example by providing the required details and selecting Type as Foundation.
 
-![201301282235.jpg](images/201301282235.jpg)
+![201301282235.jpg](/assets/images/201301282235.jpg)
 
-![201301282236.jpg](images/201301282236.jpg)
+![201301282236.jpg](/assets/images/201301282236.jpg)
 
 **Add Objective-C Category**
 
 Right click on the project, select New File then choose template for your new file as **Objective-C category**.
 
   
-![201301282251.jpg](images/201301282251.jpg)
+![201301282251.jpg](/assets/images/201301282251.jpg)
 
 Provide the name for your Category and select Category On as NSNumber (The class for which we are adding the additional method)
 
-![201301290550.jpg](images/201301290550.jpg)
+![201301290550.jpg](/assets/images/201301290550.jpg)
 
 **Write Implementation**
 
@@ -88,7 +88,7 @@ return 0;
 
 The call to \[num printNumber:num\] will write the value to the console.
 
-![201301290635.jpg](images/201301290635.jpg)
+![201301290635.jpg](/assets/images/201301290635.jpg)
 
 \- Categories have access to instance variable of the original class but cannot have its own instance variable.
 

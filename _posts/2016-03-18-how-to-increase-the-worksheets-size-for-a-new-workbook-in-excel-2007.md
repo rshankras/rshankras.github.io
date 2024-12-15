@@ -21,13 +21,13 @@ tags:
 
 In **Excel 2013 and Excel 2010** –> Click on File menu and then Options.
 
-[![increase sheets in Workbook in Excel 2013](images/image_thumb9.png "increase sheets in Workbook in Excel 2013")](http://blogmines.com/blog/wp-content/uploads/2014/07/image9.png)
+[![increase sheets in Workbook in Excel 2013](/assets/images/image_thumb9.png "increase sheets in Workbook in Excel 2013")](http://blogmines.com/blog/wp-content/uploads/2014/07/image9.png)
 
 In **Excel 2007** –> Click on Excel Options and then **Popular** menu.
 
-[![Excel Options in Excel 2007](images/image_thumb34.png "Excel Options in Excel 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image34.png)
+[![Excel Options in Excel 2007](/assets/images/image_thumb34.png "Excel Options in Excel 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image34.png)
 
-[![Increase worksheets for new workbook in Excel 2007](images/image_thumb35.png "Increase worksheets for new workbook in Excel 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image35.png)
+[![Increase worksheets for new workbook in Excel 2007](/assets/images/image_thumb35.png "Increase worksheets for new workbook in Excel 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image35.png)
 
 Under **When creating new workbooks** section there is **include this many sheets** fields. This can be used for increasing the number worksheets while creating a new workbook. The minimum value is 1 and the maximum is 255. Check out the below video demo to increase worksheets size in Excel 2013
 

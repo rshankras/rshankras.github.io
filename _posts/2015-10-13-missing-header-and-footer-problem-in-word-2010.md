@@ -21,7 +21,7 @@ tags:
 
 Click File menu –> Options –> Display Options.
 
-[![image](images/1_image_thumb39.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image39.png)
+[![image](/assets/images/1_image_thumb39.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image39.png)
 
 Then navigate to Page display Options and make sure to mark the check box with label as **Show white space between pages in Print Layout view**.  
 
@@ -29,8 +29,8 @@ Then navigate to Page display Options and make sure to mark the check box with l
 
 The other alternative way is to Show the white space by double clicking on the page break line. When you hover the mouse over the page break the following message appears.
 
-[![image](images/image_thumb40.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image40.png)
+[![image](/assets/images/image_thumb40.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image40.png)
 
 And by double clicking on the line should un hide the white space between the pages and also the headers and footers.
 
-[![image](images/image_thumb41.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image41.png)
+[![image](/assets/images/image_thumb41.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image41.png)

@@ -44,7 +44,7 @@ rect.draw()
 
 In the above example, we have a class named Rectangle, with name, length and breadth as properties, area and draw are functions. rect is a instance variable or object of Rectangle class. On setting the length and breadth and calling draw function should provide the following output in Playground.
 
-![201505101309.jpg](images/2015051013091.jpg)
+![201505101309.jpg](/assets/images/2015051013091.jpg)
 
 Similarly the below code create a Square class
 

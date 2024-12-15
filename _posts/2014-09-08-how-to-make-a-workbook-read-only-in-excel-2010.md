@@ -19,19 +19,19 @@ We have already seen how to [How to make a presentation read only in Power Point
 
 Click on the File menu –> Info menu
 
-[![Protect Workbook in Excel 2013 and Excel 2010](images/2_image_thumb10.png "Protect Workbook in Excel 2013 and Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2010/03/image10.png)
+[![Protect Workbook in Excel 2013 and Excel 2010](/assets/images/2_image_thumb10.png "Protect Workbook in Excel 2013 and Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2010/03/image10.png)
 
 Click on the **Protect Workbook** drop down arrow. This would display the following menu list
 
-[![Mark workbook as final in Excel 2013 and Excel 2010](images/1_image_thumb11.png "Mark workbook as final in Excel 2013 and Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2010/03/image11.png)
+[![Mark workbook as final in Excel 2013 and Excel 2010](/assets/images/1_image_thumb11.png "Mark workbook as final in Excel 2013 and Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2010/03/image11.png)
 
 Click on the **Mark as Final** menu, the following dialog box would appear.
 
-[![image](images/1_image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/03/image12.png)
+[![image](/assets/images/1_image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/03/image12.png)
 
 On selecting OK button the following confirmation box will be displayed.
 
-[![Warning message when workbook marked as final in edited](images/image_thumb13.png "Warning message when workbook marked as final in edited")](http://blogmines.com/blog/wp-content/uploads/2010/03/image13.png)
+[![Warning message when workbook marked as final in edited](/assets/images/image_thumb13.png "Warning message when workbook marked as final in edited")](http://blogmines.com/blog/wp-content/uploads/2010/03/image13.png)
 
 By this way you can **make an workbook in excel 2010 read only and prevent users from making any changes** to the file.
 

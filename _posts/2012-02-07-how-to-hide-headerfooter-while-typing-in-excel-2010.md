@@ -24,11 +24,11 @@ This is in response to question asked by a reader of this blog related with [hea
 
 When you click on the [insert header and footer](http://blogmines.com/blog/2010/08/22/how-to-insert-header-and-footer-in-excel-2010/) option in Excel 2010, excel would immediately change the view to **Page Layout**. Hence you would see the newly added header and footer in your worksheet.
 
-[![image](images/image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/02/image12.png)
+[![image](/assets/images/image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/02/image12.png)
 
 After typing the required header and footer details and do not want to see header and footer while typing you excel sheet in the data section then you can change the view to Normal by selecting **Normal** under the **Workbook Views** section.
 
-[![image](images/1_image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/02/image13.png)
+[![image](/assets/images/1_image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/02/image13.png)
 
 This would temporarily hide the inserted header and footer in the Worksheet and you can always get it back by changing the Workbook view to **Page Layout**.
 

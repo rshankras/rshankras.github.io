@@ -26,7 +26,7 @@ You find out the location of derived data using Xcode Preferences. Click Xcode -
 
   
 
-![201408191239.jpg](images/201408191239.jpg)
+![201408191239.jpg](/assets/images/201408191239.jpg)
 
   
 
@@ -34,7 +34,7 @@ Click Locations tab and navigate to Derived Data section. Then click the arrow n
 
   
 
-![201408191241.jpg](images/201408191241.jpg)
+![201408191241.jpg](/assets/images/201408191241.jpg)
 
   
 
@@ -42,7 +42,7 @@ Now delete DerivedData folder under Xcode.
 
   
 
-![201408191243.jpg](images/201408191243.jpg)  
+![201408191243.jpg](/assets/images/201408191243.jpg)  
 
   
 

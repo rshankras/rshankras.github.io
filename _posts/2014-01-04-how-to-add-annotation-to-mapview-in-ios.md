@@ -18,15 +18,15 @@ This article provides the steps for adding annotation to a MapView in iOS
 
 Create a new Xcode Project - File > New > Project. Select the template for the project as Singe View Application under iOS > Application.
 
-![201401041109.jpg](images/201401041109.jpg)
+![201401041109.jpg](/assets/images/201401041109.jpg)
 
 Then provide the required details in the options for your new project screen.
 
-![201401041101.jpg](images/201401041101.jpg)
+![201401041101.jpg](/assets/images/201401041101.jpg)
 
 Select Main.storyboard file in the Navigator Area. This should display the User Interface in the Editor Area. Now select Map View from the Object Library, drag and drop it on the User Interface. Adjust the width and height of MKMapView to cover the ViewController.
 
-![201401041112.jpg](images/201401041112.jpg)
+![201401041112.jpg](/assets/images/201401041112.jpg)
 
 Now is if you try to Build and Run the project on iOS simulator, you will see the following errors message on the console window.
 
@@ -34,39 +34,39 @@ Now is if you try to Build and Run the project on iOS simulator, you will see th
 
 This occurs when the MapKit library is not as part of the Link Binary with Libraries under Build Phases.
 
-![201401041121.jpg](images/201401041121.jpg)
+![201401041121.jpg](/assets/images/201401041121.jpg)
 
 Now add annotation, let us create a plist file containing array of locations with title, latitude and longitude.
 
 Right click on the Project under the Navigator Area and select New File option.
 
-![201401041124.jpg](images/201401041124.jpg)
+![201401041124.jpg](/assets/images/201401041124.jpg)
 
 In the template for New File, select Property List under iOS > Resource section.
 
-![201401041127.jpg](images/201401041127.jpg)
+![201401041127.jpg](/assets/images/201401041127.jpg)
 
 Now provide name for the plist and save it under the Project directory.
 
-![201401041128.jpg](images/201401041128.jpg)
+![201401041128.jpg](/assets/images/201401041128.jpg)
 
 Now change the plist Root type to Array and start adding items of type Dictionary.
 
-![201401041129.jpg](images/201401041129.jpg)
+![201401041129.jpg](/assets/images/201401041129.jpg)
 
 The Dictionary item will contain title, latitude and longitude. As shown below, there are 6 items added to plist file.
 
-![201401041449.jpg](images/201401041449.jpg)
+![201401041449.jpg](/assets/images/201401041449.jpg)
 
 Create MapViewAnnotation class
 
 In order display the location as annotation, we need to create custom annotation implementing the interface MKAnnotation.
 
-![201401041524.jpg](images/201401041524.jpg)
+![201401041524.jpg](/assets/images/201401041524.jpg)
 
 Create a MapViewAnnotation class subclassing NSObject
 
-![201401041526.jpg](images/201401041526.jpg)
+![201401041526.jpg](/assets/images/201401041526.jpg)
 
 Navigate to MapViewAnnotation.h header file and replace the content with the following
 
@@ -205,8 +205,8 @@ The above code, creates coordinate for the zoom location. Then we define MKCoord
 
 Now you be able to compile and run the project and you should be able to see the following in iOS simulator. And selecting any annotation, should be display the title.
 
-![201401041644.jpg](images/201401041644.jpg)
+![201401041644.jpg](/assets/images/201401041644.jpg)
 
-![201401041645.jpg](images/201401041645.jpg)
+![201401041645.jpg](/assets/images/201401041645.jpg)
 
 Download the source from [here](https://github.com/rshankras/MapViewExample1)

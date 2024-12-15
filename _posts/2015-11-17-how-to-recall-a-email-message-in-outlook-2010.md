@@ -24,11 +24,11 @@ tags:
 
 **Step 2**: Navigate to Move section and click Actions dropdown and select **Recall This Message…** from the menu list
 
-[![Recall This Message in Outlook 2013 and Outlook 2010](images/1_image_thumb13.png "Recall This Message in Outlook 2013 and Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/06/image13.png)
+[![Recall This Message in Outlook 2013 and Outlook 2010](/assets/images/1_image_thumb13.png "Recall This Message in Outlook 2013 and Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/06/image13.png)
 
 **Step 3**: In the Recall This Message dialog, select whether you want **to Delete unread copies of this message** or **Delete unread copies and replace with a new message**.
 
-[![Deleate unread copies of this message](images/1_image_thumb14.png "Deleate unread copies of this message")](http://blogmines.com/blog/wp-content/uploads/2010/06/image14.png)
+[![Deleate unread copies of this message](/assets/images/1_image_thumb14.png "Deleate unread copies of this message")](http://blogmines.com/blog/wp-content/uploads/2010/06/image14.png)
 
 If you want to receive any acknowledgement then you can tick the check box with caption as **Tell me if recall succeeds or fails for each recipient**
 
@@ -40,11 +40,11 @@ Demo Video - Recall message in Outlook 2010
 
 In Outlook 2007, Recall This Message option is available as part of Other options. Open the email message that needs to be recalled. Click Other Options and select Recall This Message from the drop down menu list.
 
-[![Recall this message in Outlook 2007](images/5_image_thumb.png "Recall this message in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/10/image.png)
+[![Recall this message in Outlook 2007](/assets/images/5_image_thumb.png "Recall this message in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/10/image.png)
 
 On selecting Recall This Message the following dialog box would be displayed
 
-[![image](images/3_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2009/10/image1.png)
+[![image](/assets/images/3_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2009/10/image1.png)
 
 You can select the the following options depending on your requirement
 

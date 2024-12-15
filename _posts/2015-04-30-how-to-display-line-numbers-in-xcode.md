@@ -14,13 +14,13 @@ Listed below are the steps to display line number in Xcode editor window. This i
 
 Click Xcode menu option and select Preferences from the menu list
 
-![201504301024.jpg](images/201504301024.jpg)
+![201504301024.jpg](/assets/images/201504301024.jpg)
 
 In the Preferences window, click Text Editing tab.
 
-![201504301026.jpg](images/201504301026.jpg)
+![201504301026.jpg](/assets/images/201504301026.jpg)
 
 Then mark the check box with caption as Show Line numbers. Now you should be able to see the line numbers in Xcode editor window.
 
   
-![201504301027.jpg](images/201504301027.jpg)
+![201504301027.jpg](/assets/images/201504301027.jpg)

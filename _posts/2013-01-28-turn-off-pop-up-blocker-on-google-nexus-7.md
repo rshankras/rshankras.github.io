@@ -16,16 +16,16 @@ This is a short article on the steps required to **turn off pop-up blocker in Go
 
 **Step 1**: Launch Google Chrome on Google Nexus 7
 
-[![image](images/1_image_thumb63.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image66.png)
+[![image](/assets/images/1_image_thumb63.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image66.png)
 
 **Step 2**: Access the Chrome Settings by tapping option available at the top right hand corner.
 
-[![image](images/1_image_thumb64.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image67.png)
+[![image](/assets/images/1_image_thumb64.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image67.png)
 
 **Step 3**: In the Google Chrome settings screen, tap the Content settings option under Advanced section.
 
-[![image](images/1_image_thumb65.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image68.png)
+[![image](/assets/images/1_image_thumb65.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image68.png)
 
 **Step 4**: Now to turn off the pop up blocker, un mark the checkbox with label as Block pop-ups to allow pop-ups from websites.
 
-[![image](images/1_image_thumb66.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image69.png)
+[![image](/assets/images/1_image_thumb66.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/01/image69.png)

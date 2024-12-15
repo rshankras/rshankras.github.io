@@ -15,7 +15,7 @@ tags:
   - "undo-limit"
 ---
 
-[![Undo](images/Undo_thumb.jpg "Undo")](http://blogmines.com/blog/wp-content/uploads/2011/07/Undo.jpg)
+[![Undo](/assets/images/Undo_thumb.jpg "Undo")](http://blogmines.com/blog/wp-content/uploads/2011/07/Undo.jpg)
 
 As per the [Excel Specifications and limits](http://office.microsoft.com/en-us/excel-help/excel-specifications-and-limits-HP010073849.aspx#BMworksheetworkbook) the maximum limit for **undo** in Excel 2010 is set to 100. In the previous version of Excel this was set to 16. The **maximum limit** value is fixed but you can **increase** or **decrease** this limit by modify registry settings.
 
@@ -27,10 +27,10 @@ To change the **undo maximum limit**, Open Windows Registry Editor and then navi
 
 Create a new DWORD value with the key name as **UndoHistory**
 
-[![image](images/image_thumb230.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image230.png)
+[![image](/assets/images/image_thumb230.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image230.png)
 
 Then modify **UndoHistory** by setting the Base as **Decimal** and value as 16. Click the OK button to save the changes.
 
-[![image](images/image_thumb231.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image231.png)
+[![image](/assets/images/image_thumb231.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image231.png)
 
 This would decrease the number of undo same as the previous of Excel. You can also **increase** the **undo limit** from 100 to 200 for Excel 2010 by changing the above created Windows Registry key.

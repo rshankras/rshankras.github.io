@@ -16,14 +16,14 @@ tags:
 
 Select the Xcode project and navigate to Build Phases.
 
-![201302010703.jpg](images/201302010703.jpg)
+![201302010703.jpg](/assets/images/201302010703.jpg)
 
 Click the + sign under Link Binary with Libraries and select MapKit,framework from framework and libraries to add selection window.
 
-![201302010704.jpg](images/201302010704.jpg)
+![201302010704.jpg](/assets/images/201302010704.jpg)
 
-![201302010705.jpg](images/201302010705.jpg)
+![201302010705.jpg](/assets/images/201302010705.jpg)
 
 Now running the project should not display the NSInvalidUnarchiveOperationException.
 
-![201302010709.jpg](images/201302010709.jpg)
+![201302010709.jpg](/assets/images/201302010709.jpg)

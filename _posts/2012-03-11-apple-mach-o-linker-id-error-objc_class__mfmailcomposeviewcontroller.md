@@ -31,12 +31,12 @@ I was able to fix this issue by including the MessgeUI.framework library as part
 
 In Xcode, navigate to Project Summary screen then to the Build Phases tab
 
-![201203110834.jpg](images/201203110834.jpg)
+![201203110834.jpg](/assets/images/201203110834.jpg)
 
 Click the Add Items (+ sign) under **Link Binary With Libraries** section then select MessageUI.frameework from the list and click the Add button.
 
-![201203110836.jpg](images/201203110836.jpg)
+![201203110836.jpg](/assets/images/201203110836.jpg)
 
-![201203110842.jpg](images/201203110842.jpg)
+![201203110842.jpg](/assets/images/201203110842.jpg)
 
 Similarly by including the relevant libraries you can resolve the obj-class-ref errors.

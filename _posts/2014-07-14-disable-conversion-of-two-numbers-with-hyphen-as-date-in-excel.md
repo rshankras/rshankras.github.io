@@ -24,16 +24,16 @@ Solution 1: **Prefixing the values with apostrophe**
 
 The simplest solution is to add apostrophe before 6-7. This would display the typed value without reformatting it.
 
-[![Auto format values with hyphen to date](images/2_image_thumb34.png "Auto format values with hyphen to date")](http://blogmines.com/blog/wp-content/uploads/2014/07/image34.png)
+[![Auto format values with hyphen to date](/assets/images/2_image_thumb34.png "Auto format values with hyphen to date")](http://blogmines.com/blog/wp-content/uploads/2014/07/image34.png)
 
 Solution 2: **Change format to Text Format**
 
 Another alternate solution is to change the formatting of the cell to Text format. Select the cell (or columns), right click and pick Format Cells from the menu list.
 
-[![Format Cells in Excel](images/3_image_thumb35.png "Format Cells in Excel")](http://blogmines.com/blog/wp-content/uploads/2014/07/image35.png)
+[![Format Cells in Excel](/assets/images/3_image_thumb35.png "Format Cells in Excel")](http://blogmines.com/blog/wp-content/uploads/2014/07/image35.png)
 
 In the Format Cells window, select **Text Format** under Number tab and click OK button to apply the changes.
 
-[![Change format to Text in Excel](images/3_image_thumb36.png "Change format to Text in Excel")](http://blogmines.com/blog/wp-content/uploads/2014/07/image36.png)
+[![Change format to Text in Excel](/assets/images/3_image_thumb36.png "Change format to Text in Excel")](http://blogmines.com/blog/wp-content/uploads/2014/07/image36.png)
 
 **Also See**: [How to prefix cell entry with zero in Excel 2013](http://blogmines.com/blog/how-to-prefix-cell-entry-with-zero-in-excel-2013/)

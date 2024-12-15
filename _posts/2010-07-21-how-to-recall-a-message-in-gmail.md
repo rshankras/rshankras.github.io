@@ -24,12 +24,12 @@ Gmail provides similar feature like **Outlook** which can be used to [recall a m
 
 4\. Scroll down to Undo Send section and select the **Enable** radio option and Click Save changes button to apply the changes.
 
-[![image](images/image_thumb55.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/07/image56.png) 
+[![image](/assets/images/image_thumb55.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/07/image56.png) 
 
 5\. In the General section, navigate to **Undo Send** section and set the cancellation period. The available values are 10 and 20 seconds. This specifies the time before which you can use the recall or undo send feature. Click on the Save changes button.
 
 Now if you send any email message, Gmail will display a Undo link as shown below.
 
-[![image](images/image_thumb56.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/07/image57.png)
+[![image](/assets/images/image_thumb56.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/07/image57.png)
 
 If you click on the Undo link, the email message will be recalled. This Undo link will be available only for the time period specified in the Gmail General Settings.

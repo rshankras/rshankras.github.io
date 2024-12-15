@@ -21,17 +21,17 @@ This is in response to the query posted by a reader that “How to remove a page
 
 **Step 2**:- Navigate to Page Layout menu then click the Break menu option under Page Setup section.
 
-[![image](images/image_thumb73.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image73.png)
+[![image](/assets/images/image_thumb73.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image73.png)
 
 **Step 3** :- Select Next Page from the Breaks menu drop down list.
 
-[![image](images/image_thumb74.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image74.png)
+[![image](/assets/images/image_thumb74.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image74.png)
 
  
 
 **Step 4** :- Then double click the Footer of the new page section.
 
-[![image](images/image_thumb75.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image75.png)
+[![image](/assets/images/image_thumb75.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image75.png)
 
 **Step 5** :- Select Same as Previous option in the document and un select the **Link to Previous** available under the **Header & Footer Tools**.
 

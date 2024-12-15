@@ -23,15 +23,15 @@ This program is going to have to three main section.
 
 Xcode users can add a new class to an existing project by clicking File -> New
 
-![201201131923.jpg](images/201201131923.jpg)
+![201201131923.jpg](/assets/images/201201131923.jpg)
 
 This would display the following "Choose a template for your new file" window. Now select Objective-C class from the templates and click Next button.
 
-![201201131930.jpg](images/201201131930.jpg)
+![201201131930.jpg](/assets/images/201201131930.jpg)
 
 Then provide a name for the Class some thing like Calci. Also select the Subclass for the class as NSObject and click Next button.
 
-![201201131931.jpg](images/201201131931.jpg)
+![201201131931.jpg](/assets/images/201201131931.jpg)
 
 Now this would add two files with extension .h and .m, "Calci.h" and "Calci.m".  
 

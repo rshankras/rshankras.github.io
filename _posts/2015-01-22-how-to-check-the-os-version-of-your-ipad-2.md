@@ -20,14 +20,14 @@ iPad allows users to check the version of OS installed using the settings menu. 
 
   
   
-[![20110422-122656.jpg](images/20110422-122656.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-122656.jpg)
+[![20110422-122656.jpg](/assets/images/20110422-122656.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-122656.jpg)
 
 3\. In the General Settings screen, tap the about the option and then navigate to version. This would display the version of OS installed on your iPad.
 
   
   
-[![20110422-122815.jpg](images/20110422-122815.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-122815.jpg)
+[![20110422-122815.jpg](/assets/images/20110422-122815.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-122815.jpg)
 
   
   
-[![20110422-123538.jpg](images/20110422-123538.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-123538.jpg)
+[![20110422-123538.jpg](/assets/images/20110422-123538.jpg)](https://rshankar.com/wp-content/uploads/2019/10/20110422-123538.jpg)

@@ -66,7 +66,7 @@ Creates an instance of PDFView and sets the frame to ViewController's view then 
 
 You will be seeing couple of **unresolved identified errors** because of missing **import PDFKit** statement. Add import statement after import UIKit and now you should be able to run the app on the simulator and select text on the PDF
 
-![select text](images/select-text-2.png)
+![select text](/assets/images/select-text-2.png)
 
 #### Adding Annotation to PDF
 
@@ -98,6 +98,6 @@ In the openDocument function add the following line after view.addSubView(pdfvie
 
 This gets the current page from PDFView and sets the highlight annotation. When you run the app on the simulation you will see the highlight as shown below.![](/assets/images/img_5ef604ceb36c9.gif)
 
-![final](images/final.png)
+![final](/assets/images/final.png)
 
 Download the source code from [here](https://github.com/rshankras/Swift-Demo/tree/master/PDFDemo)

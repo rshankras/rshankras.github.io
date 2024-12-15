@@ -15,13 +15,13 @@ tags:
 
 Here is a beginner tutorial on [TDD](https://rshankar.com/test-driven-development-in-ios-beginners-tutorial-part-1/) in Swift by writing a program that checks for a prime number. Let us start by creating a new project, selecting template as Single View Application. Though we won’t be adding anything to the storyboard as we will focus only on the business logic.
 
-![201502082101.jpg](images/201502082101.jpg)
+![201502082101.jpg](/assets/images/201502082101.jpg)
 
-![201502082103.jpg](images/201502082103.jpg)
+![201502082103.jpg](/assets/images/201502082103.jpg)
 
 After creating the project, the project navigator should have the following structure.
 
-![201502082104.jpg](images/201502082104.jpg)
+![201502082104.jpg](/assets/images/201502082104.jpg)
 
 from [wikipedia](http://en.wikipedia.org/wiki/Prime_number)  
 
@@ -29,11 +29,11 @@ from [wikipedia](http://en.wikipedia.org/wiki/Prime_number)
 
 So now that we know the first prime number is 2, let us add a unit test that checks if number 2 is a prime number. We are going to have a new class called Util that will have the required function to check if a number is prime number. Before creating a Util class, create unit test class called TestsForUtil.swift.
 
-![201502082115.jpg](images/201502082115.jpg)
+![201502082115.jpg](/assets/images/201502082115.jpg)
 
 Select the template as Test Case Class and go with the default settings. Now you should see the newly added class as part of the project navigator under CheckForPrimeTests.
 
-![201502082117.jpg](images/201502082117.jpg)
+![201502082117.jpg](/assets/images/201502082117.jpg)
 
 As we don’t need CheckForPrimeTests.Swift, we can delete the file. And on opening TestsForSwift.swift, you should notice the following default test methods. setup(), tearDown(), testExampe(), testPerformanceExample(). In this demo, we are not going to use any of these methods and so you can remove them as well.
 
@@ -55,9 +55,9 @@ What this test function does is, it calls isPrime function in Util and receives 
 
 Now add a Swift file with name as Util and make sure to select CheckForPrimeTests under Targets. This would ensure you can call functions written in Util class
 
-![201502082151.jpg](images/201502082151.jpg)
+![201502082151.jpg](/assets/images/201502082151.jpg)
 
-![201502082152.jpg](images/201502082152.jpg)
+![201502082152.jpg](/assets/images/201502082152.jpg)
 
 Create a public class with name as Util and add function isPrime as shown below.
 
@@ -74,7 +74,7 @@ return number == 2
 All we are doing here is to make sure the function validates number 2. Now executing unit test should show a green tick mark as shown below.
 
   
-![201502090829.jpg](images/201502090829.jpg)
+![201502090829.jpg](/assets/images/201502090829.jpg)
 
 Navigate back to TestsForUtil.swift and add second tests which checks for number 3. 
 
@@ -91,7 +91,7 @@ XCTAssertTrue(Util().isPrime(number), "3 is a prime number");
 On executing this test you should notice failure message as we have hard coded isPrime function to work only for 2.
 
   
-![201502090831.jpg](images/201502090831.jpg)
+![201502090831.jpg](/assets/images/201502090831.jpg)
 
 And to make this test pass, we are going to check for 2 and 3 in isPrime function.
 
@@ -114,7 +114,7 @@ XCTAssertFalse(Util().isPrime(number), "4 is not a prime number");
 We have used XCTAssertFalse as we are expecting isPrime to return false. This test would pass with out making any changes to isPrime function.
 
   
-![201502090838.jpg](images/201502090838.jpg)
+![201502090838.jpg](/assets/images/201502090838.jpg)
 
 Now let us add out next test case that checks for number 11.
 
@@ -127,7 +127,7 @@ XCTAssertTrue(Util().isPrime(number), "11 is a prime number");
 }
 
   
-![201502090841.jpg](images/201502090841.jpg)
+![201502090841.jpg](/assets/images/201502090841.jpg)
 
 We need to make changes to isPrime function so it returns true for number 11. But we cannot just keeping on hardcoding the numbers. So let us change the logic to handle all the prime numbers.  
 
@@ -234,7 +234,7 @@ And the test navigator in Xcode should show status for all your tests.
 
   
 
-![201502090920.jpg](images/201502090920.jpg)
+![201502090920.jpg](/assets/images/201502090920.jpg)
 
   
 

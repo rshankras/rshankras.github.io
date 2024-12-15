@@ -20,11 +20,11 @@ tags:
 
 Users can turn off the auto replacement of hyphens with dashes using the option available as part of AutoCorrect settings. Click the File menu –> Options link and navigate to Proofing Option screen then click the AutoCorrect Options button in the Proofing screen.
 
-[![image](images/1_image_thumb134.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image134.png)
+[![image](/assets/images/1_image_thumb134.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image134.png)
 
 In the AutoCorrect window, click the AuoFormat As You Type tab and navigate to Replace as you type section.
 
-[![image](images/1_image_thumb135.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image135.png)
+[![image](/assets/images/1_image_thumb135.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image135.png)
 
 Now unmark the check box with label as **Hyphens (--) with dash (—)** and click OK button to confirm and save the changes.
 

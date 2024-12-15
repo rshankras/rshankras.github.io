@@ -16,16 +16,16 @@ In this tutorial, we are going to see the different ways for **connecting IBActi
 **Method 1 (Assistant Editor)**:  
 **Step 1**: Drag and drop Round Rect Button from the Objects library on to Interface builder.  
 **Step 2**: Now click the **Show Assistant Editor** option on Xcode toolbar. This should display the Interface builder and code editor adjacent to each other as shown below.  
-![201308130927.jpg](images/201308130927.jpg)  
+![201308130927.jpg](/assets/images/201308130927.jpg)  
 **Step 3**: Select the button on Interface builder then hold control key on keyboard and drag the line to the editor window (.h file).  
   
-![201308130937.jpg](images/201308130937.jpg)  
+![201308130937.jpg](/assets/images/201308130937.jpg)  
 You should notice **Insert Outlet, Action or Outlet Collection** entry as shown in the above screenshot. Selecting the option would display a window for defining the IBAction.  
-![201308130943.jpg](images/201308130943.jpg)**Step 4**: Select "Action" for Connection, provide a name (e.g.:- showAlert), Event as "Touch Up Inside" then click Connect. This should add a new IBAction entry in the header and implementation file.  
+![201308130943.jpg](/assets/images/201308130943.jpg)**Step 4**: Select "Action" for Connection, provide a name (e.g.:- showAlert), Event as "Touch Up Inside" then click Connect. This should add a new IBAction entry in the header and implementation file.  
   
 **Header file (.h)**  
-![201308130949.jpg](images/201308130949.jpg)  
-**Implementation File (.m)**![201308130951.jpg](images/201308130951.jpg)  
+![201308130949.jpg](/assets/images/201308130949.jpg)  
+**Implementation File (.m)**![201308130951.jpg](/assets/images/201308130951.jpg)  
 **Step 5** : Now add the following UIAlertView code inside the showAlert method in implementation file.  
 
   
@@ -35,7 +35,7 @@ You should notice **Insert Outlet, Action or Outlet Collection** entry as shown 
   \[alertView show\];
 
   
-![201308130953.jpg](images/201308130953.jpg)
+![201308130953.jpg](/assets/images/201308130953.jpg)
 
   
 
@@ -43,7 +43,7 @@ Executing the project in the simulator should display the following alert on tap
 
   
 
-![201308130956.jpg](images/201308130956.jpg)
+![201308130956.jpg](/assets/images/201308130956.jpg)
 
   
 
@@ -59,7 +59,7 @@ Executing the project in the simulator should display the following alert on tap
 
   
 
-![201308131002.jpg](images/201308131002.jpg)  
+![201308131002.jpg](/assets/images/201308131002.jpg)  
 
   
 
@@ -67,7 +67,7 @@ Executing the project in the simulator should display the following alert on tap
 
   
 
-![201308131000.jpg](images/201308131000.jpg)
+![201308131000.jpg](/assets/images/201308131000.jpg)
 
   
 
@@ -75,7 +75,7 @@ Selecting the File Owner's option should display the details in the Connections 
 
   
 
-![201308131006.jpg](images/201308131006.jpg)
+![201308131006.jpg](/assets/images/201308131006.jpg)
 
   
 
@@ -83,19 +83,19 @@ Selecting the File Owner's option should display the details in the Connections 
 
   
 
-![201308131009.jpg](images/201308131009.jpg)
+![201308131009.jpg](/assets/images/201308131009.jpg)
 
 Releasing the mouse click should display the following Events list. Select Touch Up Inside from the list.
 
   
 
-![201308131011.jpg](images/201308131011.jpg)
+![201308131011.jpg](/assets/images/201308131011.jpg)
 
 Once connected, you should see the connection between the IBAction method and the control under Received Actions.
 
   
 
-![201308131012.jpg](images/201308131012.jpg)
+![201308131012.jpg](/assets/images/201308131012.jpg)
 
   
 
@@ -117,7 +117,7 @@ Once connected, you should see the connection between the IBAction method and th
 
   
 
-![201308131002.jpg](images/201308131002.jpg)  
+![201308131002.jpg](/assets/images/201308131002.jpg)  
 
   
 

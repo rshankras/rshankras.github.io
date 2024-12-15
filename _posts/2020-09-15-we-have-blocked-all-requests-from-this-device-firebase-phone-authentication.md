@@ -18,6 +18,6 @@ This user usually occurs when you have received too many OTP's within a short pe
 
 Recently Firebase has added a feature to add test numbers. This can be found under Firebase Console -> Authentication -> Sign-in method -> Phone
 
-![PhoneAuthentication](images/PhoneAuthentication-1.png)
+![PhoneAuthentication](/assets/images/PhoneAuthentication-1.png)
 
 Now you can use "Phone numbers for testing" section to add test phone numbers. The test numbers will not be blocked and will not affect your testing. I believe you can also use the test numbers for Apple Approval process when publishing your app.

@@ -30,21 +30,21 @@ In this tutorial, we are going to see an example app that supports text, number,
 
 **English**
 
-![201408072015.jpg](images/201408072015.jpg)
+![201408072015.jpg](/assets/images/201408072015.jpg)
 
 **German**
 
-![201409302136.jpg](images/201409302136.jpg)
+![201409302136.jpg](/assets/images/201409302136.jpg)
 
 **Download source code from [GitHub](https://github.com/rshankras/Localisation-Demo.git)**
 
 Create a new project by clicking File menu -> New -> Project
 
-![201408071400.jpg](images/201408071400.jpg)
+![201408071400.jpg](/assets/images/201408071400.jpg)
 
 Select the template for the Project as Single View Application.
 
-![201408071401.jpg](images/201408071401.jpg)
+![201408071401.jpg](/assets/images/201408071401.jpg)
 
 ‘
 
@@ -54,7 +54,7 @@ In the next screen, provide a name for the project as “Localisation Demo” an
 
 Navigate to Main.storyboard, click default View Controller. Drag and drop 9 Labels and 1 ImageView from Object Library on to Storyboard. These labels are used for displaying the caption and values as shown in the below screenshot.
 
-![201408071642.jpg](images/201408071642.jpg)
+![201408071642.jpg](/assets/images/201408071642.jpg)
 
 ### Declaring IBOutlets for UIControls
 
@@ -70,7 +70,7 @@ Click ViewController.swift in project navigator and add the following IBOutlets 
 
 Navigate back to Main.storyboard and connect labels and imageView to the respective outlets.
 
-![201408071658.jpg](images/201408071658.jpg)
+![201408071658.jpg](/assets/images/201408071658.jpg)
 
 ### Populate values for the controls.
 
@@ -97,11 +97,11 @@ override func viewDidLoad() {
 
 Using Add Files to option, add the image [hello.png](https://github.com/rshankras/Localisation-Demo/blob/master/en.lproj/hello.png) to the Project folder.  
 
-![201408071755.jpg](images/201408071755.jpg)![201408071756.jpg](images/201408071756.jpg)
+![201408071755.jpg](/assets/images/201408071755.jpg)![201408071756.jpg](/assets/images/201408071756.jpg)
 
 Now if you compile and run the project on iOS simulator, you should see the follow screen with values for the labels and image view.  
 
-![201408071759.jpg](images/201408071759.jpg)
+![201408071759.jpg](/assets/images/201408071759.jpg)
 
 We do not see any formatting applied for Number, Date and Currency Values. Now let us see how to use NSNumberFormatter for formatting number and currency field and NSDateFormatter for formatting date field. Add the following properties after populateValues function in ViewController.swift file.  
 
@@ -144,35 +144,35 @@ func populateValues() {
 
 Now after applying the correct format, iOS Simulator will use the default system region to display the values for number, currency and date fields  
 
-![201408071834.jpg](images/201408071834.jpg)
+![201408071834.jpg](/assets/images/201408071834.jpg)
 
 ### Adding support for another language to your Xcode Project
 
 In order to enable support for German language, first we need to add that language to the Project. This can be done by using the option available as part of Project target. Select the Project folder then the Project target.
 
-![201408071715.jpg](images/201408071715.jpg)
+![201408071715.jpg](/assets/images/201408071715.jpg)
 
 Navigate to the Localization section and click the + sign then select German (de) from the list.
 
-![201408071718.jpg](images/201408071718.jpg)
+![201408071718.jpg](/assets/images/201408071718.jpg)
 
 Choose the default files listed in the below screen and click Finish.
 
-![201408071720.jpg](images/201408071720.jpg)
+![201408071720.jpg](/assets/images/201408071720.jpg)
 
 Now you should see support German language under Localizations section.
 
-![201408071720.jpg](images/2014080717201.jpg)
+![201408071720.jpg](/assets/images/2014080717201.jpg)
 
 ### Add Localization for controls in Storyboard
 
 First let us see how to add support for another language for the Caption controls in Main.storyboard.
 
-![201408071728.jpg](images/201408071728.jpg)
+![201408071728.jpg](/assets/images/201408071728.jpg)
 
 Expand Main.storyboard and click Main.strings (German) . Now enter the German equivalent for Date, Currency, Number and Image as Datum, Währung, Anzahl and Bild. And for rest of the controls, localization will be done in the code.
 
-![201408071735.jpg](images/201408071735.jpg)
+![201408071735.jpg](/assets/images/201408071735.jpg)
 ```plain
 /* Class = “IBUILabel”; text = “Date :”; ObjectID = “0sh-CK-26C”; */ “0sh-CK-26C.text” = “Datum :”;
 
@@ -189,33 +189,33 @@ Expand Main.storyboard and click Main.strings (German) . Now enter the German eq
 
 The changes to Main.storyboard (German) and NSNumberFormatter and NSDateFormatter will have no effect until we set the language and region to German in Xcode debug environment. Click **Set the active scheme** option and select Edit Scheme from the list.  
 
-![201408071850.jpg](images/201408071850.jpg)
+![201408071850.jpg](/assets/images/201408071850.jpg)
 
 Navigate to Options under Debug Environment and select German and Germany for Application Language and Application Region.
 
-![201408071852.jpg](images/201408071852.jpg)
+![201408071852.jpg](/assets/images/201408071852.jpg)
 
 Now running the app on the iOS simulator should display the captions in german language and apply formats for number, date and currency fields based on German region.
 
-![201408071855.jpg](images/201408071855.jpg)
+![201408071855.jpg](/assets/images/201408071855.jpg)
 
 ### Internationalization of Text using NSLocalizedString
 
 “Good Morning” has to be displayed in the corresponding German language i.e “Guten Morgen”. Add a new File to the project of type **Strings** and provide a name as **Localizable.strings**.
 
-![201408071912.jpg](images/201408071912.jpg)![201408071913.jpg](images/201408071913.jpg)
+![201408071912.jpg](/assets/images/201408071912.jpg)![201408071913.jpg](/assets/images/201408071913.jpg)
 
 Select Localizable.Strings in Project Navigator and click Localize button available under File Inspector.
 
-![201408071915.jpg](images/201408071915.jpg)
+![201408071915.jpg](/assets/images/201408071915.jpg)
 
 Then Select English in the Localize drop down and make sure to mark German in the Localization section under File Inspector.
 
-![201408071917.jpg](images/201408071917.jpg)![201408071918.jpg](images/201408071918.jpg)
+![201408071917.jpg](/assets/images/201408071917.jpg)![201408071918.jpg](/assets/images/201408071918.jpg)
 
 Now you should be able to expand Localizable.Strings under Project Navigator and see separate files for English and German.
 
-![201408071921.jpg](images/201408071921.jpg)
+![201408071921.jpg](/assets/images/201408071921.jpg)
 
 Add the following line in Localizable.Strings (English)
 
@@ -235,24 +235,24 @@ to
 
 NSLocalizedString will lookup for the corresponding entry in Localizable.Strings file for the supplied key. Running the app on iOS simulator should not display the German equivalent for “Good Morning”
 
-![201409302137.jpg](images/2014093021371.jpg)
+![201409302137.jpg](/assets/images/2014093021371.jpg)
 
 ### Internationalization of Images
 
 In the above screenshot, you could see that text in the image is still in English. So we need to add the corresponding image that contains German text and make changes to pick up the entry based on the Application Language. After selecting hello.png in Project navigator, click Localize button under File Inspector. This should provide you with the option to Localize the file in English and German.
 
-![201408071954.jpg](images/201408071954.jpg)
+![201408071954.jpg](/assets/images/201408071954.jpg)
 
 Make sure to tick both English and German under Localization section in File Inspector.
 
-![201408071955.jpg](images/201408071955.jpg)
+![201408071955.jpg](/assets/images/201408071955.jpg)
 
 Open the Project folder in Finder tool and this should contain two folder for the languages de and en.
 
-![201408072004.jpg](images/201408072004.jpg)
+![201408072004.jpg](/assets/images/201408072004.jpg)
 
 Now copy [hello.png](https://github.com/rshankras/Localisation-Demo/blob/master/de.lproj/hello.png) with german text to de.lproj folder. Do a clean build and run the app on iOS simulator with language and region set to German.  
 
-![201409302137.jpg](images/201409302137.jpg)
+![201409302137.jpg](/assets/images/201409302137.jpg)
 
 **Download source code from [GitHub](https://github.com/rshankras/Localisation-Demo.git)**

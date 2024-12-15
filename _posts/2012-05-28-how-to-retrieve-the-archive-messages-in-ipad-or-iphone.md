@@ -14,15 +14,15 @@ This answers the query posted by a reader regarding "How to retrieve the [archiv
 
 **Step 1**: Tap the mail icon on iPad or iPhone.
 
-![201205282221.jpg](images/201205282221.jpg)
+![201205282221.jpg](/assets/images/201205282221.jpg)
 
 **Step 2**: In the Mail App, navigate to Accounts section and tap your Gmail account.
 
-![201205282223.jpg](images/201205282223.jpg)
+![201205282223.jpg](/assets/images/201205282223.jpg)
 
 **Step 3:** The GMail account Mailbox will display a folder named All Mail.
 
-![201205282224.jpg](images/201205282224.jpg)
+![201205282224.jpg](/assets/images/201205282224.jpg)
 
 The All Mail folder would contain all the archived message of GMail account on your iPad on iPhone.  
 

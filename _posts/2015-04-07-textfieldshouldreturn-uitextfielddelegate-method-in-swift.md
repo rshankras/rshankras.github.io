@@ -17,7 +17,7 @@ tags:
 This is a beginners tutorial on UITextFieldDelegate in Swift. We are going to see how to use UITextFieldDelegate by writing a Simple Interest Calculator.
 
   
-![201504071303.jpg](images/201504071303.jpg)
+![201504071303.jpg](/assets/images/201504071303.jpg)
 
 Download the source code from [here](https://github.com/rshankras/SwiftDemo)
 

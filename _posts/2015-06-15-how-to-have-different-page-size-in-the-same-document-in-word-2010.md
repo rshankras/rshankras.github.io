@@ -26,12 +26,12 @@ Word 2013 & Word 2010 allows users to have different page size in the same docum
 
 **Step 3**: Select Page Layout from the menu then click the Breaks option under Page Setup.
 
-[![Insert Page Breaks Word 2010](images/1_image_thumb19.png "Insert Page Breaks Word 2010")](//localhost//Users/ravishankar/Library/Caches/com.blogo.Blogo.nonmas/image19.png)
+[![Insert Page Breaks Word 2010](/assets/images/1_image_thumb19.png "Insert Page Breaks Word 2010")](//localhost//Users/ravishankar/Library/Caches/com.blogo.Blogo.nonmas/image19.png)
 
 **Step 4**: From the drop down, select **Next Page** under Section Breaks.
 
 **Step 5**: After the new page has been inserted, click the **Size** option under Page Setup and select A3 from the list of available page sizes.
 
-[![Change Page Size in Word 2010](images/1_image_thumb20.png "Change Page Size in Word 2010")](http://blogmines.com/blog/wp-content/uploads/2012/06/image20.png)
+[![Change Page Size in Word 2010](/assets/images/1_image_thumb20.png "Change Page Size in Word 2010")](http://blogmines.com/blog/wp-content/uploads/2012/06/image20.png)
 
 By this way Word 2013 and Word 2010 users can have different page sizes in the same document.

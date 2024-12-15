@@ -23,7 +23,7 @@ The easiest one for adjusting the column width is to double click the Column Hea
 
 **Using Mouse Drag and Drop**
 
-[![Mouse Drag and Drop Column Width](images/1_image_thumb10.png "Mouse Drag and Drop Column Width")](http://blogmines.com/blog/wp-content/uploads/2011/06/image10.png)
+[![Mouse Drag and Drop Column Width](/assets/images/1_image_thumb10.png "Mouse Drag and Drop Column Width")](http://blogmines.com/blog/wp-content/uploads/2011/06/image10.png)
 
 Another way for changing the column width is to use mouse drag and drop feature and adjust the cell column width depending upon the requirement.
 
@@ -31,16 +31,16 @@ Another way for changing the column width is to use mouse drag and drop feature 
 
 Excel also provided option for changing the column width by using the **Format** menu option. In the home menu, navigate to **Cells** **section** and click the drop down arrow below the Format menu option.
 
-[![image](images/1_image_thumb11.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image11.png) 
+[![image](/assets/images/1_image_thumb11.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image11.png) 
 
 This would display the following list of available menus.
 
-[![image](images/1_image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image12.png)
+[![image](/assets/images/1_image_thumb12.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image12.png)
 
 To **Change the column width** of the selected cell, select Column Width from the available menus and enter the desired column width for the cell in Column width text box.
 
-[![image](images/1_image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image13.png)
+[![image](/assets/images/1_image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image13.png)
 
 And if you want to change the width for all the columns in the Worksheet then select **Default Width** menu from Format menu option and specify the Standard Width in **Standard column width** text box.
 
-[![image](images/1_image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image14.png)
+[![image](/assets/images/1_image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image14.png)

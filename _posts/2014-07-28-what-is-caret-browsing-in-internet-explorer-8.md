@@ -16,8 +16,8 @@ tags:
 
 You can press **F7** to turn On or Off Caret browsing.
 
-[![Turn on Caret Browsing](images/image_thumb87.png "Turn on Caret Browsing")](http://blogmines.com/blog/wp-content/uploads/2009/07/image87.png)
+[![Turn on Caret Browsing](/assets/images/image_thumb87.png "Turn on Caret Browsing")](http://blogmines.com/blog/wp-content/uploads/2009/07/image87.png)
 
 If you want to **enable Caret browsing** for **new tabs** or new **windows** then Enable Caret Browsing for new windows and tabs check box needs to be selected in **Internet Options** -> **Advanced Tab**.
 
-[![Caret Browsing Internet Option](images/1_image_thumb88.png "Caret Browsing Internet Option")](http://blogmines.com/blog/wp-content/uploads/2009/07/image88.png)
+[![Caret Browsing Internet Option](/assets/images/1_image_thumb88.png "Caret Browsing Internet Option")](http://blogmines.com/blog/wp-content/uploads/2009/07/image88.png)

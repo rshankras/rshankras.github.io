@@ -15,7 +15,7 @@ tags:
 
 In this short tutorial, we will see the steps required for implementing UIGestureRecognizer in Swift programming language. Let us take the previous Stop Watch demo code and **implement tap, double tap and swipe gestures**. You can download source code for Stop Watch from [here](https://github.com/rshankras/SimpleStopDemo.git).
 
-![201407231513.jpg](images/201407231513.jpg)
+![201407231513.jpg](/assets/images/201407231513.jpg)
 
 The following features will be implemented using the UIGestureRecognizer.
 
@@ -29,7 +29,7 @@ The following features will be implemented using the UIGestureRecognizer.
 
 Since we are replacing the buttons with gestures, these buttons can be removed from the View Controller. Navigate to Main.storyboard and select the Start and Stop buttons and delete them. Make sure the timer label is centre aligned both vertically and horizontally. Then click Reset to Suggested Constraints under Resolve Auto Layout Issues option.
 
-![201407231527.jpg](images/201407231527.jpg)
+![201407231527.jpg](/assets/images/201407231527.jpg)
 
 **Write Gestures code**
 
@@ -145,7 +145,7 @@ Try running the project in simulator and check out tap, double tap and swipe ges
 
   
 
-![201407231555.jpg](images/201407231555.jpg)
+![201407231555.jpg](/assets/images/201407231555.jpg)
 
   
 

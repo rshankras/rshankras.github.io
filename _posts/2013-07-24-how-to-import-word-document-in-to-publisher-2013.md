@@ -18,12 +18,12 @@ Microsoft Publisher automatically converts a word document in to Publisher File.
 
 **Step 3**: Click File menu and select Open from the menu list.
 
-[![image](images/image_thumb106.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image106.png)
+[![image](/assets/images/image_thumb106.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image106.png)
 
 **Step 3**: Now locate the word document that needs to imported in to Publisher using the **Open Publishing** window.
 
-[![image](images/image_thumb107.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image107.png)
+[![image](/assets/images/image_thumb107.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image107.png)
 
 On clicking the Open button, Publisher will automatically convert the Word document in to a Publisher file with the following “Publisher is converting the file” message.
 
-[![image](images/image_thumb108.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image108.png)
+[![image](/assets/images/image_thumb108.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/07/image108.png)

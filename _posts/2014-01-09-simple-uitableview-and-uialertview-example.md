@@ -19,25 +19,25 @@ In this article, we are going to see how to create a simple UITableView for disp
 
 Launch Xcode, Click File > New Project and select **Single View Application** as the project template.
 
-![Choose a template for new new project](images/201401091127.jpg)
+![Choose a template for new new project](/assets/images/201401091127.jpg)
 
 Enter the project details for Product Name, Organization Name, Company Identifier and Target device as iPhone.
 
-![201401091129.jpg](images/201401091129.jpg)
+![201401091129.jpg](/assets/images/201401091129.jpg)
 
 Then choose a location on your Mac to save the project.
 
-![201401091131.jpg](images/201401091131.jpg)
+![201401091131.jpg](/assets/images/201401091131.jpg)
 
 Navigate to Main.Storyboard and and delete the ViewController under View Controller Scene. Since we want a TableView, we are going to replace this View Controller with UITableViewController.
 
-![201401091134.jpg](images/201401091134.jpg)
+![201401091134.jpg](/assets/images/201401091134.jpg)
 
 Note :- We could have also used UITableView on top of View Controller but we will keep that for another session.
 
 Now select UITableViewController from the Object library, drag and drop it on to the User Interface.
 
-![201401091141.jpg](images/201401091141.jpg)
+![201401091141.jpg](/assets/images/201401091141.jpg)
 
 Let us see the how to display list of values in the above table.
 
@@ -55,7 +55,7 @@ with
 
 Then use the Identity Inspector and specify the class for TableViewController as ViewController.
 
-![201401091146.jpg](images/201401091146.jpg)
+![201401091146.jpg](/assets/images/201401091146.jpg)
 
 Edit ViewController.m file and add a new instance variable and populate the cities in ViewDidLoad method.
 
@@ -93,7 +93,7 @@ The ViewController will act as a **delegate** and **datasource** for the **UITab
 
   
 
-![201401091202.jpg](images/201401091202.jpg)
+![201401091202.jpg](/assets/images/201401091202.jpg)
 
 The data for the tableview is provided by the following methods and these methods needs to be implemented in ViewController.m.
 
@@ -149,7 +149,7 @@ Now if you build and run the project, you should see a table with list of cities
 
   
 
-![201401091307.jpg](images/201401091307.jpg)
+![201401091307.jpg](/assets/images/201401091307.jpg)
 
   
 
@@ -181,7 +181,7 @@ The above code first retrieves the city name from cities array object using the 
 
   
 
-![UITableView showing UIAlertView](images/201401091326.jpg)
+![UITableView showing UIAlertView](/assets/images/201401091326.jpg)
 
   
 

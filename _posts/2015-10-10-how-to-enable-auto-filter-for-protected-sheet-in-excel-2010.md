@@ -29,20 +29,20 @@ Click the Protect Sheet option available under Review menu or Info menu.
 
 Click Review menu –> Changes –> Protect Sheet
 
-[![Review menu - Protect Sheet](images/3_image_thumb16.png "Review menu - Protect Sheet")](http://blogmines.com/blog/wp-content/uploads/2012/01/image16.png)
+[![Review menu - Protect Sheet](/assets/images/3_image_thumb16.png "Review menu - Protect Sheet")](http://blogmines.com/blog/wp-content/uploads/2012/01/image16.png)
 
 ### Info Menu
 
 Click File menu –> Info menu –> Protect Workbook –> Protect Current Sheet.
 
-[![Info Menu - Protect Sheet](images/2_image_thumb17.png "Info Menu - Protect Sheet")](http://blogmines.com/blog/wp-content/uploads/2012/01/image17.png)
+[![Info Menu - Protect Sheet](/assets/images/2_image_thumb17.png "Info Menu - Protect Sheet")](http://blogmines.com/blog/wp-content/uploads/2012/01/image17.png)
 
 On clicking the **Protect Sheet** option would display the following Protect Sheet window.
 
-[![Protect Sheet Excel 2010](images/1_image_thumb18.png "Protect Sheet Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2012/01/image18.png)
+[![Protect Sheet Excel 2010](/assets/images/1_image_thumb18.png "Protect Sheet Excel 2010")](http://blogmines.com/blog/wp-content/uploads/2012/01/image18.png)
 
 Scroll down the “Allow all users of this worksheet to” list and make sure to tick the check box with caption as “Use AutoFilter”. Click OK button to confirm and save the changes.
 
 Now excel users will be able to use the auto filter option even in a protected worksheet.
 
-[![Protected Sheet with auto filter](images/1_image_thumb19.png "Protected Sheet with auto filter")](http://blogmines.com/blog/wp-content/uploads/2012/01/image19.png)
+[![Protected Sheet with auto filter](/assets/images/1_image_thumb19.png "Protected Sheet with auto filter")](http://blogmines.com/blog/wp-content/uploads/2012/01/image19.png)

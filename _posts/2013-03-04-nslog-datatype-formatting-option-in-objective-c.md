@@ -13,7 +13,7 @@ tags:
   - "objective-c"
 ---
 
-![201303040743.jpg](images/201303040743.jpg)
+![201303040743.jpg](/assets/images/201303040743.jpg)
 
 NSLog in Objective-C is function call that is useful during debugging of a program. A typical NSLog example is
 

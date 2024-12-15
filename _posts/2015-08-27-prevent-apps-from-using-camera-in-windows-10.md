@@ -14,14 +14,14 @@ Apps installed on Windows 10 will by default have access to system camera. Windo
 
 **Step 1**: Click Windows or Start button and select Settings from the menu list.
 
-[![image](images/image_thumb18.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image18.png)
+[![image](/assets/images/image_thumb18.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image18.png)
 
 **Step 2**: In the Settings screen, click Privacy option.
 
-[![image](images/image_thumb19.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image19.png)
+[![image](/assets/images/image_thumb19.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image19.png)
 
 **Step 3**: Navigate to Camera section under **Privacy settings**.
 
-[![image](images/image_thumb20.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image20.png)
+[![image](/assets/images/image_thumb20.png "image")](http://blogmines.com/blog/wp-content/uploads/2015/08/image20.png)
 
 Now to prevent all apps from using the Camera, turn off the switch with label as “Let apps use my camera”. And to **prevent specific app from using the camera**, choose the apps under “Choose apps that can use your camera” section and turn off the switch.

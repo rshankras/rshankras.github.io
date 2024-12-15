@@ -10,13 +10,13 @@ tags:
 
 This is not related with iOS development but I have deployed the backend service for my iOS app on Google App Engine. This is about the steps for resolving the “JRE version is 1.6.0 1.7.0 or later is needed to run Google Plugin for Eclipse”.
 
-![201403191857.jpg](images/201403191857.jpg)  
+![201403191857.jpg](/assets/images/201403191857.jpg)  
 
 1\. Download the latest JDK from oracle website - [http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html).  
 
 2\. For some reason the JDK installation folder on Mac was still referring to Java 1.6 and had to install this fix to get 1.7 folder - [http://support.apple.com/kb/dl1572](http://support.apple.com/kb/dl1572)
 
-![201403191904.jpg](images/201403191904.jpg)
+![201403191904.jpg](/assets/images/201403191904.jpg)
 
 3\. Then install the latest Google App Engine eclipse plugin using the **Check for Updates** on Eclipse.
 

@@ -18,7 +18,7 @@ tags:
   - "workbook"
 ---
 
-[![recycle files  folder](images/AutoRecover_thumb.jpg "recycle files  folder")](http://blogmines.com/blog/wp-content/uploads/2011/07/AutoRecover.jpg)
+[![recycle files  folder](/assets/images/AutoRecover_thumb.jpg "recycle files  folder")](http://blogmines.com/blog/wp-content/uploads/2011/07/AutoRecover.jpg)
 
 This tutorial explains the **auto recover** feature available in **Excel 2013 and Excel 2010**. The auto recover feature regularly takes a **backup** of the **workbook** and stores it in a pre defined location. This feature is useful if Excel suddenly crashes and you want to recover the working copy.
 
@@ -26,7 +26,7 @@ This tutorial explains the **auto recover** feature available in **Excel 2013 an
 
 A document recovery pane will be displayed on the left hand side of the Excel worksheet when excel is opened after a crash.This would contain the workbook(s) which were kept open during the crash.
 
-[![image](images/image_thumb227.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image227.png)
+[![image](/assets/images/image_thumb227.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image227.png)
 
 If you want to recover any of the displayed workbook, then select the required file from the available files list.
 
@@ -34,7 +34,7 @@ If you want to recover any of the displayed workbook, then select the required f
 
 You can **specify** the **path** for **auto recovery** feature using Save workbooks Options. Click the File menu then Options link and then navigate to the Save tab.
 
-[![image](images/image_thumb228.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image228.png)
+[![image](/assets/images/image_thumb228.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image228.png)
 
 Again navigate to the Save workbooks section in **Save Options** screen. Using AutoRecover file location you can specify the path for **automatic backup**.
 
@@ -46,7 +46,7 @@ Using **Save AutoRecover** information spinner field you can increase or decreas
 
 We have seen the importance of AutoRecovery feature in Excel and by default this is enabled. But Excel also provides option for disabling this feature.
 
-[![image](images/image_thumb229.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image229.png)
+[![image](/assets/images/image_thumb229.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image229.png)
 
 You can disable this by navigating to **AutoRecover exceptions** section then un tick the checkbox with label as **Disable AutoRecover for this workbook only**.
 

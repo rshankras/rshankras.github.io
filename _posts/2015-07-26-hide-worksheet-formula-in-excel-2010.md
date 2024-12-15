@@ -20,26 +20,26 @@ tags:
 
 Let us say you want to hide the formula (=SUM(F5:F8)) which has been used in the bellow example.
 
-[![image](images/image_thumb157.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image158.png)
+[![image](/assets/images/image_thumb157.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image158.png)
 
 Select the cell where the formula has been entered and navigate to **Format** menu and click the **Format Cell** menu option (You can also right click and select Format Cell in the Context menu).
 
 In the Format Cell window, navigate to **Protection** tab and tick the checkbox with Label as **Hidden**. Click the Ok button to save the changes.
 
-[![image](images/image_thumb158.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image159.png)
+[![image](/assets/images/image_thumb158.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image159.png)
 
 Then right click on the Sheet and select **Protect Sheet** from the list of available menu option.
 
-[![image](images/image_thumb159.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image160.png)
+[![image](/assets/images/image_thumb159.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image160.png)
 
 In the Protect Sheet window, tick the check box with label as Protect worksheet and contents of locked cells.
 
-[![image](images/image_thumb160.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image161.png)
+[![image](/assets/images/image_thumb160.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image161.png)
 
 If you want to just **hide formula** then it is not needed to password protect the sheet. Click Ok button to save the changes.
 
 Now when you navigate to the Formula Cell, the formula bar will not displayed any information.
 
-[![image](images/image_thumb161.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image162.png)
+[![image](/assets/images/image_thumb161.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image162.png)
 
 Bu this you can prevent excel users from seeing formula used in the worksheet.

@@ -16,11 +16,11 @@ We had seen the steps for [adding notes in PowerPoint](http://blogmines.com/blog
 
 Click File menu and then the Print menu option.
 
-[![Print notes PowerPoint 2010](images/1_image_thumb28.png "Print notes PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image28.png)
+[![Print notes PowerPoint 2010](/assets/images/1_image_thumb28.png "Print notes PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image28.png)
 
 In the Print screen, navigate to Settings section then option with the arrow pointing downwards and label as Full Page Slides.
 
-[![Print layout PowerPoint 2010](images/1_image_thumb29.png "Print layout PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image29.png)
+[![Print layout PowerPoint 2010](/assets/images/1_image_thumb29.png "Print layout PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image29.png)
 
 By selecting **Notes Pages for Print Layout** will print only the notes added for the slides.
 
@@ -30,6 +30,6 @@ If you want to change the **default Print Layout** for the presentation to **Not
 
 Click File menu then Options link and in the Options window navigate to Advanced option.
 
-[![default print option in PowerPoint 2010](images/image_thumb30.png "default print option in PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image30.png)
+[![default print option in PowerPoint 2010](/assets/images/image_thumb30.png "default print option in PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2011/10/image30.png)
 
 Scroll down to “When printing this document” section and select the radio option **Use the following print settings** and set the value for Print what to **Notes**. Click Ok button to confirm and save the changes.

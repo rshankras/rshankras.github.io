@@ -17,20 +17,20 @@ This tutorial is about the steps required to [add background colour or picture](
 
 **Step 2**: In the Layout option, navigate to Page Background section and click the Colors option.
 
-![201306011549.jpg](images/201306011549.jpg)
+![201306011549.jpg](/assets/images/201306011549.jpg)
 
 **Step 3**: The Color drop down will provide different option for changing colours, setting fill effects. The default page background is set to No Fill. If you are looking for other colours other than the theme colours or Standard Colours then click the More Colours option.
 
-![201306011552.jpg](images/201306011552.jpg)
+![201306011552.jpg](/assets/images/201306011552.jpg)
 
 You can choose from Color Wheel, Color Sliders, Color Palettes, Image Palettes and Crayons.
 
 **Step 4:** If you are interested set Patterns or select an image as background then click The Fill effects option.
 
-![201306011555.jpg](images/201306011555.jpg)
+![201306011555.jpg](/assets/images/201306011555.jpg)
 
 You can go for Gradient, Texture, Pattern or set background image.
 
-![201306011557.jpg](images/201306011557.jpg)
+![201306011557.jpg](/assets/images/201306011557.jpg)
 
 If you want to set background image for a paragraph instead whole document then select the paragraph and repeat the above steps.

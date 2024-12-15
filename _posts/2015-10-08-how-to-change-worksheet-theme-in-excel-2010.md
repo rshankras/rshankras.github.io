@@ -20,7 +20,7 @@ In this short tutorial we will be seeing how to **change theme of worksheet** in
 
 Navigate to Page Layout and click the Themes menu option under Themes section. The themes option allows users to **change the overall design** of the worksheet including **fonts**, **colors** and **effects**.
 
-[![image](images/image_thumb158.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image158.png)
+[![image](/assets/images/image_thumb158.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image158.png)
 
 From the Themes drop down, you can pick any theme from the built-in list. If you want to look for more themes then you can download themes from office.com and select it using the **Browse For themes** option. Excel 2010 also provides option to save the current theme for future re-use.
 

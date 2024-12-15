@@ -77,7 +77,7 @@ reverseStr = character + reverseStr
 
   
   
-![Reverse a String in Swift Programming language](images/201407021453.jpg)  
+![Reverse a String in Swift Programming language](/assets/images/201407021453.jpg)  
 This code snippet demonstrates the following.
 
 - How to assign a value to variable.

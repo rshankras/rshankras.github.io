@@ -23,11 +23,11 @@ We had already seen about [creating email templates](http://blogmines.com/blog/2
 
 You can create **AutoText** **templates** for the text which gets used very often when you are writing an email in Outlook. For example, if you send lot of emails to your subscribers then you can add some thing like “Dear readers” as a AutoText entry. This can be done by typing Dear readers in New Message window, then press **Alt + F3** after selecting the text. This would display the following **Create New Building Block** window.
 
-[![Create New Building Block](images/image_thumb89.png "Create New Building Block")](http://blogmines.com/blog/wp-content/uploads/2011/12/image89.png)
+[![Create New Building Block](/assets/images/image_thumb89.png "Create New Building Block")](http://blogmines.com/blog/wp-content/uploads/2011/12/image89.png)
 
 You can provide a description for your new entry and click Ok button. Now when you start typing first few letters of “Dear Readers”, Outlook will start highlighting the AutoText entry as shown below.
 
-[![Example AutoText Entry](images/image_thumb90.png "Example AutoText Entry")](http://blogmines.com/blog/wp-content/uploads/2011/12/image90.png)
+[![Example AutoText Entry](/assets/images/image_thumb90.png "Example AutoText Entry")](http://blogmines.com/blog/wp-content/uploads/2011/12/image90.png)
 
 On Pressing Enter key, “Dear Readers” will be automatically populated in the message window.
 
@@ -35,10 +35,10 @@ On Pressing Enter key, “Dear Readers” will be automatically populated in the
 
 Users of Outlook can **manage AutoText entries** by using option available as part of Insert menu. Click the Insert menu in New Message window, then **Quick Parts** –> AutoText. Right clicking on the AutoText entries will display menu list with Organize and Delete option.
 
-[![Organize and Delete ](images/image_thumb91.png "Organize and Delete ")](http://blogmines.com/blog/wp-content/uploads/2011/12/image91.png)
+[![Organize and Delete ](/assets/images/image_thumb91.png "Organize and Delete ")](http://blogmines.com/blog/wp-content/uploads/2011/12/image91.png)
 
  
 
 Using the **Building Blocks Organizer**, users can Edit, Delete and Insert AutoText entries in Outlook 2010.
 
-[![Building Blocks Organizer](images/image_thumb92.png "Building Blocks Organizer")](http://blogmines.com/blog/wp-content/uploads/2011/12/image92.png)
+[![Building Blocks Organizer](/assets/images/image_thumb92.png "Building Blocks Organizer")](http://blogmines.com/blog/wp-content/uploads/2011/12/image92.png)

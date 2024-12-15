@@ -17,7 +17,7 @@ In this tutorial let us see the steps required to block websites in Jio broadban
 
 - Enter admin as the username and the required password. This should display the following admin screen.
 
-![Jio broadband](images/Screenshot-2022-11-26-at-12.48.41-PM-1024x421.png)
+![Jio broadband](/assets/images/Screenshot-2022-11-26-at-12.48.41-PM-1024x421.png)
 
 - Let us say you want block websites like discord or Instagram. Then click the 'Security' option on the left hand side and select 'Content Filtering'
 

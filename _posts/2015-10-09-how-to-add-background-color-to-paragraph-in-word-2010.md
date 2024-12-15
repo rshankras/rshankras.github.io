@@ -18,13 +18,13 @@ In this short tutorial we are going to see **how to add background color** to te
 
 - Select the paragraph and navigate to Paragraph section under Home menu.
 
-[![image](images/image_thumb166.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image166.png)
+[![image](/assets/images/image_thumb166.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image166.png)
 
 - Click the arrow pointing downwards with paint icon.
 
-[![image](images/image_thumb167.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image167.png)
+[![image](/assets/images/image_thumb167.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image167.png)
 
 - Now pick the desired color under Theme Colors or Standard Colors. You could immediately see the preview of the color shading effect for the selected Paragraph.
 - If you want to **add background shading** with custom color then click More Colors option and define your colors under Custom tab.
 
-[![image](images/image_thumb168.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image168.png)
+[![image](/assets/images/image_thumb168.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/12/image168.png)

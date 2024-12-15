@@ -13,7 +13,7 @@ tags:
 
 Let us see how to use motion and touch event in iOS by looking through a simple project that displays random number. This project displays random number on a label for a touch and motion event. Check out [this](https://developer.apple.com/library/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009541-CH1-SW1) link for more about events in iOS
 
-![201404291450.jpg](images/201404291450.jpg)
+![201404291450.jpg](/assets/images/201404291450.jpg)
 
 After creating a single view application, add a new class that contains the method for generating random. If you do not want to add new class just for a single method then you can add the method as part of your ViewController class itself. arc4random\_uniform accepts a seed value (90) and generated number will be below this seed value.
 
@@ -57,7 +57,7 @@ self.displayRandomNumber.text \= \[NSString stringWithFormat:@"%d",\[randomNumbe
 
 And to test this on Simulator, use the Shake Gesture menu under Hardware to simulate motion event.
 
-![201404291717.jpg](images/201404291717.jpg)
+![201404291717.jpg](/assets/images/201404291717.jpg)
 
 **Touch Event**
 

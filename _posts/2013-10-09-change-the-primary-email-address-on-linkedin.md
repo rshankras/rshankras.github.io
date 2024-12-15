@@ -15,7 +15,7 @@ In this article we are going to see the steps required for changing the **primar
 
 **Step 2**: Navigate to top right corner and click **Account & Settings** option.
 
-![LinkedIn Account & Settings](images/linkedin_account_settings.jpg)
+![LinkedIn Account & Settings](/assets/images/linkedin_account_settings.jpg)
 
 **Step 3**: In the Account & Settings drop down, select **Privacy & Settings** option.
 
@@ -23,11 +23,11 @@ In this article we are going to see the steps required for changing the **primar
 
 **Step 5**: Click **Change/Add** option available next to **Primary Email**.
 
-![Change Primary Email address](images/201310091150.jpg)
+![Change Primary Email address](/assets/images/201310091150.jpg)
 
 **Step 6**: In the **Add & change email addresses** screen, enter the new email address and click Add email address button.
 
-![Add and Change email addresses on LinkedIn](images/primary_email_address.jpg)
+![Add and Change email addresses on LinkedIn](/assets/images/primary_email_address.jpg)
 
 Then navigate to "**CHOOSE YOUR PRIMARY EMAIL ADDRESS**" section and click **Make primary** link to make the new email address as the primary email address for your LinkedIn account.
 

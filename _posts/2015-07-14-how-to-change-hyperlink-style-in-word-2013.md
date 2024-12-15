@@ -20,22 +20,22 @@ We had covered earlier about the steps required for adding [hyperlink](http://bl
 
 **Step 2**: Click the Styles option available under Home menu.
 
-[![Word 2013 Styles](images/image_thumb35.png "Word 2013 Styles")](http://blogmines.com/blog/wp-content/uploads/2013/05/image34.png)
+[![Word 2013 Styles](/assets/images/image_thumb35.png "Word 2013 Styles")](http://blogmines.com/blog/wp-content/uploads/2013/05/image34.png)
 
 **Step 3**: Navigate to Hyperlink in Styles list then select Modify option from the drop down.
 
-[![Modify Hyperlink Style](images/image_thumb36.png "Modify Hyperlink Style")](http://blogmines.com/blog/wp-content/uploads/2013/05/image35.png)
+[![Modify Hyperlink Style](/assets/images/image_thumb36.png "Modify Hyperlink Style")](http://blogmines.com/blog/wp-content/uploads/2013/05/image35.png)
 
 **Step 4**: Now if you want to the change the font used for Hyperlink then click the dropdown under Formatting section and select a suitable font. Similarly you can change Font size, Font Style and Colour.
 
-[![Modify Style](images/image_thumb37.png "Modify Style")](http://blogmines.com/blog/wp-content/uploads/2013/05/image36.png)
+[![Modify Style](/assets/images/image_thumb37.png "Modify Style")](http://blogmines.com/blog/wp-content/uploads/2013/05/image36.png)
 
 **Changing Hyperlink Font**
 
-[![Modify Hyperlink Font](images/image_thumb38.png "Modify Hyperlink Font")](http://blogmines.com/blog/wp-content/uploads/2013/05/image37.png)
+[![Modify Hyperlink Font](/assets/images/image_thumb38.png "Modify Hyperlink Font")](http://blogmines.com/blog/wp-content/uploads/2013/05/image37.png)
 
  **Changing Hyperlink Colour**
 
-[![Modify Hyperlink Colour](images/image_thumb39.png "Modify Hyperlink Colour")](http://blogmines.com/blog/wp-content/uploads/2013/05/image38.png)
+[![Modify Hyperlink Colour](/assets/images/image_thumb39.png "Modify Hyperlink Colour")](http://blogmines.com/blog/wp-content/uploads/2013/05/image38.png)
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/EvsFCi61Mqw" frameborder="0" allowfullscreen></iframe>

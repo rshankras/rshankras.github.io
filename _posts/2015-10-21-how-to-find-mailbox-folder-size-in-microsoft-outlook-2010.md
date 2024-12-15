@@ -32,29 +32,29 @@ These steps has to be followed either weekly or monthly or quarterly depending u
 
 **Step 1**: Click the File menu and select Info from the menu list.
 
-[![Cleanup Tools in Outlook 2013](images/image_thumb41.png "Cleanup Tools in Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2013/04/image43.png)
+[![Cleanup Tools in Outlook 2013](/assets/images/image_thumb41.png "Cleanup Tools in Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2013/04/image43.png)
 
 **Step 2**: Click the **Cleanup Tools** option under Mailbox Cleanup section in Account Information screen.
 
-[![Mailbox Cleanup in Outlook 2010 and Outlook 2013](images/image_thumb42.png "Mailbox Cleanup in Outlook 2010 and Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2013/04/image44.png)
+[![Mailbox Cleanup in Outlook 2010 and Outlook 2013](/assets/images/image_thumb42.png "Mailbox Cleanup in Outlook 2010 and Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2013/04/image44.png)
 
 **Step 3**: Select Mailbox Cleanup from the Cleanup Tools dropdown list.
 
-[![Mailbox Cleanup](images/image_thumb43.png "Mailbox Cleanup")](http://blogmines.com/blog/wp-content/uploads/2013/04/image45.png)
+[![Mailbox Cleanup](/assets/images/image_thumb43.png "Mailbox Cleanup")](http://blogmines.com/blog/wp-content/uploads/2013/04/image45.png)
 
 **Step 4**: In the Mailbox Cleanup window, click the **View Mailbox Size** option. This would display the following Folder Size window, with the Total Size including the Size of subfolders.
 
-[![Folder Size in Outlook](images/image_thumb44.png "Folder Size in Outlook")](http://blogmines.com/blog/wp-content/uploads/2013/04/image46.png)
+[![Folder Size in Outlook](/assets/images/image_thumb44.png "Folder Size in Outlook")](http://blogmines.com/blog/wp-content/uploads/2013/04/image46.png)
 
 ### Outlook 2010
 
 Outlook 2010 users need to follow the above Step 1 and Step 2. Only the mailbox cleanup window in Outlook 2010 is different from that of Outlook 2013.
 
-[![Mailbox Cleanup in Outlook 2010](images/image_thumb80.png "Mailbox Cleanup in Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/02/image80.png)
+[![Mailbox Cleanup in Outlook 2010](/assets/images/image_thumb80.png "Mailbox Cleanup in Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/02/image80.png)
 
 Clicking on **View Mailbox Size** button will display the Folder size of your Outlook Mailbox.
 
-[![Folder Size in Outlook 2010](images/image_thumb81.png "Folder Size in Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/02/image81.png)
+[![Folder Size in Outlook 2010](/assets/images/image_thumb81.png "Folder Size in Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2010/02/image81.png)
 
 Demo Video - **How to find mailbox size in Outlook 2010**
 
@@ -66,7 +66,7 @@ Demo Video - **How to find mailbox size in Outlook 2010**
 
 Mailbox Cleanup in Outlook 2007 can be accessed via the Tools menu.
 
-[![Mailbox Cleanup in Outlook 2007](images/image-thumb10.png "Mailbox Cleanup in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/04/image10.png)
+[![Mailbox Cleanup in Outlook 2007](/assets/images/image-thumb10.png "Mailbox Cleanup in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/04/image10.png)
 
 This provides various option such as **View Mailbox Size**, finding items based on date and size, **Auto Archive** option, **Empty Deleted Item** and **View Conflicts Size**
 

@@ -23,7 +23,7 @@ This article provides details about the the steps required to retrieve the follo
 
 Download the source code from [here](https://github.com/rshankras/SwiftDemo).
 
-![201504202245.jpg](images/201504202245.jpg)
+![201504202245.jpg](/assets/images/201504202245.jpg)
 
 ### Consumer Key and Consumer Secret
 

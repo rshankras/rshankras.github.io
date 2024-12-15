@@ -11,7 +11,7 @@ tags:
   - "program"
 ---
 
-![Fotolia_29238788_XS.jpg](images/Fotolia_29238788_XS.jpg)
+![Fotolia_29238788_XS.jpg](/assets/images/Fotolia_29238788_XS.jpg)
 
 We have already seen couple of examples in Objective-C like writing your [first program in Objective-C](https://rshankar.com/2012/01/11/my-fiirst-program-in-objective-c-using-xcode/) and [adding Objective-C classes](https://rshankar.com/2012/01/13/basic-tutorial-adding-objetive-c-in-xcode/). Now let us try and analyze the code to learn basic coding on Objective-C program.
 

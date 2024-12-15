@@ -22,34 +22,34 @@ Let us see how this can be done in Windows 8 installed with Word 2013.
 
 **Step 1**: Navigate to Windows 8 Desktop.
 
-[![image](images/9_image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image.png)
+[![image](/assets/images/9_image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image.png)
 
 **Step 2**: Launch Windows explorer from the Taskbar and navigate to the location of the word file.
 
 Step 3: Right click on the file, select Desktop (create shortcut) under Send to option.
 
-[![image](images/6_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image1.png)
+[![image](/assets/images/6_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image1.png)
 
 This should **create a shortcut for the word document** on your desktop.
 
-[![image](images/3_image_thumb2.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image2.png)
+[![image](/assets/images/3_image_thumb2.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image2.png)
 
 **Method 2**
 
 **Step 1**: Navigate to desktop, right click, select Shortcut under New menu.
 
-[![image](images/3_image_thumb3.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image3.png)
+[![image](/assets/images/3_image_thumb3.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image3.png)
 
 **Step 2**: Click the Browse button in Create Shortcut window and locate the word document.
 
-[![image](images/3_image_thumb4.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image4.png)
+[![image](/assets/images/3_image_thumb4.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image4.png)
 
-[![image](images/4_image_thumb5.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image5.png)
+[![image](/assets/images/4_image_thumb5.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image5.png)
 
-[![image](images/4_image_thumb6.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image6.png)
+[![image](/assets/images/4_image_thumb6.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image6.png)
 
 **Step 3**: Then click Next and provide a name for your shortcut.
 
-[![image](images/3_image_thumb7.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image7.png)
+[![image](/assets/images/3_image_thumb7.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/08/image7.png)
 
 **Step 4**: Then click Finish to create the shortcut on the desktop.

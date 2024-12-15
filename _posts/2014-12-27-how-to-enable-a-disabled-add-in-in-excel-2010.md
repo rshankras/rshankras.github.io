@@ -20,8 +20,8 @@ Office products such as Word, Excel Outlook will automatically disable **install
 
 Click the File menu –> Options link –> Navigate to Add-Ins options.
 
-[![Excel 2010 Add-ins](images/image_thumb88.png "Excel 2010 Add-ins")](http://blogmines.com/blog/wp-content/uploads/2010/08/image90.png)
+[![Excel 2010 Add-ins](/assets/images/image_thumb88.png "Excel 2010 Add-ins")](http://blogmines.com/blog/wp-content/uploads/2010/08/image90.png)
 
 Select **Disabled Items** in the **Manage** dropdown and click the **Go** button. This would display the following Disabled Items window using which you can see and also **re-enable the disabled add-in**. You can select the ones you wish to re-enable and click the Enable button.
 
-[![image](images/image_thumb89.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/08/image91.png)
+[![image](/assets/images/image_thumb89.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/08/image91.png)

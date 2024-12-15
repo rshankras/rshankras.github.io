@@ -17,21 +17,21 @@ Windows 8 allows user to **display photos** in the system as **screensaver** usi
 
 **Step 1**: Click the Personalisation option under the Windows 8 settings.
 
-[![image](images/image_thumb360.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image14.png)
+[![image](/assets/images/image_thumb360.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image14.png)
 
 You can also launch Personalisation window by right clicking on the desktop.
 
 **Step 2**: In the Personalisation window, click the **Screen Saver** option available at the bottom of the window.
 
-[![image](images/image_thumb368.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image15.png)
+[![image](/assets/images/image_thumb368.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image15.png)
 
 **Step 3**: In the Screen Saver Settings, set Photo Gallery for the Screen saver drop down.
 
-[![image](images/image_thumb369.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image16.png)
+[![image](/assets/images/image_thumb369.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image16.png)
 
 If you want to customize the display of Photo Gallery then click the Settings button.
 
-[![image](images/image_thumb370.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image17.png)
+[![image](/assets/images/image_thumb370.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image17.png)
 
 Using Photos Gallery Screen Saver Settings window, you can specify whether all photos and videos Photo Gallery or photos and videos from specified folder needs to be used. Also options are available to set the theme and and slide show speed for the display of screen saver.
 
@@ -41,6 +41,6 @@ Using Photos Gallery Screen Saver Settings window, you can specify whether all p
 
 Windows 8 users can specify Photos from specific folder for Screen Saver instead of Photos Gallery.
 
-[![image](images/image_thumb380.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image18.png)
+[![image](/assets/images/image_thumb380.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image18.png)
 
 Using the Photos Screen Saver Settings, you can specify the folder containing the pictures and Speed of the Slide Show.

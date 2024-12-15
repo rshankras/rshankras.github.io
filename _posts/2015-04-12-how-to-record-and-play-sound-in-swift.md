@@ -20,7 +20,7 @@ Download source code from [github](https://github.com/rshankras/SwiftDemo) (Soun
 
 The user interface for this demo is simple with two buttons, one for recording and another for playing sound.
 
-![201504121626.jpg](images/201504121626.jpg)
+![201504121626.jpg](/assets/images/201504121626.jpg)
 
 Create corresponding IBAction and IBOutlets from the two button in the View Controller.
 

@@ -20,16 +20,16 @@ This tutorial is about the steps required to add “Resend This Message” and �
 
 **Step 2**: Open any sent message and navigate to Move section.
 
-[![Actions Outlook 2013 Sent Message](images/1_image_thumb76.png "Actions Outlook 2013 Sent Message")](http://blogmines.com/blog/wp-content/uploads/2013/06/image74.png)
+[![Actions Outlook 2013 Sent Message](/assets/images/1_image_thumb76.png "Actions Outlook 2013 Sent Message")](http://blogmines.com/blog/wp-content/uploads/2013/06/image74.png)
 
 **Step 3**: Click the Action drop down menu and Right click on Resend This Message menu option and select Add to Quick Access Toolbar from the right click menu list.
 
-[![image](images/1_image_thumb77.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image75.png)
+[![image](/assets/images/1_image_thumb77.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image75.png)
 
 This should add **Resend This Message to Quick Access Toolbar** in Outlook 2013.
 
-[![image](images/image_thumb78.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image76.png)
+[![image](/assets/images/image_thumb78.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image76.png)
 
 **Step 4**: Repeat the above step and choose Recall This Message from the Action dropdown for adding it to the Quick Access Toolbar.
 
-[![image](images/image_thumb79.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image77.png)
+[![image](/assets/images/image_thumb79.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/06/image77.png)

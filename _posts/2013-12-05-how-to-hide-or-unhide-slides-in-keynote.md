@@ -21,13 +21,13 @@ Step 1: Launch the Keynote app with the presentation.
 
 **Step 2**: Navigate to the slide that needs to be hidden.
 
-![201312051505.jpg](images/201312051505.jpg)
+![201312051505.jpg](/assets/images/201312051505.jpg)
 
 The above screenshot shows the presentation in Navigator View.
 
 **Step 3**: Right click on the slide and select **Skip Slide** option. This should hide the slide from the presentation and you will notice a separator indicating the slide has been hidden.
 
-![201312051510.jpg](images/201312051510.jpg)
+![201312051510.jpg](/assets/images/201312051510.jpg)
 
 If you want to hide more than one slides then select all those slides, right click and choose Skip Slide.  
 
@@ -37,6 +37,6 @@ If you want to hide more than one slides then select all those slides, right cli
 
 **Step 2**: Right click on the separator and choose “**Don’t Skip Slide**” from the menu option.
 
-![201312051512.jpg](images/201312051512.jpg)
+![201312051512.jpg](/assets/images/201312051512.jpg)
 
 Now you should be able to see the **hidden slide** in **Keynote**.

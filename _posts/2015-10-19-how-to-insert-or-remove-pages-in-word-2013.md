@@ -30,7 +30,7 @@ There are different ways of inserting new page in Word document such as
 
 Navigate to Insert menu and click the Black Page option under Pages section.
 
-[![image](images/image_thumb390.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image19.png)
+[![image](/assets/images/image_thumb390.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image19.png)
 
 When you want quickly insert multiple blank pages then you can use this option.
 
@@ -38,7 +38,7 @@ When you want quickly insert multiple blank pages then you can use this option.
 
 If you want to create a new page with the existing content then click the Page Break option under the Pages section.
 
-[![image](images/image_thumb396.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image20.png)
+[![image](/assets/images/image_thumb396.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image20.png)
 
   
 The most easiest way to add new page is by pressing the Enter key on the Keyboard at the bottom of an existing page.  
@@ -51,4 +51,4 @@ Users can remove an empty or blank pages in Word document by
 - Pressing the Delete key on the Keyboard from the end of the page after which the pages needs to be removed.
 - Use the Show paragraph marker then press the Delete key on the Keyboard
 
-[![image](images/image_thumb397.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image21.png)
+[![image](/assets/images/image_thumb397.png "image")](http://blogmines.com/blog/wp-content/uploads/2013/02/image21.png)

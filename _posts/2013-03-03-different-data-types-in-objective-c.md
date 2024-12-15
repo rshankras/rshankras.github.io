@@ -17,7 +17,7 @@ Objective-C like any other programming languages has different data types like i
 
 char flag = '1'
 
-![201303031336.jpg](images/201303031336.jpg)
+![201303031336.jpg](/assets/images/201303031336.jpg)
 
 **Data type - char**
 

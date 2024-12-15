@@ -20,9 +20,9 @@ This is in continuation of the [Test Driven Development in iOS - Beginners tutor
 
 Let us create a new Test case class for testing the user interface, AddTwoNumberViewControllerTests.m
 
-![201404141732.jpg](images/201404141732.jpg)
+![201404141732.jpg](/assets/images/201404141732.jpg)
 
-![201404141743.jpg](images/201404141743.jpg)
+![201404141743.jpg](/assets/images/201404141743.jpg)
 
 The first test written is for checking the App Delegate call, storyboard, view controller and view.
 
@@ -46,15 +46,15 @@ The following needs to be done for passing this test.
 
 1\. Add new Objective-C class, subclass of UIViewController (RSViewController).  
 
-![201404141858.jpg](images/201404141858.jpg)  
+![201404141858.jpg](/assets/images/201404141858.jpg)  
 
 2\. Add a Storyboard file to your project which would contain the ViewController required for this app.
 
-![201404142108.jpg](images/201404142108.jpg)
+![201404142108.jpg](/assets/images/201404142108.jpg)
 
 3\. Drag and drop, UIViewController on the storyboard and set the class name for the ViewController as RSViewController and StoryboardID as RSViewViewController.
 
-![201404142114.jpg](images/201404142114.jpg)
+![201404142114.jpg](/assets/images/201404142114.jpg)
 
 4\. Now add the code required in App Delegate’s didFinishLaunchingWithOptions method. This should load the storyboard then instantiate the view controller and set it as RootViewController.
 
@@ -81,7 +81,7 @@ return YES;
 A lot has been added to just pass a single test case, probably this can be broken up by writing some more tests.  
 
   
-![201404142126.jpg](images/201404142126.jpg)
+![201404142126.jpg](/assets/images/201404142126.jpg)
 
 Next add the test for checking the FirstNumber UITextField connection.
 
@@ -139,10 +139,10 @@ Then add UITextField to the ViewController and make the connection to UITextFiel
 
   
 
-![201404142141.jpg](images/201404142141.jpg)
+![201404142141.jpg](/assets/images/201404142141.jpg)
 
   
-![201404142152.jpg](images/201404142152.jpg)
+![201404142152.jpg](/assets/images/201404142152.jpg)
 
   
 
@@ -182,7 +182,7 @@ XCTAssertNotNil(\[viewController resultTextField\], @"resultTextField should be 
 
   
   
-![201404142205.jpg](images/201404142205.jpg)  
+![201404142205.jpg](/assets/images/201404142205.jpg)  
 Before we move on to the Button test cases, let us refactor the test cases code and remove the duplication of code. The common code has been moved to setup method and now the test cases should loo lot simpler.  
 
 @implementation AddTwoNumberViewControllerTests
@@ -273,7 +273,7 @@ And to pass the above test, add button to ViewController, create a addButton IBO
   
 
   
-![201404142226.jpg](images/201404142226.jpg)
+![201404142226.jpg](/assets/images/201404142226.jpg)
 
   
 
@@ -379,8 +379,8 @@ self.resultTextField.text \= @"";
 
   
 Though lot more test cases can be added, I believe this is a decent starter project for learning TDD in iOS. And it is always nice to see the green mark in test navigator.  
-![201404142302.jpg](images/201404142302.jpg)  
+![201404142302.jpg](/assets/images/201404142302.jpg)  
 Now you should be able to run your app and test the functionality.  
   
-![201404142303.jpg](images/201404142303.jpg)  
+![201404142303.jpg](/assets/images/201404142303.jpg)  
 Source code can be downloaded from [here](https://github.com/rshankras/AddingTwoNumbers-Part1)

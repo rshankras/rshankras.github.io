@@ -19,11 +19,11 @@ In **Word 2013 and Word 2010** you can **go to specific page** in the Word docum
 
 To display the Find and Replace dialog, Navigate to Home menu and click on the drop down arrow under Find menu.
 
-[![Go To option in Word 2013 and Word 2010](images/4_image_thumb4.png "Go To option in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2010/05/image4.png)
+[![Go To option in Word 2013 and Word 2010](/assets/images/4_image_thumb4.png "Go To option in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2010/05/image4.png)
 
 Another shortcut for launching Find and Replace is by pressing Ctrl + G.
 
-[![Find and Replace in Word 2013 and Word 2010](images/2_image_thumb5.png "Find and Replace in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2010/05/image5.png)
+[![Find and Replace in Word 2013 and Word 2010](/assets/images/2_image_thumb5.png "Find and Replace in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2010/05/image5.png)
 
 Navigate **Go To** tab and select Page option for Go to what and **specify the page number** under the textbox available under **Enter page number** label.
 

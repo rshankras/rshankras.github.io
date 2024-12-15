@@ -25,11 +25,11 @@ This requires the following two steps
 
 Right click on the Start button and select Explore from the menu list.
 
-[![Windows Explore ](images/image_thumb125.png "Windows Explore ")](http://blogmines.com/blog/wp-content/uploads/2011/07/image125.png)
+[![Windows Explore ](/assets/images/image_thumb125.png "Windows Explore ")](http://blogmines.com/blog/wp-content/uploads/2011/07/image125.png)
 
 Expand the Start Menu folder in the explorer window then navigate to the Startup folder and copy Outlook 2010 shortcut file to **Startup** folder.
 
-[![Windows Startup](images/image_thumb126.png "Windows Startup")](http://blogmines.com/blog/wp-content/uploads/2011/07/image126.png)[![Windows Startup Outlook Shortcut](images/image_thumb127.png "Windows Startup Outlook Shortcut")](http://blogmines.com/blog/wp-content/uploads/2011/07/image127.png)
+[![Windows Startup](/assets/images/image_thumb126.png "Windows Startup")](http://blogmines.com/blog/wp-content/uploads/2011/07/image126.png)[![Windows Startup Outlook Shortcut](/assets/images/image_thumb127.png "Windows Startup Outlook Shortcut")](http://blogmines.com/blog/wp-content/uploads/2011/07/image127.png)
 
 Now this would start Outlook 2010 during **Windows Startup**.Demo Video - **Auto launch Outlook 2010 on Windows Shortcut**
 

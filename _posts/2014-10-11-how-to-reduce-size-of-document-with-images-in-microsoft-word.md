@@ -26,11 +26,11 @@ Word 2013 users can use the **Compress Pictures** option available as part of **
 
 **Step 1**: Click the Format menu in Microsoft Word 2013. Please note the Format menu will be available only after selecting the image on the document.
 
-[![image](images/4_image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/01/image.png)
+[![image](/assets/images/4_image_thumb.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/01/image.png)
 
 **Step 2**: In the Format menu, navigate to Adjust section and click the Compress Pictures option. This should display the following **Compress Pictures** window.
 
-[![image](images/2_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/01/image1.png)
+[![image](/assets/images/2_image_thumb1.png "image")](http://blogmines.com/blog/wp-content/uploads/2014/01/image1.png)
 
 Now you can choose the desired option under Compression options and Target Output. Let say you want to only share the document with other users using email, then go for “**E-mail (96 ppi): minimize document size for sharing**”.
 
@@ -40,11 +40,11 @@ Now you can choose the desired option under Compression options and Target Outpu
 
 Step 1: Select the image in the document and click Format Picture menu.
 
-![201401021315.jpg](images/201401021315.jpg)
+![201401021315.jpg](/assets/images/201401021315.jpg)
 
 **Step 2**: Under Format Picture menu, click the Compress Option. This should display the following Reduce File Size screen.
 
-**![201401021317.jpg](images/201401021317.jpg)**
+**![201401021317.jpg](/assets/images/201401021317.jpg)**
 
 **Step 3**: Now choose the **Picture Quality** drop down to apply appropriate picture quality as per your needs. You can apply the changes to all the pictures in the file or just **Selected pictures**
 

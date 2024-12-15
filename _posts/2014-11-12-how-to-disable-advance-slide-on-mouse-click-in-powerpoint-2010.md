@@ -19,7 +19,7 @@ In this short beginners PowerPoint 2013 and PowerPoint 2010 tutorial, we will se
 
 Click the Transitions menu and navigate to Timing section
 
-[![Enable or disable on mouse click option in PowerPoint 2013 and PowerPoint 2010](images/image_thumb10.png "Enable or disable on mouse click option in PowerPoint 2013 and PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2010/11/image11.png)
+[![Enable or disable on mouse click option in PowerPoint 2013 and PowerPoint 2010](/assets/images/image_thumb10.png "Enable or disable on mouse click option in PowerPoint 2013 and PowerPoint 2010")](http://blogmines.com/blog/wp-content/uploads/2010/11/image11.png)
 
 If you want to disable the feature, then un mark the check box labelled as **On Mouse Click**.
 

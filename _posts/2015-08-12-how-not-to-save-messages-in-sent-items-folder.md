@@ -23,7 +23,7 @@ Microsoft Outlook automatically saves the sent messages in sent items folder. Bu
 
 Click the File menu –> click the Options link . In the Options window select the Mail tab and scroll down to Save Messages section.
 
-[![Save copies of messages in the Sent Items folder in Outlook 2013](images/image_thumb57.png "Save copies of messages in the Sent Items folder in Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2010/09/image62.png)
+[![Save copies of messages in the Sent Items folder in Outlook 2013](/assets/images/image_thumb57.png "Save copies of messages in the Sent Items folder in Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2010/09/image62.png)
 
 You can **turn off** or **disable** the **save sent messages** sent items folder by un marking the checkbox with label as **Save copies of messages in the Sent Items folder**.
 
@@ -33,11 +33,11 @@ The above settings would affect all the message but if you want to specify only 
 
 In the message window, navigate to Options menu then to the more options section.
 
-[![Save Sent Item to Outlook 2010](images/image_thumb138.png "Save Sent Item to Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2011/07/image138.png)
+[![Save Sent Item to Outlook 2010](/assets/images/image_thumb138.png "Save Sent Item to Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2011/07/image138.png)
 
 Click the down arrow available below the **Save Sent Item** **To** menu option.
 
-[![Do Not save message Outlook 2013](images/image_thumb139.png "Do Not save message Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2011/07/image139.png)
+[![Do Not save message Outlook 2013](/assets/images/image_thumb139.png "Do Not save message Outlook 2013")](http://blogmines.com/blog/wp-content/uploads/2011/07/image139.png)
 
 The different options that are available are
 
@@ -45,7 +45,7 @@ The different options that are available are
 
 **Other Folder** – This allows users to specify the folder where this messages needs to be saved.
 
-[![Select Folder Outlook 2010](images/image_thumb140.png "Select Folder Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2011/07/image140.png)
+[![Select Folder Outlook 2010](/assets/images/image_thumb140.png "Select Folder Outlook 2010")](http://blogmines.com/blog/wp-content/uploads/2011/07/image140.png)
 
 **Do Not Save** – This will **not save the sent messages** to any folder.
 
@@ -53,7 +53,7 @@ The different options that are available are
 
 In Outlook 2007 to enable or disable “Save copies of messages in Sent Item folder”, Click **Tools** ->**Options**  -> **Email Options**
 
-[![Save messages in Sent Items folder in Outlook 2007](images/image_thumb32.png "Save messages in Sent Items folder in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image32.png)
+[![Save messages in Sent Items folder in Outlook 2007](/assets/images/image_thumb32.png "Save messages in Sent Items folder in Outlook 2007")](http://blogmines.com/blog/wp-content/uploads/2009/08/image32.png)
 
 Under **Message Handling** section, by checking **Save copies of messages in Sent Items folder**, messages that are being sent would be saved to Sent Items folder.
 

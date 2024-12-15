@@ -29,19 +29,19 @@ Microsoft Word users can add line numbers to a word document using the options a
 
 **Word 2010** allows users to **add line numbers** to a **word document**. This can be done using the **Page Layout menu** option. For example if you have the following text in your document and you want insert line numbers for each line then you use this feature.
 
-[![image](images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image15.png)
+[![image](/assets/images/image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/06/image15.png)
 
 To add line numbers for above paragraph, from Home menu click the Page Layout menu option and then navigate to Page Setup section.
 
-[![Page Layout Menu in Word 2013 and Word 2010](images/image_thumb16.png "Page Layout Menu in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image16.png)
+[![Page Layout Menu in Word 2013 and Word 2010](/assets/images/image_thumb16.png "Page Layout Menu in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image16.png)
 
 In the Page Layout section, click the drop down arrow next to Line Numbers menu option. This would display the following menu options.
 
-[![Line numbers in Word 2013 and Word 2010](images/image_thumb17.png "Line numbers in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image17.png)
+[![Line numbers in Word 2013 and Word 2010](/assets/images/image_thumb17.png "Line numbers in Word 2013 and Word 2010")](http://blogmines.com/blog/wp-content/uploads/2011/06/image17.png)
 
 Now select Continuous from the list available menus and this would insert the line numbers in the Word document as shown below
 
-[![Document with line numbers in Word 2010 and Word 2013](images/image_thumb18.png "Document with line numbers in Word 2010 and Word 2013")](http://blogmines.com/blog/wp-content/uploads/2011/06/image18.png)
+[![Document with line numbers in Word 2010 and Word 2013](/assets/images/image_thumb18.png "Document with line numbers in Word 2010 and Word 2013")](http://blogmines.com/blog/wp-content/uploads/2011/06/image18.png)
 
 The other line numbers options includes
 
@@ -53,21 +53,21 @@ The other line numbers options includes
 
 **Step 1**: Open the document for which you want to add line number.
 
-![Word 2011 for Mac Layout Menu](images/201403171003.jpg "Word 2011 for Mac Layout Menu")
+![Word 2011 for Mac Layout Menu](/assets/images/201403171003.jpg "Word 2011 for Mac Layout Menu")
 
 **Step 2**: Click Layout menu and navigate to **Text Layout** section.
 
 **Step 3**: Now click the **Line Numbers** option under Text Layout. This should display the following drop down list.
 
-![Word 2011 for Mac Continuous numbers](images/201403171004.jpg "Word 2011 for Mac Continuous numbers")
+![Word 2011 for Mac Continuous numbers](/assets/images/201403171004.jpg "Word 2011 for Mac Continuous numbers")
 
 **Step 4**: Select **Continuous** from the Line numbers drop down list to add line numbers. You can also customise Line numbers by use other options in the list.
 
-![Show line numbers in document](images/201403171016.jpg "Show line numbers in document")
+![Show line numbers in document](/assets/images/201403171016.jpg "Show line numbers in document")
 
 If you are looking for advanced line number options then click More Line Numbering.
 
-![More line numbers option ](images/201403171007.jpg "Show line numbers in document")
+![More line numbers option ](/assets/images/201403171007.jpg "Show line numbers in document")
 
 #### Display of line number in [status bar](http://blogmines.com/blog/2010/09/25/what-is-a-status-bar-in-microsoft-word-2010-document/)
 
@@ -77,11 +77,11 @@ If you just want to find out the **current line number** while editing a documen
 
 Microsoft **Word 2007** and **Word 2010** provides option to **display the line numbers in a word document**. This would be a useful feature when you want to restrict your content based on the **number of lines** written in the document. If the **status bar** does not **show** **the line numbers**, then right click on the Status bar and select Line number.
 
-[![Display line number in status bar in Word 2013, Word 2010 and Word 2007](images/image_thumb8.png "Display line number in status bar in Word 2013, Word 2010 and Word 2007")](http://blogmines.com/blog/wp-content/uploads/2010/04/image8.png)
+[![Display line number in status bar in Word 2013, Word 2010 and Word 2007](/assets/images/image_thumb8.png "Display line number in status bar in Word 2013, Word 2010 and Word 2007")](http://blogmines.com/blog/wp-content/uploads/2010/04/image8.png)
 
 After selecting Line Number option in the Customize Status Bar context menu, the status bar would display the line number as shown below.
 
-[![Show line numbers in Word status bar](images/image_thumb9.png "Show line numbers in Word status bar")](http://blogmines.com/blog/wp-content/uploads/2010/04/image9.png)
+[![Show line numbers in Word status bar](/assets/images/image_thumb9.png "Show line numbers in Word status bar")](http://blogmines.com/blog/wp-content/uploads/2010/04/image9.png)
 
 **Word 2011 for Mac**
 
