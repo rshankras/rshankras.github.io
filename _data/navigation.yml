@@ -1,10 +1,14 @@
 main:
+  - title: "Home"
+    url: /
+  - title: "Start Here"
+    url: /start-here/
+  - title: "Apps"
+    url: /portfolio/
+  - title: "Resources"
+    url: /resources/
   - title: "About"
     url: /about/
-  - title: "Portolfio"
-    url: /portfolio/
-  - title: "Start Here"
-    url: /docs/quick-start-guide/
   # - title: "External Link"
   #   url: https://google.com
   #   target: _blank

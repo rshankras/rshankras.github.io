@@ -5,8 +5,6 @@ permalink: /portfolio/
 
 A collection of apps I've built for Apple platforms.
 
-## Current Apps
-
 ### App Name 1
 Simple description of what the app does and why you built it.
 [Download on App Store →](app-store-link)
