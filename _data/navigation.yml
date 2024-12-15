@@ -1,0 +1,10 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Portolfio"
+    url: /portfolio/
+  - title: "Start Here"
+    url: /docs/quick-start-guide/
+  # - title: "External Link"
+  #   url: https://google.com
+  #   target: _blank
