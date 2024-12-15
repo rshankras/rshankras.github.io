@@ -18,15 +18,25 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+locale: "en-US"
 title: "Ravi Shankar"
-subtitle: "A Jekyll theme"
+title_separator: "-"
+subtitle: "Learning and Sharing"
+name: "Ravi Shankar"
+description: "Exploring iOS Development, SwiftUI, and Apple Platforms"
+url: "https://rshankras.github.io"
+baseurl: ""
+repository: "rshankras/rshankras.github.io"
+masthead_title: "App Development Journey"
 email: ravi@rshankar.com
-description: >- # this means to ignore newlines until "baseurl:"
-  iOS Developer specializing in Swift and SwiftUI.
 twitter_username: rshankra
 github_username: rshankras
 minimal_mistakes_skin: "default"
 search: true
+
+# Add custom CSS
+head_scripts:
+  - /assets/css/custom.css
 
 # Build settings
 markdown: kramdown
@@ -47,10 +57,10 @@ include:
 
 # Site Author
 author:
-  name: "Ravi Shankar"
-  avatar: "/assets/images/your-photo.jpg"
-  bio: "iOS Developer"
-  location: "Chennai, India"
+  name             : "Ravi Shankar"
+  avatar           : "/assets/images/your-photo.jpg"
+  bio              : "Apple Platforms Developer"
+  location         : "Chennai, India"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -100,7 +110,6 @@ defaults:
       author_profile: true
 
 # Navigation
-masthead_title: "iOS Development"
 breadcrumbs: true
 
 # Top Navigation
