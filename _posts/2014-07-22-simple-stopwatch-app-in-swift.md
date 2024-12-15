@@ -1,174 +1,173 @@
 ---
-title: "Simple StopWatch app in Swift"
+title: "Building a Simple Stopwatch App in Swift: A Beginner's Tutorial"
 date: "2014-07-22"
+last_modified_at: 2024-12-15T15:41:07+05:30
+excerpt: "Learn how to create a functional stopwatch app using Swift and UIKit. Perfect for beginners learning iOS development with step-by-step instructions and code examples."
 categories: 
-  - "develop"
   - "ios"
-  - "programming"
-  - "xcode"
-tags: 
-  - "stopwatch"
   - "swift"
-  - "xcode"
+  - "tutorials"
+  - "mobile-development"
+tags: 
+  - "swift-programming"
+  - "ios-development"
+  - "stopwatch"
+  - "uikit"
+  - "timer"
+keywords:
+  - "swift stopwatch tutorial"
+  - "ios timer implementation"
+  - "swift timer app"
+  - "uikit stopwatch"
+  - "ios app development"
+toc: true
+toc_sticky: true
 ---
 
-In this tutorial, we will see the steps for creating simple StopWatch app in Swift Programming language as shown in the below screenshot.
+Want to build your first iOS app? Follow this beginner-friendly tutorial to create a functional stopwatch app using Swift and UIKit. Perfect for learning basic iOS development concepts.
 
-![SimpleStopWatch demo](/assets/images/201407221150.jpg)
+<!--more-->
 
-Click File menu -> New -> select Project from menu list.
+## Introduction
 
-![Single View Application Xcode](/assets/images/201407221012.jpg)
+A stopwatch app is an excellent first project for learning iOS development. It covers fundamental concepts like:
+- UI design with UIKit
+- Timer implementation
+- Basic Swift programming
+- User interaction handling
 
-Choose the template as **Single View Application** and click Next button.
+## Prerequisites
 
-![Xcode select language as Swift](/assets/images/201407221011.jpg)
+Before starting this tutorial, make sure you have:
+- Xcode installed
+- Basic understanding of Swift syntax
+- iOS development environment set up
 
-Enter name of the Product, Language as Swift then click Next to specify a folder and save the project.
+## Project Setup
 
-![Project Navigator in Xcode](/assets/images/201407221014.jpg)
+1. Create a new Xcode project
+2. Choose Single View Application
+3. Set language to Swift
+4. Name it "SimpleStopwatch"
 
-Navigate to Project Navigator and select Main.storyboard. Using the **Attributes Inspector**, change the background colour for the ViewController to **Dark Gray Colour**
+## Building the User Interface
 
-![Attributes Inspector for View Controller](/assets/images/201407221025.jpg)
-
-Navigate to Object Library, drag and drop UILabel to View Controller. Then align the label horizontally centred to the View Controller. Using the **Attributes Inspector** enter the label text as 00:00:00, change the colour to White, make the text centre aligned and increase the the font size to 27.0
-
-![Attributes Inspector for UILabel](/assets/images/201407221029.jpg)
-
-Now drag and drop two buttons for starting and stopping the timer. Change the button text to **Start** and **Stop** respectively and set the Text Color to white.
-        
-![201407221034.jpg](/assets/images/201407221034.jpg)
-
-Now select ViewController.swift in the Project Navigator and delete the file, select Move to Trash in the Confirmation box.
-
-![201407221037.jpg](/assets/images/201407221037.jpg)![201407221054.jpg](/assets/images/201407221054.jpg)
-
-Let us add a new UIViewController file, right click on the SimpleStopWatch folder and select New File from the menu list.
-
-![201407221039.jpg](/assets/images/201407221039.jpg)
-
-Select the template for the new file as Cocoa Touch Class (under iOS), then click Next
-
-![201407221042.jpg](/assets/images/201407221042.jpg)
-
-Enter the name of the class as SWViewController, Subclass as UIViewController and Language as Swift. Then click Next and choose the Project folder to save the file.
-
-![201407221044.jpg](/assets/images/201407221044.jpg)    
-
-Navigate to SWViewController.swift and add a IBOutlet for UILabel.
+Let's create a clean, functional interface:
 
 ```swift
-@IBOutlet var displayTimeLabel: UILabel!
-```
-
-Then add two IBActions method for the two buttons, Start and Stop.
-
-```swift
-@IBAction func start(sender: AnyObject) { }
-
-@IBAction func stop(sender: AnyObject) { }
-```
-
- 
-
-Navigate to Main.storyboard, select View Controller and specify the class name as SWViewController using the **Identify Inspector**
-
-![Identity Inspector for Class name](/assets/images/201407221056.jpg)
-
-Now you should be able to see the IBActions and IBOutlet defined in the class file using Connection Inspector
-
-![Connections Inspector in Xcode 6](/assets/images/201407221059.jpg)
-
-Drag and connect the UILabel with the IBOutlets, similarly connect IBActions with the buttons and specify the event as Touch Up Inside.
+class ViewController: UIViewController {
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var startStopButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
     
-![201407221100.jpg](/assets/images/201407221100.jpg)
-
-Select the ViewController under View Controller Scene, click the Resolve Auto Layout Issues option and select **Reset to Suggested Constraints**. This would ensure that the alignment of controls remains the same for different screen size.
-
-![201407221108.jpg](/assets/images/201407221108.jpg)
-
-Now if you try to run this project on Simulator, the screen would be as shown below. Nothing should happen on clicking the two buttons as we are yet to add the functionality.
-    
-![201407221111.jpg](/assets/images/201407221111.jpg)
-
-**Write Code logic for StopWatch**
-
-Navigate to SWviewController.swift file and new function name as updateTime. This function will be used for calculating the time in minutes, seconds and fraction of milliseconds.
-
-Add a new class level variable to the class for storing the start time.
-
-```swift
-var startTime = NSTimeInterval()
-```
-
-Then add the following code in updateTime method. This is used for calculating the StopWatch time and assigning the value to the UILabel.
-
-```swift
-func updateTime() {
-    var currentTime = NSDate.timeIntervalSinceReferenceDate()
-    
-    //Find the difference between current time and start time.
-    var elapsedTime: NSTimeInterval = currentTime - startTime
-    
-    //calculate the minutes in elapsed time.
-    let minutes = UInt8(elapsedTime / 60.0)
-    elapsedTime -= (NSTimeInterval(minutes) * 60)
-    
-    //calculate the seconds in elapsed time.
-    let seconds = UInt8(elapsedTime)
-    elapsedTime -= NSTimeInterval(seconds)
-    
-    //find out the fraction of milliseconds to be displayed.
-    let fraction = UInt8(elapsedTime * 100)
-    
-    //add the leading zero for minutes, seconds and millseconds and store them as string constants
-    let strMinutes = String(format: "%02d", minutes)
-    let strSeconds = String(format: "%02d", seconds)
-    let strFraction = String(format: "%02d", fraction)
-    
-    //concatenate minuets, seconds and milliseconds as assign it to the UILabel
-    displayTimeLabel.text = "\(strMinutes):\(strSeconds):\(strFraction)"
+    // Timer properties
+    var timer: Timer?
+    var elapsedTime: TimeInterval = 0
+    var isRunning = false
 }
 ```
 
-Add a new class level NSTimer variable as shown below.
+## Timer Implementation
+
+Here's how we implement the core stopwatch functionality:
 
 ```swift
-var timer = NSTimer()
-```
-
-Navigate to Start IBAction function and add the following the code.
-
- 
-
-```swift
-@IBAction func start(sender: AnyObject) {
-    let aSelector : Selector = "updateTime"
-    timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: aSelector, userInfo: nil, repeats: true)
-    startTime = NSDate.timeIntervalSinceReferenceDate()
-}
-```
-
-This would start a timer and it repeats at regular time interval of 0.01. Here we specify the “updateTime” function which gets called regularly after the specified interval. We also initialise the startTime variable to the current time. Now when the user taps on Stop button, timer is invalidated and set to nil.
-
-```swift
-@IBAction func stop(sender: AnyObject) {
-    timer.invalidate()
-    timer = nil
-}
-```
-
-If you try to run this app on the simulator, you should notice the start and stop functionality works and time is getting displayed in the Label. But the user can repeatedly tap the Start button. So when the clock is running if the user taps the Start button, clock restarts again. We can prevent this by adding the following check to start the timer only when the timer is not running.
-
-```swift
-@IBAction func start(sender: AnyObject) {
-    if !timer.valid {
-        let aSelector : Selector = "updateTime"
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: aSelector, userInfo: nil, repeats: true)
-        startTime = NSDate.timeIntervalSinceReferenceDate()
+extension ViewController {
+    @objc func updateTimer() {
+        elapsedTime += 0.1
+        timeLabel.text = String(format: "%.1f", elapsedTime)
+    }
+    
+    @IBAction func startStopTapped(_ sender: UIButton) {
+        if isRunning {
+            stopTimer()
+        } else {
+            startTimer()
+        }
+        isRunning = !isRunning
+        startStopButton.setTitle(isRunning ? "Stop" : "Start", for: .normal)
     }
 }
 ```
 
-Download the source code from [here](https://github.com/rshankras/SimpleStopDemo.git)
+## Adding Reset Functionality
+
+```swift
+@IBAction func resetTapped(_ sender: UIButton) {
+    stopTimer()
+    elapsedTime = 0
+    timeLabel.text = "0.0"
+    isRunning = false
+    startStopButton.setTitle("Start", for: .normal)
+}
+```
+
+## Best Practices
+
+1. **Memory Management**
+   - Invalidate timer when view disappears
+   - Clean up resources properly
+
+2. **User Interface**
+   - Use clear, readable fonts
+   - Implement proper constraints
+   - Add visual feedback
+
+3. **Code Organization**
+   - Separate concerns
+   - Use meaningful variable names
+   - Add proper comments
+
+## Common Issues and Solutions
+
+### Timer Accuracy
+
+To improve timer accuracy:
+
+```swift
+timer = Timer(timeInterval: 0.1, 
+             target: self,
+             selector: #selector(updateTimer),
+             userInfo: nil,
+             repeats: true)
+RunLoop.current.add(timer!, forMode: .common)
+```
+
+### State Management
+
+Properly handle app state changes:
+
+```swift
+override func viewWillDisappear(_ animated: Bool) {
+    super.viewWillDisappear(animated)
+    stopTimer()
+}
+```
+
+## Testing
+
+Test your app thoroughly:
+1. Start/Stop functionality
+2. Reset button
+3. Timer accuracy
+4. State preservation
+5. Memory usage
+
+## Next Steps
+
+Consider adding these enhancements:
+1. Lap times
+2. Different time formats
+3. Background running
+4. Custom themes
+5. Sound effects
+
+## Resources
+
+- [Apple's Timer Documentation](https://developer.apple.com/documentation/foundation/timer)
+- [Swift Programming Guide](https://docs.swift.org/swift-book/)
+- [UIKit Documentation](https://developer.apple.com/documentation/uikit)
+
+---
+
+*This tutorial is part of our iOS Development series. Check out our other Swift tutorials for more learning resources.*

@@ -92,6 +92,31 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/sravis"
 
+# SEO Related
+google_site_verification: 
+bing_site_verification: 
+yandex_site_verification: 
+naver_site_verification: 
+
+# Social Sharing
+twitter:
+  username: rshankra
+og_image: /assets/images/site-logo.png
+social:
+  type: Person
+  name: Ravi Shankar
+  links:
+    - "https://twitter.com/rshankra"
+    - "https://github.com/rshankras"
+    - "https://linkedin.com/in/sravis"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "your-tracking-id"
+    anonymize_ip: false
+
 # Defaults
 defaults:
   # _posts
@@ -105,6 +130,11 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
+      toc_sticky: true
+      excerpt_separator: <!--more-->
+      seo:
+        type: BlogPosting
   # _pages
   - scope:
       path: "_pages"
