@@ -1,8 +1,7 @@
 ---
 title: "Building a Simple Photo Gallery App in SwiftUI: Complete Tutorial Guide"
 date: "2024-09-18"
-last_modified_at: 2024-12-15T16:12:59+05:30
-redirect_to: https://rshankar.com
+last_modified_at: 2024-12-15T15:42:34+05:30
 excerpt: "Learn how to build a modern photo gallery app in SwiftUI with grid layout, image zooming, and smooth animations. Perfect for iOS developers wanting to implement photo viewing capabilities."
 categories: 
   - "ios"
@@ -24,11 +23,6 @@ keywords:
 toc: true
 toc_sticky: true
 ---
-
-<meta http-equiv="refresh" content="0;url=https://rshankar.com">
-<link rel="canonical" href="https://rshankar.com" />
-
-<p>This page has been moved to <a href="https://rshankar.com">https://rshankar.com</a></p>
 
 Want to create a beautiful photo gallery app in SwiftUI? This comprehensive tutorial will guide you through building a modern photo viewing application with grid layout and zoom capabilities. Perfect for both beginners and intermediate iOS developers.
 
