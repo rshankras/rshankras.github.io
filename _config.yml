@@ -43,6 +43,10 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 permalink: /:title/
 
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
 # Plugins
 plugins:
   - jekyll-paginate
