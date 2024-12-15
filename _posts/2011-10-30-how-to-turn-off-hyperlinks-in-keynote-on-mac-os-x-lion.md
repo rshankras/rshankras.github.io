@@ -15,10 +15,10 @@ tags:
 
 This tutorial provides the steps to **turn off** the **hyperlink** feature in **Keynote** on **Mac OS X Lion**. Click the Keynote menu and select Preferences from the menu list.
 
-![Keynote Preferences](images/201110302305.jpg)
+![Keynote Preferences](/assets/images/201110302305.jpg)
 
 In the Preferences window, click the Auto-Correction tab and un mark the check box with label as Automatically detect email and web addresses.
 
-![disbale hyperlinks in Keynote](images/201110302309.jpg)
+![disbale hyperlinks in Keynote](/assets/images/201110302309.jpg)
 
 Now if you type in any email or web addresses, keynote will not display the hyperlink.

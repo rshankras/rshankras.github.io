@@ -33,4 +33,4 @@ This method will return true only when the orientation in Portrait mode.
 
 **Step 4**: Now navigate to Project Folder on the navigattion bar. In the summary tab under Supported Device Orientations, make sure to un mark the other orientation except portrait.
 
-![Portrait Device Orientation](images/Device-Orientation.png)
+![Portrait Device Orientation](/assets/images/Device-Orientation.png)

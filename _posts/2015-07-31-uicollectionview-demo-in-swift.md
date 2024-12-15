@@ -51,40 +51,57 @@ The square box inside collection view is UICollectionViewCell. Using Attributes 
 
 Using Assistant Editor, add an IBOutlet to CollectionView in ViewController.swlft file.  
 
-\[code language="swift"\]@IBOutlet weak var collectionView: UICollectionView!\[/code\]
+```swift
+@IBOutlet weak var collectionView: UICollectionView!
+```
 
 ### Implement UICollectionViewDataSource methods
 
 When the CollectionView loads, we need to specify the data for the cells. This can be done by implementing  
 UICollectionViewDataSource related methods. [UICollectionViewDataSource](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UICollectionViewDataSource_protocol/) protocols defines the following mandatory and optional methods.
 
-\[code language="swift"\]protocol UICollectionViewDataSource : NSObjectProtocol {
+```swift
+protocol UICollectionViewDataSource : NSObjectProtocol {
 
-func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
 
-// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath: func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell
+// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath: func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
 
-optional func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int
+optional func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int
 
-// The view that is returned must be retrieved from a call to -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath: optional func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -&gt; UICollectionReusableView }\[/code\]
+// The view that is returned must be retrieved from a call to -dequeueReusableSupplementaryViewOfKind:withReuseIdentifier:forIndexPath: optional func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView }
+```
 
 First make sure to set the delegate property of collectionView to self in viewDidLoad function. Then add instance level property for storing Cell Identifier.  
 
-\[code language="swift"\]let identifier = "CellIdentifier"
+```swift
+let identifier = "CellIdentifier"
 
-override func viewDidLoad() { super.viewDidLoad()
+override func viewDidLoad() { 
+    super.viewDidLoad()
 
-collectionView.dataSource = self }\[/code\]
+collectionView.dataSource = self 
+}
+```
 
 Now add the implementation for mandatory methods numberOfItemsInSection and cellForItemAtIndexOath in ViewController.swlft. We can do this by adding an extension to ViewController class. Add this extension after the closing parenthesis of View Controller class.  
 
-\[code language="swift"\]// MARK:- UICollectionViewDataSource Delegate extension ViewController: UICollectionViewDataSource {
+```swift
+// MARK:- UICollectionViewDataSource Delegate 
+extension ViewController: UICollectionViewDataSource {
 
-func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int { return 12 }
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { 
+    return 12 
+}
 
-func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell { let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier, forIndexPath: indexPath) as! UICollectionViewCell cell.backgroundColor = UIColor.redColor()
+func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell { 
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier, forIndexPath: indexPath) as! UICollectionViewCell 
+    cell.backgroundColor = UIColor.redColor()
 
-return cell } } \[/code\]
+return cell 
+} 
+}
+```
 
 We have temporarily hard coded the number of items to be shown as 12. Using dequeReusableCellWithReuseIdentifier funciton, create cells based on index path. Then change the background color of cell to red. Now when you build and run the project, you should see collection view showing some cells as shown below.  
 
@@ -102,35 +119,76 @@ If you Build and Run the project you should notice the changes.
 
 Now for the actual demo project, let us create a seperate class which will act as DataSource. Before creating a datasource, let us create a model class with file name as Fruit.swift. The implementation of the Fruit class should look as shown below  
 
-\[code language="swift"\]class Fruit { var name:String? var group:String?
+```swift
+class Fruit { 
+    var name:String? 
+    var group:String?
 
-init(name: String, group: String) { self.name = name self.group = group } } \[/code\]
+init(name: String, group: String) { 
+    self.name = name 
+    self.group = group 
+} 
+}
+```
 
 Fruit struct is just a place holder for storing fruit related information. Now create another class for DataSource and name it as DataSource.swift. This class will provide the data related methods to the CollectionView. Durining the initialisation of the class, the data is read from plist and populated to fruits and groups array. Then using the respective helper methods the details will be retrieved by CollectionView.
 
-\[code language="swift"\]import Foundation
+```swift
+import Foundation
 
 class DataSource {
 
-init() { populateData() }
+init() { 
+    populateData() 
+}
 
-var fruits:\[Fruit\] = \[\] var groups:\[String\] = \[\]
+var fruits:[Fruit] = [] 
+var groups:[String] = []
 
-func numbeOfRowsInEachGroup(index: Int) -&gt; Int { return fruitsInGroup(index).count }
+func numbeOfRowsInEachGroup(index: Int) -> Int { 
+    return fruitsInGroup(index).count 
+}
 
-func numberOfGroups() -&gt; Int { return groups.count }
+func numberOfGroups() -> Int { 
+    return groups.count 
+}
 
-func gettGroupLabelAtIndex(index: Int) -&gt; String { return groups\[index\] }
+func gettGroupLabelAtIndex(index: Int) -> String { 
+    return groups[index] 
+}
 
 // MARK:- Populate Data from plist
 
-func populateData() { if let path = NSBundle.mainBundle().pathForResource("fruits", ofType: "plist") { if let dictArray = NSArray(contentsOfFile: path) { for item in dictArray { if let dict = item as? NSDictionary { let name = dict\["name"\] as! String let group = dict\["group"\] as! String
+func populateData() { 
+    if let path = NSBundle.mainBundle().pathForResource("fruits", ofType: "plist") { 
+        if let dictArray = NSArray(contentsOfFile: path) { 
+            for item in dictArray { 
+                if let dict = item as? NSDictionary { 
+                    let name = dict["name"] as! String 
+                    let group = dict["group"] as! String
 
-let fruit = Fruit(name: name, group: group) if !contains(groups, group){ groups.append(group) } fruits.append(fruit) } } } } }
+let fruit = Fruit(name: name, group: group) 
+                    if !contains(groups, group){ 
+                        groups.append(group) 
+                    } 
+                    fruits.append(fruit) 
+                } 
+            } 
+        } 
+    } 
+}
 
 // MARK:- FruitsForEachGroup
 
-func fruitsInGroup(index: Int) -&gt; \[Fruit\] { let item = groups\[index\] let filteredFruits = fruits.filter { (fruit: Fruit) -&gt; Bool in return fruit.group == item } return filteredFruits } }\[/code\]
+func fruitsInGroup(index: Int) -> [Fruit] { 
+    let item = groups[index] 
+    let filteredFruits = fruits.filter { (fruit: Fruit) -> Bool in 
+        return fruit.group == item 
+    } 
+    return filteredFruits 
+} 
+}
+```
 
 Then add the required images to Images.xcassets, you can download the images for this project from GitHub.  
 
@@ -152,35 +210,52 @@ Navigate to Main.storyboard, select CollectionViewCell and using identity inspec
 
 Drag and drop UIImageView and Label on to CollectionViewCell and add corresponding IBOutlets to FruitCell class.  
 
-\[code language="swift"\] import UIKit
+```swift
+import UIKit
 
 class FruitCell: UICollectionViewCell {
 
-@IBOutlet weak var caption: UILabel! @IBOutlet weak var imageView: UIImageView! } \[/code\]
+@IBOutlet weak var caption: UILabel! 
+@IBOutlet weak var imageView: UIImageView! 
+}
+```
 
 Display Data
 
 We need to make changes to the ViewController extension for displaying the data form the DataSource with CustomCell. First Create an instance variable for DataSource in ViewController class  
 
-\[code language="swift"\]let dataSource = DataSource() \[/code\]
+```swift
+let dataSource = DataSource() 
+```
 
 Then make the following changes to UICollectionViewDataSource extension to reflect the DataSource and FruitCell classes.  
 
-\[code language="swift"\] extension ViewController : UICollectionViewDataSource {
+```swift
+extension ViewController : UICollectionViewDataSource {
 
-func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int { return dataSource.groups.count }
+func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int { 
+    return dataSource.groups.count 
+}
 
-func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int { return dataSource.numbeOfRowsInEachGroup(section) }
+func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int { 
+    return dataSource.numbeOfRowsInEachGroup(section) 
+}
 
-func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell { let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier,forIndexPath:indexPath) as! FruitCell
+func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell { 
+    let cell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier,forIndexPath:indexPath) as! FruitCell
 
-let fruits: \[Fruit\] = dataSource.fruitsInGroup(indexPath.section) let fruit = fruits\[indexPath.row\]
+let fruits: [Fruit] = dataSource.fruitsInGroup(indexPath.section) 
+    let fruit = fruits[indexPath.row]
 
 let name = fruit.name!
 
-cell.imageView.image = UIImage(named: name.lowercaseString) cell.caption.text = name.capitalizedString
+cell.imageView.image = UIImage(named: name.lowercaseString) 
+    cell.caption.text = name.capitalizedString
 
-return cell } }\[/code\]
+return cell 
+} 
+}
+```
 
 Now if you build and run the project, you should see the colleciton view displaying fruits along with the caption.  
 
@@ -210,17 +285,27 @@ Now select the Section Header in the Collection View and set the class as Fruits
 
 Add UILabel to the header view to display the seciton title and corresponding IBOutlet to FruitsHeaderView class. You can also provide some background colour for the HeaderView,  
 
-[![](/assets/images/1438262645_thumb.png)](https://rshankar.com/wp-content/uploads/2015/07/1438262645_full.png)[![](/assets/images/1438262022_thumb.png)](https://rshankar.com/wp-content/uploads/2015/07/1438262022_full.png)\[code language="swift"\] import UIKit
+[![](/assets/images/1438262645_thumb.png)](https://rshankar.com/wp-content/uploads/2015/07/1438262645_full.png)[![](/assets/images/1438262022_thumb.png)](https://rshankar.com/wp-content/uploads/2015/07/1438262022_full.png)
 
-class FruitsHeaderView: UICollectionReusableView { @IBOutlet weak var sectionLabel: UILabel! } \[/code\]
+```swift
+import UIKit
+
+class FruitsHeaderView: UICollectionReusableView { 
+    @IBOutlet weak var sectionLabel: UILabel! 
+}
+```
 
 Now add the following viewForSupplementaryElementOfKind implementation to the UICollectionViewDataSource extension in ViewController class.
 
-\[code language="swift"\] func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -&gt; UICollectionReusableView {
+```swift
+func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
 
 let headerView: FruitsHeaderView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: headerViewIdentifier, forIndexPath: indexPath) as! FruitsHeaderView
 
-headerView.sectionLabel.text = dataSource.gettGroupLabelAtIndex(indexPath.section) return headerView } \[/code\]
+headerView.sectionLabel.text = dataSource.gettGroupLabelAtIndex(indexPath.section) 
+    return headerView 
+}
+```
 
 Make sure to add an instance variable `let headerViewIdentifier = “HeaderView”` in ViewController.class. In viewForSupplementaryElementOfKind function, we are creating an instance of FruitsHeaderView class using dequeueReusableSupplementaryViewOfKind function. Then set the section label by retrieving the caption from DataSource class. Build and run the app on iPhone simulator should show the following  
 
@@ -238,21 +323,46 @@ Add UIImageView to the DetailViewController and centre align it to the View. The
 
 Map this class to the Second View Controller in the Interface builder. Then add the IBOutlet for the UIImageView in DetailViewController class.
 
+```swift
 @IBOutlet weak var imageView: UIImageView!
+```
 
 From the main View Controller, the selected Fruit needs to be passed to the DetailViewController class. Add a new property which is of type Fruit
 
-\[code language="swift"\]var fruit: Fruit?\[/code\]
+```swift
+var fruit: Fruit?
+```
 
 In viewDidLoad method, add code to populate the title and image.  
 
-\[code language="swift"\]if let fruit = fruit { navigationItem.title = fruit.name?.capitalizedString imageView.image = UIImage(named: fruit.name!.lowercaseString) }\[/code\]
+```swift
+if let fruit = fruit { 
+    navigationItem.title = fruit.name?.capitalizedString 
+    imageView.image = UIImage(named: fruit.name!.lowercaseString) 
+}
+```
 
 Navigate to ViewController.class and implement the prepareForSegue and getIndexPathForSelectedCell function.  
 
-\[code language="swift"\]// MARK:- prepareForSegue override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { // retrieve selected cell &amp; fruit if let indexPath = getIndexPathForSelectedCell() { let fruit = dataSource.fruitsInGroup(indexPath.section)\[indexPath.row\] let detailViewController = segue.destinationViewController as! DetailViewController detailViewController.fruit = fruit } }
+```swift
+// MARK:- prepareForSegue 
+override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { 
+    // retrieve selected cell & fruit 
+    if let indexPath = getIndexPathForSelectedCell() { 
+        let fruit = dataSource.fruitsInGroup(indexPath.section)[indexPath.row] 
+        let detailViewController = segue.destinationViewController as! DetailViewController 
+        detailViewController.fruit = fruit 
+    } 
+}
 
-func getIndexPathForSelectedCell() -&gt; NSIndexPath? { var indexPath:NSIndexPath? if collectionView.indexPathsForSelectedItems().count &gt; 0 { indexPath = collectionView.indexPathsForSelectedItems()\[0\] as? NSIndexPath } return indexPath } \[/code\]
+func getIndexPathForSelectedCell() -> NSIndexPath? { 
+    var indexPath:NSIndexPath? 
+    if collectionView.indexPathsForSelectedItems().count > 0 { 
+        indexPath = collectionView.indexPathsForSelectedItems()[0] as? NSIndexPath 
+    } 
+    return indexPath 
+}
+```
 
 In the above function using the selected Item indexPath the corresponding fruit is retrieved from DataSource class. Then this information is passed to the DetailViewController.  
 
@@ -262,23 +372,47 @@ In the above function using the selected Item indexPath the corresponding fruit 
 
 When the user taps any cell, it would nice to see the cell getting highlighted. This can be done by implementing following function as extension.  
 
-\[code language="swift"\]// MARK:- UICollectionViewDelegate Methods
+```swift
+// MARK:- UICollectionViewDelegate Methods
 
-extension ViewController : UICollectionViewDelegate { func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) { highlightCell(indexPath, flag: true) } } func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) { highlightCell(indexPath, flag: false) } }\[/code\]
+extension ViewController : UICollectionViewDelegate { 
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) { 
+        highlightCell(indexPath, flag: true) 
+    } 
+} 
+func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) { 
+    highlightCell(indexPath, flag: false) 
+} 
+}
+```
 
 Also make sure to add the collectionView.delegate = self to viewDidLoad function. Then add the following highlight function inside ViewController class.  
 
-\[code language="swift"\]// MARK:- Highlight func highlightCell(indexPath : NSIndexPath, flag: Bool) {
+```swift
+// MARK:- Highlight 
+func highlightCell(indexPath : NSIndexPath, flag: Bool) {
 
 let cell = collectionView.cellForItemAtIndexPath(indexPath)
 
-if flag { cell?.contentView.backgroundColor = UIColor.magentaColor() } else { cell?.contentView.backgroundColor = nil } } \[/code\]
+if flag { 
+    cell?.contentView.backgroundColor = UIColor.magentaColor() 
+} else { 
+    cell?.contentView.backgroundColor = nil 
+} 
+}
+```
 
 Since we want to dehighlight the cell when the user returns from the DetailViewController. implement the viewDidAppear function with de-hightlight functionality.  
 
-\[code language="swift"\]override func viewDidAppear(animated: Bool) { super.viewDidAppear(true)
+```swift
+override func viewDidAppear(animated: Bool) { 
+    super.viewDidAppear(true)
 
-if let indexPath = getIndexPathForSelectedCell() { highlightCell(indexPath, flag: false) } } \[/code\]
+if let indexPath = getIndexPathForSelectedCell() { 
+    highlightCell(indexPath, flag: false) 
+} 
+}
+```
 
 ### Insert Cell
 
@@ -288,17 +422,35 @@ CollectionView provides insertItemsAtIndexPath method for adding new cell to Col
 
 Add an IBAction to ViewController class and map it to the Add button. In the DataSource class add the following function which inserts new item to fruit model and returns the index.  
 
-\[code language="swift"\] // MARK:- Add Dummy Data func addAndGetIndexForNewItem() -&gt; Int { let fruit = Fruit(name: "SugarApple", group: "Morning") let count = fruitsInGroup(0).count let index = count &gt; 0 ? count - 1 : count fruits.insert(fruit, atIndex: index) return index } \[/code\]
+```swift
+// MARK:- Add Dummy Data 
+func addAndGetIndexForNewItem() -> Int { 
+    let fruit = Fruit(name: "SugarApple", group: "Morning") 
+    let count = fruitsInGroup(0).count 
+    let index = count > 0 ? count - 1 : count 
+    fruits.insert(fruit, atIndex: index) 
+    return index 
+}
+```
 
 Then modify the addNewItem IBAction method with the following piece of code.  
 
-\[code language="swift"\] // MARK:- Add Cell @IBAction func addNewItem(sender: AnyObject) { let index = dataSource.addAndGetIndexForNewItem() let indexPath = NSIndexPath(forItem: index, inSection: 0) collectionView.insertItemsAtIndexPaths(\[indexPath\]) } \[/code\]
+```swift
+// MARK:- Add Cell 
+@IBAction func addNewItem(sender: AnyObject) { 
+    let index = dataSource.addAndGetIndexForNewItem() 
+    let indexPath = NSIndexPath(forItem: index, inSection: 0) 
+    collectionView.insertItemsAtIndexPaths([indexPath]) 
+}
+```
 
 ### Delete Cell
 
 Add Edit button to the navigation bar to allow users to perform delete operation. This can be done by adding the following line in viewDidLoad method.  
 
-\[code language="plain"\]navigationItem.leftBarButtonItem = editButtonItem()\[/code\]
+```swift
+navigationItem.leftBarButtonItem = editButtonItem()
+```
 
 Then add a toolbar with button to delete the selected cell. Navigate to Main.storyboard, drag and drop toolbar on to View Controller. Add a BarButtonItem to the toolbar and select the identifier as Trash.  
 
@@ -306,38 +458,71 @@ Then add a toolbar with button to delete the selected cell. Navigate to Main.sto
 
 This toolbar should be displayed when the user taps on Edit button. Create an IBOutlet for the toolbar and add the following line to the viewDidLoad method.
 
-\[code language="swift"\]toolBar.hidden = true\[/code\]
+```swift
+toolBar.hidden = true
+```
 
 Implement the setEditing function to enable or disable editing operation. In the below function, when editing is enabled, users will be allowed to select and delete multiple cells. The toolbar will be displayed or hidden based on editing flag.  
 
-\[code language="swift"\] // MARK:- Editing override func setEditing(editing: Bool, animated: Bool) { super.setEditing(editing, animated: animated) collectionView?.allowsMultipleSelection = editing toolBar.hidden = !editing } \[/code\]
+```swift
+// MARK:- Editing 
+override func setEditing(editing: Bool, animated: Bool) { 
+    super.setEditing(editing, animated: animated) 
+    collectionView?.allowsMultipleSelection = editing 
+    toolBar.hidden = !editing 
+}
+```
 
 Now hook up Trash button in the Interface builder to IBAction for performing the delete operation. Add the following code snippet to deleteCells IBAction method. This first retrieves the indexpath for all the selected items. Then iterates through the indexpaths and to get the list of fruits to be deleted from model.
 
-\[code language="swift"\] @IBAction func deleteCells(sender: AnyObject) {
+```swift
+@IBAction func deleteCells(sender: AnyObject) {
 
-var deletedFruits:\[Fruit\] = \[\]
+var deletedFruits:[Fruit] = []
 
 let indexpaths = collectionView?.indexPathsForSelectedItems()
 
 if let indexpaths = indexpaths {
 
-for item in indexpaths { let cell = collectionView!.cellForItemAtIndexPath(item as! NSIndexPath)
+for item in indexpaths { 
+    let cell = collectionView!.cellForItemAtIndexPath(item as! NSIndexPath)
 
-collectionView?.deselectItemAtIndexPath(item as? NSIndexPath, animated: true) // fruits for section let sectionfruits = dataSource.fruitsInGroup(item.section) deletedFruits.append(sectionfruits\[item.row\]) }
+collectionView?.deselectItemAtIndexPath(item as? NSIndexPath, animated: true) 
+    // fruits for section 
+    let sectionfruits = dataSource.fruitsInGroup(item.section) 
+    deletedFruits.append(sectionfruits[item.row]) 
+}
 
 dataSource.deleteItems(deletedFruits)
 
-collectionView?.deleteItemsAtIndexPaths(indexpaths) } } \[/code\]
+collectionView?.deleteItemsAtIndexPaths(indexpaths) 
+} 
+}
+```
 
 And in the DataSource class, add a function to delete fruits from the model. Also add an extension to array to get the index of the object based on the selected item (This will not be needed in Swift 2.0).  
 
-\[code language="swift"\] // MARK:- Delete Items func deleteItems(items: \[Fruit\]) {
+```swift
+// MARK:- Delete Items 
+func deleteItems(items: [Fruit]) {
 
-for item in items { // remove item let index = fruits.indexOfObject(item) if index != -1 { fruits.removeAtIndex(index) } } } \[/code\]
+for item in items { 
+    // remove item 
+    let index = fruits.indexOfObject(item) 
+    if index != -1 { 
+        fruits.removeAtIndex(index) 
+    } 
+} 
+}
+```
 
 We need to cancel the segue operation when the edit operation is enabled, you can do this by implementing the following method in ViewController class.  
 
-\[code language="swift"\] // MARK:- Should Perform Segue override func shouldPerformSegueWithIdentifier(identifier: String?, sender: AnyObject?) -&gt; Bool { return !editing }\[/code\]
+```swift
+// MARK:- Should Perform Segue 
+override func shouldPerformSegueWithIdentifier(identifier: String?, sender: AnyObject?) -> Bool { 
+    return !editing 
+}
+```
 
 Download the source code from [here](https://github.com/rshankras/FruitsDiet)

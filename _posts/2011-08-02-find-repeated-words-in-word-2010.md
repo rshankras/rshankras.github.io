@@ -13,11 +13,11 @@ tags:
   - "word-2010"
 ---
 
-[![Repeated Word](images/Repeated-Word_thumb.jpg "Repeated Word")](http://blogmines.com/blog/wp-content/uploads/2011/08/Repeated-Word.jpg)
+[![Repeated Word](/assets/images/Repeated-Word_thumb.jpg "Repeated Word")](/assets/images/Repeated-Word.jpg)
 
 Microsoft Word 2010 has a feature that checks for the **occurrence** of repeated words in a word document. For example if you have typed a word twice continuously then the second word will be highlighted for as shown below.
 
-[![image](images/image_thumb17.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image17.png)
+[![image](/assets/images/image_thumb17.png "image")](/assets/images/image17.png)
 
 Also Word provides the user with option for **deleting** the **repeated word**. The **find** **repeated word** feature is by default enabled and you can turn off this check using the Word Proofing options.
 
@@ -25,7 +25,7 @@ Also Word provides the user with option for **deleting** the **repeated word**. 
 
 Click the file menu then the options link. In the Word Options screen, click the Proofing option and then navigate to When correcting in Microsoft Programs section.
 
-[![image](images/image_thumb18.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/08/image18.png)
+[![image](/assets/images/image_thumb18.png "image")](/assets/images/image18.png)
 
 Un tick the checkbox with label as **Flag repeated words** to **disable** the **repeated word check** in **Word 2010**. Click on the OK button available at the bottom of the page to confirm and save the changes.
 

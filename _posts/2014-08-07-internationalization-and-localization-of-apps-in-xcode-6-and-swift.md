@@ -60,15 +60,13 @@ Navigate to Main.storyboard, click default View Controller. Drag and drop 9 Labe
 
 Click ViewController.swift in project navigator and add the following IBOutlets after the class declaration.  
 
-\[code language="swift"\]@IBOutlet var textLabel: UILabel!
-
+```swift
+@IBOutlet var textLabel: UILabel!
 @IBOutlet var numberLabel: UILabel!
-
 @IBOutlet var currencyLabel: UILabel!
-
 @IBOutlet var dateLabel: UILabel!
-
-@IBOutlet var imageView: UIImageView! \[/code\]
+@IBOutlet var imageView: UIImageView!
+```
 
 Navigate back to Main.storyboard and connect labels and imageView to the respective outlets.
 
@@ -78,11 +76,24 @@ Navigate back to Main.storyboard and connect labels and imageView to the respect
 
 Click ViewController.swift in Project Navigator and create a new function with name as populateValues  
 
-\[code language="swift"\]func populateValues() { textLabel.text = “Good Morning” numberLabel.text = “9999999.999” currencyLabel.text = “50000” dateLabel.text = “07/08/2014” imageView.image = UIImage(named: “hello”) }\[/code\]
+```swift
+func populateValues() {
+    textLabel.text = “Good Morning”
+    numberLabel.text = “9999999.999”
+    currencyLabel.text = “50000”
+    dateLabel.text = “07/08/2014”
+    imageView.image = UIImage(named: “hello”)
+}
+```
 
 The above function populates values for all the controls. The values which are assigned for the fields will be displayed in the screen without localization format. Then add this function as part of ViewDidLoad function.  
 
-\[code language="swift"\]override func viewDidLoad() { super.viewDidLoad() populateValues() }\[/code\]
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    populateValues()
+}
+```
 
 Using Add Files to option, add the image [hello.png](https://github.com/rshankras/Localisation-Demo/blob/master/en.lproj/hello.png) to the Project folder.  
 
@@ -94,17 +105,42 @@ Now if you compile and run the project on iOS simulator, you should see the foll
 
 We do not see any formatting applied for Number, Date and Currency Values. Now let us see how to use NSNumberFormatter for formatting number and currency field and NSDateFormatter for formatting date field. Add the following properties after populateValues function in ViewController.swift file.  
 
-\[code language="swift"\]var numberFormatter: NSNumberFormatter { let formatter = NSNumberFormatter() formatter.numberStyle = .DecimalStyle return formatter } \[/code\]
+```swift
+var numberFormatter: NSNumberFormatter {
+    let formatter = NSNumberFormatter()
+    formatter.numberStyle = .DecimalStyle
+    return formatter
+}
+```
 
-\[code language="swift"\] var currencyFormatter: NSNumberFormatter { let formatter = NSNumberFormatter() formatter.numberStyle = .CurrencyStyle return formatter }\[/code\]
+```swift
+var currencyFormatter: NSNumberFormatter {
+    let formatter = NSNumberFormatter()
+    formatter.numberStyle = .CurrencyStyle
+    return formatter
+}
+```
 
-\[code language="swift"\]var dateFormatter: NSDateFormatter { let formatter = NSDateFormatter() formatter.dateStyle = .MediumStyle formatter.timeStyle = .MediumStyle return formatter } \[/code\]
+```swift
+var dateFormatter: NSDateFormatter {
+    let formatter = NSDateFormatter()
+    formatter.dateStyle = .MediumStyle
+    formatter.timeStyle = .MediumStyle
+    return formatter
+}
+```
 
 In the above functions, we are creating respective formatter instances and setting the corresponding styles such DecimalStyle, CurrencyStyle then MediumStyle for date and time values. Now we need to update populateValues function to use these properties for displaying the values.  
 
-\[code language="swift"\]func populateValues() { textLabel.text = “Good Morning” numberLabel.text = numberFormatter.stringFromNumber(9999999.999) currencyLabel.text = currencyFormatter.stringFromNumber(5000) dateLabel.text = dateFormatter.stringFromDate(NSDate()) imageView.image = UIImage(named: “hello”) }
-
-\[/code\]
+```swift
+func populateValues() {
+    textLabel.text = “Good Morning”
+    numberLabel.text = numberFormatter.stringFromNumber(9999999.999)
+    currencyLabel.text = currencyFormatter.stringFromNumber(5000)
+    dateLabel.text = dateFormatter.stringFromDate(NSDate())
+    imageView.image = UIImage(named: “hello”)
+}
+```
 
 Now after applying the correct format, iOS Simulator will use the default system region to display the values for number, currency and date fields  
 
@@ -136,17 +172,18 @@ First let us see how to add support for another language for the Caption control
 
 Expand Main.storyboard and click Main.strings (German) . Now enter the German equivalent for Date, Currency, Number and Image as Datum, Währung, Anzahl and Bild. And for rest of the controls, localization will be done in the code.
 
-![201408071735.jpg](images/201408071735.jpg)\[code language="plain"\]
+![201408071735.jpg](images/201408071735.jpg)
+```plain
+/* Class = “IBUILabel”; text = “Date :”; ObjectID = “0sh-CK-26C”; */ “0sh-CK-26C.text” = “Datum :”;
 
-/\* Class = “IBUILabel”; text = “Date :”; ObjectID = “0sh-CK-26C”; \*/ “0sh-CK-26C.text” = “Datum :”;
+/* Class = “IBUILabel”; text = “Number :”; ObjectID = “AeO-ot-XWj”; */ “AeO-ot-XWj.text” = “Anzahl :”;
 
-/\* Class = “IBUILabel”; text = “Number :”; ObjectID = “AeO-ot-XWj”; \*/ “AeO-ot-XWj.text” = “Anzahl :”;
+/* Class = “IBUILabel”; text = “number”; ObjectID = “XDV-eF-gQk”; */ “XDV-eF-gQk.text” = “number”;
 
-/\* Class = “IBUILabel”; text = “number”; ObjectID = “XDV-eF-gQk”; \*/ “XDV-eF-gQk.text” = “number”;
+/* Class = “IBUILabel”; text = “Image :”; ObjectID = “bvG-x6-Tpx”; */ “bvG-x6-Tpx.text” = “Bild :”;
 
-/\* Class = “IBUILabel”; text = “Image :”; ObjectID = “bvG-x6-Tpx”; \*/ “bvG-x6-Tpx.text” = “Bild :”;
-
-/\* Class = “IBUILabel”; text = “Currency :”; ObjectID = “tVi-KF-Xgb”; \*/ “tVi-KF-Xgb.text” = “Währung :”;\[/code\]
+/* Class = “IBUILabel”; text = “Currency :”; ObjectID = “tVi-KF-Xgb”; */ “tVi-KF-Xgb.text” = “Währung :”;
+```
 
 ### Testing Localization changes in iOS Simulator
 

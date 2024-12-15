@@ -10,9 +10,9 @@ We had already seen how to [show gridlines in Word 2010](http://blogmines.com/bl
 
 Launch Word Mac 2011 and click the Layout menu and then navigate to Grid section.
 
-![201109241512.jpg](images/201109241512.jpg)
+![201109241512.jpg](/assets/images/201109241512.jpg)
 
 Now tick the check box with label as **Gridlines** to display the gridlines in the **Word document**.
 
   
-![201109241516.jpg](images/201109241516.jpg)
+![201109241516.jpg](/assets/images/201109241516.jpg)

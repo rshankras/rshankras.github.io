@@ -12,16 +12,16 @@ tags:
 Click the Chrome menu on the menu bar and select Preferences from the list of available menus.
 
   
-![201109180806.jpg](images/2011091808061.jpg)
+![201109180806.jpg](/assets/images/2011091808061.jpg)
 
 In the Preferences window, click the Under the hood link.
 
   
-![201109180806.jpg](images/201109180806.jpg)
+![201109180806.jpg](/assets/images/201109180806.jpg)
 
 Navigate to **Web Content** section available in Under the Hood page.
 
   
-![201109180808.jpg](images/201109180808.jpg)
+![201109180808.jpg](/assets/images/201109180808.jpg)
 
 Now un tick the check box with label as **Pressing tab on a webpage highlights links, as well as form fields**. This would only highlight the form fields when pressing tabs.

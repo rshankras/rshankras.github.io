@@ -20,15 +20,15 @@ tags:
 
 - Right click on the PPT file, navigate to **Open With** and Select Other option.
 
-![201201271605.jpg](images/201201271605.jpg)  
+![201201271605.jpg](/assets/images/201201271605.jpg)  
 
 - This would display the following **Choose Application** window.
 
-![201201271607.jpg](images/201201271607.jpg)
+![201201271607.jpg](/assets/images/201201271607.jpg)
 
 - Scroll down the application list and pick Keynote. Then mark the check box with label as "Always Open With" and click the Open button.
 
-![201201271609.jpg](images/201201271609.jpg)
+![201201271609.jpg](/assets/images/201201271609.jpg)
 
 - This would launch the Keynote application with the selected PowerPoint Presentation file.
 

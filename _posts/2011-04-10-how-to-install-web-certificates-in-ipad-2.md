@@ -15,13 +15,13 @@ If you want to access your **corporate Outlook Email Account** in iPad 2 then yo
 - Access the email and download the attached certificate to your iPad
 - You will be prompted with the following dialog. 
 
-[![image](images/2_image_thumb13.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image11.png)
+[![image](/assets/images/2_image_thumb13.png "image")](/assets/images/image11.png)
 
 - Touch the Install button to proceed with the installation
 - Some certificate might be password protected and enter the password if prompted.
 
-[![image](images/2_image_thumb14.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image12.png)
+[![image](/assets/images/2_image_thumb14.png "image")](/assets/images/image12.png)
 
 - The following confirmation message will be displayed once the certificate installed. Click Done to close this window.
 
-[![image](images/1_image_thumb15.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image13.png)
+[![image](/assets/images/1_image_thumb15.png "image")](/assets/images/image13.png)

@@ -30,7 +30,7 @@ The objective of this Navigation Contorller article is to explain the following
 2. Add Title to Navigation Bar
 3. Creating a Push Segue
 4. ViewController transitions using Segue and programmatically
-5.  Programmatically dismiss ViewController.
+5.   Programmatically dismiss ViewController.
 6. Add toolbars to navigation controller
 
 ### Project Setup
@@ -62,7 +62,98 @@ Now embed the ViewContoller inside a navigation contoller by selecting Navigatio
 
 Add a new Swift file to the project and name the file and Colours. Open the file for editing and add the following code snippet.  
 
-\[code language="swift"\] enum Colours: String { case Blue = "0000FF" case Cyan = "00FFFF" case Gold = "FFD700" case Green = "008000" case Khaki = "F0E68C" case Orange = "FFA500" case Red = "FF0000" case Skyblue = "87CEEB" case Tan = "D2B48C" case Violet = "EE82EE" static let allValues = \[Blue,Cyan,Gold,Green,Khaki,Orange,Red,Skyblue,Tan,Violet\] func getDisplayName() -> String { var displayName = "" switch (self) { case .Blue: displayName = "Blue" case .Cyan: displayName = "Cyan" case .Gold: displayName = "Gold" case .Green: displayName = "Green" case .Khaki: displayName = "Khaki" case .Orange: displayName = "Orange" case .Red: displayName = "Red" case .Skyblue: displayName = "SkyBlue" case .Tan: displayName = "Tan" case .Violet: displayName = "Violet" } return displayName } static func getColours() -> \[String\] { var colours:\[String\] = \[\] for colour in Colours.allValues { colours.append(colour.getDisplayName()) } return colours } static func getEnumFromSelectedValue(selectedRow: Int) -> Colours{ var selected:Colours? switch (selectedRow) { case Colours.Blue.hashValue: selected = .Blue case Colours.Cyan.hashValue: selected = .Cyan case Colours.Gold.hashValue: selected = .Gold case Colours.Green.hashValue: selected = .Green case Colours.Khaki.hashValue: selected = .Khaki case Colours.Orange.hashValue: selected = .Orange case Colours.Red.hashValue: selected = .Red case Colours.Skyblue.hashValue: selected = .Skyblue case Colours.Tan.hashValue: selected = .Tan case Colours.Violet.hashValue: selected = .Violet default: break } return selected! } // Credit below function to http://www.anthonydamota.me/blog/en/use-a-hex-color-code-with-uicolor-on-swift/ static func getUIColorFromHex(colorCode: String, alpha: Float = 1.0) -> UIColor{ var scanner = NSScanner(string:colorCode) var color:UInt32 = 0; scanner.scanHexInt(&color) let mask = 0x000000FF let r = CGFloat(Float(Int(color >> 16) & mask)/255.0) let g = CGFloat(Float(Int(color >> 8) & mask)/255.0) let b = CGFloat(Float(Int(color) & mask)/255.0) return UIColor(red: r, green: g, blue: b, alpha: CGFloat(alpha)) } } \[/code\]
+```swift
+enum Colours: String {
+    case Blue = "0000FF"
+    case Cyan = "00FFFF"
+    case Gold = "FFD700"
+    case Green = "008000"
+    case Khaki = "F0E68C"
+    case Orange = "FFA500"
+    case Red = "FF0000"
+    case Skyblue = "87CEEB"
+    case Tan = "D2B48C"
+    case Violet = "EE82EE"
+    
+    static let allValues = [Blue,Cyan,Gold,Green,Khaki,Orange,Red,Skyblue,Tan,Violet]
+    
+    func getDisplayName() -> String {
+        var displayName = ""
+        switch (self) {
+        case .Blue:
+            displayName = "Blue"
+        case .Cyan:
+            displayName = "Cyan"
+        case .Gold:
+            displayName = "Gold"
+        case .Green:
+            displayName = "Green"
+        case .Khaki:
+            displayName = "Khaki"
+        case .Orange:
+            displayName = "Orange"
+        case .Red:
+            displayName = "Red"
+        case .Skyblue:
+            displayName = "SkyBlue"
+        case .Tan:
+            displayName = "Tan"
+        case .Violet:
+            displayName = "Violet"
+        }
+        return displayName
+    }
+    
+    static func getColours() -> [String] {
+        var colours:[String] = []
+        for colour in Colours.allValues {
+            colours.append(colour.getDisplayName())
+        }
+        return colours
+    }
+    
+    static func getEnumFromSelectedValue(selectedRow: Int) -> Colours{
+        var selected:Colours?
+        switch (selectedRow) {
+        case Colours.Blue.hashValue:
+            selected = .Blue
+        case Colours.Cyan.hashValue:
+            selected = .Cyan
+        case Colours.Gold.hashValue:
+            selected = .Gold
+        case Colours.Green.hashValue:
+            selected = .Green
+        case Colours.Khaki.hashValue:
+            selected = .Khaki
+        case Colours.Orange.hashValue:
+            selected = .Orange
+        case Colours.Red.hashValue:
+            selected = .Red
+        case Colours.Skyblue.hashValue:
+            selected = .Skyblue
+        case Colours.Tan.hashValue:
+            selected = .Tan
+        case Colours.Violet.hashValue:
+            selected = .Violet
+        default:
+            break
+        }
+        return selected!
+    }
+    
+    // Credit below function to http://www.anthonydamota.me/blog/en/use-a-hex-color-code-with-uicolor-on-swift/
+    static func getUIColorFromHex(colorCode: String, alpha: Float = 1.0) -> UIColor{
+        var scanner = NSScanner(string:colorCode)
+        var color:UInt32 = 0;
+        scanner.scanHexInt(&color)
+        let mask = 0x000000FF
+        let r = CGFloat(Float(Int(color >> 16) & mask)/255.0)
+        let g = CGFloat(Float(Int(color >> 8) & mask)/255.0)
+        let b = CGFloat(Float(Int(color) & mask)/255.0)
+        return UIColor(red: r, green: g, blue: b, alpha: CGFloat(alpha))
+    }
+}
+```
 
   
 In the above code snippet, we have added enum that holds a list of colours and following functions  
@@ -81,15 +172,25 @@ In order to display different colours, let us add a UITableView to the ViewContr
 
 Add an instance level variable to the ViewController class for storing data
 
-\[code language="swift"\]var data:\[String\] = \[String\]()\[/code\]
+```swift
+var data:[String] = [String]()
+```
 
 And in viewDidLoad function add this line `data = Colours.getColours()` to populate data with the array of colours. Then implement the following UITableViewDataSource methods numberOfRowsInSection and cellForRowAtIndexPath as shown below.  
 
-\[code language="swift"\]//MARK:- UITableViewDataSource methods
+```swift
+//MARK:- UITableViewDataSource methods
 
-func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int { return data.count }
+func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return data.count
+}
 
-func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell { let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as! UITableViewCell cell.textLabel?.text = data\[indexPath.row\] return cell } \[/code\]
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as! UITableViewCell
+    cell.textLabel?.text = data[indexPath.row]
+    return cell
+}
+```
 
 Navigate to Main.storyboard file and add UITableViewCell to the TableView. Make sure to provide identifier for the prototype cell as “CellIdentifier”. Now if you build and run the project you sould see the initial screen with empty navigation bar and with following set of colours  
 
@@ -103,7 +204,9 @@ You can use Interface builder to add title to navigation bar by double clicking 
 
 And if you want to add title programmatically then use the following code snippet. Place this code snippet in viewDidAppear function.  
 
-\[code language="swift"\] navigationItem.title = "Colours" \[/code\]
+```swift
+navigationItem.title = "Colours"
+```
 
 ### Create Push Segue
 
@@ -132,15 +235,24 @@ Using the Interface builder, set the class as ColourViewController (Identity Ins
   
 Now add colour property to the ColourViewController and this will hold enum value of the selected colour in the ManiViewController.  
 
-\[code language="swift"\] var colour: Int?\[/code\]
+```swift
+var colour: Int?
+```
 
 And in the viewDidLoad function add the following code snippet.  
 
-\[code language="swift"\]override func viewDidLoad() { super.viewDidLoad()
-
-if let colour = colour { let hex:Colours = Colours.getEnumFromSelectedValue(colour) view.backgroundColor = Colours.getUIColorFromHex(hex.rawValue, alpha: 1.0)
-
-navigationItem.title = hex.getDisplayName() } }\[/code\]
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    if let colour = colour {
+        let hex:Colours = Colours.getEnumFromSelectedValue(colour)
+        view.backgroundColor = Colours.getUIColorFromHex(hex.rawValue, alpha: 1.0)
+        
+        navigationItem.title = hex.getDisplayName()
+    }
+}
+```
 
 The above code snippet retrieves the colour enum and corresponding UIColor by passing the color hex code. This colour is then set as the background colour of the current view. Also the display name of the colour is set as the title for the navigation bar.
 
@@ -148,9 +260,17 @@ The above code snippet retrieves the colour enum and corresponding UIColor by pa
 
 Navigate to back to the ViewController.swift file and add the following prepareForSegue funciton.  
 
-\[code language="swift"\]//MARK:- PrepareForSegue
+```swift
+//MARK:- PrepareForSegue
 
-override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) { if segue.identifier == "Colour" { let colourViewController:ColourViewController = segue.destinationViewController as! ColourViewController let selectedRow = tableView.indexPathForSelectedRow()?.row colourViewController.colour = selectedRow } }\[/code\]
+override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    if segue.identifier == "Colour" {
+        let colourViewController:ColourViewController = segue.destinationViewController as! ColourViewController
+        let selectedRow = tableView.indexPathForSelectedRow()?.row
+        colourViewController.colour = selectedRow
+    }
+}
+```
 
 The above function instantiates the ColourViewContoller from segue.destinationViewController and sets the selected colour form the tableView to the colour property of the ColourViewController.
 
@@ -161,17 +281,31 @@ Adding toolbars to Navigation Controllers
 
 Let us see how to programmatically add toolbars to a ViewController embeded in a Navigation Controller. Open ViewController.swift for editing and add the following functions  
 
-\[code language="swift"\]//MARK:- Add toolbar items func addToolBarItems() {
+```swift
+//MARK:- Add toolbar items
+func addToolBarItems() {
+    
+    let segue = UIBarButtonItem(title: "Segue", style: .Plain, target: self, action: "segueCall")
+    let nonSegue = UIBarButtonItem(title: "Non Segue", style: .Plain, target: self, action: "nonSegueCall")
+    let seperator = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: self, action: nil)
+    
+    var items = [segue,seperator,nonSegue]
+    
+    self.setToolbarItems(items as [AnyObject], animated: true)
+    navigationController?.setToolbarHidden(false, animated: true)
+}
 
-let segue = UIBarButtonItem(title: "Segue", style: .Plain, target: self, action: "segueCall") let nonSegue = UIBarButtonItem(title: "Non Segue", style: .Plain, target: self, action: "nonSegueCall") let seperator = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.FlexibleSpace, target: self, action: nil)
+//MARK:- Segue call
+func segueCall(){
+    performSegueWithIdentifier("Colour", sender: self)
+}
 
-var items = \[segue,seperator,nonSegue\]
-
-self.setToolbarItems(items as \[AnyObject\], animated: true) navigationController?.setToolbarHidden(false, animated: true) }
-
-//MARK:- Segue call func segueCall(){ performSegueWithIdentifier("Colour", sender: self) }
-
-//MARK:- Non Segue call func nonSegueCall() { let childViewController = storyboard?.instantiateViewControllerWithIdentifier("ColourViewController") as! ColourViewController navigationController?.pushViewController(childViewController, animated: true) }\[/code\]
+//MARK:- Non Segue call
+func nonSegueCall() {
+    let childViewController = storyboard?.instantiateViewControllerWithIdentifier("ColourViewController") as! ColourViewController
+    navigationController?.pushViewController(childViewController, animated: true)
+}
+```
 
 `addToolBarItems` funciton creates a `UIBarButtonItems` along with a separator (flexible space). These array of UIBarButtonItems are then added to the ViewController using `setToolBarItems` function. Also we need to unhide the toolbar in navigation contoller using `setToolbarHidden` function.  
   
@@ -181,15 +315,25 @@ The `segueCall` function shows how to programmatically call segue transition usi
 
 Finally we will see how to programmatically dismiss ViewController embeded in navigation controller. Open ColourViewController.swift for editing and add the following piece of code which add a toolbar item and dismiss the ViewController by calling `navigationController?.popViewControllerAnimated(true)`  
 
-\[code language="swift"\]//MARK:- Add toolbar items
+```swift
+//MARK:- Add toolbar items
 
 func addToolBarItems() {
+    
+    let nonSegue = UIBarButtonItem(title: "Non Segue", style: .Plain, target: self, action: "nonSegueCall")
+    var items = [nonSegue]
+    
+    self.setToolbarItems(items as [AnyObject], animated: true)
+}
 
-let nonSegue = UIBarButtonItem(title: "Non Segue", style: .Plain, target: self, action: "nonSegueCall") var items = \[nonSegue\]
+func nonSegueCall() {
+    navigationController?.popViewControllerAnimated(true)
+}
+```
 
-self.setToolbarItems(items as \[AnyObject\], animated: true) }
+The above code snippet adds a toolbar item with title as Non Segue. On tapping this button, the ColourViewController will be dismissed and you will be taken back to the Main ViewController.
 
-func nonSegueCall() { navigationController?.popViewControllerAnimated(true) }\[/code\][![](/assets/images/1435732966_thumb1.png)](https://rshankar.com/wp-content/uploads/2015/07/1435732966_full1.png)
+[![](/assets/images/1435732966_thumb1.png)](https://rshankar.com/wp-content/uploads/2015/07/1435732966_full1.png)
 
 Tapping on Non Segue should dismiss the Child ViewController and take you to the main ViewController.
 

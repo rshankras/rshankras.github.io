@@ -16,16 +16,16 @@ It is always recommended to [insert watermark](http://blogmines.com/blog/2010/08
 
 Click the Layout menu and navigate to Page Background section.
 
-![Watermark Word 2011 Mac](images/201110211808.jpg)
+![Watermark Word 2011 Mac](/assets/images/201110211808.jpg)
 
 Click the Watermark option to launch the Insert Watermark window.
 
-![Insert Watermark Word 2011 Mac](images/201110211810.jpg)
+![Insert Watermark Word 2011 Mac](/assets/images/201110211810.jpg)
 
 If you want to add your company logo as Watermark then select Picture radio option then browse and select the the logo using the Select Picture button. Picture Watermark also provides Washout and Scale option.
 
-![Picture Watermark Word 2011 Mac](images/201110211818.jpg)
+![Picture Watermark Word 2011 Mac](/assets/images/201110211818.jpg)
 
 If you want to add text as a Watermark for the document then select Text radio option and enter the watermark text. Text Watermark provides user with different options such as Font Style, Transparency and Orientation.
 
-![Text Watermark Word 2011 Mac](images/201110211829.jpg)
+![Text Watermark Word 2011 Mac](/assets/images/201110211829.jpg)

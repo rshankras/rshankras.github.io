@@ -67,15 +67,20 @@ Click Connection Inspector and connect dataLabel to the newly added UILabel. **d
 
 Now we need to provide the required data for the display. Click ModelViewController.swift and change the pageData variable in to a constant and add array of four quotes as shown below.
 
-\[code language="swift"\]let pageData:NSArray = \["I'm as proud of what we don't do as I am of what we do - Steve Jobs", "That's one small step for man, one giant leap for mankind - Neil Armstrong","An ant on the move does more than a dozing ox - Lao Tzu","I mean, it's impossible But that's exactly what we've tried to do - Jonathan Ive"\] \[/code\]
+```swift
+let pageData:NSArray = ["I'm as proud of what we don't do as I am of what we do - Steve Jobs", 
+                       "That's one small step for man, one giant leap for mankind - Neil Armstrong",
+                       "An ant on the move does more than a dozing ox - Lao Tzu",
+                       "I mean, it's impossible But that's exactly what we've tried to do - Jonathan Ive"]
+```
 
 Then delete the following lines from init() function  
 
-\[code language="swift"\]// Create the data model.
-
-let dateFormatter = NSDateFormatter()
-
-pageData = dateFormatter.monthSymbols\[/code\]
+```swift
+// Create the data model.
+// let dateFormatter = NSDateFormatter()
+// pageData = dateFormatter.monthSymbols
+```
 
 Now compile and run the app on the simulator to see a Simple Page-based app in action written in Swift.
 

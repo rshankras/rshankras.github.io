@@ -17,11 +17,11 @@ tags:
 
 2\. Navigate to the Safari menu and then to the **Block Pop-ups** option
 
-[![image](images/image_thumb67.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image65.png)
+[![image](/assets/images/image_thumb67.png "image")](/assets/images/image65.png)
 
 3\. To **Turn off Popup blocker in iPad 2** tap the grey area next to ON option value Block Pop-ups.
 
-[![image](images/image_thumb68.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image66.png)
+[![image](/assets/images/image_thumb68.png "image")](/assets/images/image66.png)
 
 **Read: [Add signature for every mail account on iPad](http://blogmines.com/blog/2013/08/26/add-signature-for-every-mail-account-on-ipad/ "Add signature for every mail account on iPad
 ")**

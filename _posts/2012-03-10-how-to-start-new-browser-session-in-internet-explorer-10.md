@@ -15,6 +15,6 @@ I just came across a New Session feature on Internet Explorer 10 Consumer Previe
 
 You can start a new session by clicking the File menu then selecting **New Session** from the menu list.
 
-[![image](images/image_thumb36.png "image")](http://blogmines.com/blog/wp-content/uploads/2012/03/image36.png)
+[![image](/assets/images/image_thumb36.png "image")](/assets/images/image36.png)
 
 del.icio.us Tags: [Internet Explorer 10](http://del.icio.us/popular/Internet+Explorer+10),[new session](http://del.icio.us/popular/new+session),[browser session](http://del.icio.us/popular/browser+session)

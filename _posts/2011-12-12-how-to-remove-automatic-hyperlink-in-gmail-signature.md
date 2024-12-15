@@ -15,5 +15,5 @@ In Gmail, any websites addresses in signature are automatically converted in to 
 
 There is no settings that is currently available in Gmail that would turn off these hyperlinks. But there is a work around which can be done for each individual email message.  
   
-![Gmail Plain Text](images/201112120603.jpg) Clicking the Compose Mail button would open a new compose mail window populated with signature. Now click the **Pain Text** option above the message text area to remove the hyperlink. In case if you plan to use other formatting option for writing the email then click the **Rich formatting** option. By this way you can **manually remove the hyperlink** from the web address in Gmail.  
-![Gmail Rich Text Formatting](images/201112120611.jpg)
+![Gmail Plain Text](/assets/images/201112120603.jpg) Clicking the Compose Mail button would open a new compose mail window populated with signature. Now click the **Pain Text** option above the message text area to remove the hyperlink. In case if you plan to use other formatting option for writing the email then click the **Rich formatting** option. By this way you can **manually remove the hyperlink** from the web address in Gmail.  
+![Gmail Rich Text Formatting](/assets/images/201112120611.jpg)

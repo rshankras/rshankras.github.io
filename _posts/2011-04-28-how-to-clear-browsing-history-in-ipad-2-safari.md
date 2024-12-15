@@ -18,20 +18,20 @@ To clear the browsing history in iPad
 - Tap settings icon on your iPad home screen.
 - In the settings screen, navigate to General settings and then to Tao Safari menu option.
 
-[![image](images/2_image_thumb80.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image78.png)
+[![image](/assets/images/2_image_thumb80.png "image")](/assets/images/image78.png)
 
 - In the Safari settings, navigate down to see the list of menu options available for clearing the browsing history, cookies and cache.
 
-[![image](images/2_image_thumb81.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image79.png)
+[![image](/assets/images/2_image_thumb81.png "image")](/assets/images/image79.png)
 
 **Read: [How to enable iPad to speak selected text](http://blogmines.com/blog/2013/08/22/how-to-enable-ipad-to-speak-selected-text/ "How to enable iPad to speak selected text")**
 
 When you tap the clear history or any of these menu options you will be prompted with the following message depending upon the selected option.
 
-[![image](images/2_image_thumb82.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image80.png)
+[![image](/assets/images/2_image_thumb82.png "image")](/assets/images/image80.png)
 
-[![image](images/1_image_thumb83.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image81.png)
+[![image](/assets/images/1_image_thumb83.png "image")](/assets/images/image81.png)
 
-[![image](images/1_image_thumb84.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/04/image82.png)
+[![image](/assets/images/1_image_thumb84.png "image")](/assets/images/image82.png)
 
 Tap the Clear button to continue with the operation.

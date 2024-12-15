@@ -18,24 +18,24 @@ tags:
 
 When you swipe on the email message
 
-[![image](images/image_thumb57.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image57.png)
+[![image](/assets/images/image_thumb57.png "image")](/assets/images/image57.png)
 
 When you tap the trash icon.
 
-[![image](images/image_thumb58.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image58.png)
+[![image](/assets/images/image_thumb58.png "image")](/assets/images/image58.png)
 
 The above screenshots shows that **archive message** feature is **disabled** for the configured email account. To **enable** **archiving** for the email account, from iPad home screen tap the settings icon. In the Settings screen, navigate to **Mail, Contacts, Calendars settings** and then select email account to turn on archiving of email messages.
 
-[![image](images/image_thumb59.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image59.png)
+[![image](/assets/images/image_thumb59.png "image")](/assets/images/image59.png)
 
 In the select mail account, navigate to Archive Messages section.
 
-[![image](images/image_thumb60.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image60.png)
+[![image](/assets/images/image_thumb60.png "image")](/assets/images/image60.png)
 
 Tap and swipe Archive Messages to turn on the feature as shown below.
 
-[![image](images/image_thumb61.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image61.png)
+[![image](/assets/images/image_thumb61.png "image")](/assets/images/image61.png)
 
 Now when you swipe on any email message the Archive option will be shown as shown below.
 
-[![image](images/image_thumb62.png "image")](http://blogmines.com/blog/wp-content/uploads/2011/07/image62.png)
+[![image](/assets/images/image_thumb62.png "image")](/assets/images/image62.png)
