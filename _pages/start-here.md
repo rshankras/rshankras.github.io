@@ -1,11 +1,7 @@
 ---
-title: "Start Here"
 permalink: /start-here/
 ---
-
-# Welcome to iOS Development Learning Path
-
-Hello and welcome! This page is your starting line for learning iOS and Swift. It's a place for everyone, whether you are just starting out or looking to build on what you know. I'm here to learn with you and to share all the things that can make us better at making great apps. Let's get started on this learning journey together, one step at a time.
+This page is your starting line for learning iOS and Swift. It's a place for everyone, whether you are just starting out or looking to build on what you know. I'm here to learn with you and to share all the things that can make us better at making great apps. Let's get started on this learning journey together, one step at a time.
 
 ## 📱 For Beginners
 

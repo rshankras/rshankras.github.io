@@ -1,5 +1,4 @@
 ---
-title: "Apps"
 permalink: /portfolio/
 ---
 
