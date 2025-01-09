@@ -48,8 +48,5 @@ A curated list of resources for iOS development.
 - Pragma Conference
 - Do-iOS
 - iOSConfSG
-
-## App Features
-### App Clips
-- [App Clips (WWDC)](https://developer.apple.com/videos/play/wwdc2020/10174/)
-- [What are app clips?](https://developer.apple.com/app-clips/)
+- iOSSummit
+- WWDC
