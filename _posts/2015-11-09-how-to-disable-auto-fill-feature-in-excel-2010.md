@@ -15,6 +15,7 @@ tags:
   - "enable-auto-fill"
   - "excel"
   - "turn-off"
+redirect_to: https://blogmines.com/how-to-disable-auto-fill-feature-in-excel-2010/
 ---
 
 **Auto fill in excel** is quite handy feature, using this you can fill series of cells based on the entries of other excel cells. But if you want to **turn off or disable auto fill** feature then you can use Excel options for doing this. Listed below are the steps to **turn off auto fill in Excel 2013, Excel 2010 and Excel 2007**

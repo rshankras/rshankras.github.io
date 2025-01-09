@@ -12,6 +12,7 @@ tags:
   - "paragraph"
   - "shading"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-add-background-color-to-paragraph-in-word-2010/
 ---
 
 In this short tutorial we are going to see **how to add background color** to texts or paragraph in Word 2016, Word 2013 and Word 2010. For example, if you want to add background color to a paragraph then you can follow the below mentioned steps.

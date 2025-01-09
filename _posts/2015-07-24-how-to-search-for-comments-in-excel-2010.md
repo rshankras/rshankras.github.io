@@ -14,6 +14,7 @@ tags:
   - "print-comments"
   - "search"
   - "unhide-comments"
+redirect_to: https://www.blogmines.com/how-to-search-for-comments-in-excel-2010/
 ---
 
 Adding **a** comment to a cell in **Microsoft Excel** is very useful feature. You can always locate a comment by red arrow appearing at the top right corner of the cell.

@@ -15,6 +15,7 @@ tags:
   - "prevent"
   - "protect-workbook-structure"
   - "worksheet"
+redirect_to: https://blogmines.com/how-to-prevent-users-from-adding-new-worksheet-in-excel-2010/
 ---
 
 **Excel 2016, 2013 and 2010** provides an option to **prevent users** from adding new worksheet to existing **Workbook structure**. So if you are the owner of Excel file and you do not want to allow other users to **add** any **new** **worksheet**, **rename** or **move** **worksheet** then you can use **Protect Workbook Structure** option to change the permission. You can access Protect Workbook Structure from the Info menu.

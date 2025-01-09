@@ -14,6 +14,7 @@ tags:
   - "excel-2010"
   - "office-2010"
   - "re-enable"
+redirect_to: https://www.blogmines.com/how-to-enable-a-disabled-add-in-in-excel-2010/
 ---
 
 Office products such as Word, Excel Outlook will automatically disable **installed add-in** if any add-in prevented the software from functioning correctly. And it also provides option for enabling the disabled add-in items. In Excel 2010 you can **enable a disabled add-in** using the add-in options.

@@ -11,6 +11,7 @@ tags:
   - "mathematical"
   - "operation"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-insert-math-symbols-in-word-2010/
 ---
 
 Word users can use the [insert equation](http://blogmines.com/blog/2011/12/05/how-to-enable-insert-equation-in-word-2010/) option to add mathematical equation to a document. Similarly to add any Math’s Symbol, you can use Insert –> Symbol feature. This is quite useful when you are preparing Mathematics Questionnaire using Word 2010.

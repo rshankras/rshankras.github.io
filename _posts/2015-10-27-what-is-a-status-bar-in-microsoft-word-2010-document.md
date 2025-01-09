@@ -13,6 +13,7 @@ tags:
   - "status-bar"
   - "word-2010"
   - "word-status-bar"
+redirect_to: https://www.blogmines.com/what-is-a-status-bar-in-microsoft-word-2010-document/
 ---
 
 [![image](/assets/images/1_image_thumb71.png "image")](http://blogmines.com/blog/wp-content/uploads/2010/09/image76.png)

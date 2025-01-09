@@ -8,6 +8,7 @@ categories:
   - "excel-2013"
   - "ms-office"
   - "not-programming"
+redirect_to: https://www.blogmines.com/a-trick-to-flip-a-column-upside-down-in-excel/
 ---
 
 Excel users can [sort a column](http://blogmines.com/blog/how-to-sort-columns-with-date-values-in-excel-2010/) using the Sort feature available as part of Sort & Filter menu. But what if you want to flip a column upside down. Let us see this with an example column having some text values as shown below.

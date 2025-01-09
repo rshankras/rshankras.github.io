@@ -9,6 +9,7 @@ tags:
   - "block"
   - "jio"
   - "websites"
+redirect_to: https://www.blogmines.com/how-to-block-keywords-in-jio-broadband/
 ---
 
 In this tutorial let us see the steps required to block websites in Jio broadband using keywords

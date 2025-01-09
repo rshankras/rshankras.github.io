@@ -10,6 +10,7 @@ tags:
   - "format-page-numbers"
   - "remove-page-numbers"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-remove-page-numbers-in-word-2010-document/
 ---
 
 We have already seen how to [format page numbers in word 2010](http://blogmines.com/blog/2010/08/03/how-to-format-page-numbers-in-word-2010/). This is another simple tip which explains how to remove page numbers in Word 2013 and Word 2010. A page number in a word document can be removed using the Page Number menu option available as part of the Insert menu.

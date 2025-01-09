@@ -13,6 +13,7 @@ tags:
   - "get-external-data"
   - "import-text-file"
   - "office-2013"
+redirect_to: https://blogmines.com/how-to-import-text-file-in-excel-2013/
 ---
 
 This tutorial is provided step by step instruction to **import a text file in to Worksheet in Excel 2016 and 2013**. For this demo, let us take the following sample data with the columns separated from tabs and spaces.

@@ -5,6 +5,7 @@ categories:
   - "gmail-internet-emails"
 tags: 
   - "distribution-list"
+redirect_to: https://www.blogmines.com/create-a-gmail-group-from-mail-recipients/
 ---
 
 In this article, let us see the steps required to [create distribution list in gmail](https://rshankar.com/create-distribution-list-in-gmail/) for email addresses in To, Cc or Bcc fields.

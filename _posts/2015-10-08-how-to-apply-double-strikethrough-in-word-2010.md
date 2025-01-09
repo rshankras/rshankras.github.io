@@ -12,6 +12,7 @@ tags:
   - "paragraph"
   - "strikethrough"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-apply-double-strikethrough-in-word-2010/
 ---
 
 **Apply single/double strikethrough in Word 2010, 2013 & 2016**

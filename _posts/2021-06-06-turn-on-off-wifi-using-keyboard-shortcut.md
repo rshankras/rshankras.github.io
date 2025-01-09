@@ -9,6 +9,7 @@ tags:
   - "automator"
   - "keyboard-shortcut"
   - "mac"
+redirect_to: https://www.blogmines.com/turn-on-off-wifi-using-keyboard-shortcut/
 ---
 
 Mac users can turn on/off Wifi using option available as part of the Menu bar.

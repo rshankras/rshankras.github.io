@@ -11,6 +11,7 @@ tags:
   - "disable"
   - "firefox"
   - "recently"
+redirect_to: https://www.blogmines.com/how-to-clear-or-disable-recently-closed-tab-section-in-firefox/
 ---
 
 **Firefox displays** the **recently closed tabs** under History menu –> Recently Closed Tabs.

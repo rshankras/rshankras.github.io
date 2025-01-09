@@ -13,6 +13,7 @@ tags:
   - "status-bar"
   - "word-count"
   - "word-document"
+redirect_to: https://www.blogmines.com/find-out-character-count-in-word-2013-document/
 ---
 
 **Microsoft Word** users can find out character count of a document using the option available as part of the **Review** menu.

@@ -13,6 +13,7 @@ tags:
   - "excel-2010"
   - "protect"
   - "worksheet"
+redirect_to: https://www.blogmines.com/how-to-enable-auto-filter-for-protected-sheet-in-excel-2010/
 ---
 
 We had already seen the following tutorials related with **protection of worksheet** in **Excel 2016, 2013 & 2010**.

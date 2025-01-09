@@ -8,6 +8,7 @@ tags:
   - "outlook-web-access"
   - "owa"
   - "shortcut-keys"
+redirect_to: https://www.blogmines.com/microsoft-outlook-web-access-owa-shortcut-keys/
 ---
 
 These are some of the useful outlook web access shortcut keys

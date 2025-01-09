@@ -13,6 +13,7 @@ tags:
   - "tips"
   - "word-2010"
   - "word-2013"
+redirect_to: https://www.blogmines.com/go-to-specific-page-number-in-word-2010/
 ---
 
 In **Word 2013 and Word 2010** you can **go to specific page** in the Word document using the **Find and Replace** dialog.

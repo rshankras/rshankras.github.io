@@ -10,7 +10,19 @@ tags:
   - "close-archive-folder"
   - "open-outlook-data-file"
   - "outlook-2010"
+permalink: /how-to-open-a-archive-file-in-outlook-2010/
+redirect_to: https://www.blogmines.com/how-to-open-a-archive-file-in-outlook-2010/
 ---
+
+<script>
+window.location.href = "https://www.blogmines.com/how-to-open-a-archive-file-in-outlook-2010/";
+</script>
+
+<noscript>
+    <meta http-equiv="refresh" content="0;url=https://www.blogmines.com/how-to-open-a-archive-file-in-outlook-2010/">
+</noscript>
+
+<p>Redirecting to <a href="https://www.blogmines.com/how-to-open-a-archive-file-in-outlook-2010/">https://www.blogmines.com/how-to-open-a-archive-file-in-outlook-2010/</a>...</p>
 
 In this tutorial, we will see the steps to open or close archive file in Outlook 2013 and Outlook 2010.
 

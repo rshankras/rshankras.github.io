@@ -13,6 +13,7 @@ tags:
   - "office-2010"
   - "powerpoint-2010"
   - "slide-show"
+redirect_to: https://www.blogmines.com/how-to-disable-advance-slide-on-mouse-click-in-powerpoint-2010/
 ---
 
 In this short beginners PowerPoint 2013 and PowerPoint 2010 tutorial, we will see the steps to disable advance slide on mouse click. During a **slide show**, you can **move** to **next slide** either by pressing ENTER or SPACEBAR on keyboard or on mouse click. And using **Transitions menu**, you can **disable** or **enable** the advance slide on mouse click.

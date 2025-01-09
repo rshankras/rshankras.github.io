@@ -10,6 +10,7 @@ tags:
   - "file-properties"
   - "remove-author"
   - "word-2013"
+redirect_to: https://www.blogmines.com/remove-author-name-from-file-properties-in-word-2013/
 ---
 
 Word 2016 & 2013 users have an option to **remove the author name** that is displayed as part of **File Properties**. If you have created  a word document, right click on the file and selecting properties > Details tab should display the author’s name.

@@ -9,6 +9,7 @@ tags:
   - "make-default"
   - "manage-add-ons"
   - "search-provider"
+redirect_to: https://www.blogmines.com/how-to-add-google-as-default-search-in-internet-explorer/
 ---
 
 **Internet Explorer** is in-built with **Bing** as the **default search engine**. But it also provides users with the option to **change the default search provider**. Listed below are the steps for changing the default search engine in Internet Explorer 11 and 8

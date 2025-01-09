@@ -6,6 +6,7 @@ categories:
   - "tips"
 tags: 
   - "distribution-list"
+redirect_to: https://www.blogmines.com/create-distribution-list-in-gmail/
 ---
 
 **Distribution list or mailing list** is quite useful when you want to send email to multiple recipients at the same time. You can create a distribution list using Google Contacts and this can be used in Gmail for sending emails.

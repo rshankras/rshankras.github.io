@@ -14,6 +14,7 @@ tags:
   - "modify"
   - "prevent"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-prevent-automatic-insertion-of-current-date-in-word-2010/
 ---
 
 This is in reference to a query posted by one of the blog reader on “**how to prevent the date field getting automatically updated with the current date** **in a Word document**. We had already seen the steps required to [insert current date](http://blogmines.com/blog/2010/08/26/how-to-insert-current-date-and-time-in-word-2010/) or [modify date format](http://blogmines.com/blog/2011/08/01/change-the-insert-date-format-in-word-2010/) for the date in Word 2016, 2013 & 2010. Similarly you can stop Word from the changing the date to the system date by following the below simple steps

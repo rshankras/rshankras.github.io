@@ -11,6 +11,7 @@ tags:
   - "skip-slides"
   - "unhide-slides"
   - "unskip-slides"
+redirect_to: https://www.blogmines.com/how-to-hide-or-unhide-slides-in-keynote/
 ---
 
 In this short tutorial, we will be covering the steps required to **hide or unhide slides** in a **Keynote presentatio**n. This tip is quite useful when you want to hide certain slides from your standard presentation depending upon audience.

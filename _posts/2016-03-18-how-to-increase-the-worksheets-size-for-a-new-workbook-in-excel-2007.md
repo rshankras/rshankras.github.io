@@ -15,6 +15,7 @@ tags:
   - "increase-sheets"
   - "workbook"
   - "worksheets-size"
+redirect_to: https://www.blogmines.com/how-to-increase-the-worksheets-size-for-a-new-workbook-in-excel-2007/
 ---
 
 **Microsoft Excel** by default contains 3 **worksheets** while creating a **new Workbook**. For creating a new workbook you can specify the number of Worksheet that a Workbook needs to contain. This can be modified using **Excel Options**. Listed below are steps for increasing number of Worksheets for a new Workbook in Excel 2013, Excel 2010 and Excel 2007

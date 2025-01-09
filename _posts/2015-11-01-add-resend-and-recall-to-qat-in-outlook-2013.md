@@ -12,6 +12,7 @@ tags:
   - "quick-access-toolbar"
   - "recall-this-message"
   - "resend-this-message"
+redirect_to: https://www.blogmines.com/add-resend-and-recall-to-qat-in-outlook-2013/
 ---
 
 This tutorial is about the steps required to add “Resend This Message” and “[Recall This Message”](http://blogmines.com/blog/2010/06/10/how-to-recall-a-email-message-in-outlook-2010/) to Quick Access Toolbar in Outlook 2016 & 2013. If you are frequently going to use resend and recall option then you can add it to QAT.

@@ -10,6 +10,7 @@ tags:
   - "certificate"
   - "google-chrome"
   - "import"
+redirect_to: https://www.blogmines.com/how-to-import-a-certificate-in-google-chrome/
 ---
 
 A **SSL certificate** can be **imported** in **Google Chrome** using option menu. Click on the wrench icon –> options –> Navigate to Under the Hood tab

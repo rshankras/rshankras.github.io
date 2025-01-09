@@ -6,6 +6,7 @@ categories:
 tags: 
   - "icloud"
   - "mac"
+redirect_to: https://www.blogmines.com/how-to-know-the-size-of-the-folders-in-icloud/
 ---
 
 If you are using Apple iCloud, the folder sizes are not shown by default when they are not downloaded to your Mac. Doing the following will show all the folder size whether they are downloaded or present only in iCloud.

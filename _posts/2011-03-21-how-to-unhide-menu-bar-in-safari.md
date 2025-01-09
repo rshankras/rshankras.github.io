@@ -12,6 +12,7 @@ tags:
   - "safari"
   - "show"
   - "unhide"
+redirect_to: https://www.blogmines.com/how-to-unhide-menu-bar-in-safari/
 ---
 
 The **Safari** browser has a menu bar with menus such as  File, Edit, View, History, Bookmarks etc.. and it is available on the top of the browser as shown below.

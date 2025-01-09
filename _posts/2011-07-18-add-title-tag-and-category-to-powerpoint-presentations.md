@@ -13,6 +13,7 @@ tags:
   - "presentation"
   - "tag"
   - "title"
+redirect_to: https://www.blogmines.com/add-title-tag-and-category-to-powerpoint-presentations/
 ---
 
 This tutorial explains how to add title, tag and category information to a PowerPoint Presentation file. Adding Title, Tag and Category information will keep you more organized and also help us during searches in a shared environment. To add these information to your PowerPoint Presentation file, click the File menu then Info menu option.

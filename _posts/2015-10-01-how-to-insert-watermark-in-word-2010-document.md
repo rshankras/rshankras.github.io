@@ -17,6 +17,7 @@ tags:
   - "word-2007"
   - "word-2010"
   - "word-2013"
+redirect_to: https://www.blogmines.com/how-to-insert-watermark-in-word-2010-document/
 ---
 
 In this tutorial we see the steps required to **Insert, Save watermark in Word 2013, Word 2010 and Word 2007**. Word users can insert a **watermark** in a document using the option available as part of the **Page Layout** menu.

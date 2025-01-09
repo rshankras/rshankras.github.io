@@ -14,6 +14,7 @@ tags:
   - "multi-thread"
   - "multi-threaded"
   - "office-2010"
+redirect_to: https://www.blogmines.com/how-to-use-multi-threading-feature-in-microsoft-excel-2010/
 ---
 
 **Microsoft Excel 2010** has a **multi threading** feature which when enabled reduces the **time taken for complex calculation or Formulas**. And you can enable this feature when your computer supports multi processing capabilities. Listed below are the steps to **enable or disable multi threading feature in Excel 2013 and Excel 2010**

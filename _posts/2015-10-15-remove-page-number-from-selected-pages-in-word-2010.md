@@ -11,6 +11,7 @@ tags:
   - "remove"
   - "section-break"
   - "word-2010"
+redirect_to: https://www.blogmines.com/remove-page-number-from-selected-pages-in-word-2010/
 ---
 
 This is in response to the query posted by a reader that “How to remove a page number without removing all page numbers ”.

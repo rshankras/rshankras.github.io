@@ -12,6 +12,7 @@ tags:
   - "insert-symbols"
   - "insert-tick-mark"
   - "word-2013"
+redirect_to: https://www.blogmines.com/insert-tick-mark-in-word-2013/
 ---
 
 #### Insert check mark in Word 2010 and Word 2013

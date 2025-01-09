@@ -7,6 +7,7 @@ categories:
   - "word_migration"
 tags: 
   - "page-size"
+redirect_to: https://www.blogmines.com/different-page-size-in-the-same-document-in-word-2013-word-2010/
 ---
 
 This post is in reply to a query posted by a blog reader that

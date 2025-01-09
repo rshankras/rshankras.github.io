@@ -13,6 +13,7 @@ tags:
   - "mathematical"
   - "word-2003"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-enable-insert-equation-in-word-2010/
 ---
 
 **Word 2016, 2013 and 2010** provide users with the option to **insert mathematical equations** in a document. This is quite useful when you are preparing a word document with mathematical questions. Users can **insert equations** using the option available as part of the Office Ribbon’s Insert menu.

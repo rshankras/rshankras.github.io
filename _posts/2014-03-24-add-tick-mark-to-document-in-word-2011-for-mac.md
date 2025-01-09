@@ -7,6 +7,7 @@ categories:
 tags: 
   - "tick-mark"
   - "word-2011-for-mac"
+redirect_to: https://www.blogmines.com/add-tick-mark-to-document-in-word-2011-for-mac/
 ---
 
 This short tutorial is about the steps required for [adding check mark to word document](http://blogmines.com/blog/2013/07/04/insert-tick-mark-in-word-2013/) in Microsoft Word for Mac. Word 2011 users can insert tick mark using the Symbol browser or Advanced Symbol options.

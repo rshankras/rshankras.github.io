@@ -16,6 +16,7 @@ tags:
   - "navigate"
   - "office-2010"
   - "show"
+redirect_to: https://www.blogmines.com/how-to-insert-delete-customize-comments-in-excel-2010/
 ---
 
 This tutorial provides information on the comment feature available in Excel 2013 & Excel 2010. The following will be covered as part of this tutorial.

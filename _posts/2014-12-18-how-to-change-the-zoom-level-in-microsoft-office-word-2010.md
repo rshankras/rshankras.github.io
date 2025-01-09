@@ -11,6 +11,7 @@ tags:
   - "office-2010"
   - "word-2010"
   - "zoom-level"
+redirect_to: https://www.blogmines.com/how-to-change-the-zoom-level-in-microsoft-office-word-2010/
 ---
 
 The **zoom level** in a **Microsoft** **Word** can be changed in different ways. The Zoom options are available as part of Zoom section under View menu. Listed below are are different ways to  change zoom level in Word 2013 and Word 2010

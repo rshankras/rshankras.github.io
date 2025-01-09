@@ -11,6 +11,7 @@ tags:
   - "microsoft-word"
   - "numeric-symbol"
   - "word-2013"
+redirect_to: https://www.blogmines.com/how-to-insert-numeric-symbols-in-word-2013/
 ---
 
 In this tutorial, we are going to see the steps to required for **inserting numeric symbols** such as

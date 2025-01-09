@@ -10,6 +10,7 @@ tags:
   - "blank-page"
   - "microsoft-edge"
   - "startup"
+redirect_to: https://www.blogmines.com/how-to-start-microsoft-edge-with-blank-page/
 ---
 
 Microsoft Edge is the new Internet browser that has replaced Internet Explorer in Windows 10. When you start Microsoft Edge, by default it starts with Top sites.

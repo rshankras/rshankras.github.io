@@ -9,6 +9,7 @@ tags:
   - "remove"
   - "signature"
   - "turn-off"
+redirect_to: https://www.blogmines.com/how-to-remove-automatic-hyperlink-in-gmail-signature/
 ---
 
 In Gmail, any websites addresses in signature are automatically converted in to hyperlinks. For example, if you have added signature with web address and when you do a compose new message, it will automatically display the web address as hyperlink.

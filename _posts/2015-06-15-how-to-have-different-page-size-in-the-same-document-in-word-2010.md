@@ -12,6 +12,7 @@ tags:
   - "page-setup"
   - "page-size"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-have-different-page-size-in-the-same-document-in-word-2010/
 ---
 
 This post is in reply to a query posted by a blog reader that

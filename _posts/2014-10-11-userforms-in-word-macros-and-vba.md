@@ -9,6 +9,7 @@ tags:
   - "userforms"
   - "vba-code"
   - "vba-editor"
+redirect_to: https://www.blogmines.com/userforms-in-word-macros-and-vba/
 ---
 
 We had earlier seen an example [Macro for inserting date and time](http://blogmines.com/blog/write-your-own-macro-in-word-2011-for-mac/). We will use the same example but replace MsgBox with UserForms. The users will be displayed the following form and based on the user input the date and time will be inserted in the document.

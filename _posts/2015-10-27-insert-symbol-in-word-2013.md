@@ -12,6 +12,7 @@ tags:
   - "office-2013"
   - "rupee-symbol"
   - "word-2013"
+redirect_to: https://www.blogmines.com/insert-symbol-in-word-2013/
 ---
 
 This tutorial is about the steps required to [**insert symbols** in **Word 2016 and Word 2013**](http://blogmines.com/blog/2012/03/13/how-to-insert-math-symbols-in-word-2010/) document. Let us say you want to include Indian Rupees in the document and want to add Rupee symbol.

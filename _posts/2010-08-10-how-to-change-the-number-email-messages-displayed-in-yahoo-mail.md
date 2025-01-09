@@ -13,6 +13,7 @@ tags:
   - "increase"
   - "page"
   - "yahoo-email"
+redirect_to: https://www.blogmines.com/how-to-change-the-number-email-messages-displayed-in-yahoo-mail/
 ---
 
 The **number of email messages** displayed per page in a **Yahoo email** can be changed using the **Mail Options**. Click on the Options link available on the top of the right hand side. Select Mail Options from the menu list.

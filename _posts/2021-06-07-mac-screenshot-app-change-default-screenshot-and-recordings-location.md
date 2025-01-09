@@ -7,6 +7,7 @@ categories:
   - "tips"
 tags: 
   - "screenshot"
+redirect_to: https://www.blogmines.com/mac-screenshot-app-change-default-screenshot-and-recordings-location/
 ---
 
 **Screenshot app** in **Mac OS Big Sur** is quite useful tool for taking screenshots and screen recording. The default location for saving screenshots and video recording file is Mac desktop.

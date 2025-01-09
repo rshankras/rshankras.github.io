@@ -9,6 +9,7 @@ tags:
   - "background-colour"
   - "background-image"
   - "word-2011"
+redirect_to: https://www.blogmines.com/how-to-add-background-for-document-in-word-2011-for-mac/
 ---
 
 This tutorial is about the steps required to [add background colour or picture](http://blogmines.com/blog/2011/12/18/how-to-add-background-color-to-paragraph-in-word-2010/) to word document in Word 2011 for Mac.

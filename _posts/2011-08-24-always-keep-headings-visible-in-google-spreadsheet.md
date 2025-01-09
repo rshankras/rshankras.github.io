@@ -12,6 +12,7 @@ tags:
   - "rows"
   - "spreadsheet"
   - "visible"
+redirect_to: https://www.blogmines.com/always-keep-headings-visible-in-google-spreadsheet/
 ---
 
 When you are working with lot of data in a **Spreadsheet**, the **headings** would disappear when you start scrolling down the rows. Google Docs Spreadsheet provides users with the option for **keeping the headings always visible** even when you scroll down the Sheet. This can be done by using the menu option available as part of the View menu. To explain, let us take the take following sample data

@@ -13,6 +13,7 @@ tags:
   - "ipad"
   - "iphone"
   - "reset-home-screen"
+redirect_to: https://www.blogmines.com/auto-arrange-home-screen-icons-on-iphone-or-ipad/
 ---
 
 This is a short tip on the steps required to **auto arrange your apps on iPhone and iPad Home screen**. This is useful when you have removed lot of unwanted apps on your device’s home screen and manually re-arranging the icons will be nightmare.

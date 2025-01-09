@@ -12,6 +12,7 @@ tags:
   - "fraction-numbers"
   - "structure-equation"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-to-type-fraction-numbers-in-word-2010/
 ---
 
 If you are preparing any word document that requires you to type **fraction numbers** then you can use the [Insert Equation](http://blogmines.com/blog/2011/12/05/how-to-enable-insert-equation-in-word-2010/) feature available in **Word 2013 and Word 2010**. Let us say you want to type the fraction numbers 3/15 + 8/15 = ? then you can do the following Word 2013 or Word 2010

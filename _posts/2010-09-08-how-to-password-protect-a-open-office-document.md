@@ -8,6 +8,7 @@ tags:
   - "document"
   - "openoffice"
   - "password-protect"
+redirect_to: https://www.blogmines.com/how-to-password-protect-a-open-office-document/
 ---
 
 **OpenOffice** **document** can be **password protected** using the Save As option. Click the File menu –> Select Save As option. This would display the following Save As dialog box.

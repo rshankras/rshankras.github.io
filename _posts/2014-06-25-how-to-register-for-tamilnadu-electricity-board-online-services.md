@@ -9,6 +9,7 @@ tags:
   - "register-new-user"
   - "tamil-nadu-electricity-board"
   - "tneb"
+redirect_to: https://www.blogmines.com/how-to-register-for-tamilnadu-electricity-board-online-services/
 ---
 
 Listed below are the steps for registering for Tamil Nadu electricity board and doing online bill payment.

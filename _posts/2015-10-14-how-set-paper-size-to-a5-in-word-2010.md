@@ -13,6 +13,7 @@ tags:
   - "change-paper-size"
   - "custom-paper-size"
   - "word-2010"
+redirect_to: https://www.blogmines.com/how-set-paper-size-to-a5-in-word-2010/
 ---
 
 We had earlier covered about the steps required for [changing the paper size](http://blogmines.com/blog/2011/06/13/how-to-change-the-page-size-in-word-2010) in Word. And to this couple of readers had asked question on How to add A5 to the paper size list. So in case you don’t see A5 or any other paper size then use the custom paper size option available as Page Setup. Let us see how to add A5 paper size to the Page Setup in Word 2016, 2013 & 2010

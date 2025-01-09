@@ -10,6 +10,7 @@ tags:
   - "display"
   - "email-size"
   - "yahoo-mail"
+redirect_to: https://www.blogmines.com/how-to-display-email-size-in-yahoo-mail-account/
 ---
 
 **Yahoo Mail account** provides option for the users to **display the size** of an **email**. By default if your Yahoo Mail does not display this column then you can use the options link to change this behaviour.

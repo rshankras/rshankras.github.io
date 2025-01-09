@@ -14,6 +14,7 @@ tags:
   - "excel-2013"
   - "ruler-units"
   - "view-ruler"
+redirect_to: https://blogmines.com/how-to-change-the-default-ruler-units-in-excel-2013/
 ---
 
 The **default ruler units in Excel 2016, 2013 and Excel 2010** is set to Centimetres and users can change this default units using the Settings available as part of the Excel options.

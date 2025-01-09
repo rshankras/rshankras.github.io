@@ -19,6 +19,7 @@ tags:
   - "show-line-numbers"
   - "status-bar"
   - "word-2011-for-mac"
+redirect_to: https://www.blogmines.com/how-to-add-line-numbers-to-document-in-microsoft-word/
 ---
 
 Microsoft Word users can add line numbers to a word document using the options available as part of **Page Layout** menu. In this tutorial we will see the steps for **adding line number in Word 2013 and Word 2011 for Ma**c.
