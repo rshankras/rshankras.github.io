@@ -115,7 +115,7 @@ social:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "your-tracking-id"
+    tracking_id: "G-38RWC1DETX"  # Replace G-XXXXXXXXXX with your actual Google Analytics 4 Measurement ID
     anonymize_ip: false
 
 # Defaults
