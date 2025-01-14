@@ -1,43 +1,68 @@
 ---
-title: "My first iOS developer conference  - try! Swift Tokyo 2017"
+title: "try! Swift Tokyo 2017: My First International iOS Developer Conference Experience"
 date: "2017-10-28"
 categories: 
-  - "conference"
-  - "ios"
-  - "networking"
-  - "swift"
+  - "ios-development"
+  - "swift-programming"
+  - "tech-conferences"
+  - "mobile-development"
+  - "software-engineering"
+tags:
   - "try-swift"
+  - "ios"
+  - "swift"
+  - "tokyo"
+  - "developer-conference"
 ---
 
-Attending conference is one way of keeping yourself up to date with the latest trends in any industry. This is true for every software developer as well. After re-skilling myself and picking up iOS development I wanted to attend some good conferences but not many were happening in India. Heard a lot about try! Swift from [Alvin](https://twitter.com/speaktoalvin) and [Giridharan](https://twitter.com/giridharvc7) and registered for [try! Swift Tokyo](https://www.tryswift.co/events/2018/tokyo/en/).
+## My Journey to try! Swift Tokyo: A Developer's Perspective
 
-### Conference
+As a software developer focusing on iOS development, staying current with industry trends is crucial. After transitioning into iOS development, I was eager to immerse myself in the community. While searching for premier iOS conferences, try! Swift Tokyo emerged as a standout choice, thanks to recommendations from industry experts [Alvin](https://twitter.com/speaktoalvin) and [Giridharan](https://twitter.com/giridharvc7).
 
-I needed a visa to travel to Japan and the organisers were quick to help me out. Thanks to [Katsumi](https://twitter.com/k_katsumi?lang=en) and [Natasha](https://twitter.com/natashatherobot) for the paper work, the level of commitment shown to sort this out gave me a glimpse of what to expect in the conference.
+## Conference Overview: try! Swift Tokyo 2017
 
-I had arrived a day earlier and was able to attend the Tokyo Skytree tour followed by a reception at Pivotal labs arranged for all the international attendees. This was like an ice breaker and I got introduced to few of the attendees and speakers as well.
+### Pre-Conference Experience
+The conference organizers, particularly [Katsumi](https://twitter.com/k_katsumi?lang=en) and [Natasha](https://twitter.com/natashatherobot), demonstrated exceptional support by assisting with visa arrangements for international attendees like myself. Their dedication was a preview of the conference's high standards.
 
-[![](/assets/images/1509195774_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509195774_full.jpeg)
+I arrived early to participate in the Tokyo Skytree tour and attended a welcome reception at Pivotal Labs. This networking opportunity allowed me to connect with fellow developers and speakers in a relaxed setting.
 
-The conference was for 2 days + 1 day for workshops and hackathon. Each session was scheduled for 25 minutes followed by office hours with the speaker where you get a chance to clarify your queries and have detailed discussion with some [renowned speakers](https://www.tryswift.co/events/2018/tokyo/en/). They had also scheduled lighning talks with duration of 5 minutes each. This was a huge conference with 700+ attendess, great speakers and well organised one as well.
+[![Tokyo Skytree Tour](/assets/images/1509195774_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509195774_full.jpeg)
 
-### Hackathon and Workshop
+### Conference Structure and Content
+The main conference spanned two days, followed by a day dedicated to workshops and hackathon:
+- 25-minute focused technical sessions
+- Dedicated office hours with speakers for in-depth discussions
+- Lightning talks showcasing quick insights
+- Over 700 attendees from around the world
+- Industry-leading speakers sharing cutting-edge iOS development practices
 
-[![](/assets/images/1509195518_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509195518_full.jpeg)
+### Hands-on Learning: Hackathon and Workshops
 
-After the 2 day conference all the attendees had a chance to participate in hackathon. This gave me a chance to work with some bright Japanese developers. There were also some workshops conducted by Realm, IBM, Build a cross-platform 2D game with Swift by [@ewingfighter](https://twitter.com/ewingfighter) and React Native workshop by [orta](https://twitter.com/orta?lang=en)
+[![Hackathon Session](/assets/images/1509195518_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509195518_full.jpeg)
 
-[![](/assets/images/1509194924_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509194924_full.jpeg)
+The post-conference day featured:
+- Collaborative hackathon with Japanese developers
+- Specialized workshops by industry leaders:
+  - Realm
+  - IBM
+  - Cross-platform 2D game development with [@ewingfighter](https://twitter.com/ewingfighter)
+  - React Native insights by [orta](https://twitter.com/orta?lang=en)
 
-### Why should anyone attend?
+[![Workshop Session](/assets/images/1509194924_thumb.jpeg)](https://rshankar.com/wp-content/uploads/2017/10/1509194924_full.jpeg)
 
-- Networking with attendees and speakers, use the office hours after talk to clarify the queries with the speakers.
-- You can participate in the social events after conference. trySwift are the best at this.
-- If you are interested in job opportunities then you have chance to meet companies as many sponsors were doing recruitment as well
-- Get up to speed in new iOS technologies and chance to know about some exciting startups.
-- You can also participate in the local Swift and iOS community events.
-- On a side note you have a chance to explore country and interact with people.
+## 6 Key Benefits of Attending try! Swift Conference
 
-It was worth the money spent and would recommend this for all iOS developer especailly [try! Swift conferences](https://www.tryswift.co).
+1. **Professional Networking**: Connect with industry leaders and fellow developers during sessions and office hours
+2. **Community Engagement**: Participate in exclusive social events and local Swift/iOS community meetups
+3. **Career Opportunities**: Interface with sponsor companies actively recruiting talent
+4. **Technical Growth**: Learn about emerging iOS technologies and innovative startups
+5. **Global Perspective**: Gain insights from international developers and diverse coding practices
+6. **Cultural Experience**: Explore the host country and engage with the local tech community
 
-Now try! Swift has come to India as well !! **[Register Now](https://www.tryswift.co/events/2017/bangalore/)**
+## Conclusion: Worth the Investment
+
+The try! Swift conference offers exceptional value for iOS developers at any career stage. The combination of technical knowledge, networking opportunities, and community engagement makes it a worthwhile investment in your professional development.
+
+**Exciting News**: try! Swift is now available in India! [Register for try! Swift Bangalore](https://www.tryswift.co/events/2017/bangalore/)
+
+*For more information about upcoming try! Swift conferences worldwide, visit [try! Swift's official website](https://www.tryswift.co).*
