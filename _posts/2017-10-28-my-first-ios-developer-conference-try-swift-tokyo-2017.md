@@ -63,6 +63,4 @@ The post-conference day featured:
 
 The try! Swift conference offers exceptional value for iOS developers at any career stage. The combination of technical knowledge, networking opportunities, and community engagement makes it a worthwhile investment in your professional development.
 
-**Exciting News**: try! Swift is now available in India! [Register for try! Swift Bangalore](https://www.tryswift.co/events/2017/bangalore/)
-
 *For more information about upcoming try! Swift conferences worldwide, visit [try! Swift's official website](https://www.tryswift.co).*
