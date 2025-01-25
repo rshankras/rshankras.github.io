@@ -53,6 +53,7 @@ A collection of apps I've built for Apple platforms.
     </div>
     <div class="text">
       <p>A macOS application that automatically monitors and categorizes your daily computer activities, providing detailed insights into how you spend time across different applications and websites. The app features an intuitive dashboard that displays your time usage through interactive charts and allows you to customize categories for various apps and websites, helping you better understand and optimize your digital time management.</p>
+      <a href="/timetracker/" class="app-store-link">Learn More →</a>
     </div>
   </div>
 </div>
