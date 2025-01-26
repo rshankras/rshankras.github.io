@@ -84,6 +84,8 @@ We're actively working on making TimeTracker even better! Here's what's coming:
    - Automatic pause during inactivity
    - More accurate time tracking
 
+[View Development Progress](/timetracker/progress/){: .btn .btn--primary}
+
 ## Join the Waitlist
 
 We're excited to have you join the TimeTracker community! Fill out the form below to:
