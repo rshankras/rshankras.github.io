@@ -9,35 +9,80 @@ toc: true
 toc_sticky: true
 ---
 
-# TimeTracker: Automatic Time Tracking for macOS
+TimeTracker is a macOS application designed to help you understand and optimize how you spend your time on your computer. It automatically monitors and categorizes your daily computer activities, providing valuable insights into your digital time management.
 
-TimeTracker is a powerful macOS application designed to help you understand and optimize how you spend your time on your computer. It automatically monitors and categorizes your daily computer activities, providing valuable insights into your digital time management.
+<figure>
+  <img src="/assets/images/CurrentState_01.png" alt="TimeTracker v1.0.2 Dashboard" style="width: 100%; max-width: 800px; margin: 0 auto; display: block; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <figcaption style="text-align: center; margin-top: 8px; color: #666;">TimeTracker v1.0.2 Dashboard</figcaption>
+</figure>
 
 ## Current Features
 
-- **Automatic Activity Tracking**: Seamlessly monitors your application and website usage
-- **Interactive Dashboard**: Visualize your time usage through intuitive charts
-- **Custom Categories**: Organize applications and websites into personalized categories
-- **Daily Insights**: Get detailed breakdowns of your daily computer activities
+### Comprehensive Time Tracking
+- **Application Tracking**: Monitor time spent on different applications
+- **Website Tracking**: Track time spent on various websites
+- **Homepage Monitoring**: Keep track of time spent on specific homepages
+
+### Activity Management
+- **Custom Categories**: Create and manage categories for better organization
+- **Activity Tagging**: Add new activities and assign them to specific categories
+- **Flexible Categorization**: Categorize apps, websites, and homepages under relevant activities
+
+### Time Period Filters
+- **Quick Filters**:
+  - Today's activities
+  - Yesterday's summary
+  - Past week overview
+  - Last month's statistics
+- **Custom Date Range**: Select specific date ranges for detailed analysis
+
+### App Controls
+- **Stop Tracking**: Pause time tracking when needed
+- **Refresh Data**: Update tracking data in real-time
+- **Reset Stats**: Clear tracking data and start fresh
+- **Quick Exit**: Easily quit the app when needed
 
 ## Future Roadmap
 
 We're actively working on making TimeTracker even better! Here's what's coming:
 
-### Q1 2025
-- Enhanced reporting with weekly and monthly views
-- Export functionality for your time tracking data
-- Improved category management system
+1. **Enhanced Dashboard Insights**
+   - Top apps and pages statistics
+   - Usage count tracking for apps, pages, and homepages
+   - More detailed activity analytics
 
-### Q2 2025
-- Integration with popular productivity tools
-- Custom goals and alerts
-- Advanced analytics and trends
+2. **UI/UX Improvements**
+   - Streamlined dashboard layout
+   - Better organized date filters and tabs
+   - Clean, minimalistic design
 
-### Q3 2025
-- Team collaboration features
-- Cross-device synchronization
-- AI-powered productivity insights
+3. **Website Blocking**
+   - Block distracting websites
+   - Customizable blocking schedules
+
+4. **Focus Timer Integration**
+   - Built-in focus timer
+   - Website blocking during focus sessions
+
+5. **Project-Based Organization**
+   - Group activities by projects
+   - Project-specific time tracking
+   - Project progress insights
+
+6. **Data Export**
+   - Export tracking data
+   - Multiple export formats
+   - Custom report generation
+
+7. **Smart Categorization**
+   - Machine learning-based category suggestions
+   - Automatic activity classification
+   - Intelligent pattern recognition
+
+8. **Idle Time Management**
+   - Intelligent idle time detection
+   - Automatic pause during inactivity
+   - More accurate time tracking
 
 ## Join the Waitlist
 
