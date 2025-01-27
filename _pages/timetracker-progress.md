@@ -11,10 +11,10 @@ toc_sticky: true
 
 Follow the development journey of TimeTracker and stay updated with the latest changes and improvements.
 
-## January 2024
+## January 2025
 
 ### Updates
-- [January 26, 2024](/timetracker/progress/2024/01/26/) - Major UI/UX improvements, new insights features, and code organization
+- [January 26, 2025](/timetracker/progress/2024/01/26/) - Major UI/UX improvements, new insights features, and code organization
 {: .progress-list}
 
 {% comment %}
