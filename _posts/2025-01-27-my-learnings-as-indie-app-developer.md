@@ -77,7 +77,7 @@ As a developer, it's tempting to add numerous features, but without understandin
 I leverage storytelling and familiar references to create an emotional connection with users. In my expense-splitting app, I used characters from Friends—Ross, Rachel, Joey, and the gang—to make the screenshots more engaging and relatable. This approach resonated with users and made the app experience memorable. Stories build connection and trust, turning users into loyal fans.
 
 <p align="center">
-  <img src="/assets/images/habits/relatable_storyteller.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/assets/images/habits/i_relatable_storyteller.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
 ### 7. I am a marketer
