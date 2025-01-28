@@ -58,15 +58,7 @@ Consistency in shipping updates has been a game-changer in my indie development 
   <img src="/assets/images/habits/consistent-shipper-updates.png" alt="App Store Updates" width="600" height="500" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
-### 3. I am a lifelong learner
-
-The iOS development landscape is constantly evolving, and staying current is crucial for success. Expense Split app was initially built using UIkIt then it was upgraded to Swift UI. I have since upgraded it again to SwiftUI. Learning new technologies is a continuous learning process, and I am always seeking ways to expand my knowledge and stay ahead of the curve.
-
-<p align="center">
-  <img src="/assets/images/habits/learning-swiftui-upgrade.gif" alt="SwiftUI Upgrade" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</p>
-
-### 4. I am user-focused
+### 3. I am user-focused
 
 Understanding and responding to user needs has become central to my development process. Instead of building features in isolation, I actively engage with my users through various channels. I've implemented an in-app feedback system that makes it easy for users to share their thoughts and report issues. This direct line of communication has been invaluable in shaping the direction of my apps and ensuring they truly serve their intended purpose.
 
@@ -74,53 +66,23 @@ Understanding and responding to user needs has become central to my development 
   <img src="/assets/images/habits/user-feedback-system.PNG" alt="In-app Feedback" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
-### 5. I am a marketer
+### 4. I am a lifelong learner
 
-I used to think marketing wasn’t my job as a developer. As developers, we often overlook marketing. But driving traffic to your app is just as important as building it. But after seeing a 3-4x boost in impressions from tweaking my app’s title and keywords, I realized how crucial it is. Now, I spend 15 minutes daily on ASO—it’s a small habit with big results.
+The iOS development landscape is constantly evolving, and staying current is crucial for success. Expense Split app was initially built using UIkIt then it was upgraded to Swift UI. I have since upgraded it again to SwiftUI. Learning new technologies is a continuous learning process, and I am always seeking ways to expand my knowledge and stay ahead of the curve.
 
 <p align="center">
-  <img src="/assets/images/habits/app-store-presence.png" alt="App Store Marketing" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <img src="/assets/images/habits/learning-swiftui-upgrade.gif" alt="SwiftUI Upgrade" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
-### 6. I am data-driven
+### 5. I am data-driven
 
-As a developer, it’s tempting to add numerous features, but without understanding user behavior, it’s hard to know which ones truly matter. That’s why I always integrate analytics into my apps. This helps me track if a feature is being used—if not, I remove it. Analytics also provide insights into where users are coming from. For example, if I notice high impressions from a country but low conversions, it might indicate that my app isn’t ranking for the right keywords or that my App Store screenshots need localization. This data-driven approach ensures my efforts are aligned with user needs and helps me make informed decisions.
+As a developer, it's tempting to add numerous features, but without understanding user behavior, it's hard to know which ones truly matter. That's why I always integrate analytics into my apps. This helps me track if a feature is being used—if not, I remove it. Analytics also provide insights into where users are coming from. For example, if I notice high impressions from a country but low conversions, it might indicate that my app isn't ranking for the right keywords or that my App Store screenshots need localization. This data-driven approach ensures my efforts are aligned with user needs and helps me make informed decisions.
 
 <p align="center">
   <img src="/assets/images/habits/analytics-dashboard.png" alt="Analytics Dashboard" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
-### 7. I am a confident monetizer.
-
-One of the main challenges Indie app developers face is a lack of confidence in their apps and the doubt: “Will anyone actually pay for this feature?” For years, I didn’t monetize my app for the same reason. But as an Indie developer, monetization isn’t just about making money—it’s also a way to validate your product’s value and test product-market fit.
-
-When I finally added a paid feature, I was surprised to see users willing to pay for it. While it didn’t make me a fortune, it boosted my confidence and proved that my app was solving a problem worth paying for.
-
-If you’re building apps as an Indie developer, don’t shy away from monetization—it’s the path to sustainability and growth.
-
-<p align="center">
-  <img src="/assets/images/habits/monetization-strategy.PNG" alt="App Monetization" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</p>
-
-### 8. I am a Celebrator
-
-Celebrating small wins has become a vital part of my journey as an Indie app developer. Whether it’s shipping a new feature, reaching a milestone, or earning my first dollar from a paid feature, I’ve learned to pause and acknowledge the progress I’ve made.
-
-This habit keeps me motivated and reinforces my identity as a developer who values both the journey and the destination. Every step forward, no matter how small, is worth celebrating.
-
-<p align="center">
-  <img src="/assets/images/habits/celeberate_small_wins.png" alt="Code Documentation" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</p>
-
-### 9. I am a Pro at Earning Ratings
-
-Requesting ratings at the right moment has been a game-changer for boosting my app’s success. Instead of asking for ratings randomly or too frequently, I strategically time my prompts to align with user achievements—like successfully splitting a bill in my expense app. This proactive approach ensures that users see your app in the right context and are more likely to give it a rating. This also improves the App Store ranking of my app, which translates to more downloads and more revenue.
-
-<p align="center">
-  <img src="/assets/images/habits/earning_ratings.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-</p>
-
-### 10. I am a Relatable Storyteller
+### 6. I am a Relatable Storyteller
 
 I leverage storytelling and familiar references to create an emotional connection with users. In my expense-splitting app, I used characters from Friends—Ross, Rachel, Joey, and the gang—to make the screenshots more engaging and relatable. This approach resonated with users and made the app experience memorable. Stories build connection and trust, turning users into loyal fans.
 
@@ -128,9 +90,47 @@ I leverage storytelling and familiar references to create an emotional connectio
   <img src="/assets/images/habits/relatable_storyteller.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </p>
 
+### 7. I am a marketer
+
+I used to think marketing wasn't my job as a developer. As developers, we often overlook marketing. But driving traffic to your app is just as important as building it. But after seeing a 3-4x boost in impressions from tweaking my app's title and keywords, I realized how crucial it is. Now, I spend 15 minutes daily on ASO—it's a small habit with big results.
+
+<p align="center">
+  <img src="/assets/images/habits/app-store-presence.png" alt="App Store Marketing" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
+### 8. I am a Pro at Earning Ratings
+
+Requesting ratings at the right moment has been a game-changer for boosting my app's success. Instead of asking for ratings randomly or too frequently, I strategically time my prompts to align with user achievements—like successfully splitting a bill in my expense app. This proactive approach ensures that users see your app in the right context and are more likely to give it a rating. This also improves the App Store ranking of my app, which translates to more downloads and more revenue.
+
+<p align="center">
+  <img src="/assets/images/habits/earning_ratings.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
+### 9. I am a confident monetizer
+
+One of the main challenges Indie app developers face is a lack of confidence in their apps and the doubt: "Will anyone actually pay for this feature?" For years, I didn't monetize my app for the same reason. But as an Indie developer, monetization isn't just about making money—it's also a way to validate your product's value and test product-market fit.
+
+When I finally added a paid feature, I was surprised to see users willing to pay for it. While it didn't make me a fortune, it boosted my confidence and proved that my app was solving a problem worth paying for.
+
+If you're building apps as an Indie developer, don't shy away from monetization—it's the path to sustainability and growth.
+
+<p align="center">
+  <img src="/assets/images/habits/monetization-strategy.PNG" alt="App Monetization" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
+### 10. I am a Celebrator
+
+Celebrating small wins has become a vital part of my journey as an Indie app developer. Whether it's shipping a new feature, reaching a milestone, or earning my first dollar from a paid feature, I've learned to pause and acknowledge the progress I've made.
+
+This habit keeps me motivated and reinforces my identity as a developer who values both the journey and the destination. Every step forward, no matter how small, is worth celebrating.
+
+<p align="center">
+  <img src="/assets/images/habits/celeberate_small_wins.png" alt="Code Documentation" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
 ## Conclusion
 
-Building a successful indie app business isn't just about coding skills or marketing strategies. It's about developing the identity and habits of a professional indie developer. By focusing on these identity-based habits and following Clear's framework for habit formation, we can build sustainable practices that lead to long-term success.
+These identity-based habits have transformed my approach to indie app development. They've helped me evolve from someone who just writes code to someone who builds sustainable, user-loved products. Remember, success in indie development isn't just about technical skills—it's about developing habits that align with the identity of a successful indie developer.
 
 <p align="center">
   <img src="/assets/images/habits/indie_dev_journey.png" alt="Indie Developer Journey" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
