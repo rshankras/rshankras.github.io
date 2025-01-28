@@ -1,35 +1,25 @@
 ---
-title: "My learnings as Indie App Developer: Building Identity Habits"
+title: "My Learnings as Indie App Developer: Building Identity Habits"
 date: "2025-01-27"
+description: "Discover 10 essential identity-based habits for successful indie app development, from problem-solving to monetization. Learn how to transform from a coder to a complete product creator through real experiences with iOS app development."
 categories: 
-  - "indie-dev"
-  - "productivity"
-  - "personal-growth"
-tags: 
   - "indie-development"
-  - "atomic-habits"
-  - "productivity"
+  - "ios"
   - "app-development"
-  - "habits"
-  - "self-improvement"
-  - "swift"
-  - "swiftui"
+  - "entrepreneurship"
+tags: 
+  - "indie-apps"
   - "ios-development"
-description: "Learn how to build successful habits as an indie app developer using James Clear's Atomic Habits framework. Discover practical strategies for sustainable app development and business growth."
-keywords:
-  - indie app developer
-  - atomic habits for developers
-  - app development habits
-  - indie developer success
-  - sustainable app business
-  - developer productivity
-  - James Clear habits
-  - indie app business
-  - app developer mindset
-  - developer identity
-  - swift development
-  - swiftui
-  - ios app development
+  - "app-monetization"
+  - "user-experience"
+  - "app-marketing"
+  - "atomic-habits"
+  - "swiftui"
+  - "app-store-optimization"
+  - "product-development"
+  - "developer-journey"
+keywords: "indie app development, iOS app monetization, app store optimization, developer habits, successful app development, indie developer journey, app marketing strategy, user-focused development, app store ratings, indie app business"
+image: "/assets/images/habits/indie_dev_journey.png"
 toc: true
 toc_sticky: true
 ---
