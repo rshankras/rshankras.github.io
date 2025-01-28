@@ -24,7 +24,7 @@ toc: true
 toc_sticky: true
 ---
 
-As an indie app developer, building successful habits is crucial for long-term success and sustainability. Inspired by James Clear's "Atomic Habits", I want to share my perspective on developing identity-based habits that can help fellow indie developers.
+Success in indie app development isn't just about coding skills or marketing strategies—it's about who you become as a developer. Drawing inspiration from James Clear's concept of [identity-based habits](https://jamesclear.com/identity-based-habits), I've identified ten key identities that have shaped my journey as an indie developer. 
 
 ## The Power of Identity-Based Habits
 
