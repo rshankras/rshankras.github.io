@@ -44,187 +44,94 @@ In "Atomic Habits", James Clear emphasizes that the most effective way to change
 
 ### 1. I am a problem solver
 
-The foundation of successful indie development lies in solving real problems. My journey as a problem solver began when I was planning a trip with friends and needed a way to split expenses evenly. Instead of searching for an existing solution, I saw an opportunity to create one. Starting with a basic MVP that could handle simple splits, I created an expense split app. Over time, as I understood user needs better, I expanded its capabilities. This experience taught me that the best apps emerge from genuine needs, and starting small with a focused solution allows for organic growth based on real user feedback.
+The foundation of successful indie development lies in solving real problems. My journey as a problem solver began when I was planning a trip with friends and needed a way to split expenses evenly. Instead of searching for an existing solution, I saw an opportunity to create one. Starting with a basic MVP that could handle simple splits, I created an expense split app. Over time, as I understood user needs better, I expanded its capabilities. 
+
+<p align="center">
+  <img src="/assets/images/habits/problem-solver-expense-split.png" alt="Expense Split App MVP" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
 ### 2. I am a consistent shipper
 
-Consistency in shipping updates has been a game-changer in my indie development journey. Rather than aiming for perfection, I've learned to embrace incremental progress. Every week, I release new versions through TestFlight, gathering valuable feedback from beta users. This regular shipping cadence keeps me accountable and helps maintain momentum. Even if an update is small, like improving error messages or tweaking the UI, it contributes to the app's evolution. This approach has helped me avoid the common trap of endless polishing and taught me that progress trumps perfection.
+Consistency in shipping updates has been a game-changer in my indie development journey. Rather than aiming for perfection, I've learned to embrace incremental progress. This regular shipping habit keeps me accountable and helps maintain momentum. Even if an update is small, like improving error messages or tweaking the UI, it contributes to the app's evolution. This approach has helped me avoid the common trap of endless polishing and taught me that progress trumps perfection.
+
+<p align="center">
+  <img src="/assets/images/habits/consistent-shipper-updates.png" alt="App Store Updates" width="600" height="500" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
 ### 3. I am a lifelong learner
 
 The iOS development landscape is constantly evolving, and staying current is crucial for success. Expense Split app was initially built using UIkIt then it was upgraded to Swift UI. I have since upgraded it again to SwiftUI. Learning new technologies is a continuous learning process, and I am always seeking ways to expand my knowledge and stay ahead of the curve.
 
+<p align="center">
+  <img src="/assets/images/habits/learning-swiftui-upgrade.gif" alt="SwiftUI Upgrade" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
+
 ### 4. I am user-focused
 
 Understanding and responding to user needs has become central to my development process. Instead of building features in isolation, I actively engage with my users through various channels. I've implemented an in-app feedback system that makes it easy for users to share their thoughts and report issues. This direct line of communication has been invaluable in shaping the direction of my apps and ensuring they truly serve their intended purpose.
 
-### 6. I am a marketer
+<p align="center">
+  <img src="/assets/images/habits/user-feedback-system.PNG" alt="In-app Feedback" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-Spending time promoting my app has been crucial for its success. I dedicate 15 minutes each day to marketing activities, whether it's optimizing my App Store presence, building in social sharing features, or engaging with potential users on social media. This consistent effort has helped me build a loyal user base and increase visibility for my app.
+### 5. I am a marketer
 
-```swift
-// Example: Adding a "Share This App" button
-Button("Share App") {
-    let url = URL(string: "https://apps.apple.com/app/yourapp")!
-    let activityVC = UIActivityViewController(activityItems: [url], applicationActivities: nil)
-    present(activityVC, animated: true)
-}
-```
+I used to think marketing wasn’t my job as a developer. As developers, we often overlook marketing. But driving traffic to your app is just as important as building it. But after seeing a 3-4x boost in impressions from tweaking my app’s title and keywords, I realized how crucial it is. Now, I spend 15 minutes daily on ASO—it’s a small habit with big results.
 
-### 7. I am data-driven
+<p align="center">
+  <img src="/assets/images/habits/app-store-presence.png" alt="App Store Marketing" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-Tracking and analyzing app metrics has been essential for making informed decisions about my app's development. I use analytics tools to understand user behavior, identify areas for improvement, and measure the effectiveness of new features. This data-driven approach has helped me optimize my app for better user engagement and retention.
+### 6. I am data-driven
 
+As a developer, it’s tempting to add numerous features, but without understanding user behavior, it’s hard to know which ones truly matter. That’s why I always integrate analytics into my apps. This helps me track if a feature is being used—if not, I remove it. Analytics also provide insights into where users are coming from. For example, if I notice high impressions from a country but low conversions, it might indicate that my app isn’t ranking for the right keywords or that my App Store screenshots need localization. This data-driven approach ensures my efforts are aligned with user needs and helps me make informed decisions.
 
-### 9. I am a monetization strategist
+<p align="center">
+  <img src="/assets/images/habits/analytics-dashboard.png" alt="Analytics Dashboard" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-Experimenting with different revenue models has been crucial for finding a sustainable business model for my app. I've implemented and tested various monetization strategies, including in-app purchases, subscriptions, and advertising. This experimentation has helped me understand what works best for my app and my users, allowing me to optimize my revenue streams.
+### 7. I am a confident monetizer.
 
-### 10. I am a documenter
+One of the main challenges Indie app developers face is a lack of confidence in their apps and the doubt: “Will anyone actually pay for this feature?” For years, I didn’t monetize my app for the same reason. But as an Indie developer, monetization isn’t just about making money—it’s also a way to validate your product’s value and test product-market fit.
 
-Documenting my code and processes has been essential for maintaining a high level of quality in my apps. I write clear and concise comments, explaining the purpose and functionality of each code segment. This documentation has also helped me to reflect on my development process, identifying areas for improvement and optimizing my workflow.
+When I finally added a paid feature, I was surprised to see users willing to pay for it. While it didn’t make me a fortune, it boosted my confidence and proved that my app was solving a problem worth paying for.
 
-```swift
-/// Fetches user data from the server.
-/// - Parameters:
-///   - userId: The unique identifier of the user
-///   - completion: Closure called with the result
-func fetchUserData(userId: String, completion: @escaping (Result<UserData, Error>) -> Void) {
-    // Implementation details here
-}
-```
+If you’re building apps as an Indie developer, don’t shy away from monetization—it’s the path to sustainability and growth.
 
-### 11. I am a reflective developer
+<p align="center">
+  <img src="/assets/images/habits/monetization-strategy.PNG" alt="App Monetization" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-Reflecting on my progress and experiences has been crucial for growth and improvement as a developer. I maintain a development journal, recording my successes, failures, and lessons learned. This reflection has helped me to identify patterns and areas for improvement, allowing me to refine my development process and optimize my workflow.
+### 8. I am a Celebrator
 
-```swift
-// Example: Logging weekly reflections
-let reflection = """
-This week, I:
-- Shipped a new feature 🚀
-- Learned about Combine 🔥
-- Need to improve testing coverage 🛠
-"""
-print(reflection)
-```
+Celebrating small wins has become a vital part of my journey as an Indie app developer. Whether it’s shipping a new feature, reaching a milestone, or earning my first dollar from a paid feature, I’ve learned to pause and acknowledge the progress I’ve made.
 
-### 12. I am a community builder
+This habit keeps me motivated and reinforces my identity as a developer who values both the journey and the destination. Every step forward, no matter how small, is worth celebrating.
 
-Engaging with the indie dev community has been essential for my growth and success as a developer. I participate in online forums, attend meetups and conferences, and share my knowledge and experiences with others. This community involvement has helped me to stay motivated, learn from others, and build meaningful relationships with fellow developers.
+<p align="center">
+  <img src="/assets/images/habits/celeberate_small_wins.png" alt="Code Documentation" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-```swift
-// Example: Sharing knowledge through code
-struct CommunityTip: Identifiable {
-    let id = UUID()
-    let title: String
-    let description: String
-    let codeExample: String
-}
+### 9. I am a Pro at Earning Ratings
 
-let tips = [
-    CommunityTip(
-        title: "SwiftUI Navigation",
-        description: "Here's a clean way to handle navigation",
-        codeExample: "NavigationView { ... }"
-    )
-]
-```
+Requesting ratings at the right moment has been a game-changer for boosting my app’s success. Instead of asking for ratings randomly or too frequently, I strategically time my prompts to align with user achievements—like successfully splitting a bill in my expense app. This proactive approach ensures that users see your app in the right context and are more likely to give it a rating. This also improves the App Store ranking of my app, which translates to more downloads and more revenue.
 
-### 13. I am organized
+<p align="center">
+  <img src="/assets/images/habits/earning_ratings.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
-Maintaining a high level of organization has been crucial for my productivity and efficiency as a developer. I use project management tools to plan and prioritize my tasks, ensuring that I'm always focused on the most important tasks. This organization has also helped me to reduce stress and maintain a healthy work-life balance.
+### 10. I am a Relatable Storyteller
 
-```swift
-// Example: Organizing tasks with structured code
-enum TaskPriority: String {
-    case high = "🔴"
-    case medium = "🟡"
-    case low = "🟢"
-}
+I leverage storytelling and familiar references to create an emotional connection with users. In my expense-splitting app, I used characters from Friends—Ross, Rachel, Joey, and the gang—to make the screenshots more engaging and relatable. This approach resonated with users and made the app experience memorable. Stories build connection and trust, turning users into loyal fans.
 
-struct DevelopmentTask {
-    let name: String
-    let priority: TaskPriority
-    let deadline: Date
-}
-```
-
-### 14. I am an experimenter
-
-Experimenting with new technologies and approaches has been essential for my growth and innovation as a developer. I dedicate time each month to exploring new frameworks, libraries, and tools, and I'm always looking for ways to improve my development process. This experimentation has helped me to stay ahead of the curve and build innovative solutions that meet the evolving needs of my users.
-
-```swift
-// Example: Experimenting with new iOS features
-import WidgetKit
-import SwiftUI
-
-struct SimpleWidget: Widget {
-    var body: some WidgetConfiguration {
-        StaticConfiguration(kind: "MyWidget", provider: Provider()) { entry in
-            Text("Experimenting with Widgets!")
-        }
-    }
-}
-```
-
-### 15. I am resilient
-
-Developing resilience has been crucial for my success as a developer. I've learned to handle failures and setbacks with ease, using them as opportunities to learn and grow. This resilience has also helped me to maintain a positive attitude and stay motivated, even in the face of challenges and obstacles.
-
-```swift
-// Example: Robust error handling
-enum AppError: Error {
-    case networkError(String)
-    case dataError(String)
-    case userError(String)
-    
-    var userMessage: String {
-        switch self {
-        case .networkError: return "Please check your connection"
-        case .dataError: return "Unable to process data"
-        case .userError: return "Please try again"
-        }
-    }
-}
-```
-
-### 16. I am a tester
-
-Writing tests has been essential for ensuring the quality and reliability of my apps. I practice Test-Driven Development (TDD), writing tests before I write code. This approach has helped me to catch bugs early, reduce debugging time, and maintain a high level of confidence in my code.
-
-## Tools and Resources
-
-1. **Development**
-   - [Hacking with Swift](https://www.hackingwithswift.com)
-   - [Apple Developer Documentation](https://developer.apple.com/documentation)
-   - [Swift by Sundell](https://www.swiftbysundell.com)
-
-2. **Analytics**
-   - Firebase Analytics
-   - App Store Connect
-   - RevenueCat
-
-3. **Automation**
-   - Fastlane
-   - GitHub Actions
-   - Xcode Cloud
-
-4. **Community**
-   - [Indie Hackers](https://www.indiehackers.com)
-   - [iOS Dev Weekly](https://iosdevweekly.com)
-   - [r/iOSProgramming](https://www.reddit.com/r/iOSProgramming)
+<p align="center">
+  <img src="/assets/images/habits/relatable_storyteller.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
 
 ## Conclusion
 
 Building a successful indie app business isn't just about coding skills or marketing strategies. It's about developing the identity and habits of a professional indie developer. By focusing on these identity-based habits and following Clear's framework for habit formation, we can build sustainable practices that lead to long-term success.
 
-Remember, as James Clear says, "You do not rise to the level of your goals. You fall to the level of your systems." Start small, stay consistent, and let your habits shape your success in the indie development journey.
-
-{% include figure image_path="/assets/images/indie-dev-journey.jpg" alt="Indie Developer Journey" caption="The journey of an indie developer is about building sustainable habits" %}
-
-## Resources
-
-- [Atomic Habits by James Clear](https://jamesclear.com/atomic-habits)
-- [Building a Sustainable Indie Business](https://www.indiehackers.com)
-- [App Store Guidelines](https://developer.apple.com/app-store/guidelines/)
+<p align="center">
+  <img src="/assets/images/habits/indie_dev_journey.png" alt="Indie Developer Journey" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</p>
