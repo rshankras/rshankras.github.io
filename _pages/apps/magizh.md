@@ -50,7 +50,6 @@ In our fast-paced world, we often forget to pause and acknowledge the moments th
 ### 🔒 Your Privacy Matters
 - Local storage for your privacy
 - iCloud sync with encryption
-- No third-party tracking
 - Your joy journal stays private
   
 ## App Experience
@@ -121,10 +120,19 @@ Magizh is more than an app - it's a movement towards mindful living and apprecia
 - Built with SwiftUI for a native Apple experience
 - Optimized for iOS 17.0 and later
 - iCloud sync implementation
+- RevenueCat for reliable subscription management
+- TelemetryDeck for privacy-focused analytics
 - Regular updates based on user feedback
 - Siri shortcuts integration
 - Widget implementation
 - WatchOS integration
+  
+### Privacy & Analytics
+We respect your privacy while ensuring app quality:
+- TelemetryDeck for minimal, privacy-focused analytics
+- No personal data collection
+- Anonymous crash reporting
+- GDPR compliant by design
 
 ## Download
 
