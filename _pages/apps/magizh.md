@@ -14,7 +14,7 @@ header:
 ## The Story Behind Magizh
 
 ### What's in a Name?
-*Magizh* (pronounced "Mah ghi IL") is a beautiful Tamil word that means joy or happiness. 
+*Magizh* (pronounced "Ma-ghi-l") is a beautiful Tamil word that means joy or happiness. 
 
 ### The Inspiration
 This app was born from a profound quote by Kurt Vonnegut in his collection "If This Isn't Nice, What Is?":
