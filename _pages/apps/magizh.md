@@ -1,14 +1,13 @@
 ---
 title: "Magizh - Cherish Simple Joys"
 layout: single
-permalink: /apps/magizh/
+permalink: /magizh/
 author_profile: true
 toc: true
 toc_sticky: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/magizh-header.jpg
 ---
 
 ## The Story Behind Magizh
@@ -54,33 +53,47 @@ In our fast-paced world, we often forget to pause and acknowledge the moments th
 - No third-party tracking
 - Your joy journal stays private
   
-<!--
 ## App Experience
 
-### 📱 Capture Your Moments
-![Capture Screen](/assets/images/magizh/capture-screen.png)
-Simple and quick moment capture with customizable tags. Just tap, type, and save your happy moment.
+<div style="display: flex; justify-content: center; gap: 20px; overflow-x: auto; padding: 20px 0;">
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/capture-screen.png" alt="Capture Screen" 
+         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/timeline-screen.png" alt="Timeline Screen" 
+         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/insights-screen.png" alt="Insights Screen" 
+         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/wishlist-screen.png" alt="Wishlist Screen" 
+         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/settings-screen.png" alt="Settings Screen" 
+         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+</div>
 
-### 📊 Timeline View
-![Timeline Screen](/assets/images/magizh/timeline-screen.png)
+### Key Screens Overview
+
+**Capture Screen**
+Quick and effortless moment capture with customizable tags. Just tap, type, and save your happy moment.
+
+**Timeline View**
 Browse through your joy journey chronologically. See your moments beautifully organized by day, week, and month.
 
-### 💡 Insights Dashboard
-![Insights Screen](/assets/images/magizh/insights-screen.png)
+**Insights Dashboard**
 Discover patterns in your happiness with intuitive analytics. Track your joy streaks and most frequent happy moments.
 
-### 🗳️ Feature Wishlist
-![Wishlist Screen](/assets/images/magizh/wishlist-screen.png)
+**Feature Wishlist**
 Suggest new features and vote on what matters most to you. Help shape the future of Magizh.
 
-### ⚙️ Settings & Customization
-![Settings Screen](/assets/images/magizh/settings-screen.png)
+**Settings & Customization**
 Personalize your experience with notification preferences, app appearance, and privacy settings.
-
-### ⭐️ Premium Features
-![Premium Screen](/assets/images/magizh/premium-screen.png)
-Unlock advanced features to enhance your joy-capturing journey.
--->
 
 ## Future Roadmap
 We're constantly working to make Magizh even better. Here's what's coming:

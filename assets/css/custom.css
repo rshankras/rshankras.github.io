@@ -118,3 +118,45 @@
     font-size: 0.9em;
   }
 }
+
+.app-screenshots {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
+.app-screenshots figure {
+  margin: 0;
+  text-align: center;
+  width: 180px; /* Fixed width */
+}
+
+.app-screenshots img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.app-screenshots figcaption {
+  margin-top: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .app-screenshots {
+    gap: 10px;
+  }
+  
+  .app-screenshots figure {
+    width: 140px;
+  }
+  
+  .app-screenshots img {
+    height: 303px; /* Maintain aspect ratio for smaller screens */
+  }
+}
