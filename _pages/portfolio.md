@@ -8,7 +8,7 @@ author_profile: true
 A collection of apps I've built for Apple platforms.
 
 <div class="app-entry">
-  <h3>Magizh - Cherish Simple Joys</h3>
+  <h3>Magizh - Cherish Simple Joys (iOS & watchOS) </h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/magizh-icon.png" alt="Magizh Icon">
@@ -16,7 +16,9 @@ A collection of apps I've built for Apple platforms.
     <div class="text">
       <p>Inspired by Kurt Vonnegut's wisdom, Magizh helps you pause and appreciate life's simple moments. A mindful companion for capturing and cherishing daily joys.</p>
       <a href="/magizh" class="learn-more-link">Learn More →</a>
+      <!--
       <a href="https://apps.apple.com/us/app/magizh-cherish-simple-joys/id[YOUR_APP_ID]" class="app-store-link">Download on App Store →</a>
+      -->
     </div>
   </div>
 </div>
