@@ -54,10 +54,12 @@ In our fast-paced world, we often forget to pause and acknowledge the moments th
   
 ## App Experience
 
+### iOS Screens
 <div style="display: flex; justify-content: center; gap: 20px; overflow-x: auto; padding: 20px 0;">
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Capture</figcaption>
     <img src="/assets/images/magizh/capture-screen.png" alt="Capture Screen" 
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <img src="/assets/images/magizh/timeline-screen.png" alt="Timeline Screen" 
@@ -74,6 +76,22 @@ In our fast-paced world, we often forget to pause and acknowledge the moments th
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <img src="/assets/images/magizh/settings-screen.png" alt="Settings Screen" 
          style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+</div>
+
+### Apple Watch
+<div style="display: flex; justify-content: center; gap: 20px; overflow-x: auto; padding: 20px 0;">
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/watch-capture.png" alt="Watch Capture Screen" 
+         style="width: 120px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/watch-voice.png" alt="Watch Voice Input Screen" 
+         style="width: 120px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </figure>
+  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
+    <img src="/assets/images/magizh/watch-timeline.png" alt="Watch Timeline Screen" 
+         style="width: 120px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
 </div>
 
