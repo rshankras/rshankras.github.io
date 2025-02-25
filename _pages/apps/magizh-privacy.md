@@ -5,8 +5,6 @@ permalink: /magizh/privacy/
 author_profile: false
 ---
 
-# Privacy Policy for Magizh
-
 *Last updated: Feb 25, 2025*
 
 ## Our Commitment to Privacy
