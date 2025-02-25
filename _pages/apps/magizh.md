@@ -165,6 +165,9 @@ Magizh will be available for download this week. Be among the first to experienc
 ### Stay Updated
 Want to know when Magizh launches? Drop me a line at [ravi@rshankar.com](mailto:ravi@rshankar.com) with subject "Notify me about Magizh launch", and I'll let you know as soon as it's available!
 
+### Legal
+- [Privacy Policy](/magizh/privacy/)
+
 ---
 
 *"If this isn't nice, what is?" - Let Magizh help you discover your answer to this question, one moment at a time.*
