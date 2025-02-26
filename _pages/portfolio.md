@@ -16,9 +16,8 @@ A collection of apps I've built for Apple platforms.
     <div class="text">
       <p>Inspired by Kurt Vonnegut's wisdom, Magizh helps you pause and appreciate life's simple moments. A mindful companion for capturing and cherishing daily joys.</p>
       <a href="/magizh" class="learn-more-link">Learn More →</a>
-      <!--
-      <a href="https://apps.apple.com/us/app/magizh-cherish-simple-joys/id[YOUR_APP_ID]" class="app-store-link">Download on App Store →</a>
-      -->
+      <br/>
+      <a href="https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>

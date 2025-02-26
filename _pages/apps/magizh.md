@@ -23,6 +23,8 @@ This app was born from a profound quote by Kurt Vonnegut in his collection "If T
 
 In our fast-paced world, we often forget to pause and acknowledge the moments that bring us joy. Magizh is designed to help you capture and cherish these fleeting instances of happiness.
 
+<a href="https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057" class="app-store-link">Download on App Store →</a>
+
 ## Features
 
 ### 📝 Capture Life's Beautiful Moments
@@ -154,16 +156,7 @@ We respect your privacy while ensuring app quality:
 
 ## Download
 
-🚀 **Coming Soon to the App Store!**
-
-Magizh will be available for download this week. Be among the first to experience the joy of mindful moment capture.
-
-<a href="#" class="app-store-button coming-soon">
-  Coming Soon to the App Store
-</a>
-
-### Stay Updated
-Want to know when Magizh launches? Drop me a line at [ravi@rshankar.com](mailto:ravi@rshankar.com) with subject "Notify me about Magizh launch", and I'll let you know as soon as it's available!
+<a href="https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057" class="app-store-link">Download on App Store →</a>
 
 ### Legal
 - [Privacy Policy](/magizh/privacy/)
