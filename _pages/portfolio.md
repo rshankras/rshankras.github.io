@@ -6,8 +6,6 @@ author_profile: true
 description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh, Expense Split, Date Time Diff Calculator, and Eye Rest Timer. Download directly from the App Store."
 ---
 
-# App Portfolio
-
 A collection of apps I've built for Apple platforms.
 
 <div class="app-entry">
