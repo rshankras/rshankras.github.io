@@ -164,5 +164,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-gems:
-  - jekyll-sitemap
+# Replace 'gems' with 'plugins' (remove the 'gems' section if 'plugins' already exists above)
+# plugins:
+#   - jekyll-sitemap
