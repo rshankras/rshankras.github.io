@@ -20,8 +20,6 @@ tags:
   - "app-testing"
 ---
 
-# How to Create Test Accounts for In-App Purchases and Subscriptions
-
 Testing in-app purchases and subscriptions is a crucial step in releasing a monetized app. You don't want to use real money during development and testing, and Apple provides a simple solution - sandbox test accounts. In this post, I'll show you how to create and use these accounts to test your in-app purchases without spending real money.
 
 ## Why Use Sandbox Test Accounts?
@@ -49,7 +47,7 @@ To create a sandbox test account:
    - Password (meeting Apple ID requirements)
    - Select your territory
 
-![App Store Connect Sandbox Test Account Creation](/assets/images/sandbox-test-account-creation.jpg)
+<img src="/assets/images/sandbox-test-account-creation.jpg" alt="App Store Connect Sandbox Test Account Creation" width="600">
 
 **Important:** Use a real email address that you own, but one that's not already associated with an Apple ID. You'll need to verify this email.
 
@@ -63,7 +61,7 @@ After creating your sandbox tester, you need to add it to your test device:
 3. Tap on **StoreKit Testing** or **Sandbox Apple Account**
 4. Tap **Add Account** and enter your sandbox account email and password
 
-![Device Settings for Sandbox Account](/assets/images/sandbox-account-device-setup.jpg)
+<img src="/assets/images/sandbox-account-device-setup.jpg" alt="Device Settings for Sandbox Account" width="400">
 
 ## Step 3: Test In-App Purchases with Your Sandbox Account
 
