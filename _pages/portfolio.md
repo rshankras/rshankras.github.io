@@ -3,15 +3,18 @@ permalink: /portfolio/
 title: "App Portfolio"
 layout: single
 author_profile: true
+description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh, Expense Split, Date Time Diff Calculator, and Eye Rest Timer. Download directly from the App Store."
 ---
+
+# App Portfolio
 
 A collection of apps I've built for Apple platforms.
 
 <div class="app-entry">
-  <h3>Magizh - Cherish Simple Joys (iOS & watchOS) </h3>
+  <h2>Magizh - Cherish Simple Joys (iOS & watchOS) </h2>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/magizh-icon.png" alt="Magizh Icon">
+      <img src="/assets/images/app-icons/magizh-icon.png" alt="Magizh - Mindfulness and joy tracking app icon for iOS and watchOS" title="Magizh - Mindfulness App">
     </div>
     <div class="text">
       <p>Inspired by Kurt Vonnegut's wisdom, Magizh helps you pause and appreciate life's simple moments. A mindful companion for capturing and cherishing daily joys.</p>
@@ -23,10 +26,10 @@ A collection of apps I've built for Apple platforms.
 </div>
 
 <div class="app-entry">
-  <h3>Expense Split - Settle Up (iOS & watchOS)</h3>
+  <h2>Expense Split - Settle Up (iOS & watchOS)</h2>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/expense-split-icon.png" alt="Expense Split Icon">
+      <img src="/assets/images/app-icons/expense-split-icon.png" alt="Expense Split - Group expense tracking and splitting app icon for iOS and watchOS" title="Expense Split App">
     </div>
     <div class="text">
       <p>A simple and intuitive expense splitting app that helps groups track and settle shared expenses. Perfect for roommates, trips, or any shared spending situation.</p>
@@ -64,10 +67,10 @@ A collection of apps I've built for Apple platforms.
 ## Side Projects
 
 <div class="app-entry">
-  <h3>TimeTracker (macOS)</h3>
+  <h2>TimeTracker (macOS)</h2>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/time-tracker-icon.png" alt="TimeTracker Icon">
+      <img src="/assets/images/app-icons/time-tracker-icon.png" alt="TimeTracker - Productivity monitoring and time analytics app for macOS" title="TimeTracker App">
     </div>
     <div class="text">
       <p>A macOS application that automatically monitors and categorizes your daily computer activities, providing detailed insights into how you spend time across different applications and websites. The app features an intuitive dashboard that displays your time usage through interactive charts and allows you to customize categories for various apps and websites, helping you better understand and optimize your digital time management.</p>
@@ -77,7 +80,47 @@ A collection of apps I've built for Apple platforms.
 </div>
 
 <div id="get-these-apps">
-  <h2>Get These Apps</h2>
+  <h3>Get These Apps</h3>
   <p>All apps are available on the App Store. Click the "Download on App Store" links above to purchase and download. Your support helps me continue developing and improving these apps!</p>
   <p>Want to discuss app development or interested in purchasing any of these apps?  <a href="/about/">Let's connect</a>.</p>
 </div>
+
+<!-- Schema.org markup for software applications -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Magizh - Cherish Simple Joys",
+        "operatingSystem": "iOS, watchOS",
+        "applicationCategory": "LifestyleApplication",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057"
+        },
+        "description": "Mindfulness app for capturing and cherishing daily joys"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Expense Split - Settle Up",
+        "operatingSystem": "iOS, watchOS",
+        "applicationCategory": "FinanceApplication",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/expense-split-settle-up/id1041478586"
+        },
+        "description": "Expense splitting app for tracking and settling shared expenses"
+      }
+    }
+  ]
+}
+</script>
