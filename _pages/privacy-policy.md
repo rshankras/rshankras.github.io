@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# Privacy Policy
-
 ## Overview
 
 This privacy policy applies to all apps developed and maintained by Ravi Shankar. We are committed to protecting your privacy and ensuring transparency about any data collected.
