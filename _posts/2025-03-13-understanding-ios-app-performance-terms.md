@@ -49,8 +49,14 @@ Like reserving a table at a restaurant - you're asking the system to set aside s
 ## Performance Analysis Terms
 
 ### Hangs and Micro-hangs
-- **Hang**: When your app completely freezes
-- **Micro-hang**: Brief freezes that make your app feel stuttery
+- **Hang**: When your app freezes for 500ms (half a second) or longer. This is very noticeable to users and makes your app feel unresponsive.
+- **Micro-hang**: Shorter freezes around 250ms. While briefer than full hangs, these can still make your app feel stuttery or less smooth. Multiple micro-hangs can add up to create a poor user experience.
+
+Both types of hangs often happen when the main thread is blocked by heavy operations like:
+- Complex calculations
+- Large data processing
+- Heavy disk operations
+- Network calls on the main thread
 
 ### Frame Drop
 Movies show 60 pictures (frames) per second to appear smooth. When your app can't keep up and skips some frames, that's a frame drop - causing jerky animations.
