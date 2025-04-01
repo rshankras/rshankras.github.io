@@ -73,6 +73,8 @@ Imagine leaving a trail of breadcrumbs showing exactly how your code got to a ce
 Converting computer-readable crash data into human-readable function names and line numbers. It's like translating machine language into English.
 
 ### Call Tree Terms
+A call tree is a collection of stack traces that shows how functions call each other in your app. Think of it as a family tree of function calls, showing who called whom. Key terms include:
+
 - **Root**: The starting point of a function call sequence
 - **Leaf**: The end point where a sequence of function calls stops
 - **Symbols**: The actual names of functions and methods in your code
