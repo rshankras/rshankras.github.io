@@ -1,5 +1,5 @@
 ---
-title: "Understanding iOS App Performance Terms: A Beginner's Guide"
+title: "iOS App Performance Terms: A Beginner's Guide"
 date: "2025-03-13"
 description: "Learn essential iOS app performance terms in simple English. Understand concepts like main thread, memory leaks, stack traces, and more to help you debug and optimize your iOS apps effectively."
 categories: 

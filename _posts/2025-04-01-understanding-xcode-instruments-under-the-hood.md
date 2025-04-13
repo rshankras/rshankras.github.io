@@ -1,5 +1,5 @@
 ---
-title: "Understanding Xcode Instruments Under the Hood"
+title: "Xcode Instruments Under the Hood"
 date: 2025-04-01
 description: "Dive deep into how Xcode Instruments works behind the scenes, learn about its architecture, and discover how to use this powerful performance analysis tool effectively for your iOS and macOS apps."
 categories: 
