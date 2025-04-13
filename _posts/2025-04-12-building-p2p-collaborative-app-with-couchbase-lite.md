@@ -58,9 +58,9 @@ This demo app was built with help from the following resources:
 - [Couchbase P2P Sync Solutions](https://docs.couchbase.com/couchbase-lite/current/swift/quickstart.html) - Official documentation on peer-to-peer sync capabilities
 - [Couchbase P2P Sync Demo](https://www.youtube.com/watch?v=4J1-B6lyUcA) - Video demonstration of peer-to-peer synchronization
 
-You can download the Couchbase Lite framework using the direct binary download as that work for me
+You can download the Couchbase Lite framework using the direct binary download as that worked for me
 
-> **Rookie mistake #1:** I initially used the Community Edition (`couchbase-lite-ios`) and was confused why the peer-to-peer sync features weren't available. Always check the documentation to confirm which features are available in which edition!
+> **Rookie mistake #1:** I initially used the Community Edition (`couchbase-lite-ios`) installed using SPM but this demo requires Couchbase Lite framewokr from the Enterprise edition.
 
 ## Database Setup
 
@@ -113,7 +113,7 @@ The `DatabaseManager` handles several key responsibilities:
 1. Creating/opening the local database
 2. Setting up document listeners to react to changes
 3. Initializing P2P synchronization
-4. Providing a Combine publisher for reactive UI updates
+4. Uses @Observable macro for reatcive updates.
 
 ## Data Model Design
 
