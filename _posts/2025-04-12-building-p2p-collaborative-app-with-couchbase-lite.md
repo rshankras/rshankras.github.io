@@ -18,7 +18,7 @@ tags:
   - "networking"
 ---
 
-I recently built a peer-to-peer collaborative storytelling app called PeerPlot using SwiftUI and Couchbase Lite. The journey was filled with interesting challenges and "aha" moments that I wanted to share. If you're interested in building apps that work offline but can sync when peers are nearby, this post is for you.
+I recently built a peer-to-peer collaborative storytelling app called PeerPlot using SwiftUI and Couchbase Lite. The journey was filled with interesting challenges that I wanted to share. If you're interested in building apps that work offline but can sync when peers are nearby, this post is for you.
 
 **The complete source code for this project is available at [GitHub: PeerPlot](https://github.com/rshankras/PeerPlot)**
 
@@ -32,7 +32,7 @@ The key features include:
 - Creating and adding to collaborative stories
 - Peer-to-peer syncing without internet
 - Archiving completed stories
-- Adding random "twists" to spur creativity
+- Adding random "twists" to spur creativity (In future you can integrate this with AI)
 
 ## System Architecture Overview
 
@@ -43,34 +43,22 @@ Before diving into the code, let's understand the system architecture:
 3. **Sync Layer**: AppService handling peer discovery and synchronization
 4. **Security Layer**: Credentials for secure P2P communication
 
-Each component is designed to be modular, making the codebase easier to maintain and test.
-
 ## The Tech Stack
 
 I chose this technology stack:
-- **SwiftUI** for the UI
+- **SwiftUI** for the UI and uses the latest @Observable macro.
 - **Couchbase Lite** for the local database and sync functionality
 - **Network framework** for peer discovery and connections
-- **Combine** for reactive data flow
 
 ## Getting Started with Couchbase Lite
 
-My first challenge was setting up Couchbase Lite. I initially tried using the Community Edition, but quickly realized I needed the Enterprise Edition for the peer-to-peer synchronization features.
-
 This demo app was built with help from the following resources:
 
-- [Simple Sync](https://github.com/couchbase-examples/ios-swift-cbl-learning-path) - A demonstration app showing how to read, write, search, and sync data using Couchbase Lite
-- [Couchbase P2P Sync Solutions](https://docs.couchbase.com/couchbase-lite/current/swift/p2p-sync-websocket.html) - Official documentation on peer-to-peer sync capabilities
-- [Building P2P Apps with Couchbase Mobile](https://www.youtube.com/watch?v=lgHzL9NVnHs) - YouTube tutorial on building peer-to-peer applications
-- [Couchbase P2P Sync Demo](https://www.youtube.com/watch?v=o1P-W7nQYoQ) - Video demonstration of peer-to-peer synchronization
+- [Simple Sync](https://github.com/waynecarter/simple-sync) - A demonstration app showing how to read, write, search, and sync data using Couchbase Lite
+- [Couchbase P2P Sync Solutions](https://docs.couchbase.com/couchbase-lite/current/swift/quickstart.html) - Official documentation on peer-to-peer sync capabilities
+- [Couchbase P2P Sync Demo](https://www.youtube.com/watch?v=4J1-B6lyUcA) - Video demonstration of peer-to-peer synchronization
 
-For the AppService and security credentials implementation, I reused and adapted code from Couchbase sample projects, which saved significant development time.
-
-Here's how to add Couchbase Lite Enterprise to your project using Swift Package Manager:
-
-1. In Xcode, go to File > Add Packages
-2. Enter the URL: `https://github.com/couchbase/couchbase-lite-ios-ee.git`
-3. Select the version you want to use (I used 3.1.0)
+You can download the Couchbase Lite framework using the direct binary download as that work for me
 
 > **Rookie mistake #1:** I initially used the Community Edition (`couchbase-lite-ios`) and was confused why the peer-to-peer sync features weren't available. Always check the documentation to confirm which features are available in which edition!
 
@@ -129,6 +117,35 @@ The `DatabaseManager` handles several key responsibilities:
 
 ## Data Model Design
 
+The app uses two primary models:
+
+1. **StoryEntry** - Represents a single contribution to a collaborative story
+   ```swift
+   struct StoryEntry: Identifiable {
+       let id: String
+       let text: String
+       let author: String
+       let timestamp: Date
+   }
+   ```
+
+2. **StoryHistoryItem** - Represents a completed story saved in history
+   ```swift
+   struct StoryHistoryItem: Identifiable {
+       let id: String
+       let title: String
+       let archivedAt: Date
+       let entryCount: Int
+       
+       var formattedDate: String {
+           let formatter = DateFormatter()
+           formatter.dateStyle = .medium
+           formatter.timeStyle = .short
+           return formatter.string(from: archivedAt)
+       }
+   }
+   ```
+
 The database structure is straightforward - I store story entries in a single document with a counter to keep track of the entries:
 
 ```swift
@@ -174,7 +191,7 @@ func addStoryEntry(text: String, author: String) -> Bool {
 }
 ```
 
-This approach makes it easy to maintain the order of entries and efficiently retrieve the entire story. However, with very long stories, a one-document-per-entry approach might scale better.
+This approach makes it easy to maintain the order of entries and efficiently retrieve the entire story. 
 
 ## Setting Up Peer-to-Peer Sync
 
@@ -183,7 +200,8 @@ The most challenging part was implementing the peer-to-peer sync. This required 
 1. **TLS certificates** for secure communication
 2. **Network service advertisement and discovery**
 3. **Couchbase Lite message endpoints**
-4. **Conflict resolution** for when peers have divergent data
+
+Rather than building the complex AppService and security components from scratch, I built upon Couchbase's sample implementations (Simple Sync app), streamlining the development process
 
 ### Generating Certificates
 
@@ -217,38 +235,7 @@ After generating the certificates, you'll need to add them to your Xcode project
 
 ### Peer Discovery with Network Framework
 
-For peer discovery, I use Apple's Network framework, which provides Bonjour-based service discovery and TLS-secured connections. Here's a key part of the implementation:
-
-```swift
-private func createBrowser() -> NWBrowser {
-    // Create the NWBrowser
-    let browserDescriptor = NWBrowser.Descriptor.bonjour(type: "_\(name)._tcp", domain: nil)
-    let browser = NWBrowser(for: browserDescriptor, using: networkParameters)
-
-    // Handle discovered peers
-    browser.browseResultsChangedHandler = { [weak self] results, changes in
-        guard let self = self else { return }
-        
-        for change in changes {
-            switch change {
-            case .added(let result):
-                // Create a new connection for the remote peer's endpoint
-                let connection = NWConnection(to: result.endpoint, using: self.networkParameters)
-                self.setupConnectionHandshake(connection: connection, isFromListener: false)
-            case .removed(let result):
-                LogManager.info("Lost service: \(result.endpoint)", category: .network)
-                if let connection = self.connections.first(where: { $0.endpoint == result.endpoint }) {
-                    self.cleanupConnection(connection)
-                }
-            default:
-                break
-            }
-        }
-    }
-    
-    return browser
-}
-```
+For peer discovery, the app uses Apple's Network framework, which provides Bonjour-based service discovery and TLS-secured connections. Here's a key part of the implementation:
 
 The `AppService` class handles peer discovery, connection management, and integrates with Couchbase Lite for data synchronization. Check the full implementation in the [GitHub repository](https://github.com/rshankras/PeerPlot).
 
@@ -267,7 +254,7 @@ Here's what your Info.plist needs:
 
 ### Conflict Resolution
 
-When multiple users edit the same document, conflicts can occur. I implemented a conflict resolver that merges changes from both documents:
+When multiple users share the story, conflicts can occur especially when one user goes offline and shares contriubutes and later comes back online and the story needs to merged correctly without any loss off message. I implemented a conflict resolver that merges changes from both documents:
 
 ```swift
 class DefaultConflictResolver: ConflictResolverProtocol {
@@ -300,7 +287,7 @@ class DefaultConflictResolver: ConflictResolverProtocol {
 
 ## Building the UI with SwiftUI
 
-With the database and sync functionality in place, I built the UI using SwiftUI. Here's a simplified version of the main view:
+With the database and sync functionality in place, I built the UI using SwiftUI following the MVVM (Model-View-ViewModel) architecture pattern. I leveraged the new @Observable macro introduced in iOS 17 to create reactive view models that efficiently update the UI when data changes. Here's a simplified version of the main view:
 
 ```swift
 struct StoryView: View {
@@ -343,3 +330,46 @@ struct StoryView: View {
     }
 }
 ```
+
+The UI is composed of several main components:
+1. A header with the app title and navigation controls
+2. A scrollable story display area
+3. A composer for adding new entries
+4. Dialogs for setting the author name and archiving stories
+
+
+## Testing and Debugging
+
+Testing a P2P app presents unique challenges:
+
+1. **Multiple devices required**: Testing peer-to-peer functionality necessitated using several devices. I utilized a combination of iOS simulators and a physical device to thoroughly validate the synchronization process.
+
+2. **Debugging network issues**: I added a comprehensive logging system
+
+3. **Simulating different scenarios**: Disconnect/reconnect, conflicting changes, etc.
+
+## Key Challenges and Solutions
+
+### Network Permissions
+
+As mentioned earlier, I initially forgot the Bonjour service entries in Info.plist. The app would run but never discover peers. Once I added the correct entries, everything worked smoothly.
+
+### Certificate Handling
+
+Loading the certificates properly took some experimentation. The key was to add them to the app bundle and load them at runtime:
+
+### Conflict Resolution Logic
+
+As I mentioned, my first attempt at conflict resolution was too simplistic. I learned that merging entries by preserving unique IDs and ordering them by timestamp provided the best user experience.
+
+### State Management
+
+Keeping all the UI components in sync with the database state was complex. I found that using a central ViewModel with @Observable macro made this much cleaner.
+
+## Conclusion
+
+Building PeerPlot was a fantastic learning experience. The combination of SwiftUI for the interface and Couchbase Lite for offline-first data sync is powerful for collaborative apps. The challenges I encountered mostly revolved around proper configuration and testing rather than limitations of the technology.
+
+If you're interested in exploring the full implementation, check out the [complete source code on GitHub](https://github.com/rshankras/PeerPlot). Feel free to reach out if you have questions about specific implementation details!
+
+---
