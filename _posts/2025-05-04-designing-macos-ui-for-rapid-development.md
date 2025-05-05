@@ -1,5 +1,5 @@
 ---
-title: "Designing macOS UIs for Rapid Development: A Practical Guide"
+title: "Designing macOS UIs for Rapid Development"
 date: 2025-05-04
 description: "Learn how to design macOS user interfaces that are both easier to implement and maintain, with practical tips on when to follow Apple's guidelines and when to forge your own path."
 categories: 
