@@ -160,3 +160,357 @@
     height: 303px; /* Maintain aspect ratio for smaller screens */
   }
 }
+
+/* SleepTracker Progress Timeline Styles */
+.progress-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.progress-item {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.progress-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.progress-item h3 {
+  color: #ff6b6b;
+  margin: 0 0 0.5em 0;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.progress-item p {
+  margin: 0 0 1em 0;
+  color: #e0e0e0;
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+.progress-item .btn--small {
+  background: #ff6b6b;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.progress-item .btn--small:hover {
+  background: #ff5252;
+  text-decoration: none;
+  color: white;
+}
+
+/* Progress List Styles */
+.progress-list {
+  list-style: none;
+  padding: 0;
+}
+
+.progress-list li {
+  margin-bottom: 0.5em;
+  padding: 0.5em 0;
+  border-bottom: 1px solid #eee;
+}
+
+.progress-list li:last-child {
+  border-bottom: none;
+}
+
+/* SleepTracker Specific Button Styles */
+.btn--success {
+  background: #28a745;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn--success:hover {
+  background: #218838;
+  text-decoration: none;
+  color: white;
+}
+
+.btn--info {
+  background: #17a2b8;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn--info:hover {
+  background: #138496;
+  text-decoration: none;
+  color: white;
+}
+
+.btn--warning {
+  background: #ffc107;
+  color: #212529;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn--warning:hover {
+  background: #e0a800;
+  text-decoration: none;
+  color: #212529;
+}
+
+/* Waitlist Signup Styles */
+.waitlist-signup {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.waitlist-signup--secondary {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+}
+
+.waitlist-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.75em 1em;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  font-size: 1em;
+  background: white;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+}
+
+.form-note {
+  margin: 0;
+  font-size: 0.9em;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.waitlist-signup--secondary .form-note {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Design for Waitlist */
+@media (max-width: 768px) {
+  .form-group {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  
+  .waitlist-signup {
+    padding: 1.5em;
+  }
+  
+  .email-input {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+
+/* Success Page Styles */
+.progress-links {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin: 2em 0;
+  flex-wrap: wrap;
+}
+
+.social-share {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  margin: 2em 0;
+  flex-wrap: wrap;
+}
+
+.btn--twitter {
+  background: #1da1f2;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn--twitter:hover {
+  background: #0d8bd9;
+  text-decoration: none;
+  color: white;
+}
+
+.btn--linkedin {
+  background: #0077b5;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn--linkedin:hover {
+  background: #005885;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .progress-links,
+  .social-share {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* SleepTracker Landing Page Styles */
+.hero-section {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 3em 2em;
+  border-radius: 12px;
+  margin: 2em 0;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h2 {
+  color: #ff6b6b;
+  margin-bottom: 1em;
+  font-size: 1.8em;
+}
+
+.hero-content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2em;
+  margin: 3em 0;
+}
+
+.feature-card {
+  background: white;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.feature-card h3 {
+  color: #1a1a2e;
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  border-bottom: 2px solid #ff6b6b;
+  padding-bottom: 0.5em;
+}
+
+.feature-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-card li {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+  color: #555;
+}
+
+.feature-card strong {
+  color: #1a1a2e;
+}
+
+/* Responsive Design for Landing Page */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2em 1em;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.5em;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+  }
+  
+  .feature-card {
+    padding: 1.5em;
+  }
+}
+
+/* Fix left alignment for SleepTracker page */
+.page__content {
+  text-align: left !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content p,
+.page__content ul,
+.page__content ol {
+  text-align: left !important;
+}
+
+.page__content .hero-section {
+  text-align: center;
+}
+
+.page__content .hero-section .hero-content {
+  text-align: center;
+}
