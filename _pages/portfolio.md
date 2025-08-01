@@ -1,12 +1,38 @@
 ---
 permalink: /portfolio/
-title: "App Portfolio"
+title: "iOS & macOS App Portfolio"
 layout: single
 author_profile: true
-description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh, Expense Split, Date Time Diff Calculator, and Eye Rest Timer. Download directly from the App Store."
+description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh mindfulness app, Expense Split, ChantFlow meditation, and productivity tools. Download directly from the App Store."
+keywords: "iOS apps, macOS apps, Apple Watch apps, meditation app, mindfulness app, expense tracker, productivity apps, indie developer, SwiftUI, Apple platforms"
+og_title: "iOS & macOS App Portfolio | Ravi Shankar - Apple Developer"
+og_description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh mindfulness app, Expense Split, ChantFlow meditation, and productivity tools."
+og_type: "website"
+twitter_card: "summary_large_image"
+twitter_title: "iOS & macOS App Portfolio | Ravi Shankar - Apple Developer"
+twitter_description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh mindfulness app, Expense Split, ChantFlow meditation, and productivity tools."
 ---
 
-A collection of apps I've built for Apple platforms.
+A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Each app is designed with a focus on simplicity, functionality, and user experience.
+
+## Featured Apps
+
+My apps span various categories including mindfulness, productivity, health, and utilities - all built with modern Apple technologies like SwiftUI and designed for the Apple ecosystem.
+
+<div class="app-entry">
+  <h2>ChantFlow - Daily Om Practice (watchOS)</h2>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/chantflow-icon.png" alt="ChantFlow - Meditation and chanting app for Apple Watch" title="ChantFlow - Daily Om Practice">
+    </div>
+    <div class="text">
+      <p>A minimalist Apple Watch app designed for daily Om chanting and sacred mantra practice. Follow the time-honored 108 Sacred Count tradition with gentle haptic guidance and comprehensive progress tracking. Perfect for meditation practitioners seeking a structured daily routine.</p>
+      <a href="/chantflow/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828" class="app-store-link">Download on App Store →</a>
+    </div>
+  </div>
+</div>
 
 <div class="app-entry">
   <h2>Magizh - Cherish Simple Joys (iOS & watchOS) </h2>
@@ -96,11 +122,34 @@ A collection of apps I've built for Apple platforms.
   <p>Want to discuss app development or interested in purchasing any of these apps?  <a href="/about/">Let's connect</a>.</p>
 </div>
 
+## About My App Development
+
+I specialize in creating **iOS, macOS, and watchOS applications** that solve real problems with elegant, user-friendly interfaces. My development philosophy focuses on:
+
+- **Simplicity**: Clean, intuitive designs that don't overwhelm users
+- **Functionality**: Apps that do one thing well rather than trying to do everything
+- **Apple Ecosystem**: Deep integration with iOS, macOS, and watchOS features
+- **Modern Technologies**: Built with SwiftUI, HealthKit, and other Apple frameworks
+- **User Experience**: Thoughtful design that enhances daily workflows
+
+### App Categories
+
+**Mindfulness & Wellness**: Apps like Magizh and ChantFlow help users cultivate mindfulness and spiritual practices.
+
+**Productivity & Utilities**: Tools like Expense Split and Date Time Diff Calculator streamline everyday tasks.
+
+**Health & Wellness**: Apps like Eye Rest Timer and SleepRiddle focus on health monitoring and prevention.
+
+All apps are available on the App Store and designed to work seamlessly across Apple's ecosystem.
+
 <!-- Schema.org markup for software applications -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
+  "name": "iOS & macOS App Portfolio",
+  "description": "Collection of iOS, watchOS, and macOS apps developed by Ravi Shankar",
+  "numberOfItems": 6,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -108,13 +157,22 @@ A collection of apps I've built for Apple platforms.
       "item": {
         "@type": "SoftwareApplication",
         "name": "Magizh - Cherish Simple Joys",
+        "alternateName": "Magizh",
         "operatingSystem": "iOS, watchOS",
         "applicationCategory": "LifestyleApplication",
+        "applicationSubCategory": "MindfulnessApp",
         "offers": {
           "@type": "Offer",
-          "url": "https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057"
+          "url": "https://apps.apple.com/us/app/cherish-joy-moments-magizh/id6741411057",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
         },
-        "description": "Mindfulness app for capturing and cherishing daily joys"
+        "description": "Mindfulness app for capturing and cherishing daily joys",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
       }
     },
     {
@@ -123,15 +181,138 @@ A collection of apps I've built for Apple platforms.
       "item": {
         "@type": "SoftwareApplication",
         "name": "Expense Split - Settle Up",
+        "alternateName": "Expense Split",
         "operatingSystem": "iOS, watchOS",
         "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "ExpenseTracker",
         "offers": {
           "@type": "Offer",
-          "url": "https://apps.apple.com/us/app/expense-split-settle-up/id1041478586"
+          "url": "https://apps.apple.com/us/app/expense-split-settle-up/id1041478586",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
         },
-        "description": "Expense splitting app for tracking and settling shared expenses"
+        "description": "Expense splitting app for tracking and settling shared expenses",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "ChantFlow - Daily Om Practice",
+        "alternateName": "ChantFlow",
+        "operatingSystem": "watchOS",
+        "applicationCategory": "LifestyleApplication",
+        "applicationSubCategory": "MeditationApp",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/chantflow-daily-om-practice/id[APP_STORE_ID]",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "Minimalist meditation app for Apple Watch with 108 Sacred Count tradition",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Date Time Diff Calculator",
+        "operatingSystem": "iOS",
+        "applicationCategory": "UtilityApplication",
+        "applicationSubCategory": "CalculatorApp",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/date-time-diff-calculator/id6469073541",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "Utility that calculates the difference between two dates and times",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Eye Rest Timer - Ease Eyes",
+        "alternateName": "Eye Rest Timer",
+        "operatingSystem": "macOS",
+        "applicationCategory": "HealthApplication",
+        "applicationSubCategory": "EyeCareApp",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/eye-rest-timer-ease-eyes/id6475638039",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "App designed to help prevent eye strain using the 20-20-20 rule",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "SleepRiddle - Solve Your Sleep Riddle",
+        "alternateName": "SleepRiddle",
+        "operatingSystem": "iOS, watchOS",
+        "applicationCategory": "HealthApplication",
+        "applicationSubCategory": "SleepTrackerApp",
+        "description": "Sleep quality and factor analysis app with HealthKit integration",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
       }
     }
+  ]
+}
+</script>
+
+<!-- Additional Schema.org markup for Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ravi Shankar",
+  "jobTitle": "Apple Platforms Developer",
+  "description": "Indie iOS, macOS, and watchOS app developer specializing in mindfulness, productivity, and utility applications",
+  "url": "https://www.rshankar.com",
+  "sameAs": [
+    "https://twitter.com/rshankra",
+    "https://github.com/rshankras",
+    "https://linkedin.com/in/sravis"
+  ],
+  "knowsAbout": [
+    "iOS Development",
+    "macOS Development", 
+    "watchOS Development",
+    "SwiftUI",
+    "Swift",
+    "App Store",
+    "Indie App Development"
   ]
 }
 </script>

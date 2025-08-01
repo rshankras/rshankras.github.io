@@ -514,3 +514,102 @@
 .page__content .hero-section .hero-content {
   text-align: center;
 }
+
+/* Enhanced Screenshot Gallery Styles */
+.screenshot-gallery {
+  margin: 2em 0;
+  width: 100%;
+}
+
+.screenshot-row {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5em;
+  flex-wrap: wrap;
+  margin: 1em 0;
+  width: 100%;
+}
+
+.screenshot-item {
+  flex: 0 1 auto;
+  min-width: 150px;
+  max-width: 180px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 1em;
+}
+
+.screenshot-item:hover {
+  transform: translateY(-4px);
+}
+
+.app-screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.app-screenshot:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.screenshot-caption {
+  margin-top: 0.8em;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Responsive Design for Screenshots */
+@media (max-width: 768px) {
+  .screenshot-row {
+    gap: 1em;
+  }
+  
+  .screenshot-item {
+    min-width: 120px;
+    max-width: 150px;
+  }
+  
+  .screenshot-caption {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .screenshot-row {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 1.5em;
+  }
+  
+  .screenshot-item {
+    min-width: 180px;
+    max-width: 220px;
+  }
+}
+
+/* Force horizontal layout and override any conflicting styles */
+.screenshot-gallery .screenshot-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+}
+
+.screenshot-gallery .screenshot-item {
+  display: block !important;
+  float: none !important;
+}
+
+/* Ensure images display properly */
+.screenshot-gallery img {
+  max-width: 100% !important;
+  height: auto !important;
+}
