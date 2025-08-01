@@ -56,7 +56,7 @@ Perfect for Om chanting, mantra repetition, prayer counting, or any sacred pract
     </div>
     
     <div class="screenshot-item">
-      <img src="/assets/images/chantflow/settings.png" alt="ChantFlow settings screen with meditation pace and haptic feedback options" class="app-screenshot">
+      <img src="/assets/images/chantflow/settings1.png" alt="ChantFlow settings screen with meditation pace and haptic feedback options" class="app-screenshot">
       <p class="screenshot-caption">Settings and customization options</p>
     </div>
     
