@@ -62,7 +62,20 @@ A collection of apps I've built for Apple platforms.
   </div>
 </div>
 
-## Side Projects
+## In Progress
+
+<div class="app-entry">
+  <h2>SleepRiddle - Solve Your Sleep Riddle (iOS & watchOS)</h2>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/sleep-icon.png" alt="SleepTracker - Sleep quality and factor analysis app for iOS and watchOS" title="SleepTracker App">
+    </div>
+    <div class="text">
+      <p>Finally, a sleep app that's simple enough to actually use. SleepTracker helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without overwhelming complexity.</p>
+      <a href="/sleep-tracker/" class="learn-more-link">Learn More →</a>
+    </div>
+  </div>
+</div>
 
 <div class="app-entry">
   <h2>TimeTracker (macOS)</h2>
