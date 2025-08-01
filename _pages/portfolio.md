@@ -116,12 +116,6 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
-<div id="get-these-apps">
-  <h3>Get These Apps</h3>
-  <p>All apps are available on the App Store. Click the "Download on App Store" links above to purchase and download. Your support helps me continue developing and improving these apps!</p>
-  <p>Want to discuss app development or interested in purchasing any of these apps?  <a href="/about/">Let's connect</a>.</p>
-</div>
-
 ## About My App Development
 
 I specialize in creating **iOS, macOS, and watchOS applications** that solve real problems with elegant, user-friendly interfaces. My development philosophy focuses on:
@@ -140,7 +134,11 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
 
 **Health & Wellness**: Apps like Eye Rest Timer and SleepRiddle focus on health monitoring and prevention.
 
-All apps are available on the App Store and designed to work seamlessly across Apple's ecosystem.
+<div id="get-these-apps">
+  <h3>Get These Apps</h3>
+  <p>All apps are available on the App Store. Click the "Download on App Store" links above to purchase and download. Your support helps me continue developing and improving these apps!</p>
+  <p>Want to discuss app development or interested in purchasing any of these apps?  <a href="/about/">Let's connect</a>.</p>
+</div>
 
 <!-- Schema.org markup for software applications -->
 <script type="application/ld+json">
