@@ -94,8 +94,7 @@ My apps span various categories including mindfulness, productivity, health, and
   <h2>SleepRiddle - Solve Your Sleep Riddle (iOS & watchOS)</h2>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/sleep-icon_new
-      .png" alt="SleepTracker - Sleep quality and factor analysis app for iOS and watchOS" title="SleepTracker App">
+      <img src="/assets/images/app-icons/sleep-icon-new.png" alt="SleepTracker - Sleep quality and factor analysis app for iOS and watchOS" title="SleepTracker App">
     </div>
     <div class="text">
       <p>Finally, a sleep app that's simple enough to actually use. SleepTracker helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without complexity.</p>
