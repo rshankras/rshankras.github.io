@@ -1,6 +1,6 @@
 ---
 title: "SleepTracker - Solve Your Sleep Riddle"
-og_image: "/assets/images/app-icons/sleep-icon.png"
+og_image: "/assets/images/app-icons/sleep-icon_new.png"
 layout: single
 permalink: /sleep-tracker/
 author_profile: true
