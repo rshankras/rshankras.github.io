@@ -27,16 +27,9 @@ og_image: "/assets/images/app-icons/chantflow-icon.png"
 twitter_card: "summary_large_image"
 author_profile: true
 toc: true
-header:
-  overlay_color: "#1a1a2e"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/chantflow/main-screen.png
----
-
 # Building a Spiritual Wellness App for Apple Watch: Technical Challenges and Solutions
 
 *Real-world insights from developing [ChantFlow](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828), a sacred mantra counting app that transforms Apple Watch into a digital mala*
-
 ---
 
 Building spiritual wellness apps presents unique technical challenges that differ significantly from typical fitness or productivity apps. When I set out to create [ChantFlow](https://www.rshankar.com/chantflow/), an Apple Watch app for sacred mantra practice, I encountered three major technical hurdles that required innovative solutions: SwiftUI development for watchOS constraints, background session management for uninterrupted meditation, and HealthKit integration for mindfulness tracking.
@@ -114,7 +107,7 @@ For persistent spiritual practice tracking, I used SwiftData with app group shar
 ```swift
 override init() {
     do {
-        let groupID = "group.com.rshankar.chantFlow"
+        let groupID = "group.com.example.chantFlow" // App group identifier for data sharing
         
         guard let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupID) else {
             fatalError("Failed to get URL for app group: \(groupID)")
@@ -144,7 +137,7 @@ Apple Watch aggressively terminates background apps to preserve battery. During 
 
 ### The Solution: HealthKit Workout Sessions
 
-I discovered that HealthKit workout sessions provide guaranteed background execution. Here's my implementation:
+I discovered that HealthKit workout sessions provide guaranteed background execution. This is crucial because when the Apple Watch display turns off, regular timers stop working. By using workout sessions, we ensure the timer continues running in the background. Here's my implementation:
 
 ```swift
 // Enhanced workout session properties for guaranteed background execution
@@ -170,8 +163,10 @@ private func startWorkoutSession() {
                                             configuration: workoutConfiguration)
         workoutSession?.delegate = self
         
-        // DON'T create workout builder - this prevents data collection
-        // This is key: we want background execution without writing workout data
+            // DON'T create workout builder - this prevents data collection
+    // This is key: we want background execution without writing workout data
+    // We request workout permissions for background execution, but don't log workout data
+    // since this is a mindfulness app, not a fitness app
         
         // Start the session (background execution only)
         workoutSession?.startActivity(with: Date())
@@ -224,9 +219,10 @@ private func performMalaBead() {
 **Breakthrough Insights:**
 
 1. **HealthKit Workout Sessions** provide the most reliable background execution on Apple Watch
-2. **Separating Workout Session from Data Collection**: Using `HKWorkoutSession` without `HKLiveWorkoutBuilder` gives background execution without unwanted Health app entries
-3. **High-Priority Dispatch Timers**: `DispatchSource.makeTimerSource` with `.userInitiated` QoS ensures accurate timing
-4. **Spiritual UX**: 2.5-second intervals match natural breathing rhythms for mantra practice
+2. **Background Execution Strategy**: We request workout permissions for background execution, but intentionally don't create a workout builder to prevent logging workout data to Health app
+3. **Mindfulness-First Approach**: Since this is a mindfulness app, not a fitness app, we ensure no workout data is logged while still getting the background execution benefits
+4. **High-Priority Dispatch Timers**: `DispatchSource.makeTimerSource` with `.userInitiated` QoS ensures accurate timing
+5. **Spiritual UX**: 2.5-second intervals match natural breathing rhythms for mantra practice
 
 ## Challenge 3: HealthKit Integration for Mindfulness Tracking
 
@@ -353,7 +349,7 @@ Real-time progress sharing with Apple Watch complications:
 
 ```swift
 private func updateWidgetData() {
-    let sharedDefaults = UserDefaults(suiteName: "group.com.rshankar.chantFlow")
+    let sharedDefaults = UserDefaults(suiteName: "group.com.example.chantFlow")
     
     let progress = getTodayProgress()
     sharedDefaults?.set(progress.current, forKey: "todayChantCount")
