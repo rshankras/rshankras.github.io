@@ -325,42 +325,6 @@ func triggerGoalCompletedHaptic() {
 }
 ```
 
-## Architecture Patterns for Spiritual Apps
-
-### Singleton Data Manager
-The spiritual practice requires global state management across app lifecycles:
-
-```swift
-@MainActor
-class ChantFlowDataManager: NSObject, ObservableObject {
-    static let shared = ChantFlowDataManager()
-    
-    @Published var todaysPractice: DailyPractice?
-    @Published var userStats: UserStats?
-    @Published var settings: UserSettings?
-    @Published var isChanting = false
-    @Published var isRunningInBackground = false
-}
-```
-
-### Widget Data Sharing
-Real-time progress sharing with Apple Watch complications:
-
-```swift
-private func updateWidgetData() {
-    let sharedDefaults = UserDefaults(suiteName: "group.com.example.chantFlow")
-    
-    let progress = getTodayProgress()
-    sharedDefaults?.set(progress.current, forKey: "todayChantCount")
-    sharedDefaults?.set(progress.goal, forKey: "sacredGoal")
-    sharedDefaults?.set(progress.isCompleted, forKey: "isGoalCompleted")
-    sharedDefaults?.set(progress.extra, forKey: "extraChants")
-    
-    // Force synchronization for immediate widget updates
-    sharedDefaults?.synchronize()
-}
-```
-
 ## Key Takeaways for Spiritual App Development
 
 ### 1. Respect the Sacred Context
