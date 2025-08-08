@@ -1,0 +1,26 @@
+{
+    "name": "Ravi Shankar - App Development Journey",
+    "short_name": "RS Blog",
+    "description": "Apple Platforms Developer sharing insights on iOS, macOS, and watchOS development",
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#1a1a2e",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "start_url": "/"
+}
