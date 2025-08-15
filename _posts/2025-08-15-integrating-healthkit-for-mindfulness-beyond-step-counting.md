@@ -1,5 +1,5 @@
 ---
-title: "Integrating HealthKit for Mindfulness: Beyond Step Counting"
+title: "HealthKit Integration in ChantFlow: Heart Rate, HRV, and Mindful Minutes"
 date: "2025-08-15"
 description: "How ChantFlow uses HealthKit to reflect calm through Mindful Minutes, heart rate, and HRV (experimental) — with simple Swift snippets you can reuse."
 categories:
