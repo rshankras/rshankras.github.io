@@ -31,7 +31,7 @@ Chanting helps you feel calm. Now ChantFlow helps you see it, too. We’ve added
 - **Feel it, then see it**: A calm heart rate trend is a gentle nudge to keep going.
 - **HRV as a signal, not a score**: It can reflect resilience. We show it when it’s reliable.
 
-## How it works (plain English)
+## How it works
 - When you chant, the app quietly starts a health session.
 - We read heart rate during the session, summarize after.
 - HRV usually becomes available after ending the session and needs 3–5+ minutes of stillness and good sensor contact.
@@ -131,7 +131,3 @@ final class LiveHRSession: NSObject, HKWorkoutSessionDelegate {
 - Continued focus on privacy and accessibility.
 
 Start a session, breathe, and take a peek at your Health Insights afterward. Calm feels good — and now you can see it, too.
-
----
-
-Status: Wrote a complete blog post in simple language, added three concise Swift snippets (permissions, mindful logging, live HR), and clearly labeled HRV as experimental.
