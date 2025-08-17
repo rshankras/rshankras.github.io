@@ -42,6 +42,9 @@ Follow the time-honored tradition of 108 repetitions - the perfect number for ma
 - **Comprehensive progress statistics**
 - **Smart daily reminders** for consistent practice
 - **Automatic mindfulness logging** to HealthKit
+- **Real-time heart rate monitoring** during practice
+- **Health insights dashboard** with session tracking
+- **HRV data tracking** (experimental - for the truly zen)
 
 ### Universal Spiritual Tool
 Perfect for Om chanting, mantra repetition, prayer counting, or any sacred practice. Cultivate inner balance through consistent daily ritual on your Apple Watch. The extra credits feature allows you to extend your practice when you feel called to continue beyond the traditional 108 count.
@@ -76,6 +79,17 @@ Perfect for Om chanting, mantra repetition, prayer counting, or any sacred pract
 
 ChantFlow automatically logs your mindful minutes to the Health app, helping you track your overall wellness journey alongside other health metrics.
 
+### Health Tracking (Your Heart Rate Tells All)
+
+We added health tracking because apparently "feeling zen" isn't quantifiable enough anymore. Now you can watch your heart rate drop in real-time as you chant your way to inner peace.
+
+**What's New:**
+- **Heart rate monitoring** (works every time!)
+- **Health insights dashboard** with session tracking
+- **HRV data** (experimental - like your meditation practice)
+
+*HRV requires perfect conditions: 5+ minutes, statue-like stillness, and probably some good karma.*
+
 ## Perfect For
 
 - **Meditation practitioners** seeking a structured daily routine
@@ -87,6 +101,7 @@ ChantFlow automatically logs your mindful minutes to the Health app, helping you
 
 - **Platform**: Apple Watch (watchOS)
 - **HealthKit Integration**: Automatic mindful minutes logging
+- **Heart Rate Monitoring**: Real-time tracking during practice
 - **Haptic Feedback**: Gentle rhythm guidance during practice
 - **Progress Tracking**: Comprehensive statistics and streaks
 - **Customization**: Adjustable chant intervals and reminders
@@ -108,7 +123,7 @@ Track your mindfulness journey alongside other health metrics. ChantFlow automat
 ## Frequently Asked Questions
 
 **What makes ChantFlow different from other meditation apps?**
-ChantFlow is specifically designed for Apple Watch with a focus on the traditional 108 Sacred Count practice. It's minimalist, distraction-free, and integrates seamlessly with your health tracking. The unique extra credits feature allows you to honor the sacred tradition while providing flexibility for extended practice sessions.
+ChantFlow is specifically designed for Apple Watch with a focus on the traditional 108 Sacred Count practice. It's minimalist, distraction-free, and integrates seamlessly with your health tracking. The unique extra credits feature allows you to honor the sacred tradition while providing flexibility for extended practice sessions. Plus, you can now watch your heart rate drop in real-time as you chant - because apparently "feeling zen" isn't quantifiable enough anymore.
 
 **Can I use ChantFlow for different types of meditation?**
 Yes! While designed for Om chanting, ChantFlow works perfectly for any mantra repetition, prayer counting, or sacred practice that benefits from structured counting.
@@ -118,6 +133,9 @@ After completing the traditional 108 count, you can continue your practice with 
 
 **How does the haptic feedback work?**
 Gentle vibrations guide your rhythm during practice, helping you maintain consistent timing without looking at the screen. Perfect for maintaining focus during meditation.
+
+**What's this HRV thing about?**
+HRV (Heart Rate Variability) is like a window into your nervous system's zen level. It requires perfect conditions: 5+ minutes of practice, statue-like stillness, and probably some good karma. Consider it a bonus feature for the truly dedicated practitioners.
 
 ## Download
 
@@ -154,7 +172,10 @@ Begin your spiritual journey today.
     "Customizable chant intervals for your rhythm",
     "Comprehensive progress statistics",
     "Smart daily reminders for consistent practice",
-    "Automatic mindfulness logging to HealthKit"
+    "Automatic mindfulness logging to HealthKit",
+    "Real-time heart rate monitoring during practice",
+    "Health insights dashboard with session tracking",
+    "HRV data tracking for advanced practitioners"
   ],
   "keywords": "meditation, Apple Watch, Om chanting, 108 Sacred Count, mindfulness, spiritual practice, haptic feedback, HealthKit, watchOS, meditation timer, mantra practice, daily ritual",
   "author": {
