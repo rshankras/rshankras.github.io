@@ -1,6 +1,7 @@
 ---
 title: "How ChantFlow Transforms Your Apple Watch into a Sacred Digital Mala"
 date: "2025-08-26"
+permalink: "/how-chantflow-transforms-your-apple-watch-into-a-sacred-digital-mala/"
 description: "Discover how ChantFlow uses Apple Watch complications to make 108 mantra practice a natural part of your daily routine, transforming your wrist into a sacred digital mala."
 categories:
   - "watchos"
