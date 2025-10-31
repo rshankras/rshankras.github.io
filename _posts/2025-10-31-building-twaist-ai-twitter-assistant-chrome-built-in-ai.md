@@ -83,6 +83,8 @@ Six proven tweet formats that go viral:
 - Hook+list+question
 - Struggle→solution
 
+*Credit: Template inspiration from [Stijn Noorman's viral tweet formats](https://www.youtube.com/watch?v=ccGtI_DJQnQ) ([@stijnnoorman](https://twitter.com/stijnnoorman))*
+
 ![TwAIst Templates](/assets/images/twaist/templates.png)
 
 *Template generator showing different viral tweet formats*
@@ -676,6 +678,27 @@ If you're new to Chrome's built-in AI, here's your roadmap:
 - [Chrome AI Hackathon Resources](https://googlechromeai2025.devpost.com/resources)
 - [TwAIst GitHub Repository](https://github.com/rshankras/TwAIst-final)
 - [TwAIst Demo Video](https://www.youtube.com/watch?v=UcNIQ6FXJRI)
+
+## Built With AI Assistance
+
+Full transparency: I built TwAIst using [Claude Code](https://claude.com/claude-code), Anthropic's AI-powered development tool.
+
+This was actually a fascinating meta-experience - using AI to build an AI-powered application. Claude Code helped with:
+- Architecture decisions and modular design patterns
+- Writing the AI Manager abstraction layer
+- Implementing the multi-step workflow with conversation context
+- Debugging tricky session lifecycle issues
+- Crafting effective system prompts and prompt engineering
+
+The irony isn't lost on me: I used an AI coding assistant to build a tool that helps people create better AI-generated content. AI building AI tools. We're living in interesting times.
+
+If you're building Chrome extensions or working with new APIs, I highly recommend trying Claude Code. It significantly accelerated development and helped me navigate the Prompt API documentation more effectively.
+
+## Acknowledgments
+
+- **Template inspiration:** [Stijn Noorman](https://twitter.com/stijnnoorman) for his excellent [viral tweet formats video](https://www.youtube.com/watch?v=ccGtI_DJQnQ)
+- **Chrome AI Team:** For building the Prompt API and making on-device AI accessible
+- **Devpost:** For hosting the Chrome Built-in AI Hackathon
 
 ## Conclusion
 
