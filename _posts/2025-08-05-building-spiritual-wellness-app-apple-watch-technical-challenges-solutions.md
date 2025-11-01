@@ -1,33 +1,38 @@
 ---
 title: "Building a Spiritual Wellness App for Apple Watch: Technical Challenges and Solutions"
-date: 2025-08-05
+date: "2025-08-05"
+permalink: "/building-spiritual-wellness-app-apple-watch-technical-challenges-solutions/"
+description: "Discover technical challenges and solutions behind building ChantFlow for Apple Watch. Learn SwiftUI watchOS development, background session management, and HealthKit integration for mindfulness apps."
 categories:
-  - iOS Development
-  - Apple Watch
-  - SwiftUI
-  - HealthKit
-  - Meditation Apps
+  - "ios-development"
+  - "apple-watch"
+  - "swiftui"
+  - "healthkit"
 tags:
-  - Apple Watch
-  - SwiftUI
-  - HealthKit
-  - Meditation
-  - Wellness Tech
-  - iOS
-  - watchOS
-  - Spiritual Tech
-  - Background Processing
-  - Haptic Feedback
-excerpt: "Real-world insights from developing ChantFlow, a sacred mantra counting app that transforms Apple Watch into a digital mala. Learn how to solve SwiftUI constraints, background session management, and HealthKit integration for spiritual wellness apps."
-description: "Discover the technical challenges and innovative solutions behind building ChantFlow, an Apple Watch app for sacred mantra practice. Learn SwiftUI development for watchOS, background session management using HealthKit workout sessions, and privacy-conscious HealthKit integration for mindfulness tracking."
+  - "Apple Watch"
+  - "SwiftUI"
+  - "HealthKit"
+  - "Meditation"
+  - "Wellness Tech"
+  - "watchOS"
+  - "Spiritual Tech"
+  - "Background Processing"
+  - "Haptic Feedback"
 keywords: "Apple Watch app development, SwiftUI watchOS, HealthKit integration, meditation app, spiritual wellness, background processing, haptic feedback, mindfulness tracking, sacred 108 count, mantra practice"
+image: "/assets/images/app-icons/chantflow-icon.png"
 og_title: "Building a Spiritual Wellness App for Apple Watch: Technical Challenges and Solutions"
 og_description: "Real-world insights from developing ChantFlow, a sacred mantra counting app that transforms Apple Watch into a digital mala."
 og_image: "/assets/images/app-icons/chantflow-icon.png"
+og_type: "article"
 twitter_card: "summary_large_image"
-author_profile: true
+twitter_title: "Building a Spiritual Wellness App for Apple Watch"
+twitter_description: "Technical challenges and solutions from building ChantFlow, an Apple Watch meditation app"
+excerpt_separator: <!--more-->
 toc: true
+toc_sticky: true
 ---
+
+Real-world insights from developing ChantFlow, a sacred mantra counting app that transforms Apple Watch into a digital mala. Learn how to solve SwiftUI constraints, background session management, and HealthKit integration for spiritual wellness apps.<!--more-->
 
 *Real-world insights from developing [ChantFlow](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828), a sacred mantra counting app that transforms Apple Watch into a digital mala*
 

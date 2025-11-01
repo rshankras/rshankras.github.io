@@ -1,22 +1,30 @@
 ---
 title: "Building a P2P Collaborative App with Couchbase Lite and SwiftUI"
-date: 2025-04-12
-description: "Learn how to build a peer-to-peer collaborative iOS app using SwiftUI and Couchbase Lite. Discover the challenges and solutions for implementing offline-first functionality with local database and P2P synchronization."
-categories: 
+date: "2025-04-12"
+permalink: "/building-p2p-collaborative-app-with-couchbase-lite/"
+description: "Learn how to build a peer-to-peer collaborative iOS app using SwiftUI and Couchbase Lite. Discover challenges and solutions for implementing offline-first functionality with local database and P2P sync."
+categories:
   - "ios"
   - "development"
   - "swift"
   - "database"
-tags: 
-  - "swiftui"
-  - "couchbase-lite"
-  - "p2p"
-  - "offline-first"
-  - "sync"
-  - "ios-development"
-  - "database"
-  - "networking"
+tags:
+  - "SwiftUI"
+  - "Couchbase Lite"
+  - "P2P"
+  - "Offline-First"
+  - "Sync"
+  - "iOS Development"
+  - "Database"
+  - "Networking"
+keywords: "Couchbase Lite iOS, peer-to-peer iOS app, SwiftUI database, offline-first app, P2P sync, collaborative app, local database, iOS networking"
+image: "/assets/images/default-featured.png"
+excerpt_separator: <!--more-->
+toc: true
+toc_sticky: true
 ---
+
+I recently built a peer-to-peer collaborative storytelling app called PeerPlot using SwiftUI and Couchbase Lite. The journey was filled with interesting challenges that I wanted to share. If you're interested in building apps that work offline but can sync when peers are nearby, this post is for you.<!--more-->
 
 I recently built a peer-to-peer collaborative storytelling app called PeerPlot using SwiftUI and Couchbase Lite. The journey was filled with interesting challenges that I wanted to share. If you're interested in building apps that work offline but can sync when peers are nearby, this post is for you.
 

@@ -1,20 +1,28 @@
 ---
 title: "Designing macOS UIs for Rapid Development"
-date: 2025-05-04
-description: "Learn how to design macOS user interfaces that are both easier to implement and maintain, with practical tips on when to follow Apple's guidelines and when to forge your own path."
-categories: 
+date: "2025-05-04"
+permalink: "/designing-macos-ui-for-rapid-development/"
+description: "Learn how to design macOS user interfaces that are easier to implement and maintain. Practical tips for rapid development with SwiftUI and AppKit, balancing design and implementation."
+categories:
   - "macos"
   - "development"
   - "design"
   - "ui-ux"
-tags: 
-  - "rapid-development"
-  - "swiftui"
-  - "appkit"
-  - "macos-design"
-  - "productivity"
-  - "apple"
+tags:
+  - "Rapid Development"
+  - "SwiftUI"
+  - "AppKit"
+  - "macOS Design"
+  - "Productivity"
+  - "Apple"
+keywords: "macOS UI design, rapid development, SwiftUI macOS, AppKit best practices, macOS app design, developer-friendly UI, standard UI patterns"
+image: "/assets/images/default-featured.png"
+excerpt_separator: <!--more-->
+toc: true
+toc_sticky: true
 ---
+
+Good design decisions early on can save weeks of development time when building macOS applications. This isn't about cutting corners - it's about designing interfaces that are both user-friendly and developer-friendly.<!--more-->
 
 Good design decisions early on can save weeks of development time when building macOS applications. This isn't about cutting corners - it's about designing interfaces that are both user-friendly and developer-friendly.
 

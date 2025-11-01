@@ -1,21 +1,28 @@
 ---
 title: "Convert SVG to PNG on macOS the Easy Way with sips"
-date: 2025-04-14
-description: "Learn how to quickly convert SVG vector files to PNG raster images directly from your macOS Terminal using the built-in sips command, including generating @1x and @2x assets."
-categories: 
+date: "2025-04-14"
+permalink: "/convert-svg-to-png-with-sips/"
+description: "Learn how to quickly convert SVG vector files to PNG raster images from macOS Terminal using the built-in sips command. Includes generating @1x and @2x assets for app development."
+categories:
   - "macos"
   - "development"
   - "tips"
   - "terminal"
-tags: 
-  - "svg"
-  - "png"
-  - "conversion"
-  - "sips"
-  - "command-line"
-  - "graphics"
-  - "macos-dev"
+tags:
+  - "SVG"
+  - "PNG"
+  - "Conversion"
+  - "SIPS"
+  - "Command Line"
+  - "Graphics"
+  - "macOS Development"
+keywords: "SVG to PNG macOS, sips command, convert SVG terminal, macOS graphics conversion, retina assets, @2x images, command line tools"
+image: "/assets/images/default-featured.png"
+excerpt_separator: <!--more-->
+toc: true
 ---
+
+Need to turn those crisp SVG vector files into PNGs on your Mac? Forget installing extra software! macOS comes with a handy command-line tool called `sips` (Scriptable Image Processing System) that gets the job done quickly.<!--more-->
 
 Need to turn those crisp SVG vector files into PNGs on your Mac? Maybe for an app icon, a website, or just general use? Forget installing extra software! macOS comes with a handy command-line tool called `sips` (Scriptable Image Processing System) that gets the job done quickly.
 
