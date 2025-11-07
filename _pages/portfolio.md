@@ -56,7 +56,9 @@ My apps span various categories including mindfulness, productivity, health, and
       <img src="/assets/images/app-icons/expense-split-icon.png" alt="Expense Split - Group expense tracking and splitting app icon for iOS and watchOS" title="Expense Split App">
     </div>
     <div class="text">
-      <p>A simple and intuitive expense splitting app that helps groups track and settle shared expenses. Perfect for roommates, trips, or any shared spending situation.</p>
+      <p>Stop awkward "who owes what?" conversations. Split bills fairly with friends, roommates, and travel buddies. Features AI-powered categorization, custom splits with locks, and real-time CloudKit collaboration.</p>
+      <a href="/expense-split/" class="learn-more-link">Learn More →</a>
+      <br/>
       <a href="https://apps.apple.com/us/app/expense-split-settle-up/id1041478586" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
