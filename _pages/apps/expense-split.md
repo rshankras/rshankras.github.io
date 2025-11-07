@@ -75,32 +75,32 @@ Split bills fairly with friends, roommates, and travel buddies—without the spr
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Group List</figcaption>
     <img src="/assets/images/expense-split/group-list.png" alt="Group List Screen"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Smart Categories</figcaption>
     <img src="/assets/images/expense-split/smart-category.png" alt="AI Category Suggestion"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Custom Splits</figcaption>
     <img src="/assets/images/expense-split/custom-splits-lock.png" alt="Custom Splits with Lock"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Quick Add Users</figcaption>
     <img src="/assets/images/expense-split/quickly-add-user.png" alt="Quick Add User from Groups"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Settle Up</figcaption>
     <img src="/assets/images/expense-split/settle-up.png" alt="Settle Up Screen"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
   <figure style="margin: 0; text-align: center; flex-shrink: 0;">
     <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Share Groups</figcaption>
     <img src="/assets/images/expense-split/share-group.png" alt="Share Group Screen"
-         style="width: 200px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </figure>
 </div>
 
