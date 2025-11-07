@@ -222,7 +222,7 @@ Use sparingly for very detailed breakdowns.
 Link to related posts within your content:
 
 ```markdown
-Learn more about [SwiftUI basics]({% post_url 2024-01-01-swiftui-basics %})
+Learn more about [SwiftUI basics](/swiftui-basics/)
 or check out our [complete SwiftUI guide](/swiftui-guide/).
 ```
 
