@@ -239,27 +239,27 @@ After a week of building, here's my framework:
 
 ### Use Google AI Studio when:
 
-✅ You need to validate an idea quickly
-✅ You're building a web service or API
-✅ The UI is browser-based
-✅ You want instant deployment and sharing
-✅ Backend logic is more important than native features
-✅ You're prototyping before committing to native development
+- ✅ You need to validate an idea quickly
+- ✅ You're building a web service or API
+- ✅ The UI is browser-based
+- ✅ You want instant deployment and sharing
+- ✅ Backend logic is more important than native features
+- ✅ You're prototyping before committing to native development
 
 ### Use Xcode/Swift when:
 
-✅ You need native iOS/macOS features (HealthKit, Core Motion, etc.)
-✅ Offline functionality is critical
-✅ You're building for App Store distribution
-✅ Performance is paramount (games, complex animations)
-✅ You want deep integration with Apple ecosystem
-✅ You need platform-specific UI patterns (SwiftUI, UIKit)
+- ✅ You need native iOS/macOS features (HealthKit, Core Motion, etc.)
+- ✅ Offline functionality is critical
+- ✅ You're building for App Store distribution
+- ✅ Performance is paramount (games, complex animations)
+- ✅ You want deep integration with Apple ecosystem
+- ✅ You need platform-specific UI patterns (SwiftUI, UIKit)
 
 ### Use Both when:
 
-✅ Your app has a native frontend + cloud backend
-✅ You want to prototype backend logic in AI Studio, then integrate via API
-✅ You're building multi-platform (iOS app + web dashboard)
+- ✅ Your app has a native frontend + cloud backend
+- ✅ You want to prototype backend logic in AI Studio, then integrate via API
+- ✅ You're building multi-platform (iOS app + web dashboard)
 
 **My current approach:**
 

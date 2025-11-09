@@ -62,11 +62,11 @@ That's what I set out to build this week.
 
 Coming from iOS development, I had specific criteria:
 
-✅ **Fast iteration**: I wanted to build and test ideas in hours, not days
-✅ **No infrastructure headache**: I don't want to manage servers or databases
-✅ **Instant deployment**: TestFlight takes days; I wanted to go live in minutes
-✅ **Cheap**: These are experiments, not revenue-generating products yet
-✅ **Shareable**: I wanted to send links to beta testers immediately
+- ✅ **Fast iteration**: I wanted to build and test ideas in hours, not days
+- ✅ **No infrastructure headache**: I don't want to manage servers or databases
+- ✅ **Instant deployment**: TestFlight takes days; I wanted to go live in minutes
+- ✅ **Cheap**: These are experiments, not revenue-generating products yet
+- ✅ **Shareable**: I wanted to send links to beta testers immediately
 
 Google AI Studio + Cloud Run hit all five.
 
@@ -214,22 +214,20 @@ It returns a structured, time-based checklist:
 
 **Example output (2-hour sprint):**
 
-```
-Pre-launch Readiness (T-0 to T-0)
-✅ Finalize app name and tagline
-✅ Prepare App Store screenshots
-✅ Write compelling app description
+**Pre-launch Readiness (T-0 to T-0)**
+- ✅ Finalize app name and tagline
+- ✅ Prepare App Store screenshots
+- ✅ Write compelling app description
 
-Launch Hour (T-0 to T+1)
-✅ Submit to Product Hunt
-✅ Post on X/Twitter with demo video
-✅ Share in relevant Slack/Discord communities
+**Launch Hour (T-0 to T+1)**
+- ✅ Submit to Product Hunt
+- ✅ Post on X/Twitter with demo video
+- ✅ Share in relevant Slack/Discord communities
 
-Post-Launch (T+1 to T+3 days)
-✅ Respond to all comments and feedback
-✅ Monitor crash reports and fix critical bugs
-✅ Share user testimonials
-```
+**Post-Launch (T+1 to T+3 days)**
+- ✅ Respond to all comments and feedback
+- ✅ Monitor crash reports and fix critical bugs
+- ✅ Share user testimonials
 
 **For a 2-week timeline**, it adds:
 - Pre-launch landing page
