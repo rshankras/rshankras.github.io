@@ -15,6 +15,7 @@ tags:
   - "AI Development"
   - "Rapid Prototyping"
 keywords: "google ai studio tutorial, gemini ai studio, no code ai development, rapid prototyping, indie developer, ios developer ai tools"
+image: "/assets/images/google-ai-studio/xcode-no-code-featured.png"
 excerpt_separator: <!--more-->
 toc: true
 toc_sticky: true
@@ -107,6 +108,9 @@ In Google AI Studio, you can:
 2. Add it directly to your conversation
 3. The AI generates code matching that visual
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Google AI Studio provides an annotation tool that can be used to capture the screen where you want to make changes and add it to the conversation.</p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985383149778411601">November 3, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 I tested this with a fitness app dashboard I'd been sketching. Dropped in the screenshot, described the functionality, and got back working HTML/CSS/JavaScript that looked remarkably similar.
 
 **Rookie mistake #1:** I initially tried to describe complex layouts in text. It was clunky. Once I switched to screenshots + brief descriptions, the results improved dramatically.
@@ -122,6 +126,9 @@ You make one change. Then another. Suddenly nothing works, and you're not sure w
 Google AI Studio has a brilliant solution: **restore checkpoints**.
 
 It automatically saves states as you work. If something breaks, you can jump back to a previous working version with one click.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can easily rollback the previous changes using the Restore Check Point&#39; feature. <a href="https://t.co/videolink">pic.twitter.com/videolink</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985383149778411601">November 3, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This is like Git's version control, but without the ceremony of commits and branches. It's instant.
 
@@ -140,6 +147,9 @@ In Xcode, I rely heavily on Git for this. But Git requires discipline—commit o
 Google AI Studio isn't purely no-code. It's *low-code* with an escape hatch.
 
 When the AI generates something close but not quite right, you can drop into the built-in code editor and make changes yourself.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you are a developer and want to make code changes, you can use the code editor to fix the code or add features. <a href="https://t.co/videolink">pic.twitter.com/videolink</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985383149778411601">November 3, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I used this when:
 
@@ -160,6 +170,9 @@ If you know HTML/CSS/JavaScript, you'll feel at home. If you're coming from pure
 This is where Google AI Studio really shines for indie developers.
 
 Once you've built something, you have four options:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Like any other popular vibe coding tool, this allows users to:<br>- download the code<br>- publish to GitHub<br>- deploy it in the cloud<br>- share your work. <a href="https://t.co/videolink">pic.twitter.com/videolink</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985383149778411601">November 3, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 1. Download the Code
 

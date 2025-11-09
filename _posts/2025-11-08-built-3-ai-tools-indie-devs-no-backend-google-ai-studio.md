@@ -17,6 +17,7 @@ tags:
   - "Build in Public"
   - "AI Development"
 keywords: "indie developer tools, google ai studio projects, cloud run deployment, rapid prototyping, ai micro tools, build in public, gemini ai"
+image: "/assets/images/google-ai-studio/3-ai-tools-featured.png"
 excerpt_separator: <!--more-->
 toc: true
 toc_sticky: true
@@ -100,6 +101,9 @@ Writing these variations manually is tedious. I needed dynamic, context-aware me
 
 I built a web service that takes:
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday I built an AI image generator using <a href="https://twitter.com/GoogleAIStudio">@GoogleAIStudio</a>.<br><br>Today I tried something different - an AI Fitness Coach web service 🏃‍♂️<br><br>It takes your step count, goal, and time of day… then replies like a real coach. <a href="https://t.co/image">pic.twitter.com/image</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985731266571092180">November 4, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 **Input:**
 ```json
 {
@@ -150,6 +154,9 @@ One click. Live in 30 seconds.
 Here's where it gets interesting.
 
 I previewed how these messages would look on Apple Watch and iPhone. Same data, different screen layouts, consistent motivational tone.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The preview shows how the message would look on an Apple Watch and iPhone.<br><br>Same data → different screen layouts → same motivational tone.</p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985731266571092180">November 4, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This is the bridge I've been looking for: **AI-generated content + native Apple experiences.**
 
@@ -204,6 +211,9 @@ But making the plan? That's where I procrastinate.
 ### The Solution
 
 I built LaunchPad AI: a launch checklist generator for indie devs.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I built a Launch Checklist Generator for <a href="https://twitter.com/hashtag/indiedevs?src=hash">#indiedevs</a> in <a href="https://twitter.com/GoogleAIStudio">@GoogleAIStudio</a>.<br><br>You type your app + how soon you want to launch, and it creates a clear step-by-step launch plan.<br><br>Took me ~10 minutes.<br><br>Here&#39;s how I did it 👇 <a href="https://t.co/image">pic.twitter.com/image</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1986102676531413034">November 5, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 You enter:
 - Your app name
@@ -322,6 +332,9 @@ By the time I've written something, I've lost momentum.
 
 I built a caption generator designed specifically for indie app developers.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Built another small mini tool today with <a href="https://twitter.com/GoogleAIStudio">@GoogleAIStudio</a><br><br>This one writes scroll-friendly social captions for your app.<br><br>No more staring at a blank screen.<br><br>Here&#39;s how it works 👇 <a href="https://t.co/image">pic.twitter.com/image</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1986460321318580400">November 7, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 **Input:**
 - App name
 - What it does
@@ -433,6 +446,9 @@ Here's the deployment process for all three tools:
 4. Click "Deploy"
 
 **That's it.**
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Built completely inside Gemini 2.5 Pro using Google AI Studio's web service mode.<br><br>No backend setup, no extra code - just define input/output and deploy. <a href="https://t.co/videolink">pic.twitter.com/videolink</a></p>&mdash; Ravi Shankar (@rshankra) <a href="https://twitter.com/rshankra/status/1985731266571092180">November 4, 2025</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 30 seconds later, I get a live URL:
 
