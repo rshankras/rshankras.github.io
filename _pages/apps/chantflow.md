@@ -43,11 +43,35 @@ Follow the time-honored tradition of 108 repetitions - the perfect number for ma
 - **Smart daily reminders** for consistent practice
 - **Automatic mindfulness logging** to HealthKit
 - **Real-time heart rate monitoring** during practice
+- **Heart Rate Sessions View** - browse all sessions with detailed insights
+- **Session Summary notifications** - optional post-session insights (2-min delay)
+- **Performance badges** - excellent/very good/good ratings based on HR improvement
+- **Heart rate reduction tracking** - see your stress melt away (e.g., 87 → 80 bpm)
 - **Health insights dashboard** with session tracking
-- **HRV data tracking** (experimental - for the truly zen)
+- **Complete privacy** - all data stays in Apple Health
 
 ### Universal Spiritual Tool
 Perfect for Om chanting, mantra repetition, prayer counting, or any sacred practice. Cultivate inner balance through consistent daily ritual on your Apple Watch. The extra credits feature allows you to extend your practice when you feel called to continue beyond the traditional 108 count.
+
+## Heart Rate Insights - Your Meditation, Measured
+
+Ever wondered if meditation is really working? Now you can see it happening. ChantFlow tracks your heart rate before, during, and after each session - so you can watch your stress literally melt away as you chant.
+
+### Heart Rate Sessions View
+Browse all your meditation sessions by date and see detailed insights:
+- **Your heart rate journey** from start to finish (e.g., 87 bpm → 80 bpm)
+- **Heart rate reduction percentage** for each session
+- **Performance badges** showing excellent, very good, or good sessions based on heart rate improvement
+- **Daily summaries** when you practice multiple times
+
+### Session Summaries
+Two minutes after you finish meditating (giving you time to rest in the silence), you can choose to see a gentle summary showing your heart rate improvement and session duration. Or turn summaries off if you prefer to just practice without the data.
+
+### Complete Privacy
+All your health data stays in your Apple Health app - we never see it, store it, or share it. You can turn health tracking off entirely anytime.
+
+### How It Works
+Just enable Health Tracking in Settings and give ChantFlow permission to read your health data. That's it. From then on, every meditation session automatically captures your heart rate and shows you how your practice is helping your body find calm.
 
 ## Screenshots
 
@@ -57,17 +81,27 @@ Perfect for Om chanting, mantra repetition, prayer counting, or any sacred pract
       <img src="/assets/images/chantflow/main-screen.png" alt="ChantFlow main meditation screen showing progress ring and 108 count" class="app-screenshot">
       <p class="screenshot-caption">Main meditation screen with progress tracking</p>
     </div>
-    
+
+    <div class="screenshot-item">
+      <img src="/assets/images/chantflow/session-summary.png" alt="ChantFlow session summary notification showing duration and heart rate change" class="app-screenshot">
+      <p class="screenshot-caption">Session Summary with heart rate insights</p>
+    </div>
+
     <div class="screenshot-item">
       <img src="/assets/images/chantflow/settings1.png" alt="ChantFlow settings screen with meditation pace and haptic feedback options" class="app-screenshot">
       <p class="screenshot-caption">Settings and customization options</p>
     </div>
-    
+
     <div class="screenshot-item">
       <img src="/assets/images/chantflow/progress.png" alt="ChantFlow progress dashboard showing daily stats and streaks" class="app-screenshot">
       <p class="screenshot-caption">Progress dashboard with comprehensive statistics</p>
     </div>
-    
+
+    <div class="screenshot-item">
+      <img src="/assets/images/chantflow/watch-complication.png" alt="ChantFlow watch complication for quick access" class="app-screenshot">
+      <p class="screenshot-caption">Watch complication for easy access</p>
+    </div>
+
     <div class="screenshot-item">
       <img src="/assets/images/chantflow/achievement.png" alt="ChantFlow achievement screen showing Sacred 108 completion" class="app-screenshot">
       <p class="screenshot-caption">Achievement celebration for completed practices</p>
@@ -79,16 +113,19 @@ Perfect for Om chanting, mantra repetition, prayer counting, or any sacred pract
 
 ChantFlow automatically logs your mindful minutes to the Health app, helping you track your overall wellness journey alongside other health metrics.
 
-### Health Tracking (Your Heart Rate Tells All)
+### Health Tracking - See Your Practice Work
 
-We added health tracking because apparently "feeling zen" isn't quantifiable enough anymore. Now you can watch your heart rate drop in real-time as you chant your way to inner peace.
+Many of us have practiced mantra meditation for years, trusting that it's good for us. Now you can actually see your heart rate dropping and your body relaxing into a calmer state. It's incredibly motivating to have this objective feedback - and it might just inspire you to practice more consistently.
 
-**What's New:**
-- **Heart rate monitoring** (works every time!)
-- **Health insights dashboard** with session tracking
-- **HRV data** (experimental - like your meditation practice)
+**What's Tracked:**
+- **Heart rate monitoring** - continuous tracking before, during, and after practice
+- **Heart rate reduction** - see exactly how much your practice calms your body
+- **Performance ratings** - excellent, very good, or good based on heart rate improvement
 
-*HRV requires perfect conditions: 5+ minutes, statue-like stillness, and probably some good karma.*
+**Your Control:**
+- All data stays in Apple Health - complete privacy
+- Turn health tracking off entirely anytime
+- Optional session summaries (can be disabled)
 
 ## Perfect For
 
@@ -123,7 +160,7 @@ Track your mindfulness journey alongside other health metrics. ChantFlow automat
 ## Frequently Asked Questions
 
 **What makes ChantFlow different from other meditation apps?**
-ChantFlow is specifically designed for Apple Watch with a focus on the traditional 108 Sacred Count practice. It's minimalist, distraction-free, and integrates seamlessly with your health tracking. The unique extra credits feature allows you to honor the sacred tradition while providing flexibility for extended practice sessions. Plus, you can now watch your heart rate drop in real-time as you chant - because apparently "feeling zen" isn't quantifiable enough anymore.
+ChantFlow is specifically designed for Apple Watch with a focus on the traditional 108 Sacred Count practice. It's minimalist, distraction-free, and integrates seamlessly with your health tracking. The unique extra credits feature allows you to honor the sacred tradition while providing flexibility for extended practice sessions. Plus, you can now watch your heart rate drop in real-time as you chant and get performance badges showing how effective each session was at helping you find calm.
 
 **Can I use ChantFlow for different types of meditation?**
 Yes! While designed for Om chanting, ChantFlow works perfectly for any mantra repetition, prayer counting, or sacred practice that benefits from structured counting.
@@ -134,8 +171,17 @@ After completing the traditional 108 count, you can continue your practice with 
 **How does the haptic feedback work?**
 Gentle vibrations guide your rhythm during practice, helping you maintain consistent timing without looking at the screen. Perfect for maintaining focus during meditation.
 
-**What's this HRV thing about?**
-HRV (Heart Rate Variability) is like a window into your nervous system's zen level. It requires perfect conditions: 5+ minutes of practice, statue-like stillness, and probably some good karma. Consider it a bonus feature for the truly dedicated practitioners.
+**Is my health data private?**
+Absolutely. All your health data stays in your Apple Health app - we never see it, store it, or share it. You have complete control, and you can turn health tracking off entirely at any time.
+
+**What is the Session Summary feature?**
+After each practice session, ChantFlow can display a notification (2 minutes after completion, giving you time to rest in the silence) showing your session duration and heart rate changes (e.g., "87 → 84 bpm"). This gives you immediate feedback on how your meditation affected your body. You can disable summaries if you prefer to practice without the data.
+
+**What are performance badges?**
+ChantFlow analyzes your heart rate improvement during each session and awards performance badges (excellent, very good, or good) based on how much your heart rate decreased. This helps you see which sessions were most effective at helping you find calm.
+
+**Can I use ChantFlow without health tracking?**
+Yes! Health tracking is completely optional. ChantFlow works beautifully as a simple meditation counter with or without health features enabled. You choose what works best for your practice.
 
 ## Download
 
@@ -174,8 +220,14 @@ Begin your spiritual journey today.
     "Smart daily reminders for consistent practice",
     "Automatic mindfulness logging to HealthKit",
     "Real-time heart rate monitoring during practice",
+    "Heart Rate Sessions View with detailed insights",
+    "Session Summary notifications (optional, 2-minute delay)",
+    "Performance badges (excellent/very good/good ratings)",
+    "Heart rate reduction tracking and percentage calculations",
     "Health insights dashboard with session tracking",
-    "HRV data tracking for advanced practitioners"
+    "Complete privacy - all data stays in Apple Health",
+    "Customizable health tracking preferences",
+    "Watch complication for quick access"
   ],
   "keywords": "meditation, Apple Watch, Om chanting, 108 Sacred Count, mindfulness, spiritual practice, haptic feedback, HealthKit, watchOS, meditation timer, mantra practice, daily ritual",
   "author": {
@@ -193,8 +245,10 @@ Begin your spiritual journey today.
   },
   "screenshot": [
     "/assets/images/chantflow/main-screen.png",
-    "/assets/images/chantflow/settings.png",
+    "/assets/images/chantflow/session-summary.png",
+    "/assets/images/chantflow/settings1.png",
     "/assets/images/chantflow/progress.png",
+    "/assets/images/chantflow/watch-complication.png",
     "/assets/images/chantflow/achievement.png"
   ]
 }
