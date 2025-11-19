@@ -1,0 +1,10 @@
+# robots.txt for rshankar.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.rshankar.com/sitemap.xml
+
+# Disallow admin and internal directories (if any)
+Disallow: /assets/fonts/
