@@ -83,59 +83,47 @@ Ease Eyes runs quietly in your menu bar, intelligently reminding you to rest you
 
 ## App Experience
 
-### macOS Screens
-<div style="display: flex; justify-content: center; gap: 20px; overflow-x: auto; padding: 20px 0;">
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Menu Bar</figcaption>
-    <img src="/assets/images/ease-eyes/menu-bar.png" alt="Ease Eyes Menu Bar"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Break Reminder</figcaption>
-    <img src="/assets/images/ease-eyes/notification.png" alt="Break Reminder Notification"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Long Break</figcaption>
-    <img src="/assets/images/ease-eyes/long-break.png" alt="Full-Screen Long Break"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Statistics</figcaption>
-    <img src="/assets/images/ease-eyes/statistics.png" alt="Analytics Dashboard"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Settings</figcaption>
-    <img src="/assets/images/ease-eyes/settings.png" alt="Settings Panel"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Onboarding</figcaption>
-    <img src="/assets/images/ease-eyes/onboarding.png" alt="Onboarding Screen"
-         style="max-height: 400px; width: auto; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-</div>
+### Menu Bar
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/menu-bar.png" alt="Ease Eyes Menu Bar"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Quick access to all features from your menu bar. See time until next break, today's screen time, and control your break schedule.</figcaption>
+</figure>
 
-### Key Screens Overview
+### Break Reminder
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/notification.png" alt="Break Reminder Notification"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Gentle notifications remind you to look away from the screen without disrupting your workflow.</figcaption>
+</figure>
 
-**Menu Bar**
-Quick access to all features from your menu bar. See time until next break, today's screen time, and control your break schedule.
+### Long Break
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/long-break.png" alt="Full-Screen Long Break"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Optional full-screen break window for extended rest periods. Choose between notification or full-screen mode.</figcaption>
+</figure>
 
-**Break Reminder**
-Gentle notifications remind you to look away from the screen without disrupting your workflow.
+### Statistics
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/statistics.png" alt="Analytics Dashboard"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Interactive analytics showing your break history, compliance metrics, and screen time trends over weeks, months, and years.</figcaption>
+</figure>
 
-**Long Break**
-Optional full-screen break window for extended rest periods. Choose between notification or full-screen mode.
+### Settings
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/settings.png" alt="Settings Panel"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Customize break intervals, notification styles, meeting app detection, and more to fit your workflow.</figcaption>
+</figure>
 
-**Statistics**
-Interactive analytics showing your break history, compliance metrics, and screen time trends over weeks, months, and years.
-
-**Settings**
-Customize break intervals, notification styles, meeting app detection, and more to fit your workflow.
-
-**Onboarding**
-Easy setup guides you through configuring your preferences when you first launch the app.
+### Onboarding
+<figure style="margin: 0 0 30px 0; text-align: center;">
+  <img src="/assets/images/ease-eyes/onboarding.png" alt="Onboarding Screen"
+       style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  <figcaption style="margin-top: 12px; color: #666;">Easy setup guides you through configuring your preferences when you first launch the app.</figcaption>
+</figure>
 
 ## Perfect For
 
