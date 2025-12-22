@@ -81,10 +81,12 @@ My apps span various categories including mindfulness, productivity, health, and
   <h3>Eye Rest Timer - Ease Eyes (macOS)</h3>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/eye-rest-icon.png" alt="Eye Rest Timer Icon">
+      <img src="/assets/images/app-icons/eye-rest-icon.png" alt="Eye Rest Timer - macOS menu bar app for eye health using the 20-20-20 rule" title="Ease Eyes - Eye Rest Timer">
     </div>
     <div class="text">
-      <p>An app designed to help prevent eye strain by reminding you to take regular breaks using the 20-20-20 rule. Protect your eyes during long screen sessions.</p>
+      <p>Protect your eyes with smart break reminders based on the proven 20-20-20 rule. Features meeting detection, screen time tracking, and interactive analytics—all from your menu bar.</p>
+      <a href="/ease-eyes/" class="learn-more-link">Learn More →</a>
+      <br/>
       <a href="https://apps.apple.com/us/app/eye-rest-timer-ease-eyes/id6475638039" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
