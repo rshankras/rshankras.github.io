@@ -92,6 +92,21 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<div class="app-entry">
+  <h3>Honest Hours - Time Tracker (macOS)</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/time-tracker-icon.png" alt="Honest Hours - Privacy-first time tracker and focus mode app for macOS" title="Honest Hours - Time Tracker">
+    </div>
+    <div class="text">
+      <p>Know where your time really goes. Automatic time tracking, focus mode with app blocking, and insights into your work patterns—all while keeping your data 100% private on your Mac.</p>
+      <a href="/honest-hours/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
+    </div>
+  </div>
+</div>
+
 ## In Progress
 
 <div class="app-entry">
@@ -103,19 +118,6 @@ My apps span various categories including mindfulness, productivity, health, and
     <div class="text">
       <p>Finally, a sleep app that's simple enough to actually use. SleepTracker helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without complexity.</p>
       <a href="/sleep-tracker/" class="learn-more-link">Learn More →</a>
-    </div>
-  </div>
-</div>
-
-<div class="app-entry">
-  <h2>TimeTracker (macOS)</h2>
-  <div class="container">
-    <div class="image">
-      <img src="/assets/images/app-icons/time-tracker-icon.png" alt="TimeTracker - Productivity monitoring and time analytics app for macOS" title="TimeTracker App">
-    </div>
-    <div class="text">
-      <p>A macOS application that automatically monitors and categorizes your daily computer activities, providing detailed insights into how you spend time across different applications and websites. The app features an intuitive dashboard that displays your time usage through interactive charts and allows you to customize categories for various apps and websites, helping you better understand and optimize your digital time management.</p>
-      <a href="/timetracker/" class="app-store-link">Learn More →</a>
     </div>
   </div>
 </div>
@@ -151,7 +153,7 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
   "@type": "ItemList",
   "name": "iOS & macOS App Portfolio",
   "description": "Collection of iOS, watchOS, and macOS apps developed by Ravi Shankar",
-  "numberOfItems": 6,
+  "numberOfItems": 7,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -275,6 +277,30 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
     {
       "@type": "ListItem",
       "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Honest Hours - Time Tracker",
+        "alternateName": "Honest Hours",
+        "operatingSystem": "macOS",
+        "applicationCategory": "ProductivityApplication",
+        "applicationSubCategory": "TimeTracker",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://rshankar.com/downloads/honest-hours",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "Privacy-first time tracker with automatic tracking and focus mode for macOS",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
       "item": {
         "@type": "SoftwareApplication",
         "name": "SleepRiddle - Solve Your Sleep Riddle",
