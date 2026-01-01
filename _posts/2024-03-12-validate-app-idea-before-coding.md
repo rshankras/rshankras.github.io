@@ -1,10 +1,16 @@
 ---
-layout: post
 title: "How to Validate Your App Idea Before Writing a Single Line of Code"
-date: 2024-03-12
-categories: indie
-tags: indie-dev app-idea validation market-research
+date: "2024-03-12"
+permalink: "/validate-app-idea-before-coding/"
 description: "Don't waste months building something nobody wants. Here's how to test your app idea before you start coding."
+categories:
+  - "indie"
+tags:
+  - "indie-dev"
+  - "app-idea"
+  - "validation"
+  - "market-research"
+keywords: "validate app idea, app idea validation, market research for apps, indie developer, app development"
 ---
 
 Most app ideas fail not because of bad code, but because nobody wanted the app in the first place. A few weeks of validation can save you months of wasted development.
@@ -115,3 +121,7 @@ Before you write code, you should know:
 - You have something competitors don't
 
 If you can't answer these confidently, keep researching. The code can wait.
+
+---
+
+**Related:** Learn more about [design thinking](/what-is-design-thinking/) to understand how to build apps people actually want.
