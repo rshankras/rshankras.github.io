@@ -70,51 +70,45 @@ Thadam has been completely rebuilt from the ground up using SwiftUI, replacing a
 
 ## App Experience
 
-### Screenshots
-<div style="display: flex; justify-content: center; gap: 20px; overflow-x: auto; padding: 20px 0;">
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Network Map</figcaption>
-    <img src="/assets/images/thadam/network-map.png" alt="Network Map"
-         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Station List</figcaption>
-    <img src="/assets/images/thadam/station-list.png" alt="Station List"
-         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Timetable</figcaption>
-    <img src="/assets/images/thadam/timetable.png" alt="Timetable"
-         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Next Train</figcaption>
-    <img src="/assets/images/thadam/next-train.png" alt="Next Train Countdown"
-         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-  <figure style="margin: 0; text-align: center; flex-shrink: 0;">
-    <figcaption style="margin-bottom: 8px; font-weight: 500; color: #333;">Settings</figcaption>
-    <img src="/assets/images/thadam/settings.png" alt="Settings"
-         style="width: 180px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  </figure>
-</div>
-
-### Key Screens Overview
-
-**Network Map**
+### Network Map
 Explore Chennai's entire suburban rail network on a beautiful tube-style map. Filter by route and find connections at a glance.
 
-**Station List**
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/thadam/network-map.png" alt="Network Map"
+       style="max-width: 280px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</figure>
+
+### Station List
 Browse all stations on any route. Each station shows the next train departure with a countdown timer.
 
-**Timetable View**
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/thadam/station-list.png" alt="Station List"
+       style="max-width: 280px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</figure>
+
+### Timetable View
 View complete train schedules for any station. Switch between weekday and Sunday schedules easily.
 
-**Next Train Countdown**
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/thadam/timetable.png" alt="Timetable"
+       style="max-width: 280px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</figure>
+
+### Next Train Countdown
 See exactly when the next train arrives. Real-time countdown helps you plan your journey perfectly.
 
-**Settings**
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/thadam/next-train.png" alt="Next Train Countdown"
+       style="max-width: 280px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</figure>
+
+### Settings
 Customize your experience and access privacy policy, about information, and more.
+
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/thadam/settings.png" alt="Settings"
+       style="max-width: 280px; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</figure>
 
 ## Routes Covered
 
