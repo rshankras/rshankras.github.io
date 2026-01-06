@@ -35,6 +35,21 @@ My apps span various categories including mindfulness, productivity, health, and
 </div>
 
 <div class="app-entry">
+  <h2>Thadam - Chennai Trains (iOS)</h2>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/thadam-icon.png" alt="Thadam - Chennai suburban train timetable app" title="Thadam - Chennai Trains">
+    </div>
+    <div class="text">
+      <p>Your pocket guide to Chennai's suburban railway network. View train timings, explore routes on an interactive tube-style map, find the nearest station, and never miss your local train again. Inspired by nostalgic 1990s railway station boards.</p>
+      <a href="/thadam/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="#" class="app-store-link">Coming Soon to App Store →</a>
+    </div>
+  </div>
+</div>
+
+<div class="app-entry">
   <h2>Magizh - Cherish Simple Joys (iOS & watchOS) </h2>
   <div class="container">
     <div class="image">
@@ -153,7 +168,7 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
   "@type": "ItemList",
   "name": "iOS & macOS App Portfolio",
   "description": "Collection of iOS, watchOS, and macOS apps developed by Ravi Shankar",
-  "numberOfItems": 7,
+  "numberOfItems": 8,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -309,6 +324,29 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
         "applicationCategory": "HealthApplication",
         "applicationSubCategory": "SleepTrackerApp",
         "description": "Sleep quality and factor analysis app with HealthKit integration",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Thadam - Chennai Trains",
+        "alternateName": "Thadam",
+        "operatingSystem": "iOS",
+        "applicationCategory": "TravelApplication",
+        "applicationSubCategory": "TransitApp",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder"
+        },
+        "description": "Chennai suburban train timetable app with interactive network map and next train countdown",
         "author": {
           "@type": "Person",
           "name": "Ravi Shankar"
