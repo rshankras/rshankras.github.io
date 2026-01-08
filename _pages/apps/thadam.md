@@ -28,7 +28,7 @@ This app draws inspiration from the classic 1990s railway station boards that ma
 
 Thadam has been completely rebuilt from the ground up using SwiftUI, replacing an older Objective-C version that served commuters for years. The new version offers a beautiful, intuitive interface designed for today's iOS devices.
 
-<a href="[APP_STORE_URL]" class="app-store-link">Download on App Store →</a>
+<a href="https://apps.apple.com/us/app/thadam-chennai-trains/id680031746" class="app-store-link">Download on App Store →</a>
 
 ## Features
 
@@ -137,7 +137,7 @@ We respect your privacy while ensuring app quality:
 
 ## Download
 
-<a href="[APP_STORE_URL]" class="app-store-link">Download on App Store →</a>
+<a href="https://apps.apple.com/us/app/thadam-chennai-trains/id680031746" class="app-store-link">Download on App Store →</a>
 
 ### Legal
 - [Privacy Policy](/thadam/privacy/)

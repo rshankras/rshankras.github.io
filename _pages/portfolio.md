@@ -44,7 +44,7 @@ My apps span various categories including mindfulness, productivity, health, and
       <p>Your pocket guide to Chennai's suburban railway network. View train timings, explore routes on an interactive tube-style map, find the nearest station, and never miss your local train again. Inspired by nostalgic 1990s railway station boards.</p>
       <a href="/thadam/" class="learn-more-link">Learn More →</a>
       <br/>
-      <a href="#" class="app-store-link">Coming Soon to App Store →</a>
+      <a href="https://apps.apple.com/us/app/thadam-chennai-trains/id680031746" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>
