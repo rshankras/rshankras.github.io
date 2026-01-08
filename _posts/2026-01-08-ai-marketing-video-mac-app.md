@@ -1,10 +1,32 @@
 ---
-layout: post
 title: "How I Made a Marketing Video for My Mac App Using AI — And What Went Wrong"
-date: 2026-01-08
-categories: indie design
-tags: ai-video marketing google-veo elevenlabs ffmpeg video-editing indie-dev macos
+date: "2026-01-08"
+permalink: "/ai-marketing-video-mac-app/"
 description: "Learn how I created a 30-second marketing video for my Mac app using Google Veo, ElevenLabs, and ffmpeg with zero additional budget—and the mistakes I made along the way."
+categories:
+  - "indie-development"
+  - "marketing"
+  - "ai-tools"
+tags:
+  - "AI video generation"
+  - "Google Veo"
+  - "ElevenLabs"
+  - "ffmpeg"
+  - "marketing video"
+  - "Mac app"
+  - "indie developer"
+  - "EaseEyes"
+keywords: "AI video marketing, Google Veo tutorial, ElevenLabs voiceover, ffmpeg video editing, indie app marketing, Mac app marketing, zero budget marketing, AI marketing tools"
+image: "/assets/images/app-icons/eye-rest-icon.png"
+excerpt_separator: <!--more-->
+toc: true
+toc_sticky: true
+og_title: "How I Made a Marketing Video for My Mac App Using AI — And What Went Wrong"
+og_description: "Learn how I created a 30-second marketing video for my Mac app using Google Veo, ElevenLabs, and ffmpeg with zero additional budget—and the mistakes I made along the way."
+og_type: "article"
+twitter_card: "summary_large_image"
+twitter_title: "How I Made a Marketing Video for My Mac App Using AI"
+twitter_description: "Zero-budget marketing video creation using Google Veo, ElevenLabs, and ffmpeg. Real mistakes and lessons learned."
 ---
 
 I built a Mac app called EaseEyes. It reminds you to take eye breaks when you're not in a meeting. Simple idea, but I needed a way to show people what it does.
@@ -12,6 +34,8 @@ I built a Mac app called EaseEyes. It reminds you to take eye breaks when you're
 I'm not a video editor. I don't have a budget for agencies or stock footage subscriptions. But I already pay for Claude Code Max ($100/month) for development work. What if I could use it for marketing too?
 
 Here's what happened.
+
+<!--more-->
 
 ## Table of Contents
 - [The Goal](#goal)
