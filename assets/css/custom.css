@@ -657,3 +657,178 @@
   max-width: 100% !important;
   height: auto !important;
 }
+
+/* =====================================================
+   CTA Box Styles - Consulting/Services Promotion
+   ===================================================== */
+
+/* End of Post CTA Box */
+.cta-box {
+  margin: 3em 0 2em 0;
+  padding: 1.5em 2em;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  border-left: 4px solid #0366d6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.cta-box h3 {
+  margin: 0 0 0.75em 0;
+  color: #1a1a2e;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.cta-box p {
+  margin: 0 0 0.5em 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95em;
+}
+
+.cta-box p:last-child {
+  margin-bottom: 0;
+}
+
+.cta-box ul {
+  margin: 0.75em 0;
+  padding-left: 1.25em;
+  color: #555;
+}
+
+.cta-box li {
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+
+.cta-box .cta-email {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.6em 1.2em;
+  background: #0366d6;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.95em;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cta-box .cta-email:hover {
+  background: #0056b3;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+.cta-box .cta-credentials {
+  margin-top: 1em;
+  font-size: 0.85em;
+  color: #666;
+}
+
+/* Sidebar CTA - Sticky widget */
+.sidebar-cta {
+  margin-top: 2em;
+  padding: 1.25em;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #e9ecef;
+}
+
+.sidebar-cta h4 {
+  margin: 0 0 0.6em 0;
+  color: #1a1a2e;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.sidebar-cta p {
+  margin: 0 0 0.5em 0;
+  color: #666;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.sidebar-cta ul {
+  margin: 0.5em 0;
+  padding-left: 1em;
+  font-size: 0.85em;
+  color: #666;
+}
+
+.sidebar-cta li {
+  margin-bottom: 0.3em;
+}
+
+.sidebar-cta .cta-email-small {
+  display: inline-block;
+  margin-top: 0.75em;
+  padding: 0.5em 1em;
+  background: #0366d6;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 0.85em;
+  transition: background 0.2s ease;
+}
+
+.sidebar-cta .cta-email-small:hover {
+  background: #0056b3;
+  text-decoration: none;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .cta-box {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-left-color: #4dabf7;
+  }
+
+  .cta-box h3 {
+    color: #f8f9fa;
+  }
+
+  .cta-box p,
+  .cta-box li {
+    color: #dee2e6;
+  }
+
+  .cta-box .cta-credentials {
+    color: #adb5bd;
+  }
+
+  .cta-box .cta-email {
+    background: #4dabf7;
+  }
+
+  .cta-box .cta-email:hover {
+    background: #339af0;
+  }
+
+  .sidebar-cta {
+    background: #1a1a2e;
+    border-color: #2d3a4f;
+  }
+
+  .sidebar-cta h4 {
+    color: #f8f9fa;
+  }
+
+  .sidebar-cta p,
+  .sidebar-cta li {
+    color: #adb5bd;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cta-box {
+    padding: 1.25em 1.5em;
+    margin: 2em 0 1.5em 0;
+  }
+
+  .cta-box h3 {
+    font-size: 1.15em;
+  }
+}
