@@ -728,11 +728,12 @@
 
 /* Sidebar CTA - Above TOC on right side */
 .sidebar-cta {
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
   padding: 1.25em;
   background: #f8f9fa;
   border-radius: 10px;
-  border: 1px solid #e9ecef;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .sidebar-cta h4 {
