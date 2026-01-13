@@ -726,9 +726,9 @@
   color: #666;
 }
 
-/* Sidebar CTA - Sticky widget */
+/* Sidebar CTA - Above TOC on right side */
 .sidebar-cta {
-  margin-top: 2em;
+  margin-bottom: 1.5em;
   padding: 1.25em;
   background: #f8f9fa;
   border-radius: 10px;
