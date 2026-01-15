@@ -122,6 +122,21 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<div class="app-entry">
+  <h3>Claudit - Claude Code Cost Tracker (macOS)</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/claudit-icon.png" alt="Claudit - macOS menu bar app for tracking Claude Code costs and usage" title="Claudit - Claude Code Cost Tracker">
+    </div>
+    <div class="text">
+      <p>Track your Claude Code API usage and costs in real-time from your menu bar. Monitor tokens, quotas, and spending with beautiful analytics. Features project insights, cache efficiency tracking, and quota management—all while keeping your data private on your Mac.</p>
+      <a href="/claudit/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
+    </div>
+  </div>
+</div>
+
 ## In Progress
 
 <div class="app-entry">
