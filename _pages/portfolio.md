@@ -123,7 +123,7 @@ My apps span various categories including mindfulness, productivity, health, and
 </div>
 
 <div class="app-entry">
-  <h3>Claudit - Claude Code Cost Tracker (macOS)</h3>
+  <h3>Claudit - Claude Code Cost Tracker (macOS) <a href="https://github.com/rshankras/Claudit" title="Open Source on GitHub"><img src="https://img.shields.io/badge/Open_Source-MIT-green" alt="Open Source MIT" style="vertical-align: middle; margin-left: 8px;"></a></h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/claudit-icon.png" alt="Claudit - macOS menu bar app for tracking Claude Code costs and usage" title="Claudit - Claude Code Cost Tracker">
@@ -133,6 +133,7 @@ My apps span various categories including mindfulness, productivity, health, and
       <a href="/claudit/" class="learn-more-link">Learn More →</a>
       <br/>
       <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
+      <a href="https://github.com/rshankras/Claudit" class="app-store-link" style="margin-left: 10px;">View on GitHub →</a>
     </div>
   </div>
 </div>

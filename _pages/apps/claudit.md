@@ -24,6 +24,8 @@ Never wonder about your API costs again. Claudit runs quietly in your menu bar, 
 
 <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
 
+[![GitHub](https://img.shields.io/badge/Open_Source-MIT-green)](https://github.com/rshankras/Claudit) [![GitHub release](https://img.shields.io/github/v/release/rshankras/Claudit)](https://github.com/rshankras/Claudit/releases)
+
 ## Why You Need This
 
 ### The Problem
@@ -161,6 +163,13 @@ Claudit automatically detects your Claude Code usage—no configuration required
 Distributed directly—no App Store restrictions. Download, drag to Applications, and start tracking your Claude Code costs immediately.
 
 **Requirements:** macOS 14.0 (Sonoma) or later, Claude Code installed
+
+### Open Source
+
+Claudit is open source under the MIT License. View the source code, report issues, or contribute on GitHub.
+
+<a href="https://github.com/rshankras/Claudit" style="margin-right: 10px;">View on GitHub →</a>
+<a href="https://github.com/rshankras/Claudit/releases">Download from Releases →</a>
 
 ### Support
 
