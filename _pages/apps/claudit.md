@@ -39,43 +39,42 @@ Claudit monitors your Claude Code activity, tracks tokens used, and calculates c
 ## Features
 
 ### Real-Time Cost Tracking
-- Automatic monitoring of Claude Code API calls
-- Token count display (input, output, cache read/write)
-- Real-time cost calculation based on current API pricing
-- Cumulative costs for Today, This Week, This Month, and All Time
-- Model usage breakdown (Opus, Sonnet, Haiku)
-- Beautiful cost cards with token counts in K/M/B format
+- See your costs for Today, This Week, This Month, and All Time
+- Token counts displayed alongside costs (in easy K/M/B format)
+- Breakdown by model (Opus, Sonnet, Haiku)
+- Beautiful cost cards always visible in your menu bar
 
-### Project Insights
-- Identify which projects cost the most
-- Time range filtering (Week, Month, All Time)
-- Search and sort projects by cost, tokens, or name
+### Know Which Projects Cost Most
+- Instantly identify your most expensive projects
+- Filter by time range (Week, Month, All Time)
+- Search and sort to find specific projects
 - See percentage of total spending per project
-- Track usage across all your Claude Code projects
 - Discover expensive projects you didn't know about
 
-### Quota Management
-- Live quota tracking for session (5-hour) and weekly limits
-- Per-model quota monitoring (Sonnet and Opus tracked separately)
-- Color-coded indicators (Green/Yellow/Red) for quota status
-- Pacing warnings when on track to hit limits before reset
+### Never Hit Your Quota Unexpectedly
+- Live tracking for session (5-hour) and weekly limits
+- Separate monitoring for Sonnet and Opus quotas
+- Color-coded warnings (Green/Yellow/Red)
 - Countdown to quota reset times
-- Percentage and cost-based quota displays
+- Pacing alerts when you're on track to hit limits
 
-### Cache Efficiency
-- Track prompt cache hit rates
+### Understand Your Cache Savings
 - See how much you've saved by caching
-- Today vs Week cache efficiency comparison
-- Cache read/write token breakdowns
-- Understand caching effectiveness
+- Track cache hit rates over time
+- Compare today vs weekly efficiency
+- Make informed decisions about caching strategies
 
-### Dashboard Analytics
+### Beautiful Dashboard Analytics
 - 4 organized tabs: Overview, Projects, Models, Efficiency
-- Daily cost chart with time range selector
-- Model distribution donut chart
-- Daily breakdown table (cost, tokens, messages, sessions, tool calls)
-- AI-powered insights and recommendations
-- Interactive visualizations with Swift Charts
+- Daily cost chart to spot spending trends
+- Model distribution visualization
+- Smart recommendations to optimize costs
+
+### Export Your Data Anytime
+- Export daily usage to CSV
+- Export project costs to CSV
+- Export summary reports
+- Your data, your control
 
 ## App Experience
 
@@ -83,42 +82,42 @@ Claudit monitors your Claude Code activity, tracks tokens used, and calculates c
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/menu-bar.png" alt="Claudit Menu Bar"
        style="max-width: 400px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Quick access to quota status, cost summary cards, and top 3-4 projects right from your menu bar.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">Quick access to quota status, cost summary, and top projects right from your menu bar.</figcaption>
 </figure>
 
 ### Dashboard Overview
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/dashboard-overview.png" alt="Dashboard Overview"
        style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Overview tab with daily cost chart, model distribution, and detailed daily breakdown table.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">Overview tab with daily cost chart, model distribution, and detailed breakdown.</figcaption>
 </figure>
 
 ### Projects Tab
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/dashboard-projects.png" alt="Projects Tab"
        style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Full project list with search, sort, and time range filtering. See which projects cost most over different periods.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">See which projects cost most over different time periods.</figcaption>
 </figure>
 
 ### Models Tab
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/dashboard-models.png" alt="Models Tab"
        style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Detailed model breakdown showing Input, Output, Cache Read, and Cache Write costs per model.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">Understand how costs break down across different Claude models.</figcaption>
 </figure>
 
 ### Efficiency Tab
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/dashboard-efficiency.png" alt="Efficiency Tab"
        style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Cache efficiency metrics and AI-powered recommendations to help you optimize costs.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">Cache efficiency metrics and smart recommendations to help you save money.</figcaption>
 </figure>
 
 ### Settings
 <figure style="margin: 0 0 30px 0; text-align: center;">
   <img src="/assets/images/claudit/settings.png" alt="Settings Panel"
        style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <figcaption style="margin-top: 12px; color: #666;">Configure API key for quota tracking, customize model pricing, and adjust display preferences.</figcaption>
+  <figcaption style="margin-top: 12px; color: #666;">Customize pricing, display preferences, and view privacy information.</figcaption>
 </figure>
 
 ## Perfect For
@@ -137,43 +136,31 @@ Optimize your Claude Code usage by identifying expensive patterns, leveraging ca
 
 ## 100% Private by Design
 
-- **All Local**: Cost data and usage history stored only on your Mac with SwiftData
-- **No Cloud Sync**: Zero external servers or cloud syncing—your data never leaves your computer
-- **No Telemetry**: No usage tracking, analytics, or data collection of any kind
-- **Secure Storage**: Optional Anthropic API key stored securely in macOS Keychain
-- **Your Data**: Full control—export anytime, delete anytime, uninstall removes everything
+Your data belongs to you and stays on your Mac.
 
-### How It Works
-Claudit reads your local Claude Code session files from `~/.claude/projects/*/[session].jsonl` to calculate accurate token usage and costs. It also optionally fetches real-time quota data from the Anthropic API if you provide your API key.
+- **All Local**: Everything stored only on your Mac—nothing in the cloud
+- **No Telemetry**: No usage tracking, analytics, or data collection
+- **No Accounts**: No sign-up required, no cloud sync
+- **Secure**: Optional credentials stored in macOS Keychain
+- **Full Control**: Export your data anytime, delete anytime
+- **Transparent**: See exactly what data Claudit accesses in Settings
 
-**Data sources:**
-1. **JSONL session files** (local) - Token counts, cache usage, project paths
-2. **SwiftData cache** (local) - Historical data for fast loading
-3. **Anthropic API** (optional) - Real-time quota utilization only (requires API key)
+## Easy Setup
 
-## Technical Excellence
+1. Download and drag to Applications
+2. Launch Claudit
+3. Allow Keychain access when prompted (one-time)
+4. Start tracking your Claude Code costs
 
-- **Built with SwiftUI** for a modern, native macOS experience
-- **MVVM + Observable architecture** for reliability and maintainability
-- **SwiftData** for efficient local caching and fast app startup (~58ms initial load)
-- **Swift Charts** for beautiful, interactive visualizations
-- **Background parsing** optimized for performance (~1-2 seconds for today's data)
-- **Intelligent caching** parses only today's files after initial bootstrap
-- **macOS 14.0+ (Sonoma)** and later
-- **Universal binary** (Intel and Apple Silicon)
-
-### Performance
-- **Initial load**: ~58ms (from SwiftData cache)
-- **Background parsing**: ~1-2s (parses today's files + project breakdowns)
-- **Bootstrap**: ~4-5s (first run parses full month, then caches)
+Claudit automatically detects your Claude Code usage—no configuration required.
 
 ## Download
 
 <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
 
-Distributed directly—no App Store sandbox restrictions. Download, drag to Applications, and start tracking your Claude Code costs immediately.
+Distributed directly—no App Store restrictions. Download, drag to Applications, and start tracking your Claude Code costs immediately.
 
-**Requirements:** macOS 14.0 (Sonoma) or later
+**Requirements:** macOS 14.0 (Sonoma) or later, Claude Code installed
 
 ### Support
 

@@ -74,10 +74,12 @@ If you choose to enable quota tracking:
 ## Data Export and Deletion
 
 ### Export Your Data
-While Claudit doesn't currently offer a built-in export feature, all data is stored in SwiftData format on your Mac. If you need access to your raw data, it's located at:
-```
-~/Library/Application Support/Claudit/claudit-cache.store
-```
+Claudit includes built-in CSV export for all your data:
+- **Daily Usage**: Export costs, tokens, and usage by day
+- **Project Costs**: Export spending breakdown by project
+- **Summary Report**: Export overall statistics
+
+Access export options from the Dashboard toolbar. All exports are saved locally to a location you choose.
 
 ### Delete Your Data
 - Use "Reset All Data" in Settings to permanently delete all usage history
