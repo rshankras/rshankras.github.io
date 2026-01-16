@@ -3,7 +3,7 @@ permalink: /portfolio/
 title: "iOS & macOS App Portfolio"
 layout: single
 author_profile: true
-description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh mindfulness app, Expense Split, ChantFlow meditation, and productivity tools. Download directly from the App Store."
+description: "Browse my iOS, watchOS, and macOS apps organized by platform. Includes mindfulness apps, productivity tools, and utilities."
 keywords: "iOS apps, macOS apps, Apple Watch apps, meditation app, mindfulness app, expense tracker, productivity apps, indie developer, SwiftUI, Apple platforms"
 og_title: "iOS & macOS App Portfolio | Ravi Shankar - Apple Developer"
 og_description: "Explore my collection of iOS, watchOS, and macOS apps including Magizh mindfulness app, Expense Split, ChantFlow meditation, and productivity tools."
@@ -15,42 +15,33 @@ twitter_description: "Explore my collection of iOS, watchOS, and macOS apps incl
 
 A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Each app is designed with a focus on simplicity, functionality, and user experience.
 
-## Featured Apps
-
-My apps span various categories including mindfulness, productivity, health, and utilities - all built with modern Apple technologies like SwiftUI and designed for the Apple ecosystem.
-
-<div class="app-entry">
-  <h2>ChantFlow - Daily Om Practice (watchOS)</h2>
-  <div class="container">
-    <div class="image">
-      <img src="/assets/images/app-icons/chantflow-icon.png" alt="ChantFlow - Meditation and chanting app for Apple Watch" title="ChantFlow - Daily Om Practice">
-    </div>
-    <div class="text">
-      <p>A minimalist Apple Watch app designed for daily Om chanting and sacred mantra practice. Follow the time-honored 108 Sacred Count tradition with gentle haptic guidance and comprehensive progress tracking. Perfect for meditation practitioners seeking a structured daily routine.</p>
-      <a href="/chantflow/" class="learn-more-link">Learn More →</a>
-      <br/>
-      <a href="https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828" class="app-store-link">Download on App Store →</a>
-    </div>
+<nav class="platform-navigation" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 10px; text-align: center;">
+  <h2 style="margin: 0 0 1em 0; font-size: 1.2em; color: #333;">Browse by Platform</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1em;">
+    <a href="#multi-platform-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
+      📱⌚️ iOS & watchOS (2)
+    </a>
+    <a href="#ios-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
+      📱 iOS (2)
+    </a>
+    <a href="#macos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
+      💻 macOS (4)
+    </a>
+    <a href="#watchos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
+      ⌚️ watchOS (1)
+    </a>
+    <a href="#in-progress" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
+      🚧 In Progress
+    </a>
   </div>
-</div>
+</nav>
+
+<h2 id="multi-platform-apps">Multi-Platform Apps (iOS & watchOS)</h2>
+
+<p style="margin-bottom: 2em; color: #666;">Apps that work seamlessly across your iPhone and Apple Watch, keeping your data in sync.</p>
 
 <div class="app-entry">
-  <h2>Thadam - Chennai Trains (iOS)</h2>
-  <div class="container">
-    <div class="image">
-      <img src="/assets/images/app-icons/thadam-icon.png" alt="Thadam - Chennai suburban train timetable app" title="Thadam - Chennai Trains">
-    </div>
-    <div class="text">
-      <p>Your pocket guide to Chennai's suburban railway network. View train timings, explore routes on an interactive tube-style map, find the nearest station, and never miss your local train again. Inspired by nostalgic 1990s railway station boards.</p>
-      <a href="/thadam/" class="learn-more-link">Learn More →</a>
-      <br/>
-      <a href="https://apps.apple.com/us/app/thadam-chennai-trains/id680031746" class="app-store-link">Download on App Store →</a>
-    </div>
-  </div>
-</div>
-
-<div class="app-entry">
-  <h2>Magizh - Cherish Simple Joys (iOS & watchOS) </h2>
+  <h3>Magizh - Cherish Simple Joys</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/magizh-icon.png" alt="Magizh - Mindfulness and joy tracking app icon for iOS and watchOS" title="Magizh - Mindfulness App">
@@ -65,7 +56,7 @@ My apps span various categories including mindfulness, productivity, health, and
 </div>
 
 <div class="app-entry">
-  <h2>Expense Split - Settle Up (iOS & watchOS)</h2>
+  <h3>Expense Split - Settle Up</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/expense-split-icon.png" alt="Expense Split - Group expense tracking and splitting app icon for iOS and watchOS" title="Expense Split App">
@@ -79,8 +70,27 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<h2 id="ios-apps">iOS Apps</h2>
+
+<p style="margin-bottom: 2em; color: #666;">iPhone apps designed for simplicity and functionality.</p>
+
 <div class="app-entry">
-  <h3>Date Time Diff Calculator (iOS)</h3>
+  <h3>Thadam - Chennai Trains</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/thadam-icon.png" alt="Thadam - Chennai suburban train timetable app" title="Thadam - Chennai Trains">
+    </div>
+    <div class="text">
+      <p>Your pocket guide to Chennai's suburban railway network. View train timings, explore routes on an interactive tube-style map, find the nearest station, and never miss your local train again. Inspired by nostalgic 1990s railway station boards.</p>
+      <a href="/thadam/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://apps.apple.com/us/app/thadam-chennai-trains/id680031746" class="app-store-link">Download on App Store →</a>
+    </div>
+  </div>
+</div>
+
+<div class="app-entry">
+  <h3>Date Time Diff Calculator</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/date-time-calc-icon.png" alt="Date Time Calculator Icon">
@@ -92,8 +102,40 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<h2 id="macos-apps">macOS Apps</h2>
+
+<p style="margin-bottom: 2em; color: #666;">Menu bar apps and utilities that enhance your Mac productivity.</p>
+
 <div class="app-entry">
-  <h3>Eye Rest Timer - Ease Eyes (macOS)</h3>
+  <h3>AlertWala - Stock Market Alert Monitor</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/alertwala-icon.png" alt="AlertWala - macOS menu bar app for monitoring Indian stock market corporate filings" title="AlertWala - Stock Market Alert Monitor">
+    </div>
+    <div class="text">
+      <p>Monitor NSE/BSE corporate filings with AI-powered analysis. Track buybacks, bulk deals, promoter activity, and M&A events with intelligent leak detection and paper trading capabilities. Features real-time alerts, backtesting, and performance analytics—all from your menu bar.</p>
+      <a href="/alertwala/" class="learn-more-link">Learn More →</a>
+    </div>
+  </div>
+</div>
+
+<div class="app-entry">
+  <h3>Claudit - Claude Code Cost Tracker <a href="https://github.com/rshankras/Claudit" title="Open Source on GitHub"><img src="https://img.shields.io/badge/Open_Source-MIT-green" alt="Open Source MIT" style="vertical-align: middle; margin-left: 8px;"></a></h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/claudit-icon.png" alt="Claudit - macOS menu bar app for tracking Claude Code costs and usage" title="Claudit - Claude Code Cost Tracker">
+    </div>
+    <div class="text">
+      <p>Track your Claude Code API usage and costs in real-time from your menu bar. Monitor tokens, quotas, and spending with beautiful analytics. Features project insights, cache efficiency tracking, and quota management—all while keeping your data private on your Mac.</p>
+      <a href="/claudit/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://github.com/rshankras/Claudit" class="app-store-link">View on GitHub →</a>
+    </div>
+  </div>
+</div>
+
+<div class="app-entry">
+  <h3>Eye Rest Timer - Ease Eyes</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/eye-rest-icon.png" alt="Eye Rest Timer - macOS menu bar app for eye health using the 20-20-20 rule" title="Ease Eyes - Eye Rest Timer">
@@ -108,7 +150,7 @@ My apps span various categories including mindfulness, productivity, health, and
 </div>
 
 <div class="app-entry">
-  <h3>Honest Hours - Time Tracker (macOS)</h3>
+  <h3>Honest Hours - Time Tracker</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/time-tracker-icon.png" alt="Honest Hours - Privacy-first time tracker and focus mode app for macOS" title="Honest Hours - Time Tracker">
@@ -122,39 +164,29 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<h2 id="watchos-apps">watchOS Apps</h2>
+
+<p style="margin-bottom: 2em; color: #666;">Lightweight apps built specifically for Apple Watch.</p>
+
 <div class="app-entry">
-  <h3>Claudit - Claude Code Cost Tracker (macOS) <a href="https://github.com/rshankras/Claudit" title="Open Source on GitHub"><img src="https://img.shields.io/badge/Open_Source-MIT-green" alt="Open Source MIT" style="vertical-align: middle; margin-left: 8px;"></a></h3>
+  <h3>ChantFlow - Daily Om Practice</h3>
   <div class="container">
     <div class="image">
-      <img src="/assets/images/app-icons/claudit-icon.png" alt="Claudit - macOS menu bar app for tracking Claude Code costs and usage" title="Claudit - Claude Code Cost Tracker">
+      <img src="/assets/images/app-icons/chantflow-icon.png" alt="ChantFlow - Meditation and chanting app for Apple Watch" title="ChantFlow - Daily Om Practice">
     </div>
     <div class="text">
-      <p>Track your Claude Code API usage and costs in real-time from your menu bar. Monitor tokens, quotas, and spending with beautiful analytics. Features project insights, cache efficiency tracking, and quota management—all while keeping your data private on your Mac.</p>
-      <a href="/claudit/" class="learn-more-link">Learn More →</a>
+      <p>A minimalist Apple Watch app designed for daily Om chanting and sacred mantra practice. Follow the time-honored 108 Sacred Count tradition with gentle haptic guidance and comprehensive progress tracking. Perfect for meditation practitioners seeking a structured daily routine.</p>
+      <a href="/chantflow/" class="learn-more-link">Learn More →</a>
       <br/>
-      <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
-      <a href="https://github.com/rshankras/Claudit" class="app-store-link" style="margin-left: 10px;">View on GitHub →</a>
+      <a href="https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>
 
-<div class="app-entry">
-  <h3>AlertWala - Stock Market Alert Monitor (macOS)</h3>
-  <div class="container">
-    <div class="image">
-      <img src="/assets/images/app-icons/alertwala-icon.png" alt="AlertWala - macOS menu bar app for monitoring Indian stock market corporate filings" title="AlertWala - Stock Market Alert Monitor">
-    </div>
-    <div class="text">
-      <p>Monitor NSE/BSE corporate filings with AI-powered analysis. Track buybacks, bulk deals, promoter activity, and M&A events with intelligent leak detection and paper trading capabilities. Features real-time alerts, backtesting, and performance analytics—all from your menu bar.</p>
-      <a href="/alertwala/" class="learn-more-link">Learn More →</a>
-    </div>
-  </div>
-</div>
-
-## In Progress
+<h2 id="in-progress">In Progress</h2>
 
 <div class="app-entry">
-  <h2>SleepRiddle - Solve Your Sleep Riddle (iOS & watchOS)</h2>
+  <h3>SleepRiddle - Solve Your Sleep Riddle</h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/sleep-icon-new.png" alt="SleepTracker - Sleep quality and factor analysis app for iOS and watchOS" title="SleepTracker App">
@@ -197,7 +229,7 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
   "@type": "ItemList",
   "name": "iOS & macOS App Portfolio",
   "description": "Collection of iOS, watchOS, and macOS apps developed by Ravi Shankar",
-  "numberOfItems": 9,
+  "numberOfItems": 10,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -252,19 +284,19 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
       "position": 3,
       "item": {
         "@type": "SoftwareApplication",
-        "name": "ChantFlow - Daily Om Practice",
-        "alternateName": "ChantFlow",
-        "operatingSystem": "watchOS",
-        "applicationCategory": "LifestyleApplication",
-        "applicationSubCategory": "MeditationApp",
+        "name": "Thadam - Chennai Trains",
+        "alternateName": "Thadam",
+        "operatingSystem": "iOS",
+        "applicationCategory": "TravelApplication",
+        "applicationSubCategory": "TransitApp",
         "offers": {
           "@type": "Offer",
-          "url": "https://apps.apple.com/us/app/chantflow-daily-om-practice/id[APP_STORE_ID]",
+          "url": "https://apps.apple.com/us/app/thadam-chennai-trains/id680031746",
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/InStock"
         },
-        "description": "Minimalist meditation app for Apple Watch with 108 Sacred Count tradition",
+        "description": "Chennai suburban train timetable app with interactive network map and next train countdown",
         "author": {
           "@type": "Person",
           "name": "Ravi Shankar"
@@ -299,6 +331,47 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
       "position": 5,
       "item": {
         "@type": "SoftwareApplication",
+        "name": "AlertWala - Stock Market Alert Monitor",
+        "alternateName": "AlertWala",
+        "operatingSystem": "macOS",
+        "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "StockMarketMonitor",
+        "description": "Monitor NSE/BSE corporate filings with AI-powered analysis, leak detection, and paper trading capabilities",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Claudit - Claude Code Cost Tracker",
+        "alternateName": "Claudit",
+        "operatingSystem": "macOS",
+        "applicationCategory": "DeveloperApplication",
+        "applicationSubCategory": "DeveloperTools",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://github.com/rshankras/Claudit",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "Track Claude Code API usage and costs in real-time from your menu bar with beautiful analytics",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "SoftwareApplication",
         "name": "Eye Rest Timer - Ease Eyes",
         "alternateName": "Eye Rest Timer",
         "operatingSystem": "macOS",
@@ -320,7 +393,7 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 8,
       "item": {
         "@type": "SoftwareApplication",
         "name": "Honest Hours - Time Tracker",
@@ -344,7 +417,31 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 9,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "ChantFlow - Daily Om Practice",
+        "alternateName": "ChantFlow",
+        "operatingSystem": "watchOS",
+        "applicationCategory": "LifestyleApplication",
+        "applicationSubCategory": "MeditationApp",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock"
+        },
+        "description": "Minimalist meditation app for Apple Watch with 108 Sacred Count tradition",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
       "item": {
         "@type": "SoftwareApplication",
         "name": "SleepRiddle - Solve Your Sleep Riddle",
@@ -352,47 +449,13 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
         "operatingSystem": "iOS, watchOS",
         "applicationCategory": "HealthApplication",
         "applicationSubCategory": "SleepTrackerApp",
-        "description": "Sleep quality and factor analysis app with HealthKit integration",
-        "author": {
-          "@type": "Person",
-          "name": "Ravi Shankar"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 8,
-      "item": {
-        "@type": "SoftwareApplication",
-        "name": "Thadam - Chennai Trains",
-        "alternateName": "Thadam",
-        "operatingSystem": "iOS",
-        "applicationCategory": "TravelApplication",
-        "applicationSubCategory": "TransitApp",
         "offers": {
           "@type": "Offer",
           "price": "0",
           "priceCurrency": "USD",
           "availability": "https://schema.org/PreOrder"
         },
-        "description": "Chennai suburban train timetable app with interactive network map and next train countdown",
-        "author": {
-          "@type": "Person",
-          "name": "Ravi Shankar"
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 9,
-      "item": {
-        "@type": "SoftwareApplication",
-        "name": "AlertWala - Stock Market Alert Monitor",
-        "alternateName": "AlertWala",
-        "operatingSystem": "macOS",
-        "applicationCategory": "FinanceApplication",
-        "applicationSubCategory": "StockMarketMonitor",
-        "description": "Monitor NSE/BSE corporate filings with AI-powered analysis, leak detection, and paper trading capabilities",
+        "description": "Sleep quality and factor analysis app with HealthKit integration",
         "author": {
           "@type": "Person",
           "name": "Ravi Shankar"
