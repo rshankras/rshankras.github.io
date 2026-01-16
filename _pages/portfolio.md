@@ -193,6 +193,8 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
     <div class="text">
       <p>Finally, a sleep app that's simple enough to actually use. SleepTracker helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without complexity.</p>
       <a href="/sleep-tracker/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>
@@ -450,9 +452,10 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
         "applicationSubCategory": "SleepTrackerApp",
         "offers": {
           "@type": "Offer",
+          "url": "https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352",
           "price": "0",
           "priceCurrency": "USD",
-          "availability": "https://schema.org/PreOrder"
+          "availability": "https://schema.org/InStock"
         },
         "description": "Sleep quality and factor analysis app with HealthKit integration",
         "author": {

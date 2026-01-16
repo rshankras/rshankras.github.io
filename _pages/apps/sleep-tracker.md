@@ -34,19 +34,11 @@ Most sleep apps are overwhelming with complex charts and confusing data. SleepTr
   </div>
 </div>
 
-## 🚀 Join the Waitlist
+## Download Now
 
-Be among the first to solve your sleep riddle. Join our exclusive waitlist for early access and special launch offers.
+SleepRiddle is available on the App Store. Start solving your sleep riddle today!
 
-<div class="waitlist-signup">
-  <form action="https://formspree.io/f/mqalqoov" method="POST" class="waitlist-form">
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Enter your email address" required class="email-input">
-      <button type="submit" class="btn btn--primary">Join Waitlist</button>
-    </div>
-    <p class="form-note">We'll notify you when SleepTracker launches and send exclusive early access codes.</p>
-  </form>
-</div>
+<a href="https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352" class="app-store-link" style="display: inline-block; padding: 12px 24px; background: #0071e3; color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">Download on App Store →</a>
 
 ## Features
 
@@ -248,8 +240,8 @@ Don't miss out on solving your sleep riddle. Join our waitlist for exclusive ben
   "description": "Solve your sleep riddle with intelligent factor analysis. Track sleep quality, quantity, and discover how diet, stress, temperature, and other factors affect your sleep patterns.",
   "offers": {
     "@type": "Offer",
-    "availability": "PreOrder",
-    "url": "https://sleep.rshankar.com"
+    "availability": "https://schema.org/InStock",
+    "url": "https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352"
   },
   "author": {
     "@type": "Person",
