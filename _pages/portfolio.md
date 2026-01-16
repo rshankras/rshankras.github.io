@@ -21,16 +21,13 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       📱⌚️ iOS & watchOS (2)
     </a>
     <a href="#ios-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      📱 iOS (2)
+      📱 iOS (3)
     </a>
     <a href="#macos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
       💻 macOS (4)
     </a>
     <a href="#watchos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
       ⌚️ watchOS (1)
-    </a>
-    <a href="#in-progress" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      🚧 In Progress
     </a>
   </div>
 </nav>
@@ -97,6 +94,21 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
     <div class="text">
       <p>A handy utility that calculates the difference between two dates and times. Useful for project planning, event scheduling, or tracking time intervals.</p>
       <a href="https://apps.apple.com/us/app/date-time-diff-calculator/id6469073541" class="app-store-link">Download on App Store →</a>
+    </div>
+  </div>
+</div>
+
+<div class="app-entry">
+  <h3>SleepRiddle - Solve Your Sleep Riddle</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/sleep-icon-new.png" alt="SleepRiddle - Sleep quality and factor analysis app for iOS" title="SleepRiddle App">
+    </div>
+    <div class="text">
+      <p>Finally, a sleep app that's simple enough to actually use. SleepRiddle helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without complexity.</p>
+      <a href="/sleep-tracker/" class="learn-more-link">Learn More →</a>
+      <br/>
+      <a href="https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>
@@ -178,23 +190,6 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       <a href="/chantflow/" class="learn-more-link">Learn More →</a>
       <br/>
       <a href="https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828" class="app-store-link">Download on App Store →</a>
-    </div>
-  </div>
-</div>
-
-<h2 id="in-progress">In Progress</h2>
-
-<div class="app-entry">
-  <h3>SleepRiddle - Solve Your Sleep Riddle</h3>
-  <div class="container">
-    <div class="image">
-      <img src="/assets/images/app-icons/sleep-icon-new.png" alt="SleepTracker - Sleep quality and factor analysis app for iOS and watchOS" title="SleepTracker App">
-    </div>
-    <div class="text">
-      <p>Finally, a sleep app that's simple enough to actually use. SleepTracker helps you understand what affects your sleep quality and quantity by tracking factors like diet, stress, room temperature, and more. Built with HealthKit integration and designed for the 40+ age group who want clear, actionable insights without complexity.</p>
-      <a href="/sleep-tracker/" class="learn-more-link">Learn More →</a>
-      <br/>
-      <a href="https://apps.apple.com/np/app/sleepriddle-rest-better/id6753263352" class="app-store-link">Download on App Store →</a>
     </div>
   </div>
 </div>

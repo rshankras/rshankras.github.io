@@ -189,46 +189,6 @@ SleepRiddle is available on the App Store. Start solving your sleep riddle today
 - **Encrypted Storage**: Secure handling of your personal sleep data
 - **Privacy-First Design**: Your sleep insights stay private and personal
 
-## Get Involved
-
-### Beta Testing
-Interested in trying a simpler approach to sleep tracking? Join our beta program and help us make sleep insights easy to understand.
-
-<a href="mailto:ravi@rshankar.com?subject=SleepTracker Beta Testing" class="btn btn--success">Join Beta Program →</a>
-
-### Feedback & Suggestions
-Have ideas for making sleep tracking simpler or more helpful? We'd love to hear from you!
-
-<a href="mailto:ravi@rshankar.com?subject=SleepTracker Feedback" class="btn btn--info">Share Feedback →</a>
-
-### Follow Development
-Stay updated with the latest progress and behind-the-scenes insights.
-
-<a href="/sleep-tracker/progress/" class="btn btn--warning">Follow Progress →</a>
-
-## 🎯 Get Early Access
-
-Don't miss out on solving your sleep riddle. Join our waitlist for exclusive benefits:
-
-- **Early Access**: Be the first to download when we launch
-- **Special Pricing**: Exclusive launch discounts for waitlist members
-- **Beta Testing**: Priority access to beta versions
-- **Direct Updates**: Get notified about new features and progress
-
-<div class="waitlist-signup waitlist-signup--secondary">
-  <form action="https://formspree.io/f/mqalqoov" method="POST" class="waitlist-form">
-    <div class="form-group">
-      <input type="email" name="email" placeholder="Your email address" required class="email-input">
-      <button type="submit" class="btn btn--success">Get Early Access</button>
-    </div>
-    <p class="form-note">Join 100+ developers already on the waitlist!</p>
-  </form>
-</div>
-
----
-
-*SleepTracker started as my quest to make sleep tracking simple and helpful. Now it's part of the RevenueCat Shipathon 2025 to help others understand what affects their sleep without the complexity.*
-
 <!-- Schema.org markup for software application -->
 <script type="application/ld+json">
 {
