@@ -138,6 +138,19 @@ My apps span various categories including mindfulness, productivity, health, and
   </div>
 </div>
 
+<div class="app-entry">
+  <h3>AlertWala - Stock Market Alert Monitor (macOS)</h3>
+  <div class="container">
+    <div class="image">
+      <img src="/assets/images/app-icons/alertwala-icon.png" alt="AlertWala - macOS menu bar app for monitoring Indian stock market corporate filings" title="AlertWala - Stock Market Alert Monitor">
+    </div>
+    <div class="text">
+      <p>Monitor NSE/BSE corporate filings with AI-powered analysis. Track buybacks, bulk deals, promoter activity, and M&A events with intelligent leak detection and paper trading capabilities. Features real-time alerts, backtesting, and performance analytics—all from your menu bar.</p>
+      <a href="/alertwala/" class="learn-more-link">Learn More →</a>
+    </div>
+  </div>
+</div>
+
 ## In Progress
 
 <div class="app-entry">
@@ -184,7 +197,7 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
   "@type": "ItemList",
   "name": "iOS & macOS App Portfolio",
   "description": "Collection of iOS, watchOS, and macOS apps developed by Ravi Shankar",
-  "numberOfItems": 8,
+  "numberOfItems": 9,
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -363,6 +376,23 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
           "availability": "https://schema.org/PreOrder"
         },
         "description": "Chennai suburban train timetable app with interactive network map and next train countdown",
+        "author": {
+          "@type": "Person",
+          "name": "Ravi Shankar"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "AlertWala - Stock Market Alert Monitor",
+        "alternateName": "AlertWala",
+        "operatingSystem": "macOS",
+        "applicationCategory": "FinanceApplication",
+        "applicationSubCategory": "StockMarketMonitor",
+        "description": "Monitor NSE/BSE corporate filings with AI-powered analysis, leak detection, and paper trading capabilities",
         "author": {
           "@type": "Person",
           "name": "Ravi Shankar"
