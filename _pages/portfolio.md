@@ -16,7 +16,6 @@ twitter_description: "Explore my collection of iOS, watchOS, and macOS apps incl
 A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Each app is designed with a focus on simplicity, functionality, and user experience.
 
 <nav class="platform-navigation" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 10px; text-align: center;">
-  <h2 style="margin: 0 0 1em 0; font-size: 1.2em; color: #333;">Browse by Platform</h2>
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1em;">
     <a href="#multi-platform-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
       📱⌚️ iOS & watchOS (2)
