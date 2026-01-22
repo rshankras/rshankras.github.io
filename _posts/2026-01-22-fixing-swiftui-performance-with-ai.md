@@ -1,10 +1,20 @@
 ---
 layout: post
 title: "Fixing SwiftUI Performance Issues with AI-Assisted Debugging"
-date: 2026-01-22
-categories: swiftui
-tags: swiftui performance instruments debugging ai claude-code optimization
+date: "2026-01-22"
+permalink: "/fixing-swiftui-performance-with-ai/"
 description: "How I used Claude Code to identify and fix SwiftUI performance issues, reducing hangs from 14 to 2 in my iOS app. Plus the lessons learned to spot these issues yourself."
+categories:
+  - "swiftui"
+tags:
+  - "swiftui"
+  - "performance"
+  - "instruments"
+  - "debugging"
+  - "ai"
+  - "claude-code"
+  - "optimization"
+keywords: "SwiftUI performance, Instruments debugging, SwiftUI hangs, StateObject vs ObservedObject, LazyVStack, AI debugging, Claude Code, iOS performance optimization"
 ---
 
 My app felt sluggish. Scrolling wasn't smooth, and I could see occasional freezes. When I opened Instruments, the Hangs track told the story: **14 micro-hangs in 38 seconds**. That's almost one hang every 3 seconds.
