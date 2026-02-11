@@ -74,6 +74,8 @@ The one-time pricing is a deliberate choice. Coaching is about building a long-t
 
 Apple Foundation Models launched with iOS 26, making high-quality on-device AI available for the first time without external API costs or privacy trade-offs. This is a new category — apps that offer intelligent, personal experiences with zero data collection. Kindred Coach is built specifically for this moment: the technology finally matches the promise.
 
+RevenueCat made the monetization side simple. Instead of building purchase infrastructure from scratch, I integrated RevenueCat's SDK in a day — offerings, entitlements, paywall, and restore all handled cleanly. That freed up time to focus on what matters: the coaching experience. This project was built for the Shipyard hackathon, and RevenueCat is a core part of the stack.
+
 ## Challenges and Limitations
 
 Building on on-device AI comes with real constraints:
