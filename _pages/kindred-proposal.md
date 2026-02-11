@@ -6,13 +6,29 @@ author_profile: false
 sitemap: false
 ---
 
+> **Kindred Coach** — A private AI coaching app that runs entirely on your device. Pick a coach, have a real conversation, and get clear takeaways — no accounts, no cloud, no tracking.
+
+---
+
+### At a Glance
+
+| | |
+|---|---|
+| **What** | AI coaching app for iPhone, 100% on-device |
+| **Who** | Adults 22-40 interested in personal growth |
+| **Model** | Freemium + $9.99 one-time Pro upgrade |
+| **AI** | Apple Foundation Models (private, on-device) |
+| **Status** | Fully built, 145 tests, ready for App Store |
+
+---
+
 ## The Problem
 
 Personal coaching is one of the most effective tools for self-improvement, but it remains inaccessible to most people. Professional coaching is expensive, putting it out of reach for students, early-career professionals, and anyone not backed by a corporate budget.
 
 AI chatbots have attempted to fill this gap, but they come with a fundamental trust problem. To have a meaningful coaching conversation, you need to be honest — about your fears, your failures, your relationships. Most AI apps send every word to a remote server, store it indefinitely, and use it to train future models. People hold back when they know someone might be listening.
 
-The result: the people who need coaching the most either can't afford it or don't trust the available alternatives.
+**The result:** the people who need coaching the most either can't afford it or don't trust the available alternatives.
 
 ## The Solution
 
@@ -38,21 +54,18 @@ What makes Kindred Coach feel like real coaching rather than a chatbot:
 
 Kindred Coach uses a **freemium model with a one-time purchase**.
 
-**Free tier (no limits):**
-- All 5 built-in coaches
-- Unlimited conversations
-- Session insights and summaries
-- Coach memory across sessions
-
-**Kindred Coach Pro — $9.99 one-time purchase:**
-- Create custom coaches with your own personality and framework
-- Import coaches shared by other users via links
-- Support independent development
+| | Free | Pro ($9.99 one-time) |
+|---|---|---|
+| 5 built-in coaches | Included | Included |
+| Unlimited conversations | Included | Included |
+| Session insights & summaries | Included | Included |
+| Coach memory across sessions | Included | Included |
+| Create custom coaches | — | Included |
+| Import shared coaches | — | Included |
 
 The one-time pricing is a deliberate choice. Coaching is about building a long-term relationship — a subscription creates pressure to justify recurring cost, which undermines the experience. A single purchase removes friction and aligns the business model with user trust.
 
-**Revenue projection (conservative):**
-At a 3% free-to-paid conversion rate with 10,000 downloads in the first year, projected revenue is approximately $21,000 after Apple's commission. The one-time model means each new user contributes immediate revenue with no churn.
+> **Revenue projection (conservative):** At a 3% free-to-paid conversion rate with 10,000 downloads in the first year, projected revenue is approximately $21,000 after Apple's commission. The one-time model means each new user contributes immediate revenue with no churn.
 
 ## Why Now
 
@@ -60,18 +73,24 @@ Apple Foundation Models launched with iOS 26, making high-quality on-device AI a
 
 ## Challenges and Limitations
 
-Building on on-device AI comes with real constraints. The Foundation Model has a ~4096 token context window, which means longer conversations can overflow. We solved this with automatic session rotation — the app summarizes the conversation and starts a fresh AI session seamlessly, so the user never notices.
+Building on on-device AI comes with real constraints:
 
-The model occasionally leaks parts of its system prompt into responses. We added a real-time sanitization layer that strips leaked content during streaming before it reaches the user.
+| Challenge | How We Solved It |
+|-----------|-----------------|
+| ~4096 token context window | Automatic session rotation — the app summarizes the conversation and starts a fresh AI session seamlessly |
+| Model leaks system prompt into responses | Real-time sanitization layer strips leaked content during streaming |
+| Complex multi-step planning hits limits | Focused on conversational coaching where on-device AI excels |
 
-The on-device model works best with focused, conversational coaching. Complex multi-step planning can push against the model's current limits. But Apple Intelligence capabilities will keep improving with each generation of hardware and software — and Kindred is built to take full advantage as they do.
+The on-device model works best with focused, conversational coaching today. But Apple Intelligence capabilities will keep improving with each generation of hardware and software — and Kindred is built to take full advantage as they do.
 
 ## Technical Foundation
 
-- **100% on-device AI** — Apple Foundation Models, no external API calls
-- **Local data storage** — SwiftData, no cloud sync
-- **Native iOS** — SwiftUI, built for iPhone
-- **145 automated tests** — unit, integration, and end-to-end coverage
-- **RevenueCat** — reliable in-app purchase infrastructure
+| | |
+|---|---|
+| **AI** | 100% on-device — Apple Foundation Models, no external API calls |
+| **Storage** | Local only — SwiftData, no cloud sync |
+| **Framework** | Native iOS — SwiftUI, built for iPhone |
+| **Quality** | 145 automated tests — unit, integration, and end-to-end |
+| **Purchases** | RevenueCat — reliable in-app purchase infrastructure |
 
 The app is fully functional, tested, and ready for App Store submission.
