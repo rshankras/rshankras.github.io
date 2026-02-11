@@ -43,12 +43,13 @@ What makes Kindred Coach feel like real coaching rather than a chatbot:
 - **Coaches remember you.** Insights from past sessions are carried forward, so each conversation builds on the last.
 - **Conversations have structure.** Each coach follows a proven framework — they ask good questions rather than giving generic advice.
 - **Sessions have closure.** Every conversation ends with a clear takeaway, not an open loop.
+- **Share with your real coach.** Export any session as text — share your conversation and insights with a human coach to deepen the work you're doing together.
 
 ## Target Audience
 
 **Primary:** Adults aged 22–40 who are interested in personal growth but have never worked with a professional coach. They journal, read self-help books, listen to podcasts, and are comfortable with technology. They value privacy and are skeptical of apps that harvest personal data.
 
-**Secondary:** Existing coaching clients who want a tool for between-session reflection. People in career transitions, new managers, or anyone facing a specific decision who wants a thinking partner available at any time.
+**Secondary:** Existing coaching clients who want a tool for between-session reflection. Kindred doesn't replace a human coach — it's the practice between sessions, like a gym between training appointments. People in career transitions, new managers, or anyone facing a specific decision who wants a thinking partner available at any time.
 
 **Device requirement:** iPhone 15 Pro or newer with Apple Intelligence enabled. This naturally targets engaged Apple users who invest in their tools — a demographic with high willingness to pay for quality apps.
 
@@ -95,4 +96,4 @@ The on-device model works best with focused, conversational coaching today. But 
 | **Quality** | 145 automated tests — unit, integration, and end-to-end |
 | **Purchases** | RevenueCat — reliable in-app purchase infrastructure |
 
-The app is fully functional, tested, and ready for App Store submission.
+The app is fully functional, tested, and currently in beta via TestFlight. Feedback is welcome — there are known edge cases with coach importing that are being refined.
