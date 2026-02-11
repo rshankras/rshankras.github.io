@@ -6,7 +6,7 @@ author_profile: false
 sitemap: false
 ---
 
-> **100% on-device AI coaching** — Swift 6, SwiftUI, SwiftData, Apple Foundation Models, RevenueCat. No servers, no APIs, no cloud. 145 tests.
+> **100% on-device AI coaching** — built with Swift, SwiftUI, SwiftData, Apple Foundation Models, and RevenueCat. No servers, no external APIs, no cloud. 145 automated tests.
 
 ---
 
@@ -15,119 +15,119 @@ sitemap: false
 | | |
 |---|---|
 | **Language** | Swift 6 |
-| **UI** | SwiftUI |
-| **Data** | SwiftData (local only) |
-| **AI** | Apple Foundation Models (on-device) |
+| **UI** | SwiftUI (Apple's modern interface framework) |
+| **Data** | SwiftData (stored locally on the device) |
+| **AI** | Apple Foundation Models (runs on-device, no server calls) |
 | **Purchases** | RevenueCat SDK |
 | **Platform** | iOS 26+, iPhone only |
-| **Tests** | 145 (unit + FM integration + E2E) |
-| **External deps** | RevenueCat only — everything else is native Apple |
+| **Tests** | 145 (unit tests + AI integration tests + full user-flow tests) |
+| **External dependencies** | RevenueCat only — everything else is built-in Apple technology |
 
 ---
 
 ## Architecture
 
-Kindred follows MVVM with `@Observable` and uses environment injection for shared state.
+Kindred follows the MVVM pattern (Model-View-ViewModel) — a standard way to separate the user interface from the business logic. Shared state is passed through the app using SwiftUI's environment system.
 
-### Data Flow
+### How a Conversation Works
 
 ```
-User sends message
-  --> ChatViewModel saves it to SwiftData
-  --> FoundationModelsService builds system prompt
-        (coach persona + user context + memory)
-  --> Streams response from on-device Foundation Model
-  --> ChatViewModel updates UI with each token
-  --> Complete response saved to SwiftData
+User sends a message
+  --> The app saves it to the local database
+  --> Builds a system prompt for the AI
+        (combines coach personality + user's values/goals + memory from past sessions)
+  --> Streams the AI response word-by-word from the on-device model
+  --> Updates the screen in real-time as words arrive
+  --> Saves the complete response to the database
 
-Session ends
-  --> InsightGenerator analyzes the conversation
-  --> Generates structured insight via @Generable
-        (theme, patterns, emotion, suggestion)
-  --> Saved as SessionInsight in SwiftData
-  --> Next session includes this insight as memory
+When a session ends
+  --> The AI analyzes the full conversation
+  --> Generates a structured insight
+        (key theme, patterns, emotion, actionable suggestion)
+  --> Saves the insight locally
+  --> The next session with the same coach includes this insight as memory
 ```
 
 ### Data Models
 
-Five SwiftData models, all stored locally:
+Five data models, all stored locally on the device:
 
 ```
-User (singleton)
+User (one per device)
   |
-Coach  <---->  ChatSession  (cascade delete)
+Coach  <---->  ChatSession  (deleting a coach removes all its sessions)
                     |
-                 Message     (cascade delete)
+                 Message     (deleting a session removes all its messages)
 
-SessionInsight  (linked via sessionId)
+SessionInsight  (linked to a session by ID)
 ```
 
-| Model | Key Fields |
-|-------|-----------|
-| **User** | name, values, goals, current context |
-| **Coach** | name, icon, systemPrompt (JSON or plain text), isPro |
-| **ChatSession** | links to Coach, contains Messages, timestamps |
-| **Message** | content, role (user/assistant), timestamp |
-| **SessionInsight** | summary, keyTheme, patterns, suggestion, emotion |
+| Model | What it stores |
+|-------|---------------|
+| **User** | Name, personal values, goals, what they're currently working on |
+| **Coach** | Name, icon, personality/instructions, whether it's a Pro coach |
+| **ChatSession** | Links to a coach, contains all messages, tracks when it started |
+| **Message** | The text content, who said it (user or coach), timestamp |
+| **SessionInsight** | Summary, key theme, thinking patterns, suggestion, dominant emotion |
 
-### The Two Prompt Paths
+### How the AI Knows What to Say
 
-Every coach has a `systemPrompt` field. The app detects the format and picks the right path:
+Every coach has personality instructions stored as text. The app checks the format and picks the right approach:
 
-| Path | When Used | Coach Types |
-|------|-----------|-------------|
-| **Rich** (template JSON) | `systemPrompt` decodes as `CoachPromptTemplate` | Pre-built coaches, AI-assisted custom coaches |
-| **Fallback** (plain text) | `systemPrompt` is plain text | Manual custom coaches |
+| Approach | When it's used | Coach types |
+|----------|---------------|-------------|
+| **Structured template** | Instructions are stored as a detailed JSON template with role, framework, rules, and examples | Pre-built coaches and AI-generated custom coaches |
+| **Simple instructions** | Instructions are plain text written by the user | Manually created custom coaches |
 
-**Rich path** builds a detailed system prompt with these layers:
+For structured coaches, the AI receives a layered prompt built from:
 
-| # | Layer | Source |
-|---|-------|--------|
-| 1 | Role & personality | Template JSON |
-| 2 | Coaching framework | 3-5 named phases |
-| 3 | Behavioral rules | Template JSON |
-| 4 | User context | Name, values, goals (variable substitution) |
-| 5 | Memory | Last 3 session insights via CoachMemoryService |
-| 6 | Example conversations | Few-shot from template |
-| 7 | Critical reminders | Action orientation |
+| # | Layer | What it provides |
+|---|-------|-----------------|
+| 1 | Role & personality | "You are a clarity coach who is warm and curious..." |
+| 2 | Coaching framework | 3-5 named phases the coach follows |
+| 3 | Behavioral rules | "Ask one question at a time", "Keep responses under 40 words" |
+| 4 | User context | The user's name, values, and goals personalized into the prompt |
+| 5 | Memory | Insights from the last 3 sessions with this coach |
+| 6 | Example conversations | Sample exchanges showing how the coach should respond |
+| 7 | Reminders | "Always end with an actionable next step" |
 
-### Coach Memory
+### Coach Memory — How Coaches Remember You
 
-`CoachMemoryService` gives each coach continuity across sessions:
+Each coach builds up memory over time:
 
 ```
 Session 1 ends
-  --> InsightGenerator produces SessionInsight
-  --> Stored in SwiftData
+  --> AI generates an insight (theme, patterns, suggestion)
+  --> Stored on the device
 
 Session 2 starts
-  --> CoachMemoryService fetches last 3 insights
-  --> Formats as "MEMORY FROM PAST SESSIONS"
-  --> Injected into system prompt
-  --> Coach references past conversations naturally
+  --> App retrieves the last 3 insights for this coach
+  --> Formats them as "here's what you learned about this person"
+  --> Feeds this into the AI's instructions
+  --> The coach naturally references past conversations
 ```
 
-- Insights filtered by `coach.memoryClearedAt` (users can clear memory)
-- Quick reflections excluded from memory context
-- Max 3 past sessions to stay within token budget
+- Users can clear a coach's memory at any time
+- Mid-session quick reflections are kept separate and don't pollute memory
+- Limited to the 3 most recent sessions to stay within the AI's processing capacity
 
-### Context Window Management
+### Handling the AI's Conversation Limit
 
-The on-device model has a ~4096 token context window:
+The on-device AI can only process about 4,096 tokens (roughly 3,000 words) at a time. Here's how the app manages this:
 
-| Strategy | Details |
-|----------|---------|
-| **Proactive rotation** | At 24 messages, before the window fills |
-| **Conversation summary** | Last 20 messages summarized and carried into new session |
-| **Error recovery** | `exceededContextWindowSize` triggers automatic rotation + retry |
-| **Sanitization** | Strips leaked system prompt content from responses in real-time |
+| Strategy | How it works |
+|----------|-------------|
+| **Automatic session rotation** | After 24 messages, the app proactively starts a fresh AI session before hitting the limit |
+| **Conversation summary** | Before rotating, the last 20 messages are summarized and carried into the new session for continuity |
+| **Error recovery** | If the AI signals it's run out of space, the app automatically rotates and retries — the user doesn't see an error |
+| **Response filtering** | Sometimes the AI accidentally includes its own instructions in a response. The app catches and removes this in real-time |
 
 ### Custom Coach Creation
 
-| Mode | How it works | Prompt path |
+| Mode | How it works | AI approach |
 |------|-------------|-------------|
-| **Manual** | User writes name + personality text | Fallback (plain text) |
-| **AI-assisted** | User describes coach, `CoachTemplateGenerator` generates structured template via `@Generable` | Rich (JSON template) |
+| **Manual** | User writes a name and personality description in their own words | Simple instructions — the app wraps it with coaching structure |
+| **AI-assisted** | User describes the kind of coach they want, and the AI generates a complete coaching template with framework, rules, examples, and starter questions | Structured template — full coaching methodology |
 
 ---
 
@@ -135,67 +135,51 @@ The on-device model has a ~4096 token context window:
 
 ### Setup
 
-RevenueCat is configured at app launch:
+RevenueCat is initialized when the app launches, and the purchase manager is made available to every screen in the app.
 
 ```swift
-// KindredApp.swift
+// When the app starts
 init() {
     PurchaseManager().configure()
 }
 ```
 
-`PurchaseManager` is `@Observable`, injected into the environment for all views.
-
-### Entitlement & Product
+### Product & Entitlement
 
 | | |
 |---|---|
-| **Entitlement** | `"Kindred Coach Pro"` |
-| **Product** | Lifetime (one-time) purchase, $9.99 |
-| **Package** | `offerings.current?.lifetime` |
+| **Entitlement** | "Kindred Coach Pro" — unlocks all Pro features |
+| **Product** | One-time lifetime purchase at $9.99 |
+| **Package type** | Lifetime (not a subscription) |
 
-### Purchase Flow
+### What the Purchase Manager Does
 
-| Method | What it does |
+| Action | What happens |
 |--------|-------------|
-| `configure()` | Initializes RevenueCat SDK |
-| `loadOfferings()` | Fetches current offering |
-| `checkEntitlement()` | Checks if Pro is active |
-| `purchase(_ package:)` | Executes purchase, returns success/failure |
-| `restorePurchases()` | Restores previous purchases |
+| **Initialize** | Connects to RevenueCat when the app launches |
+| **Load offerings** | Fetches the current product and price to display on the upgrade screen |
+| **Check entitlement** | Checks whether the user has already purchased Pro |
+| **Purchase** | Handles the Apple Pay flow and confirms success or cancellation |
+| **Restore** | Lets users restore a previous purchase (e.g., after reinstalling) |
 
-All methods are `@MainActor` for thread safety.
-
-### State Sync
-
-Pro status flows through the app in one direction:
+### How Pro Status Flows Through the App
 
 ```
-RevenueCat --> PurchaseManager.isProActive --> AppState.isPro --> Views
+RevenueCat confirms purchase
+  --> PurchaseManager updates its "Pro is active" flag
+  --> AppState picks up the change
+  --> All screens instantly reflect Pro status (locks removed, features unlocked)
 ```
 
-```swift
-// KindredApp.swift
-.task {
-    await purchaseManager.checkEntitlement()
-    appState.isPro = purchaseManager.isProActive
-}
-.onChange(of: purchaseManager.isProActive) { _, newValue in
-    appState.isPro = newValue
-}
-```
+### Where the Upgrade Screen Appears
 
-### Paywall Triggers
+The upgrade screen is shown when users try to access Pro features:
 
-The paywall is presented as a sheet from three places:
-
-| Trigger | Location |
-|---------|----------|
-| Tap locked Pro coach | CoachDetailView |
-| Create custom coach | CreateCoachView (ProGateView) |
-| Upgrade button | SettingsView |
-
-All set `appState.showPaywall = true`.
+| Action | What the user sees |
+|--------|-------------------|
+| Tapping a locked Pro coach | "Unlock with Pro" message with upgrade button |
+| Trying to create a custom coach | Gate screen explaining this is a Pro feature |
+| Tapping "Upgrade" in Settings | Direct access to the upgrade screen |
 
 ### Free vs Pro
 
@@ -212,75 +196,54 @@ All set `appState.showPaywall = true`.
 
 ## Privacy
 
-| Aspect | Implementation |
-|--------|---------------|
-| **AI processing** | On-device via Foundation Models, no API calls |
-| **Data storage** | Local SwiftData, no cloud sync |
-| **Authentication** | None required — no accounts, no sign-in |
-| **Analytics** | RevenueCat minimal purchase analytics only |
-| **Offline** | Fully functional (after initial offering fetch) |
+| Aspect | How it works |
+|--------|-------------|
+| **AI processing** | Runs entirely on the device — no data sent to any server |
+| **Data storage** | Everything stored locally on the phone — no cloud sync |
+| **Accounts** | None required — no sign-up, no login |
+| **Analytics** | Only RevenueCat's minimal purchase tracking |
+| **Offline use** | Fully functional offline (after the initial product catalog loads) |
 
 ---
 
-## Testing Foundation Models
+## Testing the AI
 
-> **145 tests** — ~125 unit tests + ~20 Foundation Models integration tests covering 9 real AI scenarios
+> **145 tests** — ~125 unit tests + ~20 real AI tests covering 9 different scenarios
 
-Testing on-device AI is one of the hardest parts of building with Foundation Models. The model isn't always available, responses are non-deterministic, and the context window is small. We built a layered testing strategy that covers both deterministic behavior and real AI interactions.
+Testing on-device AI is one of the hardest parts of this project. The AI isn't always available (it requires specific hardware), responses are different every time, and the conversation limit is small. We built a two-layer testing approach to handle this.
 
 ### The Challenge
 
-Foundation Models run on-device and require Apple Intelligence hardware. You can't mock the model itself, responses vary between runs, and the ~4096 token context window means multi-turn conversations need careful management.
+Apple's on-device AI requires Apple Intelligence hardware. You can't fully simulate it, every response is slightly different, and long conversations can overflow the AI's memory. Tests need to handle all of this gracefully.
 
-### Testing Strategy: Two Layers
+### Two-Layer Testing Strategy
 
-| Layer | What it tests | Reliability |
+| Layer | What it tests | How it runs |
 |-------|--------------|-------------|
-| **Mock AI** | Chat flow, error handling, UI state, persistence | Always runs, always passes |
-| **Real FM** | Actual model responses, structured output, multi-turn conversations | Skips gracefully when model unavailable |
+| **Simulated AI** | Everything around the AI — chat flow, error handling, screen states, data saving | Always runs, always passes — uses a fake AI stand-in |
+| **Real AI** | Actual conversations with the on-device model, structured output, multi-turn coaching | Skips automatically if the AI hardware isn't available |
 
-### Layer 1: Mock-Based Tests
+### Layer 1: Tests with Simulated AI
 
-`ChatViewModel` accepts an injectable `CoachAIService`, defaulting to `FoundationModelsService` in production. In tests, we swap in `MockCoachAIService`:
+The chat system is designed so we can swap in a fake AI service during testing. This lets us test things that are hard to reproduce with real AI:
 
-```swift
-let mockService = MockCoachAIService()
-mockService.isAvailable = false
-mockService.unavailabilityReason = "AI not available for testing"
-let vm = ChatViewModel(session: session, modelContext: context, aiService: mockService)
-```
+| Test | What it checks |
+|------|---------------|
+| Sending a blank message | The app correctly ignores it |
+| AI not available | The right error message is shown to the user |
+| Message saving | User messages are stored and the input field clears |
+| Loading states | The "typing..." indicator appears and disappears at the right times |
 
-**Scenarios covered:**
+### Layer 2: Tests with Real AI
 
-| Test | What it verifies |
-|------|-----------------|
-| Empty input handling | App ignores whitespace-only messages |
-| AI unavailable state | Correct error message surfaces |
-| Message persistence | User messages save to SwiftData, input clears |
-| State transitions | `isGenerating` flags toggle correctly |
-
-### Layer 2: Real Foundation Models Integration Tests
-
-Every FM test starts with an availability guard — skips gracefully instead of failing:
+These tests run actual conversations with Apple's on-device model. Each test checks if the AI is available first — if not, it skips instead of failing:
 
 ```swift
 @Test(.timeLimit(.minutes(5)))
 func prebuiltCoachConversation() async throws {
     let service = FoundationModelsService()
-    guard service.isAvailable else { return }
-    // ... test with real model
-}
-```
-
-We use a polling helper instead of fixed delays:
-
-```swift
-private func waitForGeneration(_ vm: ChatViewModel) async throws {
-    let deadline = Date().addingTimeInterval(30)
-    while await MainActor.run(body: { vm.isGenerating }) {
-        if Date() > deadline { break }
-        try await Task.sleep(for: .milliseconds(200))
-    }
+    guard service.isAvailable else { return }  // Skip if AI unavailable
+    // ... run real conversation with the model
 }
 ```
 
@@ -288,23 +251,23 @@ private func waitForGeneration(_ vm: ChatViewModel) async throws {
 
 | # | Scenario | What it proves |
 |---|----------|---------------|
-| 1 | **Pre-built coach, 5-turn conversation** | Rich prompt path produces coherent multi-turn coaching |
-| 2 | **Manual coach conversation** | Fallback prompt path works with real model |
-| 3 | **AI-assisted coach creation + chat** | Full pipeline: describe coach --> generate template --> encode JSON --> conversation works |
-| 4 | **Export, import, then chat** | Sharing pipeline preserves coach personality through serialization |
-| 5 | **Session insight generation** | `@Generable` produces valid structured output (summary, 1-3 patterns, theme, emotion) |
-| 6 | **Quick reflection** | Mid-session reflection correctly marked and all fields populated |
-| 7 | **Coach template generation** | Structured output has all required fields (3-5 steps, 5-7 rules, 3 examples) |
-| 8 | **Prompt building with memory** | Past session insights correctly injected into system prompt |
-| 9 | **Availability consistency** | `isAvailable` and `unavailabilityReason` always agree |
+| 1 | **Pre-built coach, 5-turn conversation** | A structured coach produces coherent, multi-turn coaching responses |
+| 2 | **User-created coach conversation** | A coach created with simple text instructions also works well with the AI |
+| 3 | **AI-generated coach creation, then chat** | Full pipeline: user describes a coach, AI builds it, then a real conversation works |
+| 4 | **Share a coach, import it, then chat** | The sharing system preserves the coach's personality through export and import |
+| 5 | **Session insight generation** | After a conversation, the AI produces a valid summary, patterns, theme, and suggestion |
+| 6 | **Mid-session reflection** | A quick reflection mid-conversation is correctly generated and labeled |
+| 7 | **AI-generated coach template** | The AI generates all required coaching fields (framework steps, rules, example conversations) |
+| 8 | **Coach memory in prompts** | Past session insights are correctly included when starting a new conversation |
+| 9 | **AI availability check** | The "available" and "unavailable" signals are always consistent |
 
 ### Key Testing Patterns We Learned
 
-| Pattern | Why |
-|---------|-----|
-| **Always guard on availability** | FM tests skip, not fail, when model isn't present |
-| **Polling over fixed sleeps** | Generation time varies; poll every 200ms with 30s deadline |
-| **Short multi-turn tests** | Cap at 5 turns to avoid context overflow masking real issues |
-| **Test structured output constraints** | Verify `@Guide(.count(3...5))` ranges are respected |
-| **Test both prompt paths** | Rich (JSON) and fallback (plain text) need separate FM validation |
-| **In-memory SwiftData** | Isolated containers so FM tests don't touch real database |
+| What we do | Why it matters |
+|-----------|---------------|
+| **Skip tests when AI is unavailable** | Tests skip cleanly instead of failing — the full test suite runs on any machine |
+| **Poll for completion instead of waiting a fixed time** | AI generation speed varies — we check every 200ms instead of guessing how long to wait |
+| **Keep conversations short (max 5 turns)** | The AI's memory limit is small — long test conversations would overflow and hide the real thing being tested |
+| **Verify the AI respects constraints** | We check that it generates the right number of items (e.g., 3-5 framework steps, 1-3 patterns) |
+| **Test both coach types separately** | Structured coaches and simple text coaches produce different AI prompts — both need validation |
+| **Use a temporary database for each test** | Each test gets its own fresh database so tests don't interfere with each other |
