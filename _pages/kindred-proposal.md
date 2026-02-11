@@ -28,7 +28,9 @@ Personal coaching is one of the most effective tools for self-improvement, but i
 
 AI chatbots have attempted to fill this gap, but they come with a fundamental trust problem. To have a meaningful coaching conversation, you need to be honest — about your fears, your failures, your relationships. Most AI apps send every word to a remote server, store it indefinitely, and use it to train future models. People hold back when they know someone might be listening.
 
-**The result:** the people who need coaching the most either can't afford it or don't trust the available alternatives.
+And there's a deeper problem: many people don't even know what coaching feels like. They've never experienced someone asking them the right questions. So they never seek it out.
+
+**The result:** the people who would benefit most from coaching either can't access it, don't trust the available alternatives, or don't know it exists.
 
 ## The Solution
 
