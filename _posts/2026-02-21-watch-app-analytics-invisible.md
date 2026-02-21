@@ -48,13 +48,13 @@ I went back to August 2025 — my marketing month — and finally saw what actua
 
 There was a real spike. Impressions jumped, page views jumped.
 
-![Impressions over time showing a clear spike in August 2025](/images/august-spike-discovered.png)
+![Product page views over time showing a clear spike in August 2025](/images/august-spike-discovered.png)
 
 And it was almost entirely India.
 
 India is my #1 market by a wide margin — more than double the US in impressions. The app is a mantra counter, of course it resonates there. But I had no idea. I was writing Reddit posts without knowing who was actually reading them.
 
-![Impressions by territory with India leading at 8,644](/images/india-dominance.png)
+![Impressions by territory with India leading at 8,644 — more than double the US](/images/india-dominance.png)
 
 UAE, Singapore, Malaysia all show up too. The South Asian diaspora found this app and I didn't even know to lean into it.
 
