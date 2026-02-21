@@ -46,13 +46,13 @@ And then I noticed the dates. The data went all the way back to launch day — A
 
 I went back to August 2025 — my marketing month — and finally saw what actually happened.
 
-There was a real spike. Impressions jumped, page views jumped.
+There was a real spike. Product page views jumped — people were landing on the App Store page.
 
 ![Product page views over time showing a clear spike in August 2025](/images/august-spike-discovered.png)
 
-And it was almost entirely India.
+And when I looked at impressions by territory, it was almost entirely India.
 
-India is my #1 market by a wide margin — more than double the US in impressions. The app is a mantra counter, of course it resonates there. But I had no idea. I was writing Reddit posts without knowing who was actually reading them.
+India is my #1 market by a wide margin — more than double the US. The app is a mantra counter, of course it resonates there. But I had no idea. I was writing Reddit posts without knowing who was actually reading them.
 
 ![Impressions by territory with India leading at 8,644 — more than double the US](/images/india-dominance.png)
 
