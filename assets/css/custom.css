@@ -956,7 +956,8 @@
 .tool-featured p { color: rgba(255, 255, 255, 0.88); margin: 0.6em 0 0.9em; line-height: 1.55; }
 .tool-stars { height: 20px; display: inline-block; }
 
-.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2em; }
+.tools-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.2em; }
+.tools-grid .tool-card { flex: 1 1 260px; max-width: 360px; }
 .tool-card {
   display: block; text-decoration: none !important; background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07); border-radius: 12px; padding: 1.3em;
@@ -1053,3 +1054,20 @@
 .home-app-card h3 { margin: 0 0 0.4em; color: #222; font-size: 1.15em; }
 .home-app-card p { margin: 0 0 1.1em; color: #666; font-size: 0.9em; line-height: 1.5; flex: 1; }
 .home-app-links { display: flex; gap: 1.2em; flex-wrap: wrap; justify-content: center; }
+
+/* ===== Fix: re-center landing sections ============================
+   custom.css line ~545 applies `.page__content h1-3/p { text-align:left !important }`
+   site-wide (added for the SleepTracker page). These scoped, higher-specificity
+   rules re-assert the landing page's intended centering. */
+.landing .lp-h2,
+.landing .lp-sub,
+.landing .lp-center,
+.landing .cta-band h2,
+.landing .cta-band p { text-align: center !important; }
+.landing .lp-sub { margin-left: auto !important; margin-right: auto !important; }
+.landing .lp-center { margin-top: 1.5em; }
+/* keep the About heading left (it sits beside the photo) */
+.landing .about-text .lp-h2 { text-align: left !important; }
+
+/* Tidy the hero into a coherent left column instead of a full-width headline */
+.page__hero--overlay .page__title { max-width: 900px; }
