@@ -31,9 +31,3 @@
   desc: "Native macOS menubar app that tracks Claude Code usage costs, quotas, and session insights — all processed locally on your Mac."
   lang: "Swift"
   url: "https://github.com/rshankras/Claudit"
-
-- name: "claude-console"
-  repo: "rshankras/claude-console"
-  desc: "Physical hardware controls for Claude Code on the Logitech MX Creative Keypad — live status, one-press prompts, git, and offline voice."
-  lang: "C#"
-  url: "https://github.com/rshankras/claude-console"
