@@ -1019,3 +1019,37 @@
 .pc-btn--primary:hover { background: #024ea2; color: #fff !important; }
 .pc-btn--ghost { background: transparent; color: #0366d6 !important; border-color: #0366d6; }
 .pc-btn--ghost:hover { background: #0366d6; color: #fff !important; }
+
+/* ===== Optional polish: sticky masthead + tighter app grid ===== */
+
+/* Sticky masthead — keeps nav + "Work with me" CTA visible on scroll.
+   Safe: search-content is in normal flow (no z-index), so it won't be covered. */
+.masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background-color: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Featured apps as a compact, centered 3-up grid (replaces sparse full-width rows) */
+.home-apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.3em;
+}
+.home-app-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  background: #fff; border: 1px solid rgba(0, 0, 0, 0.07); border-radius: 12px;
+  padding: 1.6em 1.4em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.home-app-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.home-app-icon {
+  width: 84px; height: 84px; border-radius: 19px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 0.85em;
+}
+.home-app-card h3 { margin: 0 0 0.4em; color: #222; font-size: 1.15em; }
+.home-app-card p { margin: 0 0 1.1em; color: #666; font-size: 0.9em; line-height: 1.5; flex: 1; }
+.home-app-links { display: flex; gap: 1.2em; flex-wrap: wrap; justify-content: center; }
