@@ -1,15 +1,13 @@
 main:
-  - title: "Home"
-    url: /
   - title: "Articles"
     url: /articles/
   - title: "Apps"
     url: /portfolio/
-  - title: "Start Here"
-    url: /start-here/
   - title: "About"
     url: /about/
   - title: "Work with me"
     url: "mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com"
-  # Resources page still lives at /resources/ — linked from the footer/content,
-  # removed from the top nav to make room for the "Work with me" CTA.
+  # Removed from top nav (pages still live and are linked elsewhere):
+  #   "Home"       -> the site logo/title already links to / (redundant)
+  #   "Start Here" -> /start-here/ , linked from the Articles intro + footer + home CTA
+  #   "Resources"  -> /resources/

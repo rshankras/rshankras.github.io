@@ -92,6 +92,9 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/sravis"
+    - label: "Start Here"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "/start-here/"
 
 # SEO Related
 google_site_verification: 
