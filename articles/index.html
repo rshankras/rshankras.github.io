@@ -1,0 +1,22 @@
+---
+layout: archive
+permalink: /articles/
+title: "Articles"
+author_profile: true
+description: "Browse every article by Ravi Shankar on Swift, SwiftUI, Xcode, debugging, app design, and indie development — grouped by year, newest first."
+---
+
+<p class="articles-intro">{{ site.posts | size }} articles on Swift, SwiftUI, Xcode, debugging, design, and the indie developer journey — newest first.</p>
+
+{% capture written_year %}-{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="y{{ year }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  <a class="article-row" href="{{ post.url }}">
+    <span class="article-title">{{ post.title }}</span>
+    <span class="article-date">{{ post.date | date: "%b %-d" }}</span>
+  </a>
+{% endfor %}

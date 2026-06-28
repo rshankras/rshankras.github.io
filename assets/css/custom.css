@@ -833,3 +833,189 @@
     font-size: 1.15em;
   }
 }
+
+/* ============================================================
+   Landing / Funnel Home Page (layout: splash)
+   ============================================================ */
+.landing { margin-top: 1.5em; }
+
+.lp-section { margin: 3.5em 0; }
+.lp-h2 { text-align: center; color: #222; font-size: 1.8em; margin: 0 0 0.3em; line-height: 1.2; }
+.lp-sub { text-align: center; color: #666; max-width: 680px; margin: 0 auto 2em; line-height: 1.6; }
+.lp-cta-inline { text-align: center; margin-top: 2em; }
+
+/* What I can do — service cards */
+.services-grid { display: flex; flex-wrap: wrap; gap: 1.5em; justify-content: center; }
+.service-card {
+  flex: 1 1 280px; max-width: 340px;
+  background: #fff; border: 1px solid rgba(0, 0, 0, 0.05); border-radius: 12px;
+  padding: 1.8em 1.5em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.service-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.service-icon { font-size: 2em; margin-bottom: 0.4em; line-height: 1; }
+.service-card h3 { margin: 0 0 0.5em; color: #222; font-size: 1.15em; }
+.service-card p { margin: 0; color: #666; font-size: 0.95em; line-height: 1.55; }
+
+/* Proof / stats band */
+.stats-band {
+  display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1em;
+  background: #0d1b2a; border-radius: 12px; padding: 1.8em 1em; margin: 3.5em 0;
+  text-align: center;
+}
+.stats-band .stat { flex: 1 1 120px; }
+.stat-num { display: block; font-size: 2em; font-weight: 700; color: #fff; line-height: 1.1; }
+.stat-label { display: block; color: #9fb3c8; font-size: 0.82em; margin-top: 0.35em; text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* About split */
+.about-split {
+  display: flex; align-items: center; gap: 2em; flex-wrap: wrap;
+  background: #f8f9fa; border-radius: 12px; padding: 2em; margin: 3.5em 0;
+}
+.about-photo {
+  width: 180px; height: 180px; border-radius: 50%; object-fit: cover;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15); flex-shrink: 0;
+}
+.about-text { flex: 1; min-width: 260px; }
+.about-text h2 { margin-top: 0; }
+.about-text p { color: #555; line-height: 1.6; }
+
+/* Latest writing */
+.latest-posts { display: flex; flex-direction: column; gap: 0.8em; max-width: 760px; margin: 0 auto; }
+.latest-post {
+  display: block; background: #fff; border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 10px; padding: 1em 1.2em; text-decoration: none !important;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.latest-post:hover { background: #f8f9fa; transform: translateX(3px); }
+.latest-date { display: block; color: #999; font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.03em; }
+.latest-title { display: block; color: #0366d6; font-weight: 600; font-size: 1.05em; margin: 0.2em 0; }
+.latest-desc { display: block; color: #777; font-size: 0.9em; line-height: 1.45; }
+
+/* Closing CTA band */
+.cta-band {
+  text-align: center; color: #fff; border-radius: 14px;
+  background: linear-gradient(135deg, #0366d6, #024ea2);
+  padding: 2.5em 1.5em; margin: 3.5em 0;
+}
+.cta-band h2 { color: #fff; margin-top: 0; font-size: 1.6em; }
+.cta-band p { color: rgba(255, 255, 255, 0.92); max-width: 560px; margin: 0.5em auto; line-height: 1.6; }
+.cta-band .cta-btn { background: #fff !important; color: #0366d6 !important; font-weight: 600; margin-top: 1em; }
+.cta-band .cta-btn:hover { background: #f0f4f8 !important; color: #024ea2 !important; }
+.cta-band .cta-sub { font-size: 0.9em; margin-top: 1.3em; }
+.cta-band .cta-sub a { color: #fff; text-decoration: underline; }
+
+@media (max-width: 600px) {
+  .about-split { flex-direction: column; text-align: center; }
+  .about-text h2 { text-align: center !important; }
+  .stat-num { font-size: 1.6em; }
+  .lp-h2 { font-size: 1.5em; }
+}
+
+/* Learn-more link (used on portfolio + home featured apps) */
+.learn-more-link {
+  display: inline-block; color: #0366d6; text-decoration: none;
+  font-weight: 500; transition: color 0.2s ease;
+}
+.learn-more-link:hover { color: #0056b3; text-decoration: none; }
+
+/* Articles archive (/articles/) — year-grouped index */
+.articles-intro { color: #666; margin-bottom: 1.5em; }
+.article-row {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1em;
+  padding: 0.55em 0.2em; border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  text-decoration: none !important;
+}
+.article-row:hover { background: #f8f9fa; }
+.article-title { color: #0366d6; font-weight: 500; line-height: 1.4; }
+.article-row:hover .article-title { color: #0056b3; }
+.article-date { color: #999; font-size: 0.82em; white-space: nowrap; flex-shrink: 0; }
+
+/* ===== Two-track home: hire me vs build with my tools ===== */
+.two-paths { display: flex; flex-wrap: wrap; gap: 1.5em; }
+.path-card {
+  flex: 1 1 300px; display: flex; flex-direction: column;
+  background: #fff; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px;
+  padding: 1.8em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.path-icon { font-size: 1.9em; line-height: 1; }
+.path-card h3 { margin: 0.35em 0 0.4em; color: #222; font-size: 1.25em; }
+.path-card p { color: #666; line-height: 1.55; flex: 1 0 auto; margin-bottom: 1em; }
+.path-card .btn { align-self: flex-start; }
+
+/* ===== Open source / AI tooling ===== */
+.tool-featured {
+  display: block; text-decoration: none !important; color: #fff;
+  background: linear-gradient(135deg, #0d1b2a, #1b3a5b);
+  border-radius: 14px; padding: 1.8em; margin-bottom: 1.5em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tool-featured:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(13, 27, 42, 0.3); }
+.tool-featured-head { display: flex; align-items: center; gap: 1em; flex-wrap: wrap; }
+.tool-featured h3 { margin: 0; color: #fff; font-size: 1.35em; }
+.tool-featured p { color: rgba(255, 255, 255, 0.88); margin: 0.6em 0 0.9em; line-height: 1.55; }
+.tool-stars { height: 20px; display: inline-block; }
+
+.tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2em; }
+.tool-card {
+  display: block; text-decoration: none !important; background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.07); border-radius: 12px; padding: 1.3em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tool-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.tool-card h4 { margin: 0 0 0.4em; color: #0366d6; font-size: 1.05em; }
+.tool-card p { margin: 0 0 0.9em; color: #666; font-size: 0.9em; line-height: 1.5; }
+
+/* Language tag with GitHub-style colored dot */
+.tool-lang {
+  display: inline-block; font-size: 0.75em; font-weight: 600; color: #555;
+  padding: 0.15em 0.65em; border-radius: 20px; background: rgba(0, 0, 0, 0.05);
+}
+.tool-featured .tool-lang { color: #cfe3ff; background: rgba(255, 255, 255, 0.12); }
+.tool-lang::before { content: "● "; color: #888; }
+.lang-swift::before { color: #F05138; }
+.lang-python::before { color: #3572A5; }
+.lang-shell::before { color: #89e051; }
+.lang-csharp::before { color: #178600; }
+
+@media (max-width: 600px) {
+  .tools-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== Visual-QA polish pass ===== */
+
+/* Hero: primary CTA (the mailto) becomes a filled accent; secondary stays outline */
+.page__hero--overlay a.btn--light-outline[href^="mailto:"] {
+  background-color: #0366d6;
+  border-color: #0366d6;
+  color: #fff;
+}
+.page__hero--overlay a.btn--light-outline[href^="mailto:"]:hover {
+  background-color: #024ea2;
+  border-color: #024ea2;
+  color: #fff;
+}
+
+/* Nav: the "Work with me" (mailto) item rendered as a standing accent button */
+.masthead__menu-item a[href^="mailto:"] {
+  background-color: #0366d6;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 0.3em 0.85em;
+}
+.masthead__menu-item a[href^="mailto:"]:hover {
+  background-color: #024ea2;
+  color: #fff !important;
+}
+
+/* Two-path cards: balanced primary / secondary buttons */
+.pc-btn {
+  display: inline-block; align-self: flex-start;
+  padding: 0.55em 1.1em; border-radius: 7px; font-weight: 600;
+  text-decoration: none !important; border: 2px solid transparent;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.pc-btn--primary { background: #0366d6; color: #fff !important; }
+.pc-btn--primary:hover { background: #024ea2; color: #fff !important; }
+.pc-btn--ghost { background: transparent; color: #0366d6 !important; border-color: #0366d6; }
+.pc-btn--ghost:hover { background: #0366d6; color: #fff !important; }

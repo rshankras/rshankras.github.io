@@ -1,14 +1,15 @@
 main:
   - title: "Home"
     url: /
+  - title: "Articles"
+    url: /articles/
   - title: "Apps"
     url: /portfolio/
   - title: "Start Here"
     url: /start-here/
-  - title: "Resources"
-    url: /resources/
   - title: "About"
     url: /about/
-  # - title: "External Link"
-  #   url: https://google.com
-  #   target: _blank
+  - title: "Work with me"
+    url: "mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com"
+  # Resources page still lives at /resources/ — linked from the footer/content,
+  # removed from the top nav to make room for the "Work with me" CTA.

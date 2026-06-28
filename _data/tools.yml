@@ -1,0 +1,39 @@
+# Open-source / AI tooling featured on the home page.
+# `featured: true` marks the flagship (rendered large, with a live star badge).
+# Star counts for the rest are intentionally omitted (shown via language tag only).
+- name: "claude-code-apple-skills"
+  repo: "rshankras/claude-code-apple-skills"
+  desc: "139 Claude Code skills for Apple platform development — product validation, code generation, App Store optimization, and more."
+  lang: "Swift"
+  url: "https://github.com/rshankras/claude-code-apple-skills"
+  featured: true
+
+- name: "SwiftShip"
+  repo: "rshankras/SwiftShip"
+  desc: "Spec-driven iOS/macOS app development for Claude Code — idea to App Store via /apple:* commands and specialist agents."
+  lang: "Shell"
+  url: "https://github.com/rshankras/SwiftShip"
+
+- name: "indie-app-autopilot"
+  repo: "rshankras/indie-app-autopilot"
+  desc: "An AI agent pipeline for indie iOS developers — from a GitHub issue to the App Store, with two human gates."
+  lang: "Python"
+  url: "https://github.com/rshankras/indie-app-autopilot"
+
+- name: "asc-metadata-mcp"
+  repo: "rshankras/asc-metadata-mcp"
+  desc: "MCP server for App Store Connect — manage metadata, analytics, reviews, IAP, and subscriptions from Claude Code."
+  lang: "Swift"
+  url: "https://github.com/rshankras/asc-metadata-mcp"
+
+- name: "Claudit"
+  repo: "rshankras/Claudit"
+  desc: "Native macOS menubar app that tracks Claude Code usage costs, quotas, and session insights — all processed locally on your Mac."
+  lang: "Swift"
+  url: "https://github.com/rshankras/Claudit"
+
+- name: "claude-console"
+  repo: "rshankras/claude-console"
+  desc: "Physical hardware controls for Claude Code on the Logitech MX Creative Keypad — live status, one-press prompts, git, and offline voice."
+  lang: "C#"
+  url: "https://github.com/rshankras/claude-console"
