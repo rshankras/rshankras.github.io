@@ -7,7 +7,7 @@ keywords: "Ravi Shankar, indie iOS developer, macOS developer, SwiftUI, Claude C
 
 Hi, I'm **Ravi Shankar** — an indie developer based in Chennai, India. I build apps for Apple platforms, and I build the AI tools that help other developers ship them faster.
 
-I've shipped 10 apps across iPhone, iPad, Mac, and Apple Watch, and I share open-source Claude Code tools for other developers. I've also been writing here about iOS and Swift since 2014 — mostly figuring things out in the open. Two sides of the same coin: I like making things, and I like sharing what I learn along the way.
+I've shipped 10 apps across iPhone, iPad, Mac, and Apple Watch, and I share open-source Claude Code tools for other developers. Two sides of the same coin: I like making things, and I like sharing what I learn along the way.
 
 ## What I build
 
