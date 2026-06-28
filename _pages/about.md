@@ -7,7 +7,7 @@ keywords: "Ravi Shankar, indie iOS developer, macOS developer, SwiftUI, Claude C
 
 Hi, I'm **Ravi Shankar** — an indie developer based in Chennai, India. I build apps for Apple platforms, and I build the AI tools that help other developers ship them faster.
 
-I've shipped 10 apps across iPhone, iPad, Mac, and Apple Watch, and I share open-source Claude Code tools for other developers. Two sides of the same coin: I like making things, and I like sharing what I learn along the way.
+I've shipped apps across iPhone, iPad, Mac, and Apple Watch, and I share open-source Claude Code tools for other developers. Two sides of the same coin: I like making things, and I like sharing what I learn along the way.
 
 ## What I build
 
@@ -15,9 +15,10 @@ I've shipped 10 apps across iPhone, iPad, Mac, and Apple Watch, and I share open
 
 I focus on apps that solve practical problems — usually ones I have myself. A few I'm proud of:
 
-* **[Magizh](/magizh)** — a mindfulness companion for iPhone and Apple Watch
-* **[Expense Split](/expense-split/)** — split and settle shared expenses
 * **[ChantFlow](/chantflow/)** — a mantra-counting companion for Apple Watch
+* **[Ease Eyes](/ease-eyes/)** — a macOS menu-bar timer for healthy screen breaks
+* **[Expense Split](/expense-split/)** — split and settle shared expenses
+* **[Magizh](/magizh)** — a mindfulness companion for iPhone and Apple Watch
 
 See the [full portfolio →](/portfolio/)
 
