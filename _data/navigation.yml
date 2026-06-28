@@ -1,8 +1,8 @@
 main:
-  - title: "Articles"
-    url: /articles/
   - title: "Apps"
     url: /portfolio/
+  - title: "Articles"
+    url: /articles/
   - title: "About"
     url: /about/
   - title: "Work with me"
