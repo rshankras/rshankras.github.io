@@ -972,6 +972,8 @@
 }
 .contact-form button[type="submit"] { margin-top: 0.4em; }
 .contact-form .cf-note { color: #888; font-size: 0.85em; margin-top: 1em; line-height: 1.5; }
+.contact-form .cf-success { color: #1a7f37; font-weight: 600; margin-top: 1em; }
+.contact-form .cf-error { color: #b42318; margin-top: 1em; }
 
 /* ===== Client testimonials ===== */
 .testimonials-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5em; }

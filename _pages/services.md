@@ -113,10 +113,18 @@ excerpt: "I take iOS, macOS, and watchOS apps from idea to the App Store — and
     <h2 class="lp-h2">Start a project</h2>
     <p class="lp-sub">Tell me what you're building. I take on a small number of projects at a time and reply personally, usually within a day.</p>
 
-    <form class="contact-form" id="project-form">
-      <div class="cf-row">
-        <label for="cf-name">Your name</label>
-        <input type="text" id="cf-name" name="name" required>
+    <form class="contact-form" id="project-form" action="https://formspree.io/f/mrewrblo" method="POST">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <input type="hidden" name="_subject" value="Project inquiry from rshankar.com">
+      <div class="cf-row cf-row--split">
+        <div>
+          <label for="cf-name">Your name</label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+        <div>
+          <label for="cf-email">Your email</label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
       </div>
       <div class="cf-row">
         <label for="cf-type">What do you need?</label>
@@ -154,7 +162,9 @@ excerpt: "I take iOS, macOS, and watchOS apps from idea to the App Store — and
         </div>
       </div>
       <button type="submit" class="btn btn--primary btn--large">Send inquiry →</button>
-      <p class="cf-note">This opens a pre-filled email in your mail app — nothing is stored on this site. Prefer to write directly? <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a></p>
+      <p class="cf-success" id="cf-success" hidden>Thanks — your inquiry is on its way. I'll reply within a day.</p>
+      <p class="cf-error" id="cf-error" hidden>Something went wrong sending the form. Please email me directly at <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a>.</p>
+      <p class="cf-note">Goes straight to my inbox — I usually reply within a day. Prefer email? <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a></p>
     </form>
   </section>
 
@@ -163,15 +173,25 @@ excerpt: "I take iOS, macOS, and watchOS apps from idea to the App Store — and
 <script>
 document.getElementById('project-form').addEventListener('submit', function (e) {
   e.preventDefault();
-  var v = function (id) { return document.getElementById(id).value; };
-  var subject = 'Project inquiry — ' + v('cf-type');
-  var body = 'Name: ' + v('cf-name') + '\n'
-    + 'Project type: ' + v('cf-type') + '\n'
-    + 'Timeline: ' + v('cf-timeline') + '\n'
-    + 'Budget: ' + v('cf-budget') + '\n\n'
-    + v('cf-desc');
-  window.location.href = 'mailto:ravi@rshankar.com?subject='
-    + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  var form = e.target;
+  var btn = form.querySelector('button[type="submit"]');
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+    headers: { 'Accept': 'application/json' }
+  }).then(function (res) {
+    if (!res.ok) throw new Error('send failed');
+    form.reset();
+    document.getElementById('cf-error').hidden = true;
+    document.getElementById('cf-success').hidden = false;
+    btn.textContent = 'Sent ✓';
+  }).catch(function () {
+    btn.disabled = false;
+    btn.textContent = 'Send inquiry →';
+    document.getElementById('cf-error').hidden = false;
+  });
 });
 </script>
 
