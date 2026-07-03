@@ -48,4 +48,4 @@ I believe in continuous learning and the joy of creating. Sharing what I learn �
 
 ## Connect
 
-[GitHub](https://github.com/rshankras) · [Twitter / X](https://twitter.com/rshankra) · [LinkedIn](https://www.linkedin.com/in/sravis) · [Email](mailto:ravi@rshankar.com)
+[GitHub](https://github.com/rshankras) · [Twitter / X](https://twitter.com/rshankra) · [LinkedIn](https://www.linkedin.com/in/sravis) · [Upwork](https://www.upwork.com/freelancers/~016aeb393dbc65c3a5) · [Email](mailto:ravi@rshankar.com)

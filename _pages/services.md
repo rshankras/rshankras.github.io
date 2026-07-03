@@ -78,7 +78,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
   <section class="svc-section">
     <p class="svc-kicker">What clients say</p>
     <h2>Trusted with real, shipped work</h2>
-    <p class="svc-sub">From verified Upwork contracts and LinkedIn recommendations.</p>
+    <p class="svc-sub">From <a href="https://www.upwork.com/freelancers/~016aeb393dbc65c3a5" target="_blank" rel="noopener">verified Upwork contracts</a> and <a href="https://www.linkedin.com/in/sravis" target="_blank" rel="noopener">LinkedIn recommendations</a>.</p>
     <div class="svc-quotes">
       {% for t in site.data.testimonials %}
       <figure class="svc-quote">
