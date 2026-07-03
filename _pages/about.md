@@ -37,7 +37,7 @@ Everything's on [GitHub →](https://github.com/rshankras)
 
 I take on a small number of client projects at a time — building new apps, modernizing existing ones (UIKit → SwiftUI, performance, latest-OS support), or advising on architecture and App Store strategy. If you've got something you'd like to build — the AI-accelerated way or the classic way — I'd love to hear about it.
 
-<a class="btn btn--primary btn--large" href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">Let's work together →</a>
+<a class="svc-btn svc-btn--primary" href="/services/">See how we can work together →</a>
 
 ## Why I do this
 
@@ -48,4 +48,4 @@ I believe in continuous learning and the joy of creating. Sharing what I learn �
 
 ## Connect
 
-[GitHub](https://github.com/rshankras) · [Twitter / X](https://twitter.com/rshankra) · [LinkedIn](https://www.linkedin.com/in/sravis) · [Email](mailto:ravi@rshankar.com)
+[GitHub](https://github.com/rshankras) · [Twitter / X](https://twitter.com/rshankra) · [LinkedIn](https://www.linkedin.com/in/sravis) · [Upwork](https://www.upwork.com/freelancers/~016aeb393dbc65c3a5) · [Email](mailto:ravi@rshankar.com)

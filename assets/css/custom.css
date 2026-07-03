@@ -17,18 +17,30 @@
 
 /* App Portfolio Styles */
 .app-entry {
-  margin-bottom: 2em;
-  padding: 1.2em;
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
+  margin-bottom: 1.6em;
+  padding: 1.6em;
+  border: 1px solid #e7e8ea;
+  border-radius: 18px;
+  background-color: #fcfcfb;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .app-entry:hover {
-  background-color: rgba(0, 0, 0, 0.02);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 18px 40px -22px rgba(13, 27, 38, 0.28);
+  transform: translateY(-3px);
 }
+
+/* Portfolio platform jump-nav */
+.platform-nav {
+  margin: 2em 0; padding: 1.3em; background: #fafaf8; border: 1px solid #ededeb;
+  border-radius: 18px; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.9em;
+}
+.platform-nav a {
+  display: inline-block; padding: 0.55em 1.2em; background: #fff; color: #0366d6;
+  text-decoration: none !important; border: 1px solid #e7e8ea; border-radius: 999px;
+  font-weight: 600; font-size: 0.92em; transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.platform-nav a:hover { border-color: #0366d6; box-shadow: 0 4px 14px -6px rgba(3, 102, 214, 0.35); }
 
 .app-entry h3 {
   margin: 0 0 1em 0;
@@ -844,23 +856,10 @@
 .lp-sub { text-align: center; color: #666; max-width: 680px; margin: 0 auto 2em; line-height: 1.6; }
 .lp-cta-inline { text-align: center; margin-top: 2em; }
 
-/* What I can do — service cards */
-.services-grid { display: flex; flex-wrap: wrap; gap: 1.5em; justify-content: center; }
-.service-card {
-  flex: 1 1 280px; max-width: 340px;
-  background: #fff; border: 1px solid rgba(0, 0, 0, 0.05); border-radius: 12px;
-  padding: 1.8em 1.5em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.service-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
-.service-icon { font-size: 2em; margin-bottom: 0.4em; line-height: 1; }
-.service-card h3 { margin: 0 0 0.5em; color: #222; font-size: 1.15em; }
-.service-card p { margin: 0; color: #666; font-size: 0.95em; line-height: 1.55; }
-
 /* Proof / stats band */
 .stats-band {
   display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1em;
-  background: #0d1b2a; border-radius: 12px; padding: 1.8em 1em; margin: 3.5em 0;
+  background: #0d1b26; border-radius: 18px; padding: 1.8em 1em; margin: 3.5em 0;
   text-align: center;
 }
 .stats-band .stat { flex: 1 1 120px; }
@@ -894,14 +893,14 @@
 
 /* Closing CTA band */
 .cta-band {
-  text-align: center; color: #fff; border-radius: 14px;
-  background: linear-gradient(135deg, #0366d6, #024ea2);
+  text-align: center; color: #fff; border-radius: 18px;
+  background: #0d1b26;
   padding: 2.5em 1.5em; margin: 3.5em 0;
 }
 .cta-band h2 { color: #fff; margin-top: 0; font-size: 1.6em; }
-.cta-band p { color: rgba(255, 255, 255, 0.92); max-width: 560px; margin: 0.5em auto; line-height: 1.6; }
-.cta-band .cta-btn { background: #fff !important; color: #0366d6 !important; font-weight: 600; margin-top: 1em; }
-.cta-band .cta-btn:hover { background: #f0f4f8 !important; color: #024ea2 !important; }
+.cta-band p { color: #b9c4d0; max-width: 560px; margin: 0.5em auto; line-height: 1.6; }
+.cta-band .cta-btn { background: #0366d6 !important; color: #fff !important; border: none; font-weight: 600; margin-top: 1em; border-radius: 12px; }
+.cta-band .cta-btn:hover { background: #0356b3 !important; color: #fff !important; }
 .cta-band .cta-sub { font-size: 0.9em; margin-top: 1.3em; }
 .cta-band .cta-sub a { color: #fff; text-decoration: underline; }
 
@@ -935,13 +934,127 @@
 .two-paths { display: flex; flex-wrap: wrap; gap: 1.5em; }
 .path-card {
   flex: 1 1 300px; display: flex; flex-direction: column;
-  background: #fff; border: 1px solid rgba(0, 0, 0, 0.06); border-radius: 12px;
-  padding: 1.8em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  background: #fcfcfb; border: 1px solid #e7e8ea; border-radius: 18px;
+  padding: 1.8em; transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
-.path-icon { font-size: 1.9em; line-height: 1; }
+.path-card:hover { box-shadow: 0 18px 40px -22px rgba(13, 27, 38, 0.28); transform: translateY(-3px); }
+.path-card--primary { border: 2px solid #0366d6; }
+.path-card .svc-card-head { margin-bottom: 0.9em; display: flex; align-items: center; justify-content: space-between; }
 .path-card h3 { margin: 0.35em 0 0.4em; color: #222; font-size: 1.25em; }
 .path-card p { color: #666; line-height: 1.55; flex: 1 0 auto; margin-bottom: 1em; }
 .path-card .btn { align-self: flex-start; }
+
+/* ===== Services page (/services/) — Apple-craft design system ===== */
+.svc { margin-top: 1.5em; }
+.svc h2 { font-size: 2.1em; font-weight: 800; letter-spacing: -0.02em; line-height: 1.08; color: #16181d; margin: 0 0 0.35em; }
+.svc-kicker { color: #0366d6; font-weight: 700; font-size: 0.82em; text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.7em; }
+.svc-sub { color: #666; max-width: 640px; line-height: 1.6; margin: 0.4em 0 2em; }
+.svc-section { padding: 3em 0 0.5em; }
+.svc-section--tint { background: #fafaf8; border: 1px solid #ededeb; border-radius: 18px; padding: 2.4em 2.2em 2.2em; margin-top: 3em; }
+
+/* Buttons — one system */
+.svc-btn {
+  display: inline-block; padding: 0.8em 1.6em; border-radius: 12px; font-weight: 600;
+  text-decoration: none !important; border: none; cursor: pointer; font-size: 1em;
+  font-family: inherit; transition: background 0.2s ease, border-color 0.2s ease;
+}
+.svc-btn--primary { background: #0366d6; color: #fff !important; }
+.svc-btn--primary:hover { background: #0356b3; color: #fff !important; }
+.svc-btn--ghost { border: 1px solid rgba(255, 255, 255, 0.35); color: #fff !important; background: transparent; }
+.svc-btn--ghost:hover { border-color: rgba(255, 255, 255, 0.7); }
+.svc-btn--outline { border: 1px solid #0366d6; color: #0366d6 !important; background: transparent; }
+.svc-btn--outline:hover { background: rgba(3, 102, 214, 0.07); }
+
+/* Hero */
+.svc-hero { background: #0d1b26; border-radius: 18px; padding: 3.2em 2.8em 2.4em; color: #fff; }
+.svc-pill {
+  display: inline-flex; align-items: center; gap: 9px; padding: 7px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.16); border-radius: 999px; margin-bottom: 1.8em;
+  font-size: 0.8em; font-weight: 600; letter-spacing: 0.01em; color: #c8d0da;
+}
+.svc-dot { width: 7px; height: 7px; border-radius: 50%; background: #34c759; display: inline-block; }
+.svc-hero h1 { font-size: clamp(2.2em, 5.5vw, 3.6em); font-weight: 800; letter-spacing: -0.03em; line-height: 1.0; margin: 0 0 0.35em; color: #fff; }
+.svc-lede { color: #b9c4d0; max-width: 34em; font-size: 1.12em; line-height: 1.55; margin: 0; }
+.svc-hero-actions { display: flex; gap: 0.9em; flex-wrap: wrap; margin: 1.7em 0 2.4em; }
+.svc-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1em; border-top: 1px solid rgba(255, 255, 255, 0.12); padding-top: 1.6em; }
+.svc-stat strong { display: block; font-size: 1.55em; font-weight: 700; color: #fff; line-height: 1.1; }
+.svc-stat span { display: block; color: #93a3b3; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.3em; }
+
+/* Numbered service cards */
+.svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.3em; }
+.svc-card {
+  border: 1px solid #e7e8ea; border-radius: 18px; background: #fcfcfb; padding: 1.7em 1.6em;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.svc-card:hover { box-shadow: 0 18px 40px -22px rgba(13, 27, 38, 0.28); transform: translateY(-3px); }
+.svc-card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.3em; }
+.svc-num { font-family: "SF Mono", ui-monospace, Menlo, monospace; font-size: 0.82em; font-weight: 600; color: #0366d6; letter-spacing: 0.04em; }
+.svc-rule { width: 34px; height: 2px; background: #0366d6; opacity: 0.35; border-radius: 1px; }
+.svc-card h3 { margin: 0 0 0.5em; font-size: 1.12em; color: #16181d; }
+.svc-card p { margin: 0; color: #666; font-size: 0.94em; line-height: 1.6; }
+
+/* Process steps */
+.svc-steps { list-style: none; counter-reset: step; padding: 0; margin: 0; max-width: 700px; }
+.svc-steps li { counter-increment: step; position: relative; padding-left: 3.2em; margin-bottom: 1.3em; color: #555; line-height: 1.6; }
+.svc-steps li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute; left: 0; top: 0.15em;
+  font-family: "SF Mono", ui-monospace, Menlo, monospace; font-size: 0.82em; font-weight: 600; color: #0366d6;
+}
+.svc-steps li strong { display: block; color: #16181d; }
+
+/* Testimonials — unified quote treatment + callout tile */
+.svc-quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.3em; }
+.svc-quote { display: flex; flex-direction: column; margin: 0; border: 1px solid #e7e8ea; border-radius: 18px; background: #fff; padding: 1.6em; }
+.svc-quote blockquote { margin: 0; padding: 0; border: none; background: none; color: #444; font-size: 0.94em; line-height: 1.65; font-style: normal; flex: 1 0 auto; }
+.svc-quote blockquote::before { content: "\201C"; display: block; font-size: 2.4em; line-height: 0.8; font-weight: 800; color: #0366d6; opacity: 0.35; margin-bottom: 0.25em; }
+.svc-quote figcaption { color: #888; font-size: 0.84em; margin-top: 1.1em; }
+.svc-quote--callout { background: #0d1b26; border-color: #0d1b26; color: #fff; justify-content: center; }
+.svc-quote--callout strong { font-size: 2.3em; font-weight: 800; line-height: 1.1; }
+.svc-quote--callout span { color: #b9c4d0; line-height: 1.5; margin: 0.4em 0 1em; font-size: 0.94em; }
+.svc-quote--callout a { color: #7db4ec; text-decoration: none; font-weight: 600; }
+.svc-quote--callout a:hover { color: #a8ccf3; }
+
+/* FAQ accordion */
+.svc-faq { max-width: 700px; }
+.svc-faq details { border: 1px solid #e7e8ea; border-radius: 14px; background: #fff; padding: 1em 1.3em; margin-bottom: 0.8em; transition: border-color 0.2s ease; }
+.svc-faq details[open] { border-color: #b7d3f2; }
+.svc-faq summary { list-style: none; cursor: pointer; font-weight: 600; color: #16181d; display: flex; justify-content: space-between; align-items: center; gap: 1em; }
+.svc-faq summary::-webkit-details-marker { display: none; }
+.svc-faq summary::after {
+  content: ""; flex-shrink: 0; width: 8px; height: 8px;
+  border-right: 2px solid #999; border-bottom: 2px solid #999;
+  transform: rotate(45deg); transition: transform 0.2s ease; margin-right: 2px;
+}
+.svc-faq details[open] summary::after { transform: rotate(225deg); }
+.svc-faq details p { margin: 0.9em 0 0.2em; color: #666; line-height: 1.6; }
+
+@media (max-width: 600px) {
+  .svc-hero { padding: 2.2em 1.4em 1.8em; }
+  .svc-section--tint { padding: 1.8em 1.3em 1.4em; }
+  .svc h2 { font-size: 1.65em; }
+}
+
+/* Homepage hero: make the first (primary) action a filled button */
+.page__hero--overlay a.btn--light-outline:first-of-type { background: #0366d6; border-color: #0366d6; }
+.page__hero--overlay a.btn--light-outline:first-of-type:hover { background: #0356b3; border-color: #0356b3; }
+
+.contact-form { max-width: 620px; margin: 0 auto; }
+.contact-form .cf-row { margin-bottom: 1.1em; }
+.contact-form .cf-row--split { display: flex; gap: 1em; flex-wrap: wrap; }
+.contact-form .cf-row--split > div { flex: 1 1 200px; }
+.contact-form label { display: block; font-weight: 600; color: #333; font-size: 0.9em; margin-bottom: 0.3em; }
+.contact-form input, .contact-form select, .contact-form textarea {
+  width: 100%; padding: 0.6em 0.8em; border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px; font-size: 0.95em; font-family: inherit; background: #fff; color: #333;
+}
+.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus {
+  outline: none; border-color: #0366d6; box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.12);
+}
+.contact-form button[type="submit"] { margin-top: 0.4em; }
+.contact-form .cf-note { color: #888; font-size: 0.85em; margin-top: 1em; line-height: 1.5; }
+.contact-form .cf-success { color: #1a7f37; font-weight: 600; margin-top: 1em; }
+.contact-form .cf-error { color: #b42318; margin-top: 1em; }
 
 /* ===== Open source / AI tooling ===== */
 .tool-featured {
@@ -959,11 +1072,11 @@
 .tools-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.2em; }
 .tools-grid .tool-card { flex: 1 1 260px; max-width: 360px; }
 .tool-card {
-  display: block; text-decoration: none !important; background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.07); border-radius: 12px; padding: 1.3em;
+  display: block; text-decoration: none !important; background: #fcfcfb;
+  border: 1px solid #e7e8ea; border-radius: 18px; padding: 1.3em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.tool-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.tool-card:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -22px rgba(13, 27, 38, 0.28); }
 .tool-card h4 { margin: 0 0 0.4em; color: #0366d6; font-size: 1.05em; }
 .tool-card p { margin: 0 0 0.9em; color: #666; font-size: 0.9em; line-height: 1.5; }
 
@@ -985,41 +1098,27 @@
 
 /* ===== Visual-QA polish pass ===== */
 
-/* Hero: primary CTA (the mailto) becomes a filled accent; secondary stays outline */
-.page__hero--overlay a.btn--light-outline[href^="mailto:"] {
-  background-color: #0366d6;
-  border-color: #0366d6;
-  color: #fff;
+/* ===== Masthead — frosted sticky nav (mock design) ===== */
+.masthead {
+  border-bottom: 1px solid #ececec;
+  background: rgba(255, 255, 255, 0.86);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  backdrop-filter: saturate(180%) blur(14px);
+  box-shadow: none;
 }
-.page__hero--overlay a.btn--light-outline[href^="mailto:"]:hover {
-  background-color: #024ea2;
-  border-color: #024ea2;
-  color: #fff;
-}
+.masthead .greedy-nav { background: transparent; }
+.masthead .site-title { font-weight: 700; letter-spacing: -0.02em; color: #16181d; line-height: 1.15; }
+.masthead .site-subtitle { color: #8a8f98; font-weight: 600; font-size: 0.55em; letter-spacing: 0.02em; }
+.masthead .greedy-nav .visible-links a { color: #5b626e; font-weight: 500; }
+.masthead .greedy-nav .visible-links a:hover { color: #16181d; }
+.masthead .greedy-nav .visible-links a::before { display: none; }
 
-/* Nav: the "Work with me" (mailto) item rendered as a standing accent button */
-.masthead__menu-item a[href^="mailto:"] {
-  background-color: #0366d6;
-  color: #fff !important;
-  border-radius: 6px;
-  padding: 0.3em 0.85em;
+/* "Work with me": standing emphasis; accent underline marks the current page */
+.masthead__menu-item a[href="/services/"] { color: #16181d; font-weight: 600; }
+.masthead .greedy-nav .visible-links a.nav-current {
+  color: #16181d;
+  box-shadow: inset 0 -2px 0 #0366d6;
 }
-.masthead__menu-item a[href^="mailto:"]:hover {
-  background-color: #024ea2;
-  color: #fff !important;
-}
-
-/* Two-path cards: balanced primary / secondary buttons */
-.pc-btn {
-  display: inline-block; align-self: flex-start;
-  padding: 0.55em 1.1em; border-radius: 7px; font-weight: 600;
-  text-decoration: none !important; border: 2px solid transparent;
-  transition: background 0.2s ease, color 0.2s ease;
-}
-.pc-btn--primary { background: #0366d6; color: #fff !important; }
-.pc-btn--primary:hover { background: #024ea2; color: #fff !important; }
-.pc-btn--ghost { background: transparent; color: #0366d6 !important; border-color: #0366d6; }
-.pc-btn--ghost:hover { background: #0366d6; color: #fff !important; }
 
 /* ===== Optional polish: sticky masthead + tighter app grid ===== */
 
@@ -1042,11 +1141,11 @@
 }
 .home-app-card {
   display: flex; flex-direction: column; align-items: center; text-align: center;
-  background: #fff; border: 1px solid rgba(0, 0, 0, 0.07); border-radius: 12px;
-  padding: 1.6em 1.4em; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  background: #fcfcfb; border: 1px solid #e7e8ea; border-radius: 18px;
+  padding: 1.6em 1.4em;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.home-app-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); }
+.home-app-card:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -22px rgba(13, 27, 38, 0.28); }
 .home-app-icon {
   width: 84px; height: 84px; border-radius: 19px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 0.85em;

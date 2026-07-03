@@ -1,5 +1,8 @@
 ---
-title: "Remove page number from selected pages in Word"
+title: "How to Remove Page Numbers from Specific Pages in Word"
+redirect_from:
+  - /remove-page-number-from-selected-pages-in-word-2010/
+description: "Remove page numbers from selected pages in Microsoft Word using section breaks — step-by-step instructions that work in every Word version."
 date: "2015-06-16"
 categories: 
   - "office"

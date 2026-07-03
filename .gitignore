@@ -4,7 +4,7 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
-assets/.DS_Store
-assets/.DS_Store
-assets/.DS_Store
-assets/.DS_Store
+
+# Sensitive / local-only data — never publish
+wordpress.export.xml
+404_data.txt
