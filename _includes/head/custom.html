@@ -16,4 +16,14 @@
 <!-- Structured Data (JSON-LD) -->
 {% include structured-data.html %}
 
+<!-- Nav: underline the current page (masthead is include_cached, so this
+     can't be done in Liquid — page.url is stale inside the cached include) -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.masthead .visible-links a[href]').forEach(function (a) {
+    if (a.getAttribute('href') === location.pathname) a.classList.add('nav-current');
+  });
+});
+</script>
+
 <!-- end custom head snippets -->
