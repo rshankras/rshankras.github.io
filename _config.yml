@@ -60,6 +60,27 @@ plugins:
 include:
   - _pages
 
+# Keep internal working files out of the published site.
+# NOTE (Jekyll 3): this list REPLACES the built-in defaults, so they are repeated here.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - scripts
+  - BLOG_OUTLINES_*.md
+  - BLOG_TOPICS_*.md
+  - SEO-*.md
+  - SEO_*.md
+  - QUICK-SEO-FIX.md
+  - AHREFS-FIXES.md
+  - CLAUDE.md
+  - wordpress.export.xml
+  - 404_data.txt
+  - redirection-log.csv
+  - redirects.csv
+  - update_code_blocks.sh
+
 # Site Author
 author:
   name             : "Ravi Shankar"
