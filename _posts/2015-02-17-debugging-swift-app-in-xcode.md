@@ -1,5 +1,6 @@
 ---
 title: "A Complete Guide to Debugging Swift Apps in Xcode: Tips and Techniques"
+description: "Practical Xcode debugging techniques for Swift apps — breakpoints, console tips, and workflow habits that help you find and fix bugs faster."
 date: "2015-02-17"
 last_modified_at: 2024-12-15T15:41:07+05:30
 excerpt: "Master Swift debugging in Xcode with this comprehensive guide. Learn essential debugging techniques, LLDB commands, and best practices for efficient iOS app development."

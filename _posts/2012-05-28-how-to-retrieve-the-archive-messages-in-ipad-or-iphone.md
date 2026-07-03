@@ -1,5 +1,6 @@
 ---
-title: "How to retrieve the archived messages in iPad or iPhone"
+title: "How to Find Archived Emails on iPhone or iPad"
+description: "Can't find archived emails on your iPhone or iPad? Here's where the Mail app keeps the Archive folder and how to move messages back to your inbox."
 date: "2012-05-28"
 categories: 
   - "ipad"

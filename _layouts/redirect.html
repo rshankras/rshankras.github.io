@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+{% assign redirect_target = page.redirect_to | default: page.redirect.to %}
     <meta charset="utf-8">
-    <title>Redirecting to {{ page.redirect_to }}</title>
-    <link rel="canonical" href="{{ page.redirect_to }}">
-    <script>window.location.href = "{{ page.redirect_to }}";</script>
-    <meta http-equiv="refresh" content="0;url={{ page.redirect_to }}">
+    <title>Redirecting to {{ redirect_target }}</title>
+    <link rel="canonical" href="{{ redirect_target }}">
+    <script>window.location.href = "{{ redirect_target }}";</script>
+    <meta http-equiv="refresh" content="0;url={{ redirect_target }}">
     <meta name="robots" content="noindex">
     <style>
         body {
@@ -30,7 +31,7 @@
     <div class="redirect-container">
         <h1>Redirecting...</h1>
         <p>You are being redirected to:</p>
-        <p><a class="redirect-link" href="{{ page.redirect_to }}">{{ page.redirect_to }}</a></p>
+        <p><a class="redirect-link" href="{{ redirect_target }}">{{ redirect_target }}</a></p>
         <p>Click the link above if you are not redirected automatically.</p>
     </div>
 </body>
