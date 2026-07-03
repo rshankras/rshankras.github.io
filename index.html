@@ -20,16 +20,16 @@ header:
   <section class="lp-section">
     <div class="two-paths">
       <div class="path-card path-card--primary">
-        <div class="path-icon">🧑‍💻</div>
+        <div class="svc-card-head"><span class="svc-num">01</span><span class="svc-rule"></span></div>
         <h3>Work with me</h3>
         <p>Need an app built — or an existing one rescued? I take projects from idea to the App Store: product thinking, SwiftUI development, modernization, and launch, for iOS, macOS, and watchOS.</p>
-        <a class="pc-btn pc-btn--primary" href="/services/">Start a project →</a>
+        <a class="svc-btn svc-btn--primary" href="/services/">Start a project →</a>
       </div>
       <div class="path-card">
-        <div class="path-icon">🛠️</div>
+        <div class="svc-card-head"><span class="svc-num">02</span><span class="svc-rule"></span></div>
         <h3>Build with my tools</h3>
         <p>I build open-source Claude Code skills and tools that help Apple developers plan, generate, and ship their apps — shared freely on GitHub.</p>
-        <a class="pc-btn pc-btn--ghost" href="#tools">Explore the tools →</a>
+        <a class="svc-btn svc-btn--outline" href="#tools">Explore the tools →</a>
       </div>
     </div>
   </section>
@@ -46,15 +46,10 @@ header:
   <section class="lp-section">
     <h2 class="lp-h2">What clients say</h2>
     <p class="lp-sub">From verified Upwork contracts and LinkedIn recommendations — full app builds, SwiftUI work, and iOS advisory.</p>
-    <div class="testimonials-grid">
+    <div class="svc-quotes">
       {% for t in site.data.testimonials %}
-      <figure class="testimonial-card">
-        <blockquote>&ldquo;{{ t.quote }}&rdquo;</blockquote>
-        {% if t.endorsements and t.endorsements.size > 0 %}
-        <div class="testimonial-tags">
-          {% for e in t.endorsements %}<span class="testimonial-tag">{{ e }}</span>{% endfor %}
-        </div>
-        {% endif %}
+      <figure class="svc-quote">
+        <blockquote>{{ t.quote }}</blockquote>
         <figcaption>{{ t.source }}</figcaption>
       </figure>
       {% endfor %}

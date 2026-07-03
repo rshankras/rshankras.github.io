@@ -15,21 +15,11 @@ twitter_description: "Explore my collection of iOS, watchOS, and macOS apps incl
 
 A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Each app is designed with a focus on simplicity, functionality, and user experience.
 
-<nav class="platform-navigation" style="margin: 2em 0; padding: 1.5em; background: #f8f9fa; border-radius: 10px; text-align: center;">
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1em;">
-    <a href="#multi-platform-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      📱⌚️ iOS & watchOS (2)
-    </a>
-    <a href="#ios-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      📱 iOS (3)
-    </a>
-    <a href="#macos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      💻 macOS (4)
-    </a>
-    <a href="#watchos-apps" style="display: inline-block; padding: 0.6em 1.2em; background: white; color: #0366d6; text-decoration: none; border-radius: 6px; font-weight: 500; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.2s ease;">
-      ⌚️ watchOS (1)
-    </a>
-  </div>
+<nav class="platform-nav">
+  <a href="#multi-platform-apps">📱⌚️ iOS &amp; watchOS (2)</a>
+  <a href="#ios-apps">📱 iOS (3)</a>
+  <a href="#macos-apps">💻 macOS (4)</a>
+  <a href="#watchos-apps">⌚️ watchOS (1)</a>
 </nav>
 
 <h2 id="multi-platform-apps">Multi-Platform Apps (iOS & watchOS)</h2>

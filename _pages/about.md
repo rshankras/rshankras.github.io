@@ -37,7 +37,7 @@ Everything's on [GitHub →](https://github.com/rshankras)
 
 I take on a small number of client projects at a time — building new apps, modernizing existing ones (UIKit → SwiftUI, performance, latest-OS support), or advising on architecture and App Store strategy. If you've got something you'd like to build — the AI-accelerated way or the classic way — I'd love to hear about it.
 
-<a class="btn btn--primary btn--large" href="/services/">See how we can work together →</a>
+<a class="svc-btn svc-btn--primary" href="/services/">See how we can work together →</a>
 
 ## Why I do this
 
