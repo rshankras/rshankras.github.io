@@ -1,0 +1,38 @@
+# Client testimonials — curated from Upwork contract feedback and LinkedIn
+# recommendations. Anonymized by request; `source` gives project/role context.
+# Quotes are trimmed (…) and lightly copyedited for grammar, meaning unchanged.
+# `endorsements` are the skill endorsements the client selected on Upwork.
+- quote: >-
+    It was an excellent overall experience collaborating with Ravi to design,
+    develop and deliver a new iPhone app. Ravi was reliable and easy to
+    communicate with. The code quality will ensure future development and
+    maintainability is not an issue.
+  source: "Upwork client — full iPhone app, design to delivery"
+  endorsements: []
+
+- quote: >-
+    Ravi successfully launched our app on the App Store, and helped us build
+    the full ecosystem for our business — customer app, admin app, and web.
+    He is very trustworthy and passionate about developing apps.
+  source: "Product manager, O2O startup — LinkedIn recommendation"
+  endorsements: []
+
+- quote: >-
+    Ravi completed the job professionally and promptly. I'm 100% satisfied
+    with the results and would be happy to work together again. Highly
+    recommended!
+  source: "Upwork client — SwiftUI calorie-tracker app"
+  endorsements: ["Professional", "Reliable"]
+
+- quote: >-
+    Ravi is incredibly talented and has been very helpful, explaining
+    everything in detail. I look forward to working with you again in the
+    future.
+  source: "Upwork client — iOS development (Swift & UIKit)"
+  endorsements: ["Collaborative", "Clear Communicator", "Committed to Quality"]
+
+- quote: >-
+    An extremely capable designer and developer… a clear thinker and
+    communicator who I would always be delighted to have on my team.
+  source: "Senior technology leader — LinkedIn recommendation"
+  endorsements: []

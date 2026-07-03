@@ -6,7 +6,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Work with me"
-    url: "mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com"
+    url: /services/
   # Removed from top nav (pages still live and are linked elsewhere):
   #   "Home"       -> the site logo/title already links to / (redundant)
   #   "Start Here" -> /start-here/ , linked from the Articles intro + footer + home CTA
