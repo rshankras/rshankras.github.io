@@ -1,17 +1,17 @@
 ---
 layout: splash
 permalink: /
-title: "I build apps for Apple platforms — and AI tools to ship them faster"
-excerpt: "I'm Ravi Shankar — an indie developer building iOS, macOS, and watchOS apps, and open-source Claude Code tools for fellow Apple developers."
-description: "Ravi Shankar — indie developer building iOS, macOS & watchOS apps and open-source Claude Code tools for Apple developers. Available for app development and AI-assisted dev work."
+title: "I build iOS & macOS apps — from idea to the App Store"
+excerpt: "I'm Ravi Shankar — 10 apps shipped across iPhone, Mac, and Apple Watch, building with Swift since 2014. I take on a small number of client projects, and share open-source AI tools for Apple developers."
+description: "Ravi Shankar — iOS, macOS & watchOS developer for hire. 10 apps shipped since 2014. New app builds, SwiftUI modernization, App Store launches, and open-source AI tooling."
 header:
   overlay_color: "#0d1b2a"
   overlay_filter: "0.2"
   actions:
-    - label: "Let's work together"
-      url: "mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com"
-    - label: "Explore my tools"
-      url: "#tools"
+    - label: "Start a project"
+      url: /services/
+    - label: "See my work"
+      url: "#apps"
 ---
 
 <div class="landing">
@@ -19,11 +19,11 @@ header:
   <!-- Two paths: hire me vs build with my tools -->
   <section class="lp-section">
     <div class="two-paths">
-      <div class="path-card">
+      <div class="path-card path-card--primary">
         <div class="path-icon">🧑‍💻</div>
         <h3>Work with me</h3>
         <p>Need an app built — or an existing one rescued? I take projects from idea to the App Store: product thinking, SwiftUI development, modernization, and launch, for iOS, macOS, and watchOS.</p>
-        <a class="pc-btn pc-btn--primary" href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">Start a project →</a>
+        <a class="pc-btn pc-btn--primary" href="/services/">Start a project →</a>
       </div>
       <div class="path-card">
         <div class="path-icon">🛠️</div>
@@ -42,36 +42,27 @@ header:
     <div class="stat"><span class="stat-num">2014</span><span class="stat-label">Building with Swift since</span></div>
   </section>
 
-  <!-- Open source & AI tooling -->
-  <section id="tools" class="lp-section">
-    <h2 class="lp-h2">Open source &amp; AI tooling</h2>
-    <p class="lp-sub">I build the tools that make AI-assisted Apple development actually work — from Claude Code skills to App Store automation. <a href="https://github.com/rshankras">See everything on GitHub →</a></p>
-
-    {% assign featured = site.data.tools | where: "featured", true | first %}
-    {% if featured %}
-    <a class="tool-featured" href="{{ featured.url }}">
-      <div class="tool-featured-head">
-        <h3>{{ featured.name }}</h3>
-        <img class="tool-stars" src="https://img.shields.io/github/stars/{{ featured.repo }}?style=social" alt="GitHub stars for {{ featured.name }}" loading="lazy">
-      </div>
-      <p>{{ featured.desc }}</p>
-      <span class="tool-lang lang-{{ featured.lang | downcase | replace: '#', 'sharp' }}">{{ featured.lang }}</span>
-    </a>
-    {% endif %}
-
-    <div class="tools-grid">
-      {% for t in site.data.tools %}{% unless t.featured %}
-      <a class="tool-card" href="{{ t.url }}">
-        <h4>{{ t.name }}</h4>
-        <p>{{ t.desc }}</p>
-        <span class="tool-lang lang-{{ t.lang | downcase | replace: '#', 'sharp' }}">{{ t.lang }}</span>
-      </a>
-      {% endunless %}{% endfor %}
+  <!-- Client testimonials -->
+  <section class="lp-section">
+    <h2 class="lp-h2">What clients say</h2>
+    <p class="lp-sub">From verified Upwork contracts and LinkedIn recommendations — full app builds, SwiftUI work, and iOS advisory.</p>
+    <div class="testimonials-grid">
+      {% for t in site.data.testimonials %}
+      <figure class="testimonial-card">
+        <blockquote>&ldquo;{{ t.quote }}&rdquo;</blockquote>
+        {% if t.endorsements and t.endorsements.size > 0 %}
+        <div class="testimonial-tags">
+          {% for e in t.endorsements %}<span class="testimonial-tag">{{ e }}</span>{% endfor %}
+        </div>
+        {% endif %}
+        <figcaption>{{ t.source }}</figcaption>
+      </figure>
+      {% endfor %}
     </div>
   </section>
 
   <!-- Featured apps -->
-  <section class="lp-section">
+  <section id="apps" class="lp-section">
     <h2 class="lp-h2">Apps I've shipped</h2>
     <p class="lp-sub">A few favorites from my <a href="/portfolio/">full portfolio</a> — real apps, live on the App Store.</p>
 
@@ -113,9 +104,37 @@ header:
     <p class="lp-center"><a class="learn-more-link" href="/portfolio/">See all my apps →</a></p>
   </section>
 
+  <!-- Open source & AI tooling -->
+  <section id="tools" class="lp-section">
+    <h2 class="lp-h2">Open source &amp; AI tooling</h2>
+    <p class="lp-sub">I build the tools that make AI-assisted Apple development actually work — from Claude Code skills to App Store automation. <a href="https://github.com/rshankras">See everything on GitHub →</a></p>
+
+    {% assign featured = site.data.tools | where: "featured", true | first %}
+    {% if featured %}
+    <a class="tool-featured" href="{{ featured.url }}">
+      <div class="tool-featured-head">
+        <h3>{{ featured.name }}</h3>
+        <img class="tool-stars" src="https://img.shields.io/github/stars/{{ featured.repo }}?style=social" alt="GitHub stars for {{ featured.name }}" loading="lazy">
+      </div>
+      <p>{{ featured.desc }}</p>
+      <span class="tool-lang lang-{{ featured.lang | downcase | replace: '#', 'sharp' }}">{{ featured.lang }}</span>
+    </a>
+    {% endif %}
+
+    <div class="tools-grid">
+      {% for t in site.data.tools %}{% unless t.featured %}
+      <a class="tool-card" href="{{ t.url }}">
+        <h4>{{ t.name }}</h4>
+        <p>{{ t.desc }}</p>
+        <span class="tool-lang lang-{{ t.lang | downcase | replace: '#', 'sharp' }}">{{ t.lang }}</span>
+      </a>
+      {% endunless %}{% endfor %}
+    </div>
+  </section>
+
   <!-- About me -->
   <section class="about-split">
-    <img class="about-photo" src="/assets/images/your-photo.jpg" alt="Ravi Shankar, indie Apple platforms developer" loading="lazy">
+    <img class="about-photo" src="/assets/images/ravi-shankar.jpg" alt="Ravi Shankar, indie Apple platforms developer" loading="lazy">
     <div class="about-text">
       <h2 class="lp-h2">Hi, I'm Ravi 👋</h2>
       <p>I'm an indie developer who loves building apps for Apple platforms — and, lately, the AI tools that make building them faster. I've shipped 10 apps, and I share open-source Claude Code tools for other developers.</p>
@@ -144,8 +163,8 @@ header:
   <section class="cta-band">
     <h2>Have an app idea — or want to build faster with AI?</h2>
     <p>I take on a small number of projects at a time. Tell me what you're building and let's see if we're a fit.</p>
-    <a class="btn btn--large cta-btn" href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">Email me →</a>
-    <p class="cta-sub">Prefer to look around first? <a href="#tools">See my tools</a>, <a href="/portfolio/">my apps</a>, or <a href="/start-here/">start with the blog</a>.</p>
+    <a class="btn btn--large cta-btn" href="/services/">Start a project →</a>
+    <p class="cta-sub">Prefer to look around first? <a href="#tools">See my tools</a>, <a href="/portfolio/">my apps</a>, or <a href="/start-here/">start with the blog</a>. Or just <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">email me</a>.</p>
   </section>
 
 </div>

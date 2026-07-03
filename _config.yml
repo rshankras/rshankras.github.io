@@ -84,7 +84,7 @@ exclude:
 # Site Author
 author:
   name             : "Ravi Shankar"
-  avatar           : "/assets/images/your-photo.jpg"
+  avatar           : "/assets/images/ravi-shankar.jpg"
   bio              : "Apple Platforms Developer"
   location         : "App Nomad"
   links:
