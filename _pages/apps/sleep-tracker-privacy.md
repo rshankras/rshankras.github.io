@@ -1,162 +1,141 @@
 ---
-title: "SleepTracker Privacy Policy"
+title: "Sleep Tracker (SleepRiddle) Privacy Policy"
 layout: single
 permalink: /sleep-tracker/privacy/
-excerpt: "Privacy policy for SleepTracker iOS and watchOS app. Learn how we handle your sleep data, HealthKit integration, and protect your privacy."
+excerpt: "Privacy policy for Sleep Tracker (SleepRiddle) — how we handle your Apple Health sleep data with on-device analysis, anonymized analytics, and subscriptions."
 ---
 
-# Privacy Policy for SleepTracker
+# Privacy Policy for Sleep Tracker (SleepRiddle)
 
-*Last updated: January 27, 2025*
+**Effective Date:** July 6, 2026
+**Last Updated:** July 6, 2026
 
-## Introduction
+Ravi Shankar ("we," "our," or "us") built Sleep Tracker — distributed on the App Store as **SleepRiddle** ("the app") — as a freemium iOS app. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
-SleepTracker ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our sleep tracking application for iOS and watchOS.
+The app is designed to be private by default. Your sleep and health data are analyzed **on your device** and are never sold or used for advertising.
 
-## Information We Collect
+By using the app, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the app.
 
-### HealthKit Data
-SleepTracker integrates with Apple HealthKit to access your sleep data. We only collect the following types of health data:
+## 1. Information We Collect
 
-- **Sleep Analysis**: Sleep stages, duration, and quality metrics
-- **Sleep Schedule**: Your sleep and wake times
-- **Sleep Changes**: Changes in your sleep patterns
+### Health and Sleep Data (Apple Health / HealthKit)
 
-### App Usage Data
-We collect basic usage analytics to improve the app experience:
-- App launch frequency and duration
-- Feature usage patterns
-- Crash reports and performance metrics
-- Subscription status and purchase history (via RevenueCat)
+With your explicit permission, the app reads sleep and related health data from Apple Health (HealthKit), which may include: sleep stages and duration, heart rate, heart rate variability (HRV), respiratory rate, and blood oxygen.
 
-### Device Information
-- Device type and operating system version
-- App version and build number
-- Language and region settings
+- This data is **read-only** — we read it to show you insights; we do not write to your Health data.
+- All analysis happens **on your device**. Your raw Apple Health data is **not transmitted to us or any third party in identifiable form**, is **never sold**, and is **never used for advertising or marketing**.
+- You control this access and can revoke it at any time in the Apple Health app or iOS Settings.
 
-## How We Use Your Information
+### Information You Provide Directly
 
-### Sleep Data Processing
-- **Local Analysis**: All sleep data is processed locally on your device
-- **Sleep Quality Scoring**: Generate personalized sleep quality scores
-- **Trend Analysis**: Identify patterns in your sleep habits
-- **Recommendations**: Provide personalized sleep improvement suggestions
+- **Support requests:** If you email us for support, we receive your email address and the contents of your message.
+- **Manually logged factors:** Any caffeine, alcohol, meal, medication, or other factors you log are stored **locally on your device** to power your personalized insights.
 
-### App Improvement
-- **Feature Development**: Use usage data to improve app features
-- **Bug Fixes**: Identify and resolve technical issues
-- **Performance Optimization**: Enhance app performance and reliability
+### Information Collected Automatically
 
-### RevenueCat Integration
-- **Subscription Management**: Process in-app purchases and subscriptions
-- **Analytics**: Track subscription metrics and user engagement
-- **A/B Testing**: Optimize pricing and feature availability
+- **Anonymous usage analytics:** We use TelemetryDeck (a privacy-focused analytics service) to understand which features are used and how the app performs. This data is anonymized/hashed and **is not linked to your identity**. It does not include your name, email, or your raw Apple Health data.
+- **Device information:** Anonymous, non-identifying details such as device model, OS version, and app version, for compatibility and debugging.
 
-## Data Storage and Security
+### Information We Do NOT Collect
 
-### Local Storage
-- **Primary Storage**: All sleep data is stored locally on your device
-- **iCloud Sync**: Optional iCloud synchronization for data backup
-- **Encryption**: All data is encrypted using iOS security features
+- We do **not** require an account, name, or sign-in.
+- We do **not** show ads and do **not** use the Advertising Identifier (IDFA) or App Tracking Transparency tracking.
+- We do **not** track you across other apps or websites.
+- We do **not** sell your personal information.
+- Your Apple Health data and your logged factors **stay on your device** (there is no cloud account or server-side copy).
 
-### Cloud Services
-- **RevenueCat**: Subscription and analytics data (no health data)
-- **Crashlytics**: Crash reports and performance metrics
-- **iCloud**: Optional data backup (encrypted)
+## 2. How We Use Your Information
 
-### Data Retention
-- **Health Data**: Stored locally and synced to iCloud (if enabled)
-- **Usage Analytics**: Retained for 12 months
-- **Subscription Data**: Retained as required by RevenueCat
+We use the information we collect to:
 
-## HealthKit Integration
+- Provide the app's core functionality — analyzing your sleep and surfacing personalized insights on your device
+- Understand aggregate, anonymous usage patterns to improve the app
+- Diagnose and fix bugs and performance issues
+- Respond to your support requests
+- Manage subscriptions and purchases (via Apple and RevenueCat)
 
-### Permissions
-SleepTracker requests the following HealthKit permissions:
-- **Read Sleep Analysis**: Access your sleep data
-- **Read Sleep Schedule**: Access your sleep schedule
-- **Write Sleep Analysis**: Save processed sleep insights (optional)
+We do **not** use your information to sell your data, build advertising profiles, or make automated decisions that significantly affect you.
 
-### Data Access
-- **User Control**: You control which health data to share
-- **Granular Permissions**: Grant or revoke permissions at any time
-- **No Third-Party Sharing**: We never share your health data with third parties
+## 3. How We Share Your Information
 
-### Privacy Features
-- **Local Processing**: All sleep analysis happens on your device
-- **No Cloud Storage**: Health data is never uploaded to our servers
-- **User Consent**: Clear permission requests with explanations
+We do not sell, rent, or trade your personal information. We share information only in these limited circumstances:
 
-## Third-Party Services
+- **Service providers:** We use the third-party services listed in Section 4 to operate the app. They access only the data necessary to perform their function. **Your Apple Health data is not shared with any of them.**
+- **Legal requirements:** We may disclose information if required by law, regulation, or valid legal process.
+- **Business transfers:** If this app or business is transferred, anonymized/technical data may transfer as part of that transaction; we will note any material change here.
 
-### RevenueCat
-- **Purpose**: Subscription management and analytics
-- **Data Shared**: App usage, subscription status, purchase history
-- **Privacy**: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+## 4. Third-Party Services
 
-### Apple Services
-- **HealthKit**: Health data access and storage
-- **iCloud**: Optional data backup and sync
-- **App Store**: App distribution and updates
+The app uses the following third-party services:
 
-## Your Rights and Choices
+| Service | Purpose | Data Involved | Privacy Policy |
+|---------|---------|---------------|----------------|
+| Apple (App Store / StoreKit) | App distribution, purchases | Purchase records tied to your Apple ID (handled by Apple) | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
+| RevenueCat | Subscription management | An anonymous app-generated user identifier and subscription status — no name/email | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| TelemetryDeck | Privacy-focused, anonymized usage analytics | Anonymized/hashed usage events and app/device metadata — no personal identity | [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/) |
 
-### Data Access
-- **View Your Data**: Access all data stored in the app
-- **Export Data**: Export your sleep data in standard formats
-- **Delete Data**: Remove your data from the app
+Apple Health (HealthKit) data is **never** sent to any of these services in identifiable form.
 
-### Privacy Controls
-- **HealthKit Permissions**: Manage HealthKit access in iOS Settings
-- **iCloud Sync**: Enable or disable iCloud synchronization
-- **Analytics**: Opt out of usage analytics (in app settings)
+## 5. Data Retention
 
-### Subscription Management
-- **Cancel Subscription**: Manage subscriptions through App Store
-- **Data Deletion**: Request deletion of subscription data
+- **Apple Health data & logged factors:** Stored on your device. Removed when you delete the app or clear the data within the app; revoking Health permission stops further access immediately.
+- **Anonymous usage analytics:** Retained in aggregated/anonymized form per TelemetryDeck's retention practices; not identifiable to you.
+- **Support emails:** Retained only as long as needed to resolve your request.
 
-## Children's Privacy
+## 6. Data Security
 
-SleepTracker is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
+We take commercially reasonable steps to protect your information:
 
-## International Users
+- On-device processing of your sleep and health data, minimizing transmission
+- Encryption in transit (TLS/HTTPS) for the limited anonymous data we do send
+- Reliance on the iOS security model and Apple Health's system-level protections
 
-SleepTracker is operated from the United States. If you are accessing the app from outside the United States, please be aware that your information may be transferred to, stored, and processed in the United States.
+No method of transmission or storage is 100% secure, but the app is designed to keep your most sensitive data on your device.
 
-## Changes to This Policy
+## 7. Your Rights
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by:
-- Posting the new Privacy Policy in the app
-- Updating the "Last updated" date
-- Sending a notification for significant changes
+You can, at any time:
 
-## Contact Us
+- **Access & control your Health data** directly in the Apple Health app
+- **Delete your in-app data** by clearing it in the app or deleting the app
+- **Revoke Health access** in Apple Health or iOS Settings
+- **Contact us** at ravi@rshankar.com for any privacy request; we respond within 30 days
 
-If you have any questions about this Privacy Policy or our privacy practices, please contact us:
+### For European Union / EEA Residents (GDPR)
 
-- **Email**: ravi@rshankar.com
-- **Subject**: SleepTracker Privacy Policy
-- **Response Time**: Within 48 hours
+- **Data controller:** Ravi Shankar, ravi@rshankar.com
+- **Lawful basis:** your consent (Health access, analytics), and performance of a contract (providing the app and subscriptions)
+- **Your rights:** access, rectification, erasure, restriction, objection, data portability, and the right to withdraw consent at any time
+- **Complaints:** you may lodge a complaint with your local Data Protection Authority
+- **Transfers:** where anonymized data is processed outside the EEA by our service providers, appropriate safeguards such as Standard Contractual Clauses apply
 
-## Legal Information
+### For California Residents (CCPA/CPRA)
 
-### Compliance
-- **HIPAA**: Not applicable (not a covered entity)
-- **GDPR**: Compliant with European data protection regulations
-- **CCPA**: Compliant with California privacy regulations
-- **Apple Guidelines**: Follows Apple's HealthKit privacy guidelines
+- **Right to know, delete, and correct** your personal information
+- **We do not sell or share** your personal information for cross-context behavioral advertising
+- **Non-discrimination:** we will not discriminate against you for exercising your rights
 
-### Data Protection
-- **Encryption**: All data encrypted in transit and at rest
-- **Access Controls**: Limited access to user data
-- **Security Audits**: Regular security assessments
-- **Incident Response**: Procedures for data breach response
+Contact ravi@rshankar.com to exercise these rights.
 
----
+### For Residents of India (DPDP Act)
 
-*This privacy policy is effective as of January 27, 2025, and applies to all versions of SleepTracker for iOS and watchOS.*
+- **Data fiduciary:** Ravi Shankar, ravi@rshankar.com
+- **Consent:** we obtain your consent before accessing Health data and before analytics
+- **Your rights:** access, correction, erasure, grievance redressal, and nomination
+- **Grievances:** contact ravi@rshankar.com; you may also approach the Data Protection Board of India
 
-**Related Links:**
-- [SleepTracker App](/sleep-tracker/)
-- [Development Progress](/sleep-tracker/progress/)
-- [Main Privacy Policy](/privacy-policy/) 
+## 8. Children's Privacy
+
+The app is intended for adults and is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact ravi@rshankar.com and we will address it promptly.
+
+## 9. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When we make significant changes, we will update the "Last Updated" date above and post the updated policy at this page. Your continued use of the app after changes are posted constitutes acceptance of the updated policy.
+
+## 10. Contact Us
+
+If you have questions about this Privacy Policy or our data practices:
+
+- **Email:** ravi@rshankar.com
+- **Developer:** Ravi Shankar
+- **Website:** [rshankar.com/sleep-tracker](https://www.rshankar.com/sleep-tracker/)
