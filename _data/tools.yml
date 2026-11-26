@@ -3,10 +3,16 @@
 # Star counts for the rest are intentionally omitted (shown via language tag only).
 - name: "claude-code-apple-skills"
   repo: "rshankras/claude-code-apple-skills"
-  desc: "139 Claude Code skills for Apple platform development — product validation, code generation, App Store optimization, and more."
+  desc: "160+ Claude Code skills (guides) for Apple platform development — product validation, code generation, App Store optimization, and more."
   lang: "Swift"
   url: "https://github.com/rshankras/claude-code-apple-skills"
   featured: true
+
+- name: "Vizhi"
+  repo: "rshankras/vizhi"
+  desc: "Logitech MX Creative Keypad plugins for Claude Code, Codex and ChatGPT — live status, one-press prompts, git actions and offline voice input. Mac and Windows, built through Logitech's developer programme."
+  lang: "C#"
+  url: "https://vizhi.dev"
 
 - name: "SwiftShip"
   repo: "rshankras/SwiftShip"

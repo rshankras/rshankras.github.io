@@ -2,10 +2,10 @@
 title: "Work With Me"
 layout: splash
 permalink: /services/
-description: "Hire an experienced iOS & macOS developer — new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, and 1:1 advisory."
+description: "Hire an experienced iOS & macOS developer — new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, 1:1 advisory and team training."
 keywords: "freelance iOS developer, hire SwiftUI developer, macOS app developer, UIKit to SwiftUI migration, App Store launch help, iOS consultant, iOS mentor"
 og_title: "Work With Me — iOS & macOS App Development | Ravi Shankar"
-og_description: "New apps from idea to App Store, SwiftUI modernization, App Store launch help, and 1:1 iOS advisory. 10 apps shipped, building with Swift since 2014."
+og_description: "New apps from idea to App Store, SwiftUI modernization, App Store launch help, 1:1 advisory and team training. 10+ apps shipped, building with Swift since 2014."
 og_type: "website"
 twitter_card: "summary_large_image"
 twitter_title: "Work With Me — iOS & macOS App Development"
@@ -24,10 +24,10 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
       <a class="svc-btn svc-btn--ghost" href="/portfolio/">See recent work</a>
     </div>
     <div class="svc-stats">
-      <div class="svc-stat"><strong>10</strong><span>apps shipped</span></div>
+      <div class="svc-stat"><strong>10+</strong><span>apps shipped</span></div>
       <div class="svc-stat"><strong>2014</strong><span>building with Swift since</span></div>
       <div class="svc-stat"><strong>11,000+</strong><span>developers taught</span></div>
-      <div class="svc-stat"><strong>AI</strong><span>accelerated delivery</span></div>
+      <div class="svc-stat"><strong>7 yrs</strong><span>leading a production iOS app</span></div>
     </div>
   </section>
 
@@ -35,7 +35,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
   <section class="svc-section">
     <p class="svc-kicker">What I can help you with</p>
     <h2>Four ways we can work together</h2>
-    <p class="svc-sub">10 apps shipped across iPhone, iPad, Mac, and Apple Watch. Building with Swift since 2014 — now AI-accelerated, so projects move faster without cutting corners.</p>
+    <p class="svc-sub">10+ apps shipped across iPhone, Mac, and Apple Watch, and 7 years as lead iOS developer on a production app with 18,500+ installs. Building with Swift since 2014 — now with AI coding tools, checked with tests and code review, so projects move faster without cutting corners.</p>
 
     <div class="svc-grid">
       <div class="svc-card">
@@ -55,8 +55,8 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
       </div>
       <div class="svc-card">
         <div class="svc-card-head"><span class="svc-num">04</span><span class="svc-rule"></span></div>
-        <h3>Advisory &amp; mentorship</h3>
-        <p>1:1 sessions on architecture, code review, debugging, and AI-assisted development workflows for iOS. I've trained 11,000+ students and mentored developers through Upwork.</p>
+        <h3>Advisory, mentoring &amp; team training</h3>
+        <p>1:1 sessions on architecture, code review and debugging, plus hands-on workshops for teams: iOS courses and Claude Code for iOS teams. I've taught 40 new PayPal engineers, a summer cohort at Make School in San Francisco, and 11,000+ students on Udemy.</p>
       </div>
     </div>
   </section>
@@ -148,6 +148,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
           <option>Modernization or rescue of an existing app</option>
           <option>App Store / launch help</option>
           <option>Advisory or mentorship session</option>
+          <option>Team training or workshop</option>
           <option>Something else</option>
         </select>
       </div>

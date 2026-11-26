@@ -85,8 +85,8 @@ exclude:
 author:
   name             : "Ravi Shankar"
   avatar           : "/assets/images/ravi-shankar.jpg"
-  bio              : "Apple Platforms Developer"
-  location         : "App Nomad"
+  bio              : "iOS, macOS & AI tooling"
+  location         : "Chennai, India"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
