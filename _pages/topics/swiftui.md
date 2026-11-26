@@ -1,14 +1,14 @@
 ---
 title: "SwiftUI Tutorials & Guides"
 permalink: /swiftui/
-description: "Learn SwiftUI from first app to advanced patterns — state management, navigation, complete app tutorials, and performance debugging. Free guides."
+description: "Learn SwiftUI from first app to advanced patterns: state management, navigation, complete app tutorials, and performance debugging. Free guides."
 keywords: "SwiftUI tutorial, learn SwiftUI, SwiftUI state management, SwiftUI navigation, SwiftUI app tutorial, SwiftUI for beginners"
 layout: single
 author_profile: true
 toc: false
 ---
 
-A curated path through my SwiftUI articles — from your first view to complete apps and performance work. Everything here is hands-on: real apps, real code, real mistakes included. If you're brand new to iOS development, begin with the [Start Here learning path](/start-here/).
+A curated path through my SwiftUI articles, from your first view to complete apps and performance work. Everything here is hands-on: real apps, real code, real mistakes included. If you're brand new to iOS development, begin with the [Start Here learning path](/start-here/).
 
 ## Getting started
 
@@ -27,10 +27,10 @@ A curated path through my SwiftUI articles — from your first view to complete 
 
 ## Build complete apps
 
-- [A Stopwatch App](/building-a-stopwatch-app-in-swiftui/) — and a follow-up with [lap timing](/a-swiftui-stopwatch-app-with-lap-timing/)
+- [A Stopwatch App](/building-a-stopwatch-app-in-swiftui/), and a follow-up with [lap timing](/a-swiftui-stopwatch-app-with-lap-timing/)
 - [A Note Taking App](/swiftui-tutorial-building-a-note-taking-app/)
 - [A Currency Converter](/swiftui-tutorial-building-a-currency-converter-app/)
-- [A Personal Journal App — MVVM step by step](/building-a-personal-journal-app-a-step-by-step-guide-to-mvvm-in-swiftui/)
+- [A Personal Journal App, MVVM step by step](/building-a-personal-journal-app-a-step-by-step-guide-to-mvvm-in-swiftui/)
 - [A Transaction List App](/building-a-transaction-list-app-in-swiftui/)
 - [A Photo Gallery App](/building-a-simple-photo-gallery-app-in-swiftui/)
 - [A Pixabay Photo Explorer with Alamofire](/building-a-pixabay-photo-explorer-app-with-swiftui-and-alamofire/)

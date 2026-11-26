@@ -1,14 +1,14 @@
 ---
 title: "iOS Debugging & Xcode Guide"
 permalink: /debugging/
-description: "Debug iOS apps like a pro — Xcode debugging techniques, Instruments profiling, crash logs, dSYMs, and fixes for common Xcode errors."
+description: "Debug iOS apps like a pro: Xcode debugging techniques, Instruments profiling, crash logs, dSYMs, and fixes for common Xcode errors."
 keywords: "iOS debugging, Xcode debugging, Xcode Instruments, crash logs dSYM, Xcode errors, debug Swift app, Xcode tips"
 layout: single
 author_profile: true
 toc: false
 ---
 
-Debugging is half the job. This is a curated path through my debugging and Xcode articles — techniques first, then profiling, then fixes for the errors everyone eventually hits.
+Debugging is half the job. This is a curated path through my debugging and Xcode articles: techniques first, then profiling, then fixes for the errors everyone eventually hits.
 
 ## Debugging techniques
 

@@ -20,7 +20,7 @@ twitter_description: "Stop awkward money conversations. Split bills fairly with 
 
 ## Stop Awkward "Who Owes What?" Conversations
 
-Split bills fairly with friends, roommates, and travel buddies—without the spreadsheets, math errors, or awkward money talks.
+Split bills fairly with friends, roommates, and travel buddies, without the spreadsheets, math errors, or awkward money talks.
 
 <a href="https://apps.apple.com/us/app/expense-split-settle-up/id1041478586" class="app-store-link">Download on App Store →</a>
 
@@ -63,7 +63,7 @@ Split bills fairly with friends, roommates, and travel buddies—without the spr
 - Know exactly who owes whom
 
 ### 🔐 Privacy First
-- No account required—start immediately
+- No account required, start immediately
 - Your data stays on your devices
 - Optional iCloud sync across iPhone, iPad, Apple Watch
 - No ads, no tracking, no nonsense
@@ -146,10 +146,10 @@ Organize shared purchases and keep everyone on the same page.
 ### Latest Release
 
 **Lock Custom Splits**
-Lock anyone's share—it stays while you adjust everyone else. No more "wait, change mine back!"
+Lock anyone's share and it stays while you adjust everyone else. No more "wait, change mine back!"
 
 **AI Categorization**
-Type "Uber"—we suggest "Travel". One tap, done.
+Type "Uber" and we suggest "Travel". One tap, done.
 
 **Quick-Add Friends**
 Suggests people from your other groups. No retyping names.
@@ -164,7 +164,7 @@ Plus: Better validation, improved empty states, bug fixes.
 
 ## Premium Features
 
-Unlock advanced features with one simple purchase—no confusing tiers or subscriptions. All features, one price, forever.
+Unlock advanced features with one simple purchase, no confusing tiers or subscriptions. All features, one price, forever.
 
 **What's Included:**
 - CSV export for bookkeeping

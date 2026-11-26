@@ -2,7 +2,7 @@
 title: "Sleep Tracker (SleepRiddle) Privacy Policy"
 layout: single
 permalink: /sleep-tracker/privacy/
-excerpt: "Privacy policy for Sleep Tracker (SleepRiddle) — how we handle your Apple Health sleep data with on-device analysis, anonymized analytics, and subscriptions."
+excerpt: "Privacy policy for Sleep Tracker (SleepRiddle): how we handle your Apple Health sleep data with on-device analysis, anonymized analytics, and subscriptions."
 ---
 
 # Privacy Policy for Sleep Tracker (SleepRiddle)
@@ -10,7 +10,7 @@ excerpt: "Privacy policy for Sleep Tracker (SleepRiddle) — how we handle your 
 **Effective Date:** July 6, 2026
 **Last Updated:** July 6, 2026
 
-Ravi Shankar ("we," "our," or "us") built Sleep Tracker — distributed on the App Store as **SleepRiddle** ("the app") — as a freemium iOS app. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
+Ravi Shankar ("we," "our," or "us") built Sleep Tracker, distributed on the App Store as **SleepRiddle** ("the app"), as a freemium iOS app. This Privacy Policy explains how we collect, use, and protect your information when you use the app.
 
 The app is designed to be private by default. Your sleep and health data are analyzed **on your device** and are never sold or used for advertising.
 
@@ -22,7 +22,7 @@ By using the app, you agree to the practices described in this Privacy Policy. I
 
 With your explicit permission, the app reads sleep and related health data from Apple Health (HealthKit), which may include: sleep stages and duration, heart rate, heart rate variability (HRV), respiratory rate, and blood oxygen.
 
-- This data is **read-only** — we read it to show you insights; we do not write to your Health data.
+- This data is **read-only**: we read it to show you insights; we do not write to your Health data.
 - All analysis happens **on your device**. Your raw Apple Health data is **not transmitted to us or any third party in identifiable form**, is **never sold**, and is **never used for advertising or marketing**.
 - You control this access and can revoke it at any time in the Apple Health app or iOS Settings.
 
@@ -48,7 +48,7 @@ With your explicit permission, the app reads sleep and related health data from 
 
 We use the information we collect to:
 
-- Provide the app's core functionality — analyzing your sleep and surfacing personalized insights on your device
+- Provide the app's core functionality, analyzing your sleep and surfacing personalized insights on your device
 - Understand aggregate, anonymous usage patterns to improve the app
 - Diagnose and fix bugs and performance issues
 - Respond to your support requests
@@ -71,8 +71,8 @@ The app uses the following third-party services:
 | Service | Purpose | Data Involved | Privacy Policy |
 |---------|---------|---------------|----------------|
 | Apple (App Store / StoreKit) | App distribution, purchases | Purchase records tied to your Apple ID (handled by Apple) | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
-| RevenueCat | Subscription management | An anonymous app-generated user identifier and subscription status — no name/email | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
-| TelemetryDeck | Privacy-focused, anonymized usage analytics | Anonymized/hashed usage events and app/device metadata — no personal identity | [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/) |
+| RevenueCat | Subscription management | An anonymous app-generated user identifier and subscription status, no name/email | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| TelemetryDeck | Privacy-focused, anonymized usage analytics | Anonymized/hashed usage events and app/device metadata, no personal identity | [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy/) |
 
 Apple Health (HealthKit) data is **never** sent to any of these services in identifiable form.
 

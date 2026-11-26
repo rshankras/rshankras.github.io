@@ -2,13 +2,13 @@
 title: "Work With Me"
 layout: splash
 permalink: /services/
-description: "Hire an experienced iOS & macOS developer — new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, 1:1 advisory and team training."
+description: "Hire an experienced iOS & macOS developer: new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, 1:1 advisory and team training."
 keywords: "freelance iOS developer, hire SwiftUI developer, macOS app developer, UIKit to SwiftUI migration, App Store launch help, iOS consultant, iOS mentor"
-og_title: "Work With Me — iOS & macOS App Development | Ravi Shankar"
+og_title: "Work With Me: iOS & macOS App Development | Ravi Shankar"
 og_description: "New apps from idea to App Store, SwiftUI modernization, App Store launch help, 1:1 advisory and team training. 10+ apps shipped, building with Swift since 2014."
 og_type: "website"
 twitter_card: "summary_large_image"
-twitter_title: "Work With Me — iOS & macOS App Development"
+twitter_title: "Work With Me: iOS & macOS App Development"
 twitter_description: "New apps from idea to App Store, SwiftUI modernization, App Store launch help, and 1:1 iOS advisory."
 ---
 
@@ -18,7 +18,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
   <section class="svc-hero">
     <div class="svc-pill"><span class="svc-dot"></span>Taking on new projects · replies within a day</div>
     <h1>Work with me</h1>
-    <p class="svc-lede">I take iOS, macOS, and watchOS apps from idea to the App Store — and help teams rescue, modernize, and launch the ones they already have.</p>
+    <p class="svc-lede">I take iOS, macOS, and watchOS apps from idea to the App Store, and help teams rescue, modernize, and launch the ones they already have.</p>
     <div class="svc-hero-actions">
       <a class="svc-btn svc-btn--primary" href="#contact">Start a project →</a>
       <a class="svc-btn svc-btn--ghost" href="/portfolio/">See recent work</a>
@@ -35,18 +35,18 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
   <section class="svc-section">
     <p class="svc-kicker">What I can help you with</p>
     <h2>Four ways we can work together</h2>
-    <p class="svc-sub">10+ apps shipped across iPhone, Mac, and Apple Watch, and 7 years as lead iOS developer on a production app with 18,500+ installs. Building with Swift since 2014 — now with AI coding tools, checked with tests and code review, so projects move faster without cutting corners.</p>
+    <p class="svc-sub">10+ apps shipped across iPhone, Mac, and Apple Watch, and 7 years as lead iOS developer on a production app with 18,500+ installs. Building with Swift since 2014, now with AI coding tools, checked with tests and code review, so projects move faster without cutting corners.</p>
 
     <div class="svc-grid">
       <div class="svc-card">
         <div class="svc-card-head"><span class="svc-num">01</span><span class="svc-rule"></span></div>
-        <h3>New app — idea to App Store</h3>
+        <h3>New app: idea to App Store</h3>
         <p>Product thinking, native SwiftUI development, and App Store submission for iOS, macOS, and watchOS. You bring the idea; I handle everything from architecture to the "Ready for Sale" email.</p>
       </div>
       <div class="svc-card">
         <div class="svc-card-head"><span class="svc-num">02</span><span class="svc-rule"></span></div>
         <h3>Modernization &amp; rescue</h3>
-        <p>UIKit → SwiftUI migration, performance fixes, latest-OS support, and stuck or inherited projects brought back on track — with code quality that keeps future development easy.</p>
+        <p>UIKit → SwiftUI migration, performance fixes, latest-OS support, and stuck or inherited projects brought back on track, with code quality that keeps future development easy.</p>
       </div>
       <div class="svc-card">
         <div class="svc-card-head"><span class="svc-num">03</span><span class="svc-rule"></span></div>
@@ -68,8 +68,8 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
     <ol class="svc-steps">
       <li><strong>Tell me about your project.</strong> A few lines by email or the form below is enough to start.</li>
       <li><strong>Short scoping call.</strong> We clarify goals, constraints, and what "done" looks like. No charge, no obligation.</li>
-      <li><strong>Fixed quote.</strong> You get a clear scope, timeline, and price — fixed-scope for defined projects, retainer for ongoing work, or a single session for advisory.</li>
-      <li><strong>Build, with visibility.</strong> Regular updates and working builds via TestFlight — you see progress, not just promises.</li>
+      <li><strong>Fixed quote.</strong> You get a clear scope, timeline and price: fixed-scope for defined projects, retainer for ongoing work, or a single session for advisory.</li>
+      <li><strong>Build, with visibility.</strong> Regular updates and working builds via TestFlight, so you see progress, not just promises.</li>
       <li><strong>Launch and handover.</strong> App Store submission, clean documented code, and everything you need to continue without me.</li>
     </ol>
   </section>
@@ -88,7 +88,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
       {% endfor %}
       <div class="svc-quote svc-quote--callout">
         <strong>10+</strong>
-        <span>apps shipped to the App Store under my own name — I sell what I build.</span>
+        <span>apps shipped to the App Store under my own name. I sell what I build.</span>
         <a href="/portfolio/">See the portfolio →</a>
       </div>
     </div>
@@ -101,15 +101,15 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
     <div class="svc-faq">
       <details>
         <summary>Where are you based, and do you work remotely?</summary>
-        <p>I'm based in Chennai, India, and work remotely with clients worldwide. I've delivered projects for clients across time zones — async updates plus scheduled calls keep everything moving.</p>
+        <p>I'm based in Chennai, India, and work remotely with clients worldwide. I've delivered projects for clients across time zones. Async updates plus scheduled calls keep everything moving.</p>
       </details>
       <details>
         <summary>What technologies do you use?</summary>
-        <p>Native Apple development: Swift and SwiftUI first, with deep UIKit experience for existing codebases. I use AI-assisted workflows (I build open-source Claude Code tooling for Apple developers) to move faster — but every line that ships is reviewed, tested, and maintainable.</p>
+        <p>Native Apple development: Swift and SwiftUI first, with deep UIKit experience for existing codebases. I use AI-assisted workflows (I build open-source Claude Code tooling for Apple developers) to move faster, but every line that ships is reviewed, tested, and maintainable.</p>
       </details>
       <details>
         <summary>Who owns the code?</summary>
-        <p>You do — full rights to all code and assets on final payment. NDAs are fine.</p>
+        <p>You do: full rights to all code and assets on final payment. NDAs are fine.</p>
       </details>
       <details>
         <summary>What does it cost?</summary>
@@ -117,7 +117,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
       </details>
       <details>
         <summary>Can you take over an existing app?</summary>
-        <p>Yes — inherited codebases, half-finished projects, and apps whose original developer moved on are a specialty. I'll audit first, then give you an honest assessment before we commit.</p>
+        <p>Yes, inherited codebases, half-finished projects, and apps whose original developer moved on are a specialty. I'll audit first, then give you an honest assessment before we commit.</p>
       </details>
     </div>
   </section>
@@ -144,7 +144,7 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
       <div class="cf-row">
         <label for="cf-type">What do you need?</label>
         <select id="cf-type" name="type">
-          <option>New app — idea to App Store</option>
+          <option>New app: idea to App Store</option>
           <option>Modernization or rescue of an existing app</option>
           <option>App Store / launch help</option>
           <option>Advisory or mentorship session</option>
@@ -178,9 +178,9 @@ twitter_description: "New apps from idea to App Store, SwiftUI modernization, Ap
         </div>
       </div>
       <button type="submit" class="svc-btn svc-btn--primary">Send inquiry →</button>
-      <p class="cf-success" id="cf-success" hidden>Thanks — your inquiry is on its way. I'll reply within a day.</p>
+      <p class="cf-success" id="cf-success" hidden>Thanks, your inquiry is on its way. I'll reply within a day.</p>
       <p class="cf-error" id="cf-error" hidden>Something went wrong sending the form. Please email me directly at <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a>.</p>
-      <p class="cf-note">Goes straight to my inbox — I usually reply within a day. Prefer email? <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a></p>
+      <p class="cf-note">Goes straight to my inbox, and I usually reply within a day. Prefer email? <a href="mailto:ravi@rshankar.com?subject=Project%20inquiry%20from%20rshankar.com">ravi@rshankar.com</a></p>
     </form>
   </section>
 
@@ -217,7 +217,7 @@ document.getElementById('project-form').addEventListener('submit', function (e) 
   "@type": "Service",
   "serviceType": "iOS and macOS app development",
   "name": "iOS & macOS App Development Services",
-  "description": "Native app development for Apple platforms — new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, and 1:1 advisory.",
+  "description": "Native app development for Apple platforms: new apps from idea to App Store, UIKit to SwiftUI modernization, App Store launch help, and 1:1 advisory.",
   "provider": {
     "@type": "Person",
     "name": "Ravi Shankar",

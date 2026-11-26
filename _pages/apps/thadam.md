@@ -21,7 +21,7 @@ twitter_description: "Your pocket guide to Chennai's suburban railway network. I
 ## The Story Behind Thadam
 
 ### What's in a Name?
-*Thadam* (தடம்) is a Tamil word meaning "track" or "path" — a fitting name for an app that helps you navigate Chennai's suburban railway network.
+*Thadam* (தடம்) is a Tamil word meaning "track" or "path", a fitting name for an app that helps you navigate Chennai's suburban railway network.
 
 ### The Inspiration
 This app draws inspiration from the classic 1990s railway station boards that many Chennai commuters remember fondly. The nostalgic blackboard aesthetic with chalk-style text brings back memories of simpler times while providing modern functionality.
@@ -40,7 +40,7 @@ Thadam has been completely rebuilt from the ground up using SwiftUI, replacing a
 
 ### ⏱️ Next Train Countdown
 - Real-time countdown to the next train departure
-- See exactly how much time you have — no more rushing unnecessarily
+- See exactly how much time you have, no more rushing unnecessarily
 - Works for both directions on any route
 
 ### 📅 Complete Timetables
@@ -124,7 +124,7 @@ Thadam covers all major Chennai suburban railway routes:
 
 - Built with **SwiftUI** for a native Apple experience
 - Optimized for **iOS 17.0** and later
-- **Offline-first** architecture — all data stored locally
+- **Offline-first** architecture, all data stored locally
 - **TelemetryDeck** for privacy-focused analytics (no personal data)
 - Regular updates based on user feedback
 
@@ -144,6 +144,6 @@ We respect your privacy while ensuring app quality:
 
 ---
 
-*தடம் — Your local train companion.*
+*தடம்: your local train companion.*
 
 *Built with love in Chennai for Chennai's commuters.*

@@ -1,7 +1,7 @@
 ---
 title: "About Ravi Shankar"
 permalink: /about/
-description: "Ravi Shankar — iOS and macOS developer in Chennai. 7 years as lead iOS developer on a production app, 10+ of my own apps, open-source Claude Code tools for Apple developers, and 11,000+ students taught."
+description: "Ravi Shankar, iOS and macOS developer in Chennai. 7 years as lead iOS developer on a production app, 10+ of my own apps, open-source Claude Code tools for Apple developers, and 11,000+ students taught."
 keywords: "Ravi Shankar, iOS developer, macOS developer, SwiftUI, Claude Code skills, AI-assisted development, Apple platforms developer, iOS trainer, Chennai developer"
 ---
 
@@ -28,12 +28,12 @@ Teaching has run through my whole career:
 
 ### Apps for Apple platforms
 
-I focus on apps that solve practical problems — usually ones I have myself. A few I'm proud of:
+I focus on apps that solve practical problems, usually ones I have myself. A few I'm proud of:
 
-* **[ChantFlow](/chantflow/)** — a mantra-counting companion for Apple Watch
-* **[Ease Eyes](/ease-eyes/)** — a macOS menu-bar timer for healthy screen breaks
-* **[Expense Split](/expense-split/)** — split and settle shared expenses, shared between people through iCloud
-* **[Magizh](/magizh)** — a mindfulness companion for iPhone and Apple Watch
+* **[ChantFlow](/chantflow/)**: a mantra-counting companion for Apple Watch
+* **[Ease Eyes](/ease-eyes/)**: a macOS menu-bar timer for healthy screen breaks
+* **[Expense Split](/expense-split/)**: split and settle shared expenses, shared between people through iCloud
+* **[Magizh](/magizh)**: a mindfulness companion for iPhone and Apple Watch
 
 See the [full portfolio →](/portfolio/)
 
@@ -41,26 +41,26 @@ See the [full portfolio →](/portfolio/)
 
 I use Claude Code every day, and I build the tooling that makes it work well on real Apple projects:
 
-* **[claude-code-apple-skills](https://github.com/rshankras/claude-code-apple-skills)** — 160+ Claude Code guides for Apple platform development (900+ GitHub stars)
-* **[SwiftShip](https://github.com/rshankras/SwiftShip)** — spec-driven iOS/macOS development for Claude Code
-* **[Vizhi](https://vizhi.dev)** — physical controls for AI coding tools on the Logitech MX Creative Keypad
-* **[asc-metadata-mcp](https://github.com/rshankras/asc-metadata-mcp)** — App Store Connect, controlled from Claude Code
-* **[indie-app-autopilot](https://github.com/rshankras/indie-app-autopilot)** — an AI pipeline from GitHub issue to App Store
+* **[claude-code-apple-skills](https://github.com/rshankras/claude-code-apple-skills)**: 160+ Claude Code guides for Apple platform development (900+ GitHub stars)
+* **[SwiftShip](https://github.com/rshankras/SwiftShip)**: spec-driven iOS/macOS development for Claude Code
+* **[Vizhi](https://vizhi.dev)**: physical controls for AI coding tools on the Logitech MX Creative Keypad
+* **[asc-metadata-mcp](https://github.com/rshankras/asc-metadata-mcp)**: App Store Connect, controlled from Claude Code
+* **[indie-app-autopilot](https://github.com/rshankras/indie-app-autopilot)**: an AI pipeline from GitHub issue to App Store
 
 Everything's on [GitHub →](https://github.com/rshankras)
 
 ## Work with me
 
-I take on a small number of projects at a time — building new apps, modernizing existing ones (UIKit → SwiftUI, performance, latest-OS support), App Store help, and training for teams: iOS courses and Claude Code for iOS teams.
+I take on a small number of projects at a time: building new apps, modernizing existing ones (UIKit → SwiftUI, performance, latest-OS support), App Store help, and training for teams (iOS courses and Claude Code for iOS teams).
 
 <a class="svc-btn svc-btn--primary" href="/services/">See how we can work together →</a>
 
 ## Why I do this
 
-I believe in continuous learning and the joy of creating. Sharing what I learn — through this blog, the open-source tools I build, and the apps I ship — is a big part of what keeps me motivated.
+I believe in continuous learning and the joy of creating. Sharing what I learn, through this blog, the open-source tools I build, and the apps I ship, is a big part of what keeps me motivated.
 
 > "In learning you will teach, and in teaching you will learn."
-> — Phil Collins
+> Phil Collins
 
 ## Connect
 

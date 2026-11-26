@@ -1,18 +1,18 @@
 ---
 title: "Swift Language Guide"
 permalink: /swift/
-description: "Master the Swift language — closures, structs vs classes, protocols, generics, memory management, and error handling. A curated guide through free tutorials."
+description: "Master the Swift language: closures, structs vs classes, protocols, generics, memory management, and error handling. A curated guide through free tutorials."
 keywords: "Swift tutorial, learn Swift, Swift closures, Swift structs vs classes, protocol oriented programming, Swift memory management, Swift for beginners"
 layout: single
 author_profile: true
 toc: false
 ---
 
-A curated path through my Swift language articles — fundamentals first, then the concepts that separate working code from good code. New to iOS entirely? The [Start Here learning path](/start-here/) gives you the bigger picture.
+A curated path through my Swift language articles: fundamentals first, then the concepts that separate working code from good code. New to iOS entirely? The [Start Here learning path](/start-here/) gives you the bigger picture.
 
 ## Fundamentals
 
-- [Swift Basics — Beginners Tutorial](/swift-quick-reference/)
+- [Swift Basics, Beginners Tutorial](/swift-quick-reference/)
 - [Class and Struct in Swift](/difference-between-struct-and-class-in-swift/)
 - [Understanding Closures in Swift](/understanding-closures-in-swift/)
 - [Swift Enums](/enum-in-swift/) and [Swift Tuples](/tuples-in-swift/)
@@ -44,4 +44,4 @@ A curated path through my Swift language articles — fundamentals first, then t
 
 **More topics:** [SwiftUI tutorials](/swiftui/) · [Debugging & Xcode](/debugging/) · [All articles](/articles/)
 
-Need help with a Swift codebase — new build, rescue, or review? [See how we can work together →](/services/)
+Need help with a Swift codebase (new build, rescue or review)? [See how we can work together →](/services/)

@@ -20,7 +20,7 @@ twitter_description: "AI-powered monitoring of NSE/BSE corporate filings with le
 
 ## Monitor Indian Stock Market Events, Intelligently
 
-AlertWala watches NSE and BSE corporate filings in real-time, uses AI to identify high-quality trading opportunities, checks if news is already priced in, and helps you track performance—all from your menu bar.
+AlertWala watches NSE and BSE corporate filings in real-time, uses AI to identify high-quality trading opportunities, checks if news is already priced in, and helps you track performance, all from your menu bar.
 
 ## What It Monitors
 

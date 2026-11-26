@@ -45,7 +45,7 @@ Ease Eyes runs quietly in your menu bar, intelligently reminding you to rest you
 - Follow the scientifically-backed 20-20-20 rule
 
 ### Smart Break Management
-- **Short Breaks**: Gentle notifications every 20 minutes—minimal disruption
+- **Short Breaks**: Gentle notifications every 20 minutes, minimal disruption
 - **Long Breaks**: Choose notification or full-screen window every 60 minutes
 - Configure long break frequency (every 2, 3, or 4 short breaks)
 - Manual pause/resume for uninterrupted focus time
@@ -73,7 +73,7 @@ Ease Eyes runs quietly in your menu bar, intelligently reminding you to rest you
 - Quick access to all features
 - See time until next break at a glance
 - Today's screen time always visible
-- Minimal footprint—never clutters your workspace
+- Minimal footprint, never clutters your workspace
 
 ### Works the Way You Do
 - **Idle Detection**: Automatically resets when you're away from your Mac
@@ -159,12 +159,12 @@ This simple practice helps:
 
 ### Honest Metrics
 Unlike apps that guess at your behavior, Ease Eyes is transparent:
-- **Short Breaks**: Shows "reminders sent"—we can't track if you looked away
-- **Long Breaks**: Shows "taken/skipped"—measurable via break window behavior
+- **Short Breaks**: Shows "reminders sent" (we can't track if you looked away)
+- **Long Breaks**: Shows "taken/skipped", measured from how you use the break window
 - No false precision or inflated statistics
 
 ### Truly Non-Intrusive
-- Short breaks are just notifications—no forced interruptions
+- Short breaks are just notifications, no forced interruptions
 - Long breaks are optional full-screen or notification-based
 - Meeting detection prevents embarrassing mid-call pop-ups
 - Idle detection knows when you're already away
@@ -201,4 +201,4 @@ Have questions or feedback? I'd love to hear from you.
 
 ---
 
-*Take care of your eyes—they're the only pair you have.*
+*Take care of your eyes. They're the only pair you have.*

@@ -20,7 +20,7 @@ twitter_description: "Track where your time goes and block distractions during f
 
 ## Know Where Your Time Really Goes
 
-Ever wonder where your workday went? Honest Hours automatically tracks your computer activities and helps you stay focused by blocking distracting apps—all while keeping your data 100% private on your Mac.
+Ever wonder where your workday went? Honest Hours automatically tracks your computer activities and helps you stay focused by blocking distracting apps, all while keeping your data 100% private on your Mac.
 
 <a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
 
@@ -33,7 +33,7 @@ Ever wonder where your workday went? Honest Hours automatically tracks your comp
 - Most productivity apps send your data to the cloud
 
 ### The Solution
-Honest Hours runs quietly in your menu bar, automatically tracking where your time goes. When you need to focus, it blocks distracting apps and websites. All data stays on your Mac—no accounts, no cloud, no tracking.
+Honest Hours runs quietly in your menu bar, automatically tracking where your time goes. When you need to focus, it blocks distracting apps and websites. All data stays on your Mac, no accounts, no cloud, no tracking.
 
 ## Features
 
@@ -42,7 +42,7 @@ Honest Hours runs quietly in your menu bar, automatically tracking where your ti
 - Tracks Safari, Chrome, and Brave browser tabs
 - Shows visit frequency (how many times you switched to each app/site)
 - Idle detection pauses tracking after 5 minutes of inactivity
-- No manual input required—just work naturally
+- No manual input required, just work naturally
 
 ### Focus Mode with App Blocking
 - Block distracting apps and websites during focus sessions
@@ -63,7 +63,7 @@ Honest Hours runs quietly in your menu bar, automatically tracking where your ti
 - Top 3 activities always visible
 - Start focus sessions with one click
 - Pause tracking when needed
-- Minimal footprint—never clutters your workspace
+- Minimal footprint, never clutters your workspace
 
 ### Smart Focus Insights
 - Track completed vs abandoned sessions
@@ -176,7 +176,7 @@ If you've ever lost an hour to Twitter without realizing it, Honest Hours is for
 
 <a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
 
-Distributed directly—no App Store restrictions. Download, drag to Applications, and start understanding your time.
+Distributed directly, no App Store restrictions. Download, drag to Applications, and start understanding your time.
 
 ### Why Direct Distribution?
 

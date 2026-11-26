@@ -1,12 +1,12 @@
 ---
-title: "Kindred Coach — Technical Documentation"
+title: "Kindred Coach: Technical Documentation"
 permalink: /kindred-technical/
 layout: single
 author_profile: false
 sitemap: false
 ---
 
-> **100% on-device AI coaching** — built with Swift, SwiftUI, SwiftData, Apple Foundation Models, and RevenueCat. No servers, no external APIs, no cloud. 145 automated tests.
+> **100% on-device AI coaching**: built with Swift, SwiftUI, SwiftData, Apple Foundation Models, and RevenueCat. No servers, no external APIs, no cloud. 145 automated tests.
 
 ---
 
@@ -21,13 +21,13 @@ sitemap: false
 | **Purchases** | RevenueCat SDK |
 | **Platform** | iOS 26+, iPhone only |
 | **Tests** | 145 (unit tests + AI integration tests + full user-flow tests) |
-| **External dependencies** | RevenueCat only — everything else is built-in Apple technology |
+| **External dependencies** | RevenueCat only. Everything else is built-in Apple technology |
 
 ---
 
 ## Architecture
 
-Kindred follows the MVVM pattern (Model-View-ViewModel) — a standard way to separate the user interface from the business logic. Shared state is passed through the app using SwiftUI's environment system.
+Kindred follows the MVVM pattern (Model-View-ViewModel), a standard way to separate the user interface from the business logic. Shared state is passed through the app using SwiftUI's environment system.
 
 ### How a Conversation Works
 
@@ -91,7 +91,7 @@ For structured coaches, the AI receives a layered prompt built from:
 | 6 | Example conversations | Sample exchanges showing how the coach should respond |
 | 7 | Reminders | "Always end with an actionable next step" |
 
-### Coach Memory — How Coaches Remember You
+### Coach Memory: How Coaches Remember You
 
 Each coach builds up memory over time:
 
@@ -119,15 +119,15 @@ The on-device AI can only process about 4,096 tokens (roughly 3,000 words) at a 
 |----------|-------------|
 | **Automatic session rotation** | After 24 messages, the app proactively starts a fresh AI session before hitting the limit |
 | **Conversation summary** | Before rotating, the last 20 messages are summarized and carried into the new session for continuity |
-| **Error recovery** | If the AI signals it's run out of space, the app automatically rotates and retries — the user doesn't see an error |
+| **Error recovery** | If the AI signals it's run out of space, the app automatically rotates and retries, so the user doesn't see an error |
 | **Response filtering** | Sometimes the AI accidentally includes its own instructions in a response. The app catches and removes this in real-time |
 
 ### Custom Coach Creation
 
 | Mode | How it works | AI approach |
 |------|-------------|-------------|
-| **Manual** | User writes a name and personality description in their own words | Simple instructions — the app wraps it with coaching structure |
-| **AI-assisted** | User describes the kind of coach they want, and the AI generates a complete coaching template with framework, rules, examples, and starter questions | Structured template — full coaching methodology |
+| **Manual** | User writes a name and personality description in their own words | Simple instructions. The app wraps them in a coaching structure |
+| **AI-assisted** | User describes the kind of coach they want, and the AI generates a complete coaching template with framework, rules, examples, and starter questions | Structured template, full coaching methodology |
 
 ---
 
@@ -148,7 +148,7 @@ init() {
 
 | | |
 |---|---|
-| **Entitlement** | "Kindred Coach Pro" — unlocks all Pro features |
+| **Entitlement** | "Kindred Coach Pro" (unlocks all Pro features) |
 | **Product** | One-time lifetime purchase at $9.99 |
 | **Package type** | Lifetime (not a subscription) |
 
@@ -189,8 +189,8 @@ The upgrade screen is shown when users try to access Pro features:
 | Unlimited conversations | Yes | Yes |
 | Session insights | Yes | Yes |
 | Coach memory | Yes | Yes |
-| Create custom coaches | — | Yes |
-| Import shared coaches | — | Yes |
+| Create custom coaches | No | Yes |
+| Import shared coaches | No | Yes |
 
 ---
 
@@ -198,9 +198,9 @@ The upgrade screen is shown when users try to access Pro features:
 
 | Aspect | How it works |
 |--------|-------------|
-| **AI processing** | Runs entirely on the device — no data sent to any server |
-| **Data storage** | Everything stored locally on the phone — no cloud sync |
-| **Accounts** | None required — no sign-up, no login |
+| **AI processing** | Runs entirely on the device. No data is sent to any server |
+| **Data storage** | Everything stored locally on the phone. No cloud sync |
+| **Accounts** | None required: no sign-up, no login |
 | **Analytics** | Only RevenueCat's minimal purchase tracking |
 | **Offline use** | Fully functional offline (after the initial product catalog loads) |
 
@@ -208,7 +208,7 @@ The upgrade screen is shown when users try to access Pro features:
 
 ## Testing the AI
 
-> **145 tests** — ~125 unit tests + ~20 real AI tests covering 9 different scenarios
+> **145 tests**: ~125 unit tests + ~20 real AI tests covering 9 different scenarios
 
 Testing on-device AI is one of the hardest parts of this project. The AI isn't always available (it requires specific hardware), responses are different every time, and the conversation limit is small. We built a two-layer testing approach to handle this.
 
@@ -220,7 +220,7 @@ Apple's on-device AI requires Apple Intelligence hardware. You can't fully simul
 
 | Layer | What it tests | How it runs |
 |-------|--------------|-------------|
-| **Simulated AI** | Everything around the AI — chat flow, error handling, screen states, data saving | Always runs, always passes — uses a fake AI stand-in |
+| **Simulated AI** | Everything around the AI: chat flow, error handling, screen states, data saving | Always runs and passes, using a fake AI stand-in |
 | **Real AI** | Actual conversations with the on-device model, structured output, multi-turn coaching | Skips automatically if the AI hardware isn't available |
 
 ### Layer 1: Tests with Simulated AI
@@ -236,7 +236,7 @@ The chat system is designed so we can swap in a fake AI service during testing. 
 
 ### Layer 2: Tests with Real AI
 
-These tests run actual conversations with Apple's on-device model. Each test checks if the AI is available first — if not, it skips instead of failing:
+These tests run actual conversations with Apple's on-device model. Each test checks if the AI is available first. If not, it skips instead of failing:
 
 ```swift
 @Test(.timeLimit(.minutes(5)))
@@ -265,9 +265,9 @@ func prebuiltCoachConversation() async throws {
 
 | What we do | Why it matters |
 |-----------|---------------|
-| **Skip tests when AI is unavailable** | Tests skip cleanly instead of failing — the full test suite runs on any machine |
-| **Poll for completion instead of waiting a fixed time** | AI generation speed varies — we check every 200ms instead of guessing how long to wait |
-| **Keep conversations short (max 5 turns)** | The AI's memory limit is small — long test conversations would overflow and hide the real thing being tested |
+| **Skip tests when AI is unavailable** | Tests skip cleanly instead of failing, so the full test suite runs on any machine |
+| **Poll for completion instead of waiting a fixed time** | AI generation speed varies, so we check every 200ms instead of guessing how long to wait |
+| **Keep conversations short (max 5 turns)** | The AI's memory limit is small, and long test conversations would overflow and hide the real thing being tested |
 | **Verify the AI respects constraints** | We check that it generates the right number of items (e.g., 3-5 framework steps, 1-3 patterns) |
-| **Test both coach types separately** | Structured coaches and simple text coaches produce different AI prompts — both need validation |
+| **Test both coach types separately** | Structured coaches and simple text coaches produce different AI prompts, and both need validation |
 | **Use a temporary database for each test** | Each test gets its own fresh database so tests don't interfere with each other |

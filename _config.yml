@@ -43,9 +43,9 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 permalink: /:title/
 
-# Pagination: disabled — the full post archive lives at /articles/ (grouped by year).
+# Pagination: disabled, the full post archive lives at /articles/ (grouped by year).
 # (jekyll-paginate v1, bundled by github-pages, only paginates a root index.html
-#  reliably, not a subfolder — so /articles/ uses a year-grouped Liquid archive instead.)
+#  reliably, not a subfolder, so /articles/ uses a year-grouped Liquid archive instead.)
 
 # Plugins
 plugins:

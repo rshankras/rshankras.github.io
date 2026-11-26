@@ -19,7 +19,7 @@ header:
 This app was born from a profound quote by Kurt Vonnegut in his collection "If This Isn't Nice, What Is?":
 
 > "And I urge you to please notice when you are happy, and exclaim or murmur or think at some point, 'If this isn't nice, I don't know what is.'" 
-> — Kurt Vonnegut
+> Kurt Vonnegut
 
 In our fast-paced world, we often forget to pause and acknowledge the moments that bring us joy. Magizh is designed to help you capture and cherish these fleeting instances of happiness.
 

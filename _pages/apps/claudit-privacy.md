@@ -67,7 +67,7 @@ Claudit can optionally fetch quota information from the Anthropic API to display
 If you choose to enable quota tracking:
 - Your API key is stored securely in macOS Keychain (never in plain text)
 - Only the Anthropic quota endpoint is called (`https://api.anthropic.com/v1/usage`)
-- No usage data is sent to Anthropic—only a request for your current quota status
+- No usage data is sent to Anthropic, only a request for your current quota status
 - Quota data is fetched every 5 minutes and displayed in the menu bar
 - You can remove your API key anytime in Settings
 

@@ -8,7 +8,7 @@ toc_sticky: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-description: "A native macOS menu bar app that tracks your Claude Code usage and calculates API costs in real-time. Monitor tokens, quotas, and spending with beautiful analytics—all while keeping your data private on your Mac."
+description: "A native macOS menu bar app that tracks your Claude Code usage and calculates API costs in real-time. Monitor tokens, quotas, and spending with beautiful analytics, all while keeping your data private on your Mac."
 keywords: "Claude Code, API cost tracker, macOS menu bar app, Claude AI usage monitoring, API tracking, cost calculator, developer tools, productivity, privacy-first, token tracking, quota monitoring"
 og_title: "Claudit - Track Claude Code Usage Costs for macOS"
 og_description: "Monitor Claude Code API usage and costs in real-time from your menu bar. Beautiful analytics, quota tracking, and privacy-first design."
@@ -20,7 +20,7 @@ twitter_description: "Track Claude Code API usage and costs in real-time. All da
 
 ## Track Your Claude Code Spending, Effortlessly
 
-Never wonder about your API costs again. Claudit runs quietly in your menu bar, automatically tracking your Claude Code usage and calculating costs in real-time—all while keeping your data 100% private on your Mac.
+Never wonder about your API costs again. Claudit runs quietly in your menu bar, automatically tracking your Claude Code usage and calculating costs in real-time, all while keeping your data 100% private on your Mac.
 
 <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
 
@@ -36,7 +36,7 @@ Never wonder about your API costs again. Claudit runs quietly in your menu bar, 
 - Can't identify which projects are costing the most
 
 ### The Solution
-Claudit monitors your Claude Code activity, tracks tokens used, and calculates costs automatically. See your spending at a glance from the menu bar, understand which projects cost most, and optimize your usage—all without leaving your editor.
+Claudit monitors your Claude Code activity, tracks tokens used, and calculates costs automatically. See your spending at a glance from the menu bar, understand which projects cost most, and optimize your usage, all without leaving your editor.
 
 ## Features
 
@@ -140,7 +140,7 @@ Optimize your Claude Code usage by identifying expensive patterns, leveraging ca
 
 Your data belongs to you and stays on your Mac.
 
-- **All Local**: Everything stored only on your Mac—nothing in the cloud
+- **All Local**: Everything stored only on your Mac, nothing in the cloud
 - **No Telemetry**: No usage tracking, analytics, or data collection
 - **No Accounts**: No sign-up required, no cloud sync
 - **Secure**: Optional credentials stored in macOS Keychain
@@ -154,13 +154,13 @@ Your data belongs to you and stays on your Mac.
 3. Allow Keychain access when prompted (one-time)
 4. Start tracking your Claude Code costs
 
-Claudit automatically detects your Claude Code usage—no configuration required.
+Claudit automatically detects your Claude Code usage, no configuration required.
 
 ## Download
 
 <a href="https://rshankar.com/downloads/claudit" class="app-store-link">Download Direct →</a>
 
-Distributed directly—no App Store restrictions. Download, drag to Applications, and start tracking your Claude Code costs immediately.
+Distributed directly, no App Store restrictions. Download, drag to Applications, and start tracking your Claude Code costs immediately.
 
 **Requirements:** macOS 14.0 (Sonoma) or later, Claude Code installed
 

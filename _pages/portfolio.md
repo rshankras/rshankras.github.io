@@ -114,7 +114,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       <img src="/assets/images/app-icons/alertwala-icon.png" alt="AlertWala - macOS menu bar app for monitoring Indian stock market corporate filings" title="AlertWala - Stock Market Alert Monitor">
     </div>
     <div class="text">
-      <p>Monitor NSE/BSE corporate filings with AI-powered analysis. Track buybacks, bulk deals, promoter activity, and M&A events with intelligent leak detection and paper trading capabilities. Features real-time alerts, backtesting, and performance analytics—all from your menu bar.</p>
+      <p>Monitor NSE/BSE corporate filings with AI-powered analysis. Track buybacks, bulk deals, promoter activity, and M&A events with intelligent leak detection and paper trading capabilities. Features real-time alerts, backtesting, and performance analytics, all from your menu bar.</p>
       <a href="/alertwala/" class="learn-more-link">Learn More →</a>
     </div>
   </div>
@@ -127,7 +127,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       <img src="/assets/images/app-icons/claudit-icon.png" alt="Claudit - macOS menu bar app for tracking Claude Code costs and usage" title="Claudit - Claude Code Cost Tracker">
     </div>
     <div class="text">
-      <p>Track your Claude Code API usage and costs in real-time from your menu bar. Monitor tokens, quotas, and spending with beautiful analytics. Features project insights, cache efficiency tracking, and quota management—all while keeping your data private on your Mac.</p>
+      <p>Track your Claude Code API usage and costs in real-time from your menu bar. Monitor tokens, quotas, and spending with beautiful analytics. Features project insights, cache efficiency tracking, and quota management, all while keeping your data private on your Mac.</p>
       <a href="/claudit/" class="learn-more-link">Learn More →</a>
       <br/>
       <a href="https://github.com/rshankras/Claudit" class="app-store-link">View on GitHub →</a>
@@ -142,7 +142,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       <img src="/assets/images/app-icons/eye-rest-icon.png" alt="Eye Rest Timer - macOS menu bar app for eye health using the 20-20-20 rule" title="Ease Eyes - Eye Rest Timer">
     </div>
     <div class="text">
-      <p>Protect your eyes with smart break reminders based on the proven 20-20-20 rule. Features meeting detection, screen time tracking, and interactive analytics—all from your menu bar.</p>
+      <p>Protect your eyes with smart break reminders based on the proven 20-20-20 rule. Features meeting detection, screen time tracking, and interactive analytics, all from your menu bar.</p>
       <a href="/ease-eyes/" class="learn-more-link">Learn More →</a>
       <br/>
       <a href="https://apps.apple.com/us/app/eye-rest-timer-ease-eyes/id6475638039" class="app-store-link">Download on App Store →</a>
@@ -157,7 +157,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
       <img src="/assets/images/app-icons/time-tracker-icon.png" alt="Honest Hours - Privacy-first time tracker and focus mode app for macOS" title="Honest Hours - Time Tracker">
     </div>
     <div class="text">
-      <p>Know where your time really goes. Automatic time tracking, focus mode with app blocking, and insights into your work patterns—all while keeping your data 100% private on your Mac.</p>
+      <p>Know where your time really goes. Automatic time tracking, focus mode with app blocking, and insights into your work patterns, all while keeping your data 100% private on your Mac.</p>
       <a href="/honest-hours/" class="learn-more-link">Learn More →</a>
       <br/>
       <a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
