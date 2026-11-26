@@ -21,7 +21,7 @@ toc: true
 toc_sticky: true
 ---
 
-I've spent years building iOS apps in Xcode. Compiling, debugging, wrestling with provisioning profiles, waiting for App Store reviews. It's a process I know well—and honestly, it's slow.
+I've spent years building iOS apps in Xcode. Compiling, debugging, wrestling with provisioning profiles, waiting for App Store reviews. It's a process I know well, and honestly, it's slow.
 
 Last week, I built an AI image generator in 3 minutes. Not 3 hours. Not 3 days. Three minutes.
 
@@ -33,7 +33,7 @@ If you're an iOS developer curious about AI, or an indie maker who wants to buil
 
 Here's the honest truth: I was skeptical.
 
-I've built dozens of iOS apps. I know SwiftUI, UIKit, Core Data, CloudKit. I understand the rhythm of native development—design, code, test, debug, repeat. It's methodical. It's structured. It works.
+I've built dozens of iOS apps. I know SwiftUI, UIKit, Core Data, CloudKit. I understand the rhythm of native development: design, code, test, debug, repeat. It's methodical. It's structured. It works.
 
 But it's also *slow*.
 
@@ -43,7 +43,7 @@ That's where Google AI Studio caught my attention.
 
 The promise: **Prompts are becoming code. If you can think clearly, you can build quickly.**
 
-As someone who's been thinking about adding AI features to my apps—and procrastinating because of the complexity—I decided to give it a shot.
+As someone who's been thinking about adding AI features to my apps (and procrastinating because of the complexity), I decided to give it a shot.
 
 ## What Is Google AI Studio?
 
@@ -58,7 +58,7 @@ You describe what you want your app to do, and AI Studio generates a working web
 - **Built-in code editor**: Fix code or add features directly in the browser
 - **Deployment options**: Download code, publish to GitHub, deploy to Cloud Run, or share your work instantly
 
-It's designed for rapid iteration. Build, test, tweak, deploy—all in one place.
+It's designed for rapid iteration. Build, test, tweak, deploy, all in one place.
 
 ## My First Project: Image Generator in 3 Minutes
 
@@ -140,7 +140,7 @@ Problem solved in 10 seconds.
 
 **Comparison to iOS development:**
 
-In Xcode, I rely heavily on Git for this. But Git requires discipline—commit often, write good messages, manage branches. Here, it's automatic and frictionless.
+In Xcode, I rely heavily on Git for this. But Git requires discipline: commit often, write good messages, manage branches. Here, it's automatic and frictionless.
 
 ## The Code Editor: When You Need More Control
 
@@ -163,7 +163,7 @@ As someone who writes code daily, this felt like the best of both worlds:
 
 **The learning curve:**
 
-If you know HTML/CSS/JavaScript, you'll feel at home. If you're coming from pure Swift/iOS development like me, there's a small adjustment period. But the code is clean and readable—no weird abstractions.
+If you know HTML/CSS/JavaScript, you'll feel at home. If you're coming from pure Swift/iOS development like me, there's a small adjustment period. But the code is clean and readable, no weird abstractions.
 
 ## Deployment: From Prototype to Production
 
@@ -210,7 +210,7 @@ This cycle takes *minutes*, not days.
 
 **Problem:** My first instinct was to build something complex to "test the limits."
 
-**Solution:** I started with the image generator—one input, one output, minimal logic. Once that worked, I built up complexity.
+**Solution:** I started with the image generator: one input, one output, minimal logic. Once that worked, I built up complexity.
 
 **Lesson:** Validate the workflow before attempting ambitious projects.
 
@@ -234,7 +234,7 @@ This cycle takes *minutes*, not days.
 
 **Problem:** I initially wondered if this made native iOS development obsolete.
 
-**Solution:** No. Google AI Studio is brilliant for web services, APIs, and rapid prototyping. But for native features—Face ID, HealthKit, Apple Watch complications—you still need Swift and Xcode.
+**Solution:** No. Google AI Studio is brilliant for web services, APIs, and rapid prototyping. But for native features (Face ID, HealthKit, Apple Watch complications), you still need Swift and Xcode.
 
 **Lesson:** Use AI Studio for backend logic and web interfaces. Use Swift for native experiences. They complement each other perfectly.
 
@@ -326,7 +326,7 @@ That cycle used to take weeks. Now it takes an evening.
 
 **For indie developers, this is a game-changer.**
 
-We're already stretched thin—coding, designing, marketing, supporting users. Any tool that accelerates the build phase gives us more time for everything else.
+We're already stretched thin: coding, designing, marketing, supporting users. Any tool that accelerates the build phase gives us more time for everything else.
 
 And honestly? It's just *fun*. The immediacy of seeing prompts become working code reignites the joy of building.
 

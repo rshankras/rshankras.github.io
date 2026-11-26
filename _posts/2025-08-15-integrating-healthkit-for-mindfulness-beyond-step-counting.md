@@ -1,7 +1,7 @@
 ---
 title: "HealthKit Integration in ChantFlow: Heart Rate, HRV, and Mindful Minutes"
 date: "2025-08-15"
-description: "How ChantFlow uses HealthKit to reflect calm through Mindful Minutes, heart rate, and HRV (experimental) — with simple Swift snippets you can reuse."
+description: "How ChantFlow uses HealthKit to reflect calm through Mindful Minutes, heart rate, and HRV (experimental), with simple Swift snippets you can reuse."
 categories:
   - "watchos"
   - "healthkit"
@@ -19,10 +19,10 @@ excerpt_separator: <!--more-->
 toc: true
 ---
 
-Chanting helps you feel calm. Now ChantFlow helps you see it, too. We’ve added gentle HealthKit integration so your Apple Watch can reflect what your body experiences during practice — without turning your wrist into a spreadsheet. See the app here: [ChantFlow](https://www.rshankar.com/chantflow/) and on the App Store: [ChantFlow — Daily Om Practice](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828).<!--more-->
+Chanting helps you feel calm. Now ChantFlow helps you see it, too. We’ve added gentle HealthKit integration so your Apple Watch can reflect what your body experiences during practice, without turning your wrist into a spreadsheet. See the app here: [ChantFlow](https://www.rshankar.com/chantflow/) and on the App Store: [ChantFlow, Daily Om Practice](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828).<!--more-->
 
 ## What’s new
-- **Heart rate insights**: See your BPM during and after sessions — today and across the week.
+- **Heart rate insights**: See your BPM during and after sessions, today and across the week.
 - **Mindful Minutes in Health**: Your sessions are logged to Apple Health as Mindfulness.
 - **HRV (experimental)**: Heart Rate Variability appears after a session when conditions are right.
 - **Simple Health Insights screen**: Big, readable numbers. Built for quick glances.
@@ -118,7 +118,7 @@ final class LiveHRSession: NSObject, HKWorkoutSessionDelegate {
 - Built for short sessions and quick checks, not deep dives.
 
 ## HRV: set the right expectation
-- HRV is **experimental**. It often appears after you end a session, and only with steady, still wear for several minutes. Heart rate will show up almost every time — HRV will show up some of the time. That’s normal.
+- HRV is **experimental**. It often appears after you end a session, and only with steady, still wear for several minutes. Heart rate will show up almost every time. HRV will show up some of the time. That’s normal.
 
 ## Tips for better readings
 - Wear the watch snugly, above the wrist bone.
@@ -130,4 +130,4 @@ final class LiveHRSession: NSObject, HKWorkoutSessionDelegate {
 - Clear, friendly insights like “Your average heart rate during chanting dropped this week.”
 - Continued focus on privacy and accessibility.
 
-Start a session, breathe, and take a peek at your Health Insights afterward. Calm feels good — and now you can see it, too.
+Start a session, breathe, and take a peek at your Health Insights afterward. Calm feels good, and now you can see it, too.

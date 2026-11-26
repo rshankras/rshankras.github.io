@@ -1,6 +1,6 @@
 ---
 title: "How to Show Line Numbers in Xcode"
-description: "Turn on line numbers in the Xcode editor in a few clicks — where the setting lives in Xcode Preferences, with steps you can follow in seconds."
+description: "Turn on line numbers in the Xcode editor in a few clicks, where the setting lives in Xcode Preferences, with steps you can follow in seconds."
 date: "2015-04-30"
 categories: 
   - "develop"

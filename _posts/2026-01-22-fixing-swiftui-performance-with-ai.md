@@ -218,7 +218,7 @@ Don't wait until the app feels slow. Run the SwiftUI template in Instruments:
 
 ## Using AI as a Learning Partner
 
-The real value of AI-assisted debugging isn't the fix—it's the explanation. Instead of asking "fix this," ask:
+The real value of AI-assisted debugging isn't the fix, it's the explanation. Instead of asking "fix this," ask:
 
 - "Why is this causing a hang?"
 - "Explain what's wrong with this pattern"

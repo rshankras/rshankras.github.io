@@ -111,4 +111,4 @@ Here, `@State` is used to create a reactive state variable. When the button is p
 
 #### Conclusion
 
-Congratulations! You’ve just built your first iOS app using SwiftUI. This guide covered just the basics—SwiftUI is powerful and flexible, and there's much more to explore. As you become more familiar with SwiftUI, you'll discover that you can build complex and beautifully designed apps with less code than ever before. Keep experimenting and learning, and most importantly, have fun creating apps!
+Congratulations! You’ve just built your first iOS app using SwiftUI. This guide covered just the basics. SwiftUI is powerful and flexible, and there's much more to explore. As you become more familiar with SwiftUI, you'll discover that you can build complex and beautifully designed apps with less code than ever before. Keep experimenting and learning, and most importantly, have fun creating apps!

@@ -35,11 +35,11 @@ Ever spent hours searching for the perfect stock photo, only to settle for somet
 
 What if you could generate exactly the image you want, in seconds, for less than a dollar?
 
-That's exactly what I built using Runware's AI API—a simple iOS app that creates unlimited marketing visuals on demand. Here's how you can do the same.<!--more-->
+That's exactly what I built using Runware's AI API, a simple iOS app that creates unlimited marketing visuals on demand. Here's how you can do the same.<!--more-->
 
 ## The Problem: Stock Photos Are Expensive and Generic
 
-ChantFlow is an Apple Watch meditation app that helps users perform traditional chanting practices. Marketing this required very specific imagery—people using Apple Watch during meditation, serene spiritual scenes, the blend of ancient practices with modern tech.
+ChantFlow is an Apple Watch meditation app that helps users perform traditional chanting practices. Marketing this required very specific imagery: people using Apple Watch during meditation, serene spiritual scenes, the blend of ancient practices with modern tech.
 
 Stock photo sites couldn't deliver what I needed:
 - Generic meditation photos (another person sitting cross-legged in a white room)
@@ -49,7 +49,7 @@ Stock photo sites couldn't deliver what I needed:
 
 ## The Solution: Runware AI API
 
-I discovered Runware AI—an API that generates high-quality images in under a second. No machine learning expertise required, just simple API calls.
+I discovered Runware AI, an API that generates high-quality images in under a second. No machine learning expertise required, just simple API calls.
 
 What makes Runware special:
 - **312,464+ AI models** to choose from
@@ -68,7 +68,7 @@ While other services take 10-30 seconds, Runware generates images in 0.6-4 secon
 Access to 312,464+ models from platforms like CivitAI. Just copy any model's "AIR ID" and use it in your app.
 
 ### 3. **Simple Integration**
-No complex setup. Just make HTTP requests with your API key—works with any programming language.
+No complex setup. Just make HTTP requests with your API key. Works with any programming language.
 
 ### 4. **Affordable**
 Generate hundreds of images for what you'd pay for a single stock photo.
@@ -170,7 +170,7 @@ That's it. No complex machine learning setup required.
 
 1. **Be specific**: "person using Apple Watch during morning meditation" vs "meditation"
 2. **Use negative prompts**: Exclude unwanted elements like "cluttered, dark, aggressive"
-3. **Try different models**: Each has its own style—experiment in the playground first
+3. **Try different models**: Each has its own style, so experiment in the playground first
 4. **Generate multiple variations**: Create 3-4 options and pick the best
 
 ## Why This Matters

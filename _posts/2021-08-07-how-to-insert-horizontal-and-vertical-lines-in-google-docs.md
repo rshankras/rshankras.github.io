@@ -1,6 +1,6 @@
 ---
 title: "How to Insert Horizontal and Vertical Lines in Google Docs"
-description: "Add horizontal and vertical lines in Google Docs — horizontal rules, paragraph borders, and the drawing tool for vertical lines, step by step."
+description: "Add horizontal and vertical lines in Google Docs, horizontal rules, paragraph borders, and the drawing tool for vertical lines, step by step."
 date: "2021-08-07"
 categories: 
   - "google-docs"

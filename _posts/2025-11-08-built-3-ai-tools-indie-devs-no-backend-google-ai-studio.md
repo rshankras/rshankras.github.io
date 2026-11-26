@@ -25,7 +25,7 @@ toc_sticky: true
 
 Here's the indie developer paradox I live with:
 
-I can build complex iOS apps with Core Data, CloudKit, HealthKit integration—the whole nine yards. But when it comes to simple tasks like writing launch checklists or social media captions, I freeze.
+I can build complex iOS apps with Core Data, CloudKit, HealthKit integration, the whole nine yards. But when it comes to simple tasks like writing launch checklists or social media captions, I freeze.
 
 It's not lack of skill. It's decision fatigue.
 
@@ -129,7 +129,7 @@ I built a web service that takes:
 
 Instead of building forms and UI first (my iOS instinct), I started with the data contract. What goes in? What comes out?
 
-This shift in thinking—from UI-first to data-first—was surprisingly freeing.
+This shift in thinking, from UI-first to data-first, was surprisingly freeing.
 
 **Step 2: Prompted the AI with context**
 
@@ -268,7 +268,7 @@ The tool lets you:
 - Delete irrelevant tasks
 - Export the final checklist to PDF
 
-This took the longest—maybe 40 of the 60 total minutes.
+This took the longest, maybe 40 of the 60 total minutes.
 
 **Step 4: Deployed and tested**
 
@@ -315,7 +315,7 @@ This small feature made the tool 10x more useful.
 
 I'm terrible at social media.
 
-Not the technical side—I can record videos, edit screenshots, use scheduling tools. But the *writing*?
+Not the technical side: I can record videos, edit screenshots, use scheduling tools. But the *writing*?
 
 Every time I sit down to write a post about my app, I stare at a blank screen for 20 minutes.
 
@@ -356,7 +356,7 @@ I built a caption generator designed specifically for indie app developers.
 
 **Generated captions:**
 
-1. "Splitting expenses shouldn't mean splitting friendships. Expense Split makes it easy to track who owes what—no awkward conversations needed. Perfect for roommates, couples, and friend groups."
+1. "Splitting expenses shouldn't mean splitting friendships. Expense Split makes it easy to track who owes what, no awkward conversations needed. Perfect for roommates, couples, and friend groups."
 
 2. "Ever had that moment where someone says 'I'll Venmo you later' and… never does? Expense Split keeps everyone honest (and friendly). Track shared costs, settle up fast."
 
@@ -625,7 +625,7 @@ If it saves you 10 minutes a day, that's 60 hours a year. Worth it.
 
 ## Final Thoughts
 
-I've been an iOS developer for years. I love the craft of building native apps—the elegance of SwiftUI, the satisfaction of pixel-perfect animations, the joy of seeing someone use my app in the wild.
+I've been an iOS developer for years. I love the craft of building native apps: the elegance of SwiftUI, the satisfaction of pixel-perfect animations, the joy of seeing someone use my app in the wild.
 
 But I'm also a solo indie developer. I wear all the hats: coder, designer, marketer, support, finance.
 
@@ -635,7 +635,7 @@ But I'm also a solo indie developer. I wear all the hats: coder, designer, marke
 - Need a launch plan? Tool generates it.
 - Need social captions? Tool writes them.
 
-I'm still doing the hard work—building the app, solving real user problems, iterating based on feedback.
+I'm still doing the hard work: building the app, solving real user problems, iterating based on feedback.
 
 But the surrounding tasks? Automated.
 

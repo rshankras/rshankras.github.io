@@ -31,7 +31,7 @@ twitter_description: "Discover how ChantFlow uses Apple Watch complications to m
 
 *Discover how this spiritual wellness app uses Apple Watch complications to make 108 mantra practice a natural part of your daily routine*
 
-See the app here: [ChantFlow](https://www.rshankar.com/chantflow/) and on the App Store: [ChantFlow — Daily Om Practice](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828).<!--more-->
+See the app here: [ChantFlow](https://www.rshankar.com/chantflow/) and on the App Store: [ChantFlow, Daily Om Practice](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828).<!--more-->
 
 ## The Sacred 108: A Digital Revolution in Spiritual Practice
 

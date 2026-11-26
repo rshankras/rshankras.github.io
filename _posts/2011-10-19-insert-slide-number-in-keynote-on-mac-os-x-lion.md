@@ -1,6 +1,6 @@
 ---
 title: "How to Add Slide Numbers in Keynote on Mac"
-description: "Insert slide numbers in Keynote on Mac from the Insert menu — quick steps to number all slides or selected ones in your presentation."
+description: "Insert slide numbers in Keynote on Mac from the Insert menu, quick steps to number all slides or selected ones in your presentation."
 date: "2011-10-19"
 categories: 
   - "apple"

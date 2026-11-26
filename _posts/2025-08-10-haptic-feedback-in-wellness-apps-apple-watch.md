@@ -19,9 +19,9 @@ excerpt_separator: <!--more-->
 toc: true
 ---
 
-If you’ve ever felt a gentle tap on your wrist nudging you along—that’s the quiet power of haptics. In wellness apps, haptic feedback turns stillness into guided, meaningful practice.
+If you’ve ever felt a gentle tap on your wrist nudging you along, that’s the quiet power of haptics. In wellness apps, haptic feedback turns stillness into guided, meaningful practice.
 
-In [ChantFlow — Daily Om Practice](https://www.rshankar.com/chantflow/) for Apple Watch ([App Store](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828)), we use haptics to mirror moving a mala bead, celebrate milestones, and keep you in flow—eyes up, mind calm. Below is exactly how we implemented it, with real code, pacing choices, and practical tips you can reuse.<!--more-->
+In [ChantFlow, Daily Om Practice](https://www.rshankar.com/chantflow/) for Apple Watch ([App Store](https://apps.apple.com/us/app/chantflow-daily-om-practice/id6633438828)), we use haptics to mirror moving a mala bead, celebrate milestones, and keep you in flow, eyes up, mind calm. Below is exactly how we implemented it, with real code, pacing choices, and practical tips you can reuse.<!--more-->
 
 ## What haptics are (and why they matter)
 
@@ -105,7 +105,7 @@ Section {
 
 - Screen‑free guidance: practice with eyes closed and full confidence
 - Sensory‑friendly: global toggle respects sensitivity and neurodiversity
-- Quiet by design: tactile cues work in silent spaces—no sound needed
+- Quiet by design: tactile cues work in silent spaces, no sound needed
 - Distinct patterns: start, progress, milestone, and success cues feel different
 
 ## Best practices we recommend
@@ -118,7 +118,7 @@ Section {
 
 ## Wrap‑up
 
-Thoughtful haptics make wellness experiences feel personal, calm, and intuitive. In ChantFlow, a simple tap keeps your practice moving—no screens, no noise, just presence.
+Thoughtful haptics make wellness experiences feel personal, calm, and intuitive. In ChantFlow, a simple tap keeps your practice moving: no screens, no noise, just presence.
 
 Building for Apple Watch? Treat haptics as your silent guide. Subtle, respectful, rhythm‑aware patterns can lift your app from “useful” to “felt.”
 

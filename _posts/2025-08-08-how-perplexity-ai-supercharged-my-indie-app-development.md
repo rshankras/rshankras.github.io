@@ -1,7 +1,7 @@
 ---
 title: "How Perplexity AI Supercharged My Indie App Development"
 date: "2025-08-08"
-description: "Simple, practical ways I used Perplexity AI to speed up market research, feature validation, personas, content, and marketing for my indie app — with prompts you can reuse."
+description: "Simple, practical ways I used Perplexity AI to speed up market research, feature validation, personas, content, and marketing for my indie app, with prompts you can reuse."
 categories:
   - "indie-development"
   - "ai-tools"
@@ -20,11 +20,11 @@ toc: true
 toc_sticky: true
 ---
 
-As an indie developer, I wear many hats — research, design, development, marketing. Doing all of it well (and fast) is hard. Perplexity AI became a simple, reliable research assistant that helped me move faster and make better decisions while building my new app, SleepTracker. I built this during the [RevenueCat Shipaton 2025](https://revenuecat-shipaton-2025.devpost.com) while iterating on the app’s landing page here: [SleepTracker – Solve Your Sleep Riddle](https://www.rshankar.com/sleep-tracker/).
+As an indie developer, I wear many hats: research, design, development, marketing. Doing all of it well (and fast) is hard. Perplexity AI became a simple, reliable research assistant that helped me move faster and make better decisions while building my new app, SleepTracker. I built this during the [RevenueCat Shipaton 2025](https://revenuecat-shipaton-2025.devpost.com) while iterating on the app’s landing page here: [SleepTracker – Solve Your Sleep Riddle](https://www.rshankar.com/sleep-tracker/).
 
 <!--more-->
 
-Below is exactly how I used Perplexity across the app lifecycle — with short, reusable prompts you can copy and adapt.
+Below is exactly how I used Perplexity across the app lifecycle, with short, reusable prompts you can copy and adapt.
 
 ## 1) Market research and competitor analysis
 
@@ -56,7 +56,7 @@ Why it helped:
 
 ## 3) Target users and personas
 
-I wanted more than demographics — motivations, routines, comfort with technology, and what “success” looks like for them.
+I wanted more than demographics: motivations, routines, comfort with technology, and what “success” looks like for them.
 
 Sample prompt:
 
@@ -111,10 +111,10 @@ Why it helped:
 - Ask for constraints (“Call out HealthKit/permissions and accessibility”).
 - Request structured output (tables, bullets, pros/cons) for faster scanning.
 - Save good prompts as templates and reuse them across features.
-- Pair AI with real user feedback — AI accelerates, users validate.
+- Pair AI with real user feedback: AI accelerates, users validate.
 
 ## Closing thoughts
 
-Using Perplexity AI let me turn vague questions into clear, actionable next steps — especially during Shipaton crunch time. If you’re building an app solo (or with a tiny team), tools like Perplexity help you move faster without losing quality.
+Using Perplexity AI let me turn vague questions into clear, actionable next steps, especially during Shipaton crunch time. If you’re building an app solo (or with a tiny team), tools like Perplexity help you move faster without losing quality.
 
 If you’re curious, check out what I’m building here: [SleepTracker landing page](https://www.rshankar.com/sleep-tracker/) and the hackathon that pushed me to ship: [RevenueCat Shipaton 2025](https://revenuecat-shipaton-2025.devpost.com).

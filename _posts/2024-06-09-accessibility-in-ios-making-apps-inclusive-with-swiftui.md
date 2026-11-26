@@ -6,7 +6,7 @@ categories:
   - "swiftui"
 ---
 
-In today's digital age, ensuring that apps are accessible to everyone, including people with disabilities, is not just a courtesy—it's a necessity. Accessibility is about designing your apps to support the needs of people who experience disabilities such as limited vision, hearing difficulties, or motor impairments. Apple's SwiftUI framework is equipped with powerful tools that make it straightforward to incorporate accessibility features into your iOS apps. In this blog post, we will explore how to implement these accessibility features in SwiftUI, using an expense split app as an example to demonstrate practical applications.
+In today's digital age, ensuring that apps are accessible to everyone, including people with disabilities, is not just a courtesy, it's a necessity. Accessibility is about designing your apps to support the needs of people who experience disabilities such as limited vision, hearing difficulties, or motor impairments. Apple's SwiftUI framework is equipped with powerful tools that make it straightforward to incorporate accessibility features into your iOS apps. In this blog post, we will explore how to implement these accessibility features in SwiftUI, using an expense split app as an example to demonstrate practical applications.
 
 #### The Importance of Accessibility
 
@@ -69,4 +69,4 @@ Implementing these accessibility features does not drastically change the visual
 
 #### Conclusion
 
-Building accessible apps in SwiftUI is not just about adhering to best practices—it's about inclusivity and ensuring that everyone, regardless of their abilities, can benefit from what your app has to offer. By integrating simple yet effective accessibility modifiers into your SwiftUI views, you can make your apps more usable and accessible to a wider audience. This approach not only improves user experience but also fosters a greater sense of community and respect among your user base. Remember, an accessible app is a better app for everyone.
+Building accessible apps in SwiftUI is not just about adhering to best practices, it's about inclusivity and ensuring that everyone, regardless of their abilities, can benefit from what your app has to offer. By integrating simple yet effective accessibility modifiers into your SwiftUI views, you can make your apps more usable and accessible to a wider audience. This approach not only improves user experience but also fosters a greater sense of community and respect among your user base. Remember, an accessible app is a better app for everyone.

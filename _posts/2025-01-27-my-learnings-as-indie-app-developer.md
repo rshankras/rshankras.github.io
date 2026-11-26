@@ -24,7 +24,7 @@ toc: true
 toc_sticky: true
 ---
 
-Success in indie app development isn't just about coding skills or marketing strategies—it's about who you become as a developer. Drawing inspiration from James Clear's concept of [identity-based habits](https://jamesclear.com/identity-based-habits), I've identified ten key identities that have shaped my journey as an indie developer. 
+Success in indie app development isn't just about coding skills or marketing strategies, it's about who you become as a developer. Drawing inspiration from James Clear's concept of [identity-based habits](https://jamesclear.com/identity-based-habits), I've identified ten key identities that have shaped my journey as an indie developer. 
 
 ## The Power of Identity-Based Habits
 
@@ -66,7 +66,7 @@ The iOS development landscape is constantly evolving, and staying current is cru
 
 ### 5. I am data-driven
 
-As a developer, it's tempting to add numerous features, but without understanding user behavior, it's hard to know which ones truly matter. That's why I always integrate analytics into my apps. This helps me track if a feature is being used—if not, I remove it. Analytics also provide insights into where users are coming from. For example, if I notice high impressions from a country but low conversions, it might indicate that my app isn't ranking for the right keywords or that my App Store screenshots need localization. This data-driven approach ensures my efforts are aligned with user needs and helps me make informed decisions.
+As a developer, it's tempting to add numerous features, but without understanding user behavior, it's hard to know which ones truly matter. That's why I always integrate analytics into my apps. This helps me track if a feature is being used, if not, I remove it. Analytics also provide insights into where users are coming from. For example, if I notice high impressions from a country but low conversions, it might indicate that my app isn't ranking for the right keywords or that my App Store screenshots need localization. This data-driven approach ensures my efforts are aligned with user needs and helps me make informed decisions.
 
 <p align="center">
   <img src="/assets/images/habits/analytics-dashboard.png" alt="Analytics Dashboard" width="500" height="400" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -74,7 +74,7 @@ As a developer, it's tempting to add numerous features, but without understandin
 
 ### 6. I am a Relatable Storyteller
 
-I leverage storytelling and familiar references to create an emotional connection with users. In my expense-splitting app, I used characters from Friends—Ross, Rachel, Joey, and the gang—to make the screenshots more engaging and relatable. This approach resonated with users and made the app experience memorable. Stories build connection and trust, turning users into loyal fans.
+I leverage storytelling and familiar references to create an emotional connection with users. In my expense-splitting app, I used characters from Friends (Ross, Rachel, Joey and the gang) to make the screenshots more engaging and relatable. This approach resonated with users and made the app experience memorable. Stories build connection and trust, turning users into loyal fans.
 
 <p align="center">
   <img src="/assets/images/habits/i_relatable_storyteller.png" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -82,7 +82,7 @@ I leverage storytelling and familiar references to create an emotional connectio
 
 ### 7. I am a marketer
 
-I used to think marketing wasn't my job as a developer. As developers, we often overlook marketing. But driving traffic to your app is just as important as building it. But after seeing a 3-4x boost in impressions from tweaking my app's title and keywords, I realized how crucial it is. Now, I spend 15 minutes daily on ASO—it's a small habit with big results.
+I used to think marketing wasn't my job as a developer. As developers, we often overlook marketing. But driving traffic to your app is just as important as building it. But after seeing a 3-4x boost in impressions from tweaking my app's title and keywords, I realized how crucial it is. Now, I spend 15 minutes daily on ASO, it's a small habit with big results.
 
 <p align="center">
   <img src="/assets/images/habits/app-store-presence.png" alt="App Store Marketing" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -90,7 +90,7 @@ I used to think marketing wasn't my job as a developer. As developers, we often 
 
 ### 8. I am a Pro at Earning Ratings
 
-Requesting ratings at the right moment has been a game-changer for boosting my app's success. Instead of asking for ratings randomly or too frequently, I strategically time my prompts to align with user achievements—like successfully splitting a bill in my expense app. This proactive approach ensures that users see your app in the right context and are more likely to give it a rating. This also improves the App Store ranking of my app, which translates to more downloads and more revenue.
+Requesting ratings at the right moment has been a game-changer for boosting my app's success. Instead of asking for ratings randomly or too frequently, I strategically time my prompts to align with user achievements, like successfully splitting a bill in my expense app. This proactive approach ensures that users see your app in the right context and are more likely to give it a rating. This also improves the App Store ranking of my app, which translates to more downloads and more revenue.
 
 <p align="center">
   <img src="/assets/images/habits/earning_ratings.PNG" alt="Development Journal" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -98,11 +98,11 @@ Requesting ratings at the right moment has been a game-changer for boosting my a
 
 ### 9. I am a confident monetizer
 
-One of the main challenges Indie app developers face is a lack of confidence in their apps and the doubt: "Will anyone actually pay for this feature?" For years, I didn't monetize my app for the same reason. But as an Indie developer, monetization isn't just about making money—it's also a way to validate your product's value and test product-market fit.
+One of the main challenges Indie app developers face is a lack of confidence in their apps and the doubt: "Will anyone actually pay for this feature?" For years, I didn't monetize my app for the same reason. But as an Indie developer, monetization isn't just about making money, it's also a way to validate your product's value and test product-market fit.
 
 When I finally added a paid feature, I was surprised to see users willing to pay for it. While it didn't make me a fortune, it boosted my confidence and proved that my app was solving a problem worth paying for.
 
-If you're building apps as an Indie developer, don't shy away from monetization—it's the path to sustainability and growth.
+If you're building apps as an Indie developer, don't shy away from monetization. It's the path to sustainability and growth.
 
 <p align="center">
   <img src="/assets/images/habits/monetization-strategy.PNG" alt="App Monetization" width="300" height="200" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -120,7 +120,7 @@ This habit keeps me motivated and reinforces my identity as a developer who valu
 
 ## Conclusion
 
-These identity-based habits have transformed my approach to indie app development. They've helped me evolve from someone who just writes code to someone who builds sustainable, user-loved products. Remember, success in indie development isn't just about technical skills—it's about developing habits that align with the identity of a successful indie developer.
+These identity-based habits have transformed my approach to indie app development. They've helped me evolve from someone who just writes code to someone who builds sustainable, user-loved products. Remember, success in indie development isn't just about technical skills, it's about developing habits that align with the identity of a successful indie developer.
 
 <p align="center">
   <img src="/assets/images/habits/indie_dev_journey.png" alt="Indie Developer Journey" width="400" height="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">

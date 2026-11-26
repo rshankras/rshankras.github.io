@@ -1,6 +1,6 @@
 ---
 title: "How to Change the Bluetooth Name of Your iPhone, iPad, or Mac"
-description: "Change the Bluetooth device name of your iPhone, iPad, or Mac in a few steps — so it stops showing up as just 'iPhone' in every pairing list."
+description: "Change the Bluetooth device name of your iPhone, iPad, or Mac in a few steps, so it stops showing up as just 'iPhone' in every pairing list."
 date: "2013-10-23"
 categories: 
   - "apple"

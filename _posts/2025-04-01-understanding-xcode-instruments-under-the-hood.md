@@ -23,7 +23,7 @@ Xcode Instruments is a powerful yet often misunderstood performance tool that ca
 
 ## What Is Instruments, Really?
 
-Instruments isn't just a single tool—it's a collection of performance analysis tools united under one interface. Think of it as a Swiss Army knife for debugging and performance optimization, where each instrument serves a specific purpose:
+Instruments isn't just a single tool, it's a collection of performance analysis tools united under one interface. Think of it as a Swiss Army knife for debugging and performance optimization, where each instrument serves a specific purpose:
 
 - Time Profiler tracks CPU usage
 - Allocations monitors memory usage patterns
@@ -50,7 +50,7 @@ The data flow follows a specific pattern:
 
 ## The Foundation of Instruments
 
-While early versions of Instruments were built on DTrace—a dynamic tracing framework originally developed for Solaris and later adopted by Apple—modern versions have evolved beyond this foundation. 
+While early versions of Instruments were built on DTrace, a dynamic tracing framework originally developed for Solaris and later adopted by Apple, modern versions have evolved beyond this foundation. 
 
 Apple has transitioned to more efficient, native performance analysis technologies that integrate more deeply with their platforms. These newer mechanisms provide better performance with less overhead while collecting detailed metrics.
 
@@ -86,7 +86,7 @@ These help you dive deeper into the data:
 One of the first challenges when using Instruments is information overload. Start by using filters to focus on what matters:
 
 - **Target Filter**: Narrow analysis to your app, ignoring system processes
-- **Track Filter**: The best way to begin—focus on specific types of events
+- **Track Filter**: The best way to begin: focus on specific types of events
 
 ### Recording Modes For Different Scenarios
 
@@ -103,7 +103,7 @@ For extended recording sessions (like analyzing app behavior over hours), use Wi
 
 ## Instruments Use Cases Beyond The Basics
 
-Instruments isn't just for hunting down slow code or memory leaks—it has many specialized applications:
+Instruments isn't just for hunting down slow code or memory leaks. It has many specialized applications:
 
 - **Energy Diagnostics**: Find battery-draining code
 - **Network Analysis**: Identify slow or chatty network calls
@@ -112,6 +112,6 @@ Instruments isn't just for hunting down slow code or memory leaks—it has many 
 
 ## Conclusion
 
-Understanding Instruments at a deeper level transforms it from a mysterious black box into a precision tool you can wield with confidence. By learning how Instruments works under the hood—its architecture, visualization options, and recording modes—you can significantly improve your debugging efficiency and create better performing apps.
+Understanding Instruments at a deeper level transforms it from a mysterious black box into a precision tool you can wield with confidence. By learning how Instruments works under the hood, its architecture, visualization options, and recording modes, you can significantly improve your debugging efficiency and create better performing apps.
 
 --- 
