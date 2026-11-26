@@ -22,6 +22,8 @@ twitter_description: "AI-powered monitoring of NSE/BSE corporate filings with le
 
 AlertWala watches NSE and BSE corporate filings in real-time, uses AI to identify high-quality trading opportunities, checks if news is already priced in, and helps you track performance, all from your menu bar.
 
+**Coming soon.** AlertWala is finished and I use it every day on my Mac. It isn't available to download yet. [Email me](mailto:ravi@rshankar.com?subject=AlertWala%20release) if you'd like to hear when it's released.
+
 ## What It Monitors
 
 ### Real-Time Data Sources

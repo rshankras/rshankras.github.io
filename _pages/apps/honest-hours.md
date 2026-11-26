@@ -22,7 +22,7 @@ twitter_description: "Track where your time goes and block distractions during f
 
 Ever wonder where your workday went? Honest Hours automatically tracks your computer activities and helps you stay focused by blocking distracting apps, all while keeping your data 100% private on your Mac.
 
-<a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
+**Coming soon.** Honest Hours is finished and I use it every day on my Mac. It isn't available to download yet. [Email me](mailto:ravi@rshankar.com?subject=Honest%20Hours%20release) if you'd like to hear when it's released.
 
 ## Why You Need This
 
@@ -172,15 +172,13 @@ If you've ever lost an hour to Twitter without realizing it, Honest Hours is for
 - Optimized for macOS 12.4+ (Monterey and later)
 - Universal binary (Intel and Apple Silicon)
 
-## Download
+## Availability
 
-<a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
-
-Distributed directly, no App Store restrictions. Download, drag to Applications, and start understanding your time.
+**Coming soon.** Honest Hours is finished and I use it every day on my Mac. It isn't available to download yet. [Email me](mailto:ravi@rshankar.com?subject=Honest%20Hours%20release) if you'd like to hear when it's released.
 
 ### Why Direct Distribution?
 
-Honest Hours uses system APIs for accurate tracking and app blocking that aren't available in sandboxed App Store apps. Direct distribution means full functionality without compromises.
+Honest Hours uses system APIs for accurate tracking and app blocking that aren't available in sandboxed App Store apps, so it will be distributed directly rather than through the App Store.
 
 ### Support
 

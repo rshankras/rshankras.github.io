@@ -108,7 +108,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
 <p style="margin-bottom: 2em; color: #666;">Menu bar apps and utilities that enhance your Mac productivity.</p>
 
 <div class="app-entry">
-  <h3>AlertWala - Stock Market Alert Monitor</h3>
+  <h3>AlertWala - Stock Market Alert Monitor <span class="status-badge">Coming soon</span></h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/alertwala-icon.png" alt="AlertWala - macOS menu bar app for monitoring Indian stock market corporate filings" title="AlertWala - Stock Market Alert Monitor">
@@ -151,7 +151,7 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
 </div>
 
 <div class="app-entry">
-  <h3>Honest Hours - Time Tracker</h3>
+  <h3>Honest Hours - Time Tracker <span class="status-badge">Coming soon</span></h3>
   <div class="container">
     <div class="image">
       <img src="/assets/images/app-icons/time-tracker-icon.png" alt="Honest Hours - Privacy-first time tracker and focus mode app for macOS" title="Honest Hours - Time Tracker">
@@ -159,8 +159,6 @@ A collection of iOS, watchOS, and macOS apps I've built for Apple platforms. Eac
     <div class="text">
       <p>Know where your time really goes. Automatic time tracking, focus mode with app blocking, and insights into your work patterns, all while keeping your data 100% private on your Mac.</p>
       <a href="/honest-hours/" class="learn-more-link">Learn More →</a>
-      <br/>
-      <a href="https://rshankar.com/downloads/honest-hours" class="app-store-link">Download Direct →</a>
     </div>
   </div>
 </div>
@@ -387,13 +385,6 @@ I specialize in creating **iOS, macOS, and watchOS applications** that solve rea
         "operatingSystem": "macOS",
         "applicationCategory": "ProductivityApplication",
         "applicationSubCategory": "TimeTracker",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://rshankar.com/downloads/honest-hours",
-          "price": "0",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock"
-        },
         "description": "Privacy-first time tracker with automatic tracking and focus mode for macOS",
         "author": {
           "@type": "Person",

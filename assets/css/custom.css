@@ -1188,3 +1188,6 @@
   .home-landing .page__hero--overlay .page__title,
   .home-landing .page__hero--overlay .page__lead { max-width: none; }
 }
+
+/* "Coming soon" label for finished-but-unreleased apps (portfolio) */
+.status-badge { display: inline-block; vertical-align: middle; margin-left: 0.5em; padding: 0.15em 0.6em; font-size: 0.55em; font-weight: 600; letter-spacing: 0.02em; color: #8a5a00; background: #fff4d6; border: 1px solid #f0d58a; border-radius: 999px; }
