@@ -11,7 +11,7 @@ I've been writing software for a long time and building for Apple platforms sinc
 
 ## What I've done
 
-* **Lead iOS developer at Club Operations (2016–2023).** I was the company's first employee: the work started as a small pilot on Upwork, and I went on to lead the iOS app for 7 years. Our Sailor app for sailing clubs grew to **18,500+ installs and 2,700+ monthly active users**, and by Dec 2022 more Australian clubs used it than any other race system. I also built the early Android versions, hired and led a small remote team, and stayed on through the company's sale to train the new owner's team.
+* **Lead iOS developer at Club Operations (2016–2023).** I was the company's first employee: the work started as a small pilot on Upwork, and I went on to lead the iOS app for 7 years. Our Sailor app for sailing clubs grew to **18,500+ installs and 2,700+ monthly active users**, and by Dec 2022 more Australian clubs used it than any other race system. I also built the early Android versions, hired and led a small remote team, and stayed on through the company's sale to train the new owner's team. ([Read the case study](/work/club-operations/))
 * **Part-time CTO at Boxwash (2017–2018).** I built the customer iOS app for an on-demand car wash startup, which helped it raise its first funding, and directed the freelancers who built the rest.
 * **Independent since 2023.** I build client apps (most recently a SwiftUI marketplace app with its Firebase backend and 550+ automated tests), my own iPhone, Apple Watch and Mac apps, and [Vizhi](https://vizhi.dev), Logitech MX Creative Keypad plugins for Claude Code, Codex and ChatGPT.
 
