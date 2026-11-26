@@ -133,25 +133,33 @@ ScrollView {
 }
 ```
 
-## Root Cause 4: Unstable ForEach Identity
+## Root Cause 4: Fragile ForEach Identity
 
 ```swift
-// WRONG - String identity is unstable when array changes
+// RISKY - the tag text itself is the identity
 ForEach(item.tags, id: \.self) { tag in
     TagView(tag: tag)
 }
 ```
 
-When using `id: \.self` with strings, SwiftUI struggles to track identity if the array is reordered or modified. This causes unnecessary view recreation.
+`id: \.self` only works when every string is unique. If two tags have the same text, SwiftUI sees duplicate IDs and can reuse or drop the wrong views.
 
-**The fix:**
+> **Correction (Nov 2026):** the first version of this post "fixed" this with `.enumerated()` and `id: \.offset`. That was wrong. An offset is a position, not an identity: when tags are inserted, removed or reordered, a different tag takes over the same offset and inherits the old tag's view state and animations.
+
+**The fix:** give each item a stable, unique ID.
 
 ```swift
-// RIGHT - stable identity using offset
-ForEach(Array(item.tags.enumerated()), id: \.offset) { _, tag in
+struct Tag: Identifiable, Hashable {
+    let id: UUID          // or the ID from your server or database
+    var name: String
+}
+
+ForEach(item.tags) { tag in
     TagView(tag: tag)
 }
 ```
+
+If the values are guaranteed unique (for example, they come from a `Set`), `id: \.self` is fine. A quick check: reorder the array in a preview or test and confirm each row keeps its own state.
 
 ## Root Cause 5: Array Mutation During Scroll
 
@@ -192,7 +200,7 @@ After applying all fixes:
 | Total Duration | 1.82s | 965ms | 47% faster |
 | Visible Hangs | Multiple | Nearly clean | Significant |
 
-The Hangs track went from showing multiple orange blocks to being nearly clean. The app feels noticeably smoother.
+The Hangs track went from showing multiple orange blocks to being nearly clean. The app feels noticeably smoother. These numbers are for all five changes together; I didn't measure each fix on its own.
 
 ## Lessons Learned
 
@@ -205,7 +213,7 @@ Using AI to fix code is fast, but it doesn't teach you anything unless you ask w
 | `@StateObject` with `.shared` | Duplicate subscriptions | Use `@ObservedObject` |
 | `DateFormatter()` in computed property | Created every render | Cache in `@State`, compute in `.task` |
 | `VStack` with `ForEach` of many items | Eager rendering | Use `LazyVStack` |
-| `ForEach` with `id: \.self` on strings | Unstable identity | Use `.enumerated()` with `id: \.offset` |
+| `ForEach` with duplicate or position-based IDs | Wrong views reused | Give each item a stable, unique `id` |
 | Array mutation during scroll | Crashes, glitches | Defer with `asyncAfter` |
 
 ### When to Run Instruments
