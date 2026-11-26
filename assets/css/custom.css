@@ -1170,3 +1170,21 @@
 
 /* Tidy the hero into a coherent left column instead of a full-width headline */
 .page__hero--overlay .page__title { max-width: 900px; }
+
+
+/* ---- Home hero polish (2026-11-26): app icons on the right, tighter spacing, stats right under the hero ---- */
+.home-landing .page__hero--overlay { position: relative; padding-top: 56px; padding-bottom: 40px; overflow: hidden; }
+.home-landing .page__hero--overlay .page__title,
+.home-landing .page__hero--overlay .page__lead { max-width: 58%; }
+.home-landing .page__hero--overlay a.btn { margin-right: 0.6em; }
+.home-landing .page__hero--overlay::after {
+  content: ""; position: absolute; top: 50%; right: 6%; transform: translateY(-50%);
+  width: 340px; height: 340px; pointer-events: none;
+  background: url("/assets/images/hero-apps.png") center / contain no-repeat;
+}
+.home-landing .stats-band { margin-top: 1.6em; }
+@media (max-width: 1024px) {
+  .home-landing .page__hero--overlay::after { display: none; }
+  .home-landing .page__hero--overlay .page__title,
+  .home-landing .page__hero--overlay .page__lead { max-width: none; }
+}
