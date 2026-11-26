@@ -1,8 +1,8 @@
 ---
-title: "How I Made a Marketing Video for My Mac App Using AI — And What Went Wrong"
+title: "Make a Marketing Video for Your Mac App Using AI (Free)"
 date: "2026-01-08"
 permalink: "/ai-marketing-video-mac-app/"
-description: "Learn how I created a 30-second marketing video for my Mac app using Google Veo, ElevenLabs, and ffmpeg with zero additional budget—and the mistakes I made along the way."
+description: "Create a 30-second marketing video for your Mac app using Google Veo, ElevenLabs, and ffmpeg with zero budget. Learn the process, tools, and mistakes to avoid."
 categories:
   - "indie-development"
   - "marketing"
@@ -21,12 +21,12 @@ image: "/assets/images/app-icons/eye-rest-icon.png"
 excerpt_separator: <!--more-->
 toc: true
 toc_sticky: true
-og_title: "How I Made a Marketing Video for My Mac App Using AI — And What Went Wrong"
-og_description: "Learn how I created a 30-second marketing video for my Mac app using Google Veo, ElevenLabs, and ffmpeg with zero additional budget—and the mistakes I made along the way."
+og_title: "Make a Marketing Video for Your Mac App Using AI (Free)"
+og_description: "Create a 30-second marketing video for your Mac app using Google Veo, ElevenLabs, and ffmpeg with zero budget. Learn the process, tools, and mistakes to avoid."
 og_type: "article"
 twitter_card: "summary_large_image"
-twitter_title: "How I Made a Marketing Video for My Mac App Using AI"
-twitter_description: "Zero-budget marketing video creation using Google Veo, ElevenLabs, and ffmpeg. Real mistakes and lessons learned."
+twitter_title: "Make a Marketing Video for Your Mac App Using AI"
+twitter_description: "Zero-budget marketing video using Google Veo, ElevenLabs, and ffmpeg. Step-by-step guide with mistakes to avoid."
 ---
 
 I built a Mac app called EaseEyes. It reminds you to take eye breaks when you're not in a meeting. Simple idea, but I needed a way to show people what it does.
@@ -85,7 +85,7 @@ Here's what I used:
 
 **Total additional cost:** $0
 
-This is the beauty of the free tiers—if you're strategic, you can create real marketing assets without new expenses.
+This is the beauty of the free tiers: if you're strategic, you can create real marketing assets without new expenses.
 
 ## Generating Video Clips {#video-clips}
 
@@ -118,7 +118,7 @@ Each time Veo generated a clip, it created a different person. My "tired office 
 
 **The fix for next time:** Use a tool like Google Nano or Banana to generate a reference person first, then pass that reference to each video prompt. This keeps the same "actor" throughout.
 
-For this video, I decided to lean into it—framing it as "different people, same problem."
+For this video, I decided to lean into it, framing it as "different people, same problem."
 
 ### What Went Wrong #2: The Clock Didn't Work
 
@@ -188,7 +188,7 @@ My first attempt had the voiceover starting at shot boundaries. "Hour after hour
 
 | Shot | Visual | Voiceover |
 |------|--------|-----------|
-| 1 | Tired eyes | *(music only — visual hook)* |
+| 1 | Tired eyes | *(music only, visual hook)* |
 | 2 | Home office | "We spend our days in meetings." |
 | 3 | Clock | "Hour after hour." |
 | 4 | Rubbing eyes | "Our eyes pay the price." |
@@ -197,7 +197,7 @@ Now "hour after hour" plays when you see the clock. Much better.
 
 ## Adding Music {#music}
 
-I found a relaxing ambient track and mixed it at about 12% volume—loud enough to set the mood, quiet enough to not compete with the voiceover.
+I found a relaxing ambient track and mixed it at about 12% volume: loud enough to set the mood, quiet enough to not compete with the voiceover.
 
 ```markdown
 Key settings:
@@ -211,7 +211,7 @@ Key settings:
 
 Here's something I wish I'd planned from the start: **vertical video matters more than horizontal.**
 
-YouTube Shorts, Instagram Reels, TikTok—they're all 9:16 vertical. That's where the eyeballs are.
+YouTube Shorts, Instagram Reels, TikTok: they're all 9:16 vertical. That's where the eyeballs are.
 
 I had to convert my horizontal videos to vertical after the fact. For most shots, center crop worked fine. But for the notification screenshots, I needed a "smart crop" that kept the right side of the frame where the UI appears.
 
@@ -298,7 +298,7 @@ Compare this to hiring a video agency ($2,000-5,000) or stock footage subscripti
 
 Absolutely. The process wasn't perfect, but I ended up with a real marketing video that I can use across all platforms.
 
-The AI tools aren't magic—you still need to direct them carefully and fix their mistakes. But for an indie developer with no video budget, this workflow is a game changer.
+The AI tools aren't magic. You still need to direct them carefully and fix their mistakes. But for an indie developer with no video budget, this workflow is a game changer.
 
 **When this approach makes sense:**
 - Solo developer with limited budget
