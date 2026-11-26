@@ -9,12 +9,10 @@ description: "How a small paid pilot became seven years as lead iOS developer fo
 keywords: "iOS case study, sailing app, Sailor app, lead iOS developer, mobile product, remote team, app handover, Club Operations"
 ---
 
-| | |
-|---|---|
-| **Client** | Club Operations, Australia: sailing results and club management software. Acquired by Northstar Technologies in 2023 |
-| **My role** | Lead iOS Developer and Product Manager (Mobile Apps). First employee |
-| **Apps** | Sailor (for sailors), Sailing Official (for race officers) and Sailing Club, on iOS and Android, plus white-label versions |
-| **Engagement** | A small paid pilot in Jan 2016, full time from Aug 2016 to Jul 2023, then a handover contract with Northstar until Feb 2024 |
+- **Client:** Club Operations, Australia: sailing results and club management software. Acquired by Northstar Technologies in 2023
+- **My role:** Lead iOS Developer and Product Manager (Mobile Apps). First employee
+- **Apps:** Sailor (for sailors), Sailing Official (for race officers) and Sailing Club, on iOS and Android, plus white-label versions
+- **Engagement:** a small paid pilot in Jan 2016, full time from Aug 2016 to Jul 2023, then a handover contract with Northstar until Feb 2024
 
 ## The starting point
 
